@@ -76,7 +76,6 @@ npm run serve:player           # Start the local player compatibility server
 - [IPTV/FAST import](docs/IPTV_FAST_IMPORT.md)
 - [Release 1.0.0](docs/RELEASE_1_0.md)
 - [Screenshots](docs/SCREENSHOTS.md)
-- [GitHub release](docs/GITHUB_RELEASE.md)
 - [Disclaimer](DISCLAIMER.md)
 - [Third-party content and source data](THIRD_PARTY_CONTENT.md)
 
