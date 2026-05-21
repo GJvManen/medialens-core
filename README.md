@@ -77,7 +77,11 @@ npm run serve:player           # Start the local player compatibility server
 - [Release 1.0.0](docs/RELEASE_1_0.md)
 - [Screenshots](docs/SCREENSHOTS.md)
 - [GitHub release](docs/GITHUB_RELEASE.md)
+- [Disclaimer](DISCLAIMER.md)
+- [Third-party content and source data](THIRD_PARTY_CONTENT.md)
 
 ## License
 
-All rights reserved unless a separate license is granted in writing.
+MediaLens Core is licensed under the [Apache License 2.0](LICENSE).
+
+The license applies to the MediaLens Core software, documentation, build scripts and project-owned interface assets. It does not grant rights to third-party media content, channel brands, logos, IPTV/FAST streams, broadcaster services, external platform content or third-party metadata. See [`DISCLAIMER.md`](DISCLAIMER.md), [`THIRD_PARTY_CONTENT.md`](THIRD_PARTY_CONTENT.md) and [`NOTICE`](NOTICE) for additional terms and context.
