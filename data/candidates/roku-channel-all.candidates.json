@@ -1,0 +1,37 @@
+{
+  "feed": {
+    "id": "roku-channel-all",
+    "provider": "The Roku Channel",
+    "name": "The Roku Channel all M3U",
+    "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/roku_all.m3u",
+    "officialUrl": "https://therokuchannel.roku.com/",
+    "source_project": "BuddyChewChew/app-m3u-generator",
+    "feed_type": "fast_platform_playlist",
+    "provider_type": "fast_platform",
+    "priority": "high",
+    "market_hint": [
+      "US",
+      "CA",
+      "GB",
+      "MX"
+    ],
+    "category_hint": [
+      "FAST",
+      "live",
+      "movies",
+      "news",
+      "kids"
+    ],
+    "risk_level": "medium",
+    "import_mode": "candidate_review_queue",
+    "auto_publish": false,
+    "consumer_visibility": "approved_only"
+  },
+  "imported_at": "2026-05-21T15:43:45.769Z",
+  "offline": true,
+  "candidate_count": 0,
+  "duplicate_count": 0,
+  "visible_count": 0,
+  "candidates": [],
+  "note": "Offline mode: no sample file available. Run without --offline in an internet-enabled environment."
+}

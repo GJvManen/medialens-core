@@ -1,0 +1,140 @@
+{
+  "feed": {
+    "id": "iptv-org-index",
+    "provider": "IPTV-org",
+    "name": "IPTV-org main public playlist",
+    "url": "https://iptv-org.github.io/iptv/index.m3u",
+    "officialUrl": "https://github.com/iptv-org/iptv",
+    "source_project": "iptv-org/iptv",
+    "feed_type": "public_iptv_index",
+    "provider_type": "public_index",
+    "priority": "high",
+    "market_hint": [
+      "international"
+    ],
+    "category_hint": [
+      "mixed"
+    ],
+    "risk_level": "medium",
+    "import_mode": "candidate_review_queue",
+    "auto_publish": false,
+    "consumer_visibility": "approved_only"
+  },
+  "imported_at": "2026-05-21T15:43:45.757Z",
+  "offline": true,
+  "candidate_count": 3,
+  "duplicate_count": 2,
+  "visible_count": 0,
+  "auto_publish": false,
+  "published_count": 0,
+  "interface_publish_mode": "runtime_imported_catalog",
+  "candidates": [
+    {
+      "id": "iptv-org-index-bfm2-fr",
+      "title": "BFM 2 (1080p)",
+      "provider": "IPTV-org",
+      "source_feed_id": "iptv-org-index",
+      "source_feed_provider": "IPTV-org",
+      "source_feed_url": "https://iptv-org.github.io/iptv/index.m3u",
+      "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM2/index.m3u8?end=END&start=LIVE",
+      "request_headers": {},
+      "logo": "",
+      "tvg_id": "BFM2.fr@HD",
+      "tvg_chno": "",
+      "category": "News",
+      "country_hint": [
+        "fr",
+        "international"
+      ],
+      "officialUrl": "https://github.com/iptv-org/iptv",
+      "evidence_url": "https://iptv-org.github.io/iptv/index.m3u",
+      "review_status": "duplicate",
+      "consumer_visible": false,
+      "import_mode": "visible_after_duplicate_and_safety_gate",
+      "auto_publish": false,
+      "risk_level": "medium",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "duplicate_of": [
+        {
+          "type": "existing_stream_url",
+          "id": "iptv-bfm-2-fr",
+          "title": "BFM 2"
+        }
+      ],
+      "consumer_label_after_approval": "Gecontroleerde importbron"
+    },
+    {
+      "id": "iptv-org-index-medialenstestpublic-example",
+      "title": "MediaLens Test Public Channel",
+      "provider": "IPTV-org",
+      "source_feed_id": "iptv-org-index",
+      "source_feed_provider": "IPTV-org",
+      "source_feed_url": "https://iptv-org.github.io/iptv/index.m3u",
+      "streamUrl": "https://example.com/live/test-public-channel.m3u8",
+      "request_headers": {},
+      "logo": "",
+      "tvg_id": "MediaLensTestPublic.example",
+      "tvg_chno": "",
+      "category": "Public",
+      "country_hint": [
+        "international"
+      ],
+      "officialUrl": "https://github.com/iptv-org/iptv",
+      "evidence_url": "https://iptv-org.github.io/iptv/index.m3u",
+      "review_status": "rejected",
+      "consumer_visible": false,
+      "import_mode": "visible_after_duplicate_and_safety_gate",
+      "auto_publish": false,
+      "risk_level": "medium",
+      "blocked_reason": "test_or_example_channel",
+      "duplicate_of": [],
+      "consumer_label_after_approval": "Gecontroleerde importbron"
+    },
+    {
+      "id": "iptv-org-index-medialenstestpublic-example",
+      "title": "MediaLens Test Public Channel",
+      "provider": "IPTV-org",
+      "source_feed_id": "iptv-org-index",
+      "source_feed_provider": "IPTV-org",
+      "source_feed_url": "https://iptv-org.github.io/iptv/index.m3u",
+      "streamUrl": "https://example.com/live/test-public-channel.m3u8",
+      "request_headers": {},
+      "logo": "",
+      "tvg_id": "MediaLensTestPublic.example",
+      "tvg_chno": "",
+      "category": "Public",
+      "country_hint": [
+        "international"
+      ],
+      "officialUrl": "https://github.com/iptv-org/iptv",
+      "evidence_url": "https://iptv-org.github.io/iptv/index.m3u",
+      "review_status": "duplicate",
+      "consumer_visible": false,
+      "import_mode": "visible_after_duplicate_and_safety_gate",
+      "auto_publish": false,
+      "risk_level": "medium",
+      "blocked_reason": "test_or_example_channel",
+      "duplicate_of": [
+        {
+          "type": "import_id",
+          "id": "iptv-org-index-medialenstestpublic-example",
+          "title": "MediaLens Test Public Channel",
+          "source_feed_id": "iptv-org-index"
+        },
+        {
+          "type": "import_stream_url",
+          "id": "iptv-org-index-medialenstestpublic-example",
+          "title": "MediaLens Test Public Channel",
+          "source_feed_id": "iptv-org-index"
+        },
+        {
+          "type": "import_title_provider",
+          "id": "iptv-org-index-medialenstestpublic-example",
+          "title": "MediaLens Test Public Channel",
+          "source_feed_id": "iptv-org-index"
+        }
+      ],
+      "consumer_label_after_approval": "Gecontroleerde importbron"
+    }
+  ]
+}

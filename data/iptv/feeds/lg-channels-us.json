@@ -1,0 +1,30 @@
+{
+  "id": "lg-channels-us",
+  "provider": "LG Channels",
+  "name": "LG Channels US M3U",
+  "url": "https://www.apsattv.com/uslg.m3u",
+  "officialUrl": "https://www.lg.com/us/lg-channels",
+  "source_project": "APSatTV playlist reference",
+  "feed_type": "fast_platform_playlist",
+  "provider_type": "fast_platform",
+  "priority": "medium",
+  "market_hint": [
+    "US"
+  ],
+  "category_hint": [
+    "FAST",
+    "live"
+  ],
+  "risk_level": "medium",
+  "import_mode": "candidate_review_queue",
+  "auto_publish": false,
+  "consumer_visibility": "approved_only",
+  "policy": {
+    "import_mode": "candidate_review_queue",
+    "auto_publish": false,
+    "consumer_visibility": "approved_only",
+    "default_review_status": "needs_review",
+    "default_consumer_visible": false,
+    "notes": "FAST/IPTV feeds are discovery inputs. Entries are never bulk-published to consumers without dedupe, review, evidence, and safe consumer labels."
+  }
+}

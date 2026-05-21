@@ -1,0 +1,25 @@
+{
+  "version": "v21.1",
+  "profiles": [
+    "Algemeen",
+    "Kids",
+    "Nieuws",
+    "Sport",
+    "Docu"
+  ],
+  "consumerMenu": [
+    "Home",
+    "Direct kijken",
+    "Landen",
+    "Genres",
+    "Zoeken",
+    "Mijn lijst"
+  ],
+  "removedConsumerTerms": [
+    "catalogus",
+    "manifest",
+    "metadata",
+    "kwaliteitsscore",
+    "stream-health"
+  ]
+}

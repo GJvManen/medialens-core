@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" preserveAspectRatio="xMidYMid slice">
+<defs>
+<radialGradient id="bg" cx="75%" cy="28%" r="70%"><stop offset="0" stop-color="#1746ff" stop-opacity=".36"/><stop offset=".38" stop-color="#7d2dff" stop-opacity=".20"/><stop offset="1" stop-color="#020511"/></radialGradient>
+<linearGradient id="line" x1="0" x2="1"><stop stop-color="#35e7ff"/><stop offset=".5" stop-color="#8d5cff"/><stop offset="1" stop-color="#ff4ecb"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1600" height="620" fill="url(#bg)"/>
+<g opacity=".35" fill="#6adfff">
+  <circle cx="375" cy="165" r="2"/><circle cx="402" cy="174" r="2"/><circle cx="434" cy="159" r="2"/><circle cx="470" cy="182" r="2"/><circle cx="505" cy="168" r="2"/>
+  <circle cx="585" cy="204" r="2"/><circle cx="625" cy="192" r="2"/><circle cx="666" cy="215" r="2"/><circle cx="720" cy="188" r="2"/><circle cx="768" cy="210" r="2"/>
+  <circle cx="840" cy="250" r="2"/><circle cx="882" cy="230" r="2"/><circle cx="935" cy="245" r="2"/><circle cx="980" cy="225" r="2"/>
+</g>
+<g fill="none" stroke="url(#line)" stroke-width="2" opacity=".8" filter="url(#glow)">
+  <path d="M210 330 C420 120, 720 100, 1070 240 S1430 350, 1530 160"/>
+  <path d="M170 250 C500 360, 850 70, 1330 315" opacity=".55"/>
+  <path d="M360 420 C610 270, 925 360, 1230 155" opacity=".42"/>
+</g>
+<g transform="translate(1130 70)" opacity=".85">
+  <circle cx="210" cy="210" r="185" fill="none" stroke="#55e7ff" stroke-opacity=".28" stroke-width="3"/>
+  <circle cx="210" cy="210" r="125" fill="none" stroke="#9b66ff" stroke-opacity=".42" stroke-width="8"/>
+  <circle cx="210" cy="210" r="72" fill="#05224a" fill-opacity=".65" stroke="#41e4ff" stroke-width="2"/>
+  <circle cx="210" cy="210" r="35" fill="#5ee7ff" fill-opacity=".35"/>
+  <path d="M210 24 A186 186 0 0 1 390 250" stroke="#ff4ed2" stroke-width="8" opacity=".55" fill="none"/>
+</g>
+<g opacity=".23" stroke="#fff" stroke-width="1" fill="none">
+  <path d="M450 240c80-60 180-55 270 0 80 50 170 43 250-15"/>
+  <path d="M410 290c110-35 235-25 350 30 100 45 230 25 320-35"/>
+</g>
+</svg>

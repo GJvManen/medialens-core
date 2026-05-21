@@ -1,0 +1,331 @@
+{
+  "version": "30.1-controlled-fast-iptv-feeds",
+  "generatedAt": "2026-05-19T12:30:00Z",
+  "policy": {
+    "import_mode": "candidate_review_queue",
+    "auto_publish": false,
+    "consumer_visibility": "approved_only",
+    "default_review_status": "needs_review",
+    "default_consumer_visible": false,
+    "notes": "FAST/IPTV feeds are discovery inputs. Entries are never bulk-published to consumers without dedupe, review, evidence, and safe consumer labels."
+  },
+  "blocked_patterns": [
+    "adult",
+    "xxx",
+    "porn",
+    "premium pay-tv restream",
+    "unverified sports restream",
+    "private subscription IPTV",
+    "piracy mirror"
+  ],
+  "feeds": [
+    {
+      "id": "iptv-org-index",
+      "provider": "IPTV-org",
+      "name": "IPTV-org main public playlist",
+      "url": "https://iptv-org.github.io/iptv/index.m3u",
+      "officialUrl": "https://github.com/iptv-org/iptv",
+      "source_project": "iptv-org/iptv",
+      "feed_type": "public_iptv_index",
+      "provider_type": "public_index",
+      "priority": "high",
+      "market_hint": [
+        "international"
+      ],
+      "category_hint": [
+        "mixed"
+      ],
+      "risk_level": "medium",
+      "import_mode": "candidate_review_queue",
+      "auto_publish": false,
+      "consumer_visibility": "approved_only"
+    },
+    {
+      "id": "samsung-tv-plus-us",
+      "provider": "Samsung TV Plus",
+      "name": "Samsung TV Plus USA M3U",
+      "url": "https://apsattv.com/ssungusa.m3u",
+      "officialUrl": "https://www.samsungtvplus.com/",
+      "source_project": "APSatTV playlist reference",
+      "feed_type": "fast_platform_playlist",
+      "provider_type": "fast_platform",
+      "priority": "high",
+      "market_hint": [
+        "US"
+      ],
+      "category_hint": [
+        "FAST",
+        "live",
+        "movies",
+        "news",
+        "kids",
+        "sports"
+      ],
+      "risk_level": "medium",
+      "import_mode": "candidate_review_queue",
+      "auto_publish": false,
+      "consumer_visibility": "approved_only"
+    },
+    {
+      "id": "roku-channel-all",
+      "provider": "The Roku Channel",
+      "name": "The Roku Channel all M3U",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/roku_all.m3u",
+      "officialUrl": "https://therokuchannel.roku.com/",
+      "source_project": "BuddyChewChew/app-m3u-generator",
+      "feed_type": "fast_platform_playlist",
+      "provider_type": "fast_platform",
+      "priority": "high",
+      "market_hint": [
+        "US",
+        "CA",
+        "GB",
+        "MX"
+      ],
+      "category_hint": [
+        "FAST",
+        "live",
+        "movies",
+        "news",
+        "kids"
+      ],
+      "risk_level": "medium",
+      "import_mode": "candidate_review_queue",
+      "auto_publish": false,
+      "consumer_visibility": "approved_only"
+    },
+    {
+      "id": "plutotv-us",
+      "provider": "Pluto TV",
+      "name": "Pluto TV US M3U",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/plutotv_us.m3u",
+      "officialUrl": "https://pluto.tv/",
+      "source_project": "BuddyChewChew/app-m3u-generator",
+      "feed_type": "fast_platform_playlist",
+      "provider_type": "fast_platform",
+      "priority": "high",
+      "market_hint": [
+        "US"
+      ],
+      "category_hint": [
+        "FAST",
+        "live",
+        "movies",
+        "news",
+        "entertainment"
+      ],
+      "risk_level": "medium",
+      "import_mode": "candidate_review_queue",
+      "auto_publish": false,
+      "consumer_visibility": "approved_only"
+    },
+    {
+      "id": "lg-channels-us",
+      "provider": "LG Channels",
+      "name": "LG Channels US M3U",
+      "url": "https://www.apsattv.com/uslg.m3u",
+      "officialUrl": "https://www.lg.com/us/lg-channels",
+      "source_project": "APSatTV playlist reference",
+      "feed_type": "fast_platform_playlist",
+      "provider_type": "fast_platform",
+      "priority": "medium",
+      "market_hint": [
+        "US"
+      ],
+      "category_hint": [
+        "FAST",
+        "live"
+      ],
+      "risk_level": "medium",
+      "import_mode": "candidate_review_queue",
+      "auto_publish": false,
+      "consumer_visibility": "approved_only"
+    },
+    {
+      "id": "tubi-all",
+      "provider": "Tubi",
+      "name": "Tubi TV all M3U",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/tubi_all.m3u",
+      "officialUrl": "https://tubitv.com/",
+      "source_project": "BuddyChewChew/app-m3u-generator",
+      "feed_type": "fast_platform_playlist",
+      "provider_type": "fast_platform",
+      "priority": "high",
+      "market_hint": [
+        "US",
+        "CA",
+        "AU"
+      ],
+      "category_hint": [
+        "FAST",
+        "AVOD",
+        "movies",
+        "series",
+        "live"
+      ],
+      "risk_level": "medium",
+      "import_mode": "candidate_review_queue",
+      "auto_publish": false,
+      "consumer_visibility": "approved_only"
+    },
+    {
+      "id": "plex-all",
+      "provider": "Plex Watch Free",
+      "name": "Plex TV all M3U",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/plex_all.m3u",
+      "officialUrl": "https://watch.plex.tv/",
+      "source_project": "BuddyChewChew/app-m3u-generator",
+      "feed_type": "fast_platform_playlist",
+      "provider_type": "fast_platform",
+      "priority": "high",
+      "market_hint": [
+        "international"
+      ],
+      "category_hint": [
+        "FAST",
+        "AVOD",
+        "live"
+      ],
+      "risk_level": "medium",
+      "import_mode": "candidate_review_queue",
+      "auto_publish": false,
+      "consumer_visibility": "approved_only"
+    },
+    {
+      "id": "vizio-watchfree",
+      "provider": "Vizio WatchFree+",
+      "name": "Vizio WatchFree+ M3U",
+      "url": "https://www.apsattv.com/vizio.m3u",
+      "officialUrl": "https://www.vizio.com/en/watchfreeplus",
+      "source_project": "APSatTV playlist reference",
+      "feed_type": "fast_platform_playlist",
+      "provider_type": "fast_platform",
+      "priority": "medium",
+      "market_hint": [
+        "US"
+      ],
+      "category_hint": [
+        "FAST",
+        "live"
+      ],
+      "risk_level": "medium",
+      "import_mode": "candidate_review_queue",
+      "auto_publish": false,
+      "consumer_visibility": "approved_only"
+    },
+    {
+      "id": "distrotv",
+      "provider": "DistroTV",
+      "name": "DistroTV M3U",
+      "url": "https://www.apsattv.com/distro.m3u",
+      "officialUrl": "https://www.distro.tv/",
+      "source_project": "APSatTV playlist reference",
+      "feed_type": "fast_platform_playlist",
+      "provider_type": "fast_platform",
+      "priority": "medium",
+      "market_hint": [
+        "international"
+      ],
+      "category_hint": [
+        "FAST",
+        "live"
+      ],
+      "risk_level": "medium",
+      "import_mode": "candidate_review_queue",
+      "auto_publish": false,
+      "consumer_visibility": "approved_only"
+    },
+    {
+      "id": "xiaomi-tv-plus",
+      "provider": "Xiaomi TV+",
+      "name": "Xiaomi M3U",
+      "url": "https://www.apsattv.com/xiaomi.m3u",
+      "officialUrl": "https://www.mi.com/global/",
+      "source_project": "APSatTV playlist reference",
+      "feed_type": "fast_platform_playlist",
+      "provider_type": "fast_platform",
+      "priority": "medium",
+      "market_hint": [
+        "international"
+      ],
+      "category_hint": [
+        "FAST",
+        "live"
+      ],
+      "risk_level": "medium_high",
+      "import_mode": "candidate_review_queue",
+      "auto_publish": false,
+      "consumer_visibility": "approved_only",
+      "notes": "Official platform page may vary by market; keep candidates under review until provider context is verified."
+    },
+    {
+      "id": "xumo-play",
+      "provider": "Xumo Play",
+      "name": "XUMO M3U",
+      "url": "https://www.apsattv.com/xumo.m3u",
+      "officialUrl": "https://www.xumo.com/",
+      "source_project": "APSatTV playlist reference",
+      "feed_type": "fast_platform_playlist",
+      "provider_type": "fast_platform",
+      "priority": "high",
+      "market_hint": [
+        "US"
+      ],
+      "category_hint": [
+        "FAST",
+        "live",
+        "movies",
+        "news"
+      ],
+      "risk_level": "medium",
+      "import_mode": "candidate_review_queue",
+      "auto_publish": false,
+      "consumer_visibility": "approved_only"
+    },
+    {
+      "id": "local-now",
+      "provider": "Local Now",
+      "name": "Local Now M3U",
+      "url": "https://www.apsattv.com/localnow.m3u",
+      "officialUrl": "https://www.localnow.com/",
+      "source_project": "APSatTV playlist reference",
+      "feed_type": "fast_platform_playlist",
+      "provider_type": "fast_platform",
+      "priority": "medium",
+      "market_hint": [
+        "US"
+      ],
+      "category_hint": [
+        "local",
+        "news",
+        "weather",
+        "FAST"
+      ],
+      "risk_level": "medium",
+      "import_mode": "candidate_review_queue",
+      "auto_publish": false,
+      "consumer_visibility": "approved_only"
+    },
+    {
+      "id": "free-tv-iptv",
+      "provider": "Free-TV/IPTV",
+      "name": "Glotovpa / Free-TV-IPTV playlist",
+      "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
+      "officialUrl": "https://github.com/Free-TV/IPTV",
+      "source_project": "Free-TV/IPTV",
+      "feed_type": "public_iptv_index",
+      "provider_type": "public_index",
+      "priority": "medium",
+      "market_hint": [
+        "international"
+      ],
+      "category_hint": [
+        "mixed"
+      ],
+      "risk_level": "medium_high",
+      "import_mode": "candidate_review_queue",
+      "auto_publish": false,
+      "consumer_visibility": "approved_only"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "locales": [
+    "nl",
+    "en",
+    "de",
+    "fr",
+    "es",
+    "pt",
+    "ru",
+    "ar",
+    "tr",
+    "it",
+    "pl"
+  ],
+  "fallback": "en",
+  "rtl": [
+    "ar"
+  ]
+}

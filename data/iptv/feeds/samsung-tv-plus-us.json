@@ -1,0 +1,34 @@
+{
+  "id": "samsung-tv-plus-us",
+  "provider": "Samsung TV Plus",
+  "name": "Samsung TV Plus USA M3U",
+  "url": "https://apsattv.com/ssungusa.m3u",
+  "officialUrl": "https://www.samsungtvplus.com/",
+  "source_project": "APSatTV playlist reference",
+  "feed_type": "fast_platform_playlist",
+  "provider_type": "fast_platform",
+  "priority": "high",
+  "market_hint": [
+    "US"
+  ],
+  "category_hint": [
+    "FAST",
+    "live",
+    "movies",
+    "news",
+    "kids",
+    "sports"
+  ],
+  "risk_level": "medium",
+  "import_mode": "candidate_review_queue",
+  "auto_publish": false,
+  "consumer_visibility": "approved_only",
+  "policy": {
+    "import_mode": "candidate_review_queue",
+    "auto_publish": false,
+    "consumer_visibility": "approved_only",
+    "default_review_status": "needs_review",
+    "default_consumer_visible": false,
+    "notes": "FAST/IPTV feeds are discovery inputs. Entries are never bulk-published to consumers without dedupe, review, evidence, and safe consumer labels."
+  }
+}

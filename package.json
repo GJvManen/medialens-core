@@ -1,0 +1,30 @@
+{
+  "name": "medialens-core",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "A consumer-facing streaming discovery interface for live TV, official platforms and verified IPTV/FAST watch routes.",
+  "scripts": {
+    "serve": "python3 -m http.server 5173",
+    "serve:player": "node scripts/player-server.mjs .",
+    "verify": "node scripts/verify-release.mjs .",
+    "build:watch-graph": "node scripts/build-watch-graph.mjs .",
+    "import:iptv-feeds": "node scripts/import-iptv-feeds.mjs . && node scripts/sync-approved-iptv-sources.mjs . --write",
+    "import:iptv-feeds:offline": "node scripts/import-iptv-feeds.mjs . --offline && node scripts/sync-approved-iptv-sources.mjs . --write",
+    "sync:iptv": "node scripts/sync-approved-iptv-sources.mjs . --write",
+    "sync:iptv:dry": "node scripts/sync-approved-iptv-sources.mjs . --dry-run",
+    "probe:streams": "node scripts/probe-streams.mjs . --offline"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "streaming",
+    "live-tv",
+    "iptv",
+    "fast",
+    "media-discovery",
+    "watch-routes",
+    "channels"
+  ]
+}

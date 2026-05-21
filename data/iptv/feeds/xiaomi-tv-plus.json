@@ -1,0 +1,31 @@
+{
+  "id": "xiaomi-tv-plus",
+  "provider": "Xiaomi TV+",
+  "name": "Xiaomi M3U",
+  "url": "https://www.apsattv.com/xiaomi.m3u",
+  "officialUrl": "https://www.mi.com/global/",
+  "source_project": "APSatTV playlist reference",
+  "feed_type": "fast_platform_playlist",
+  "provider_type": "fast_platform",
+  "priority": "medium",
+  "market_hint": [
+    "international"
+  ],
+  "category_hint": [
+    "FAST",
+    "live"
+  ],
+  "risk_level": "medium_high",
+  "import_mode": "candidate_review_queue",
+  "auto_publish": false,
+  "consumer_visibility": "approved_only",
+  "notes": "Official platform page may vary by market; keep candidates under review until provider context is verified.",
+  "policy": {
+    "import_mode": "candidate_review_queue",
+    "auto_publish": false,
+    "consumer_visibility": "approved_only",
+    "default_review_status": "needs_review",
+    "default_consumer_visible": false,
+    "notes": "FAST/IPTV feeds are discovery inputs. Entries are never bulk-published to consumers without dedupe, review, evidence, and safe consumer labels."
+  }
+}

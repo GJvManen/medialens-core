@@ -1,0 +1,7 @@
+#EXTM3U
+# MediaLens v28.4.1 IPTV import template
+# IPTV entries are imported as candidates only. They are not production sources until evidence, rights and duplicates are reviewed.
+# Required for review: official-url or evidence-url, plus rights/license metadata.
+# Example format:
+#EXTINF:-1 tvg-id="OfficialExample" tvg-country="NL" tvg-language="nl" official-url="https://official.example/live" evidence-url="https://official.example/live" license="official" availability-scope="unknown",Official Example
+# https://official.example/live/playlist.m3u8

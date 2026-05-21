@@ -1,0 +1,31 @@
+{
+  "feed": {
+    "id": "vizio-watchfree",
+    "provider": "Vizio WatchFree+",
+    "name": "Vizio WatchFree+ M3U",
+    "url": "https://www.apsattv.com/vizio.m3u",
+    "officialUrl": "https://www.vizio.com/en/watchfreeplus",
+    "source_project": "APSatTV playlist reference",
+    "feed_type": "fast_platform_playlist",
+    "provider_type": "fast_platform",
+    "priority": "medium",
+    "market_hint": [
+      "US"
+    ],
+    "category_hint": [
+      "FAST",
+      "live"
+    ],
+    "risk_level": "medium",
+    "import_mode": "candidate_review_queue",
+    "auto_publish": false,
+    "consumer_visibility": "approved_only"
+  },
+  "imported_at": "2026-05-21T15:43:45.772Z",
+  "offline": true,
+  "candidate_count": 0,
+  "duplicate_count": 0,
+  "visible_count": 0,
+  "candidates": [],
+  "note": "Offline mode: no sample file available. Run without --offline in an internet-enabled environment."
+}

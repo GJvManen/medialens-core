@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-05-21T00:00:00.000Z",
+  "source_count": 0,
+  "candidate_count": 3,
+  "duplicate_count": 2,
+  "hidden_count": 3,
+  "sources": [],
+  "category_summary": [],
+  "provider_summary": [],
+  "consumer_note": "Deze kanalen zijn na import zichtbaar als internationale gecontroleerde IPTV/FAST-bronnen. Ze worden runtime gededuped tegen de basiscatalogus en in de interface per categorie gefilterd."
+}

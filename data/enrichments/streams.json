@@ -1,0 +1,302 @@
+{
+  "arte": {
+    "streamUrl": "https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "nasa-plus": {
+    "streamUrl": "https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-Public/master.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "france-24-live": {
+    "streamUrl": "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_2300.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "dw": {
+    "streamUrl": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "euronews-live": {
+    "streamUrl": "https://2f6c5bf4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0ZyYW5jYWlzX0hMUw/playlist.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "al-jazeera-live": {
+    "streamUrl": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "arte-france": {
+    "streamUrl": "https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "bloomberg-live": {
+    "streamUrl": "https://bloomberg.com/media-manifest/streams/us.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "rt-live": {
+    "streamUrl": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "rt": {
+    "streamUrl": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "rt-documentary": {
+    "streamUrl": "https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "rt-espanol": {
+    "streamUrl": "https://rt-esp.rttv.com/live/rtesp/playlist.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "rt-arabic": {
+    "streamUrl": "https://rt-arb.rttv.com/live/rtarab/playlist.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "rt-france": {
+    "streamUrl": "https://rt-fra.rttv.com/live/rtfrance/playlist.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "dw-russian": {
+    "streamUrl": "https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/master.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "france-24-fr-direct": {
+    "streamUrl": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_2300.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "france-24-ar-direct": {
+    "streamUrl": "https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_2300.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "france-24-es-direct": {
+    "streamUrl": "https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_2300.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "dw-arabic-direct": {
+    "streamUrl": "https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "dw-espanol-direct": {
+    "streamUrl": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "al-jazeera-arabic-direct": {
+    "streamUrl": "https://live-hls-web-aja.getaj.net/AJA/index.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "al-jazeera-mubasher-direct": {
+    "streamUrl": "https://live-hls-web-ajm.getaj.net/AJM/index.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "nasa-tv-media-direct": {
+    "streamUrl": "https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-Media/master.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "bloomberg-originals-direct": {
+    "streamUrl": "https://www.bloomberg.com/media-manifest/streams/originals-global.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "arte-de-direct": {
+    "streamUrl": "https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "rt-documentary-russian-direct": {
+    "streamUrl": "https://rt-doc.rttv.com/dvr/rtdru/playlist.m3u8",
+    "status": "catalogued-direct",
+    "lastChecked": null
+  },
+  "al-araby-tv-direct": {
+    "streamUrl": "https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "al-araby-tv-2-direct": {
+    "streamUrl": "https://live.kwikmotion.com/alaraby2live/alaraby2.smil/playlist.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "al-jazeera-documentary-direct": {
+    "streamUrl": "https://live-hls-apps-ajd-v3-fa.getaj.net/AJD/index.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "al-jazeera-mubasher-24-direct": {
+    "streamUrl": "https://live-hls-web-ajm24-fa.getaj.net/AJM24/index.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "qatar-tv-direct": {
+    "streamUrl": "https://qatartv.akamaized.net/hls/live/2026573/qtv1/master.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "qatar-tv-2-direct": {
+    "streamUrl": "https://qatartv.akamaized.net/hls/live/2026574/qtv2/master.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "alkass-one-direct": {
+    "streamUrl": "https://liveeu-gcp.alkassdigital.net/alkass1-p/main.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "alkass-two-direct": {
+    "streamUrl": "https://liveeu-gcp.alkassdigital.net/alkass2-p/main.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "alkass-three-direct": {
+    "streamUrl": "https://liveeu-gcp.alkassdigital.net/alkass3-p/main.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "alkass-four-direct": {
+    "streamUrl": "https://liveeu-gcp.alkassdigital.net/alkass4-p/main.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "alkass-five-direct": {
+    "streamUrl": "https://liveeu-gcp.alkassdigital.net/alkass5-p/main.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "alkass-shoof-direct": {
+    "streamUrl": "https://liveeu-gcp.alkassdigital.net/shooflive/main.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "ard-alpha-direct": {
+    "streamUrl": "https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "br-fernsehen-nord-direct": {
+    "streamUrl": "https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "das-erste-hd-direct": {
+    "streamUrl": "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "ndr-international-direct": {
+    "streamUrl": "https://ndrint.akamaized.net/hls/live/2020766/ndr_int/index.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "ndr-hamburg-direct": {
+    "streamUrl": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "hr-fernsehen-direct": {
+    "streamUrl": "https://hrhls.akamaized.net/hls/live/2024525/hrhls/index.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "hamburg-1-direct": {
+    "streamUrl": "https://stream.hamburg1.de/live_abr/hamburg1_abr/playlist.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "kika-direct": {
+    "streamUrl": "https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "bfm-tv-direct": {
+    "streamUrl": "https://live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "bfm-business-direct": {
+    "streamUrl": "https://live-cdn-stream-euw1.bfmb.bct.nextradiotv.com/master.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "africa-24-direct": {
+    "streamUrl": "https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "africa-24-english-direct": {
+    "streamUrl": "https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "africanews-french-direct": {
+    "streamUrl": "https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "kto-direct": {
+    "streamUrl": "https://live-kto.akamaized.net/hls/live/2033284/KTO/master.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "public-senat-direct": {
+    "streamUrl": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/publicsenat.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "cloudflare-tv-direct": {
+    "streamUrl": "https://cloudflare.tv/hls/live.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "classic-arts-showcase-direct": {
+    "streamUrl": "https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "cbn-news-direct": {
+    "streamUrl": "https://fastly.live.brightcove.com/6380396819112/us-east-1/734546207001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiczFpM3ZpLmVncmVzcy50N2M3emwiLCJhY2NvdW50X2lkIjoiNzM0NTQ2MjA3MDAxIiwiZWhuIjoiZmFzdGx5LmxpdmUuYnJpZ2h0Y292ZS5jb20iLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjczNDU0NjIwNzAwMSJdLCJqdGkiOiI2MzgwMzk2ODE5MTEyIn0.GDYp4IWtzwPkupEWeeOavnioVknO-Ev3UGlHvM1rE6I/playlist-hls.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "catholic-tv-direct": {
+    "streamUrl": "https://catholictvhd-lh.akamaized.net/hls/live/2043390/CTVLiveHD/master.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "charge-tv-direct": {
+    "streamUrl": "https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "billiard-tv-direct": {
+    "streamUrl": "https://1621590671.rsc.cdn77.org/HLS/BILLIARDTV.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  },
+  "alhurra-direct": {
+    "streamUrl": "https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038900/MBN_Alhurra_Worldsafe_HLS/master.m3u8",
+    "status": "not-recently-tested",
+    "lastChecked": null
+  }
+}

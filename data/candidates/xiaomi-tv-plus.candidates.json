@@ -1,0 +1,32 @@
+{
+  "feed": {
+    "id": "xiaomi-tv-plus",
+    "provider": "Xiaomi TV+",
+    "name": "Xiaomi M3U",
+    "url": "https://www.apsattv.com/xiaomi.m3u",
+    "officialUrl": "https://www.mi.com/global/",
+    "source_project": "APSatTV playlist reference",
+    "feed_type": "fast_platform_playlist",
+    "provider_type": "fast_platform",
+    "priority": "medium",
+    "market_hint": [
+      "international"
+    ],
+    "category_hint": [
+      "FAST",
+      "live"
+    ],
+    "risk_level": "medium_high",
+    "import_mode": "candidate_review_queue",
+    "auto_publish": false,
+    "consumer_visibility": "approved_only",
+    "notes": "Official platform page may vary by market; keep candidates under review until provider context is verified."
+  },
+  "imported_at": "2026-05-21T15:43:45.774Z",
+  "offline": true,
+  "candidate_count": 0,
+  "duplicate_count": 0,
+  "visible_count": 0,
+  "candidates": [],
+  "note": "Offline mode: no sample file available. Run without --offline in an internet-enabled environment."
+}

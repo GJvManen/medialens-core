@@ -1,0 +1,9612 @@
+window.MEDIALENS_WATCH_GRAPH = {
+  "version": "1.0.0",
+  "generatedAt": "2026-05-21T00:00:00.000Z",
+  "source_count": 757,
+  "channel_count": 287,
+  "country_count": 23,
+  "route_count": 289,
+  "direct_channel_count": 120,
+  "iptv_channel_count": 56,
+  "countries": [
+    {
+      "country": "Verenigde Staten",
+      "channel_count": 50,
+      "route_count": 50,
+      "direct_channels": 37,
+      "iptv_channels": 35
+    },
+    {
+      "country": "Frankrijk",
+      "channel_count": 34,
+      "route_count": 35,
+      "direct_channels": 26,
+      "iptv_channels": 14
+    },
+    {
+      "country": "Nederland",
+      "channel_count": 31,
+      "route_count": 31,
+      "direct_channels": 0,
+      "iptv_channels": 0
+    },
+    {
+      "country": "Internationaal",
+      "channel_count": 23,
+      "route_count": 23,
+      "direct_channels": 18,
+      "iptv_channels": 6
+    },
+    {
+      "country": "Duitsland",
+      "channel_count": 21,
+      "route_count": 22,
+      "direct_channels": 13,
+      "iptv_channels": 0
+    },
+    {
+      "country": "Verenigd Koninkrijk",
+      "channel_count": 15,
+      "route_count": 15,
+      "direct_channels": 0,
+      "iptv_channels": 0
+    },
+    {
+      "country": "Qatar",
+      "channel_count": 14,
+      "route_count": 14,
+      "direct_channels": 14,
+      "iptv_channels": 0
+    },
+    {
+      "country": "België",
+      "channel_count": 13,
+      "route_count": 13,
+      "direct_channels": 0,
+      "iptv_channels": 0
+    },
+    {
+      "country": "Italië",
+      "channel_count": 10,
+      "route_count": 10,
+      "direct_channels": 0,
+      "iptv_channels": 0
+    },
+    {
+      "country": "Japan",
+      "channel_count": 8,
+      "route_count": 8,
+      "direct_channels": 0,
+      "iptv_channels": 0
+    },
+    {
+      "country": "Spanje",
+      "channel_count": 8,
+      "route_count": 8,
+      "direct_channels": 0,
+      "iptv_channels": 0
+    },
+    {
+      "country": "Australië",
+      "channel_count": 7,
+      "route_count": 7,
+      "direct_channels": 0,
+      "iptv_channels": 0
+    },
+    {
+      "country": "Portugal",
+      "channel_count": 7,
+      "route_count": 7,
+      "direct_channels": 0,
+      "iptv_channels": 0
+    },
+    {
+      "country": "Rusland",
+      "channel_count": 7,
+      "route_count": 7,
+      "direct_channels": 6,
+      "iptv_channels": 0
+    },
+    {
+      "country": "Brazilië",
+      "channel_count": 6,
+      "route_count": 6,
+      "direct_channels": 0,
+      "iptv_channels": 0
+    },
+    {
+      "country": "Mexico",
+      "channel_count": 6,
+      "route_count": 6,
+      "direct_channels": 0,
+      "iptv_channels": 0
+    },
+    {
+      "country": "Turkije",
+      "channel_count": 6,
+      "route_count": 6,
+      "direct_channels": 0,
+      "iptv_channels": 0
+    },
+    {
+      "country": "Canada",
+      "channel_count": 5,
+      "route_count": 5,
+      "direct_channels": 0,
+      "iptv_channels": 0
+    },
+    {
+      "country": "Polen",
+      "channel_count": 5,
+      "route_count": 5,
+      "direct_channels": 0,
+      "iptv_channels": 0
+    },
+    {
+      "country": "India",
+      "channel_count": 4,
+      "route_count": 4,
+      "direct_channels": 0,
+      "iptv_channels": 0
+    },
+    {
+      "country": "Afrika",
+      "channel_count": 3,
+      "route_count": 3,
+      "direct_channels": 3,
+      "iptv_channels": 0
+    },
+    {
+      "country": "Europa",
+      "channel_count": 3,
+      "route_count": 3,
+      "direct_channels": 2,
+      "iptv_channels": 1
+    },
+    {
+      "country": "Russischtalig",
+      "channel_count": 1,
+      "route_count": 1,
+      "direct_channels": 1,
+      "iptv_channels": 0
+    }
+  ],
+  "channels": [
+    {
+      "id": "channel-afrika|africa-24",
+      "key": "afrika|africa-24",
+      "title": "Africa 24",
+      "country": "Afrika",
+      "routes": [
+        {
+          "source_id": "africa-24-direct",
+          "title": "Africa 24",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.africa24tv.com/",
+          "streamUrl": "https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8"
+        }
+      ],
+      "tags": [
+        "news",
+        "international",
+        "live",
+        "direct",
+        "africa"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "africa-24-direct"
+    },
+    {
+      "id": "channel-afrika|africa-24-english",
+      "key": "afrika|africa-24-english",
+      "title": "Africa 24 English",
+      "country": "Afrika",
+      "routes": [
+        {
+          "source_id": "africa-24-english-direct",
+          "title": "Africa 24 English",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.africa24tv.com/",
+          "streamUrl": "https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8"
+        }
+      ],
+      "tags": [
+        "news",
+        "international",
+        "live",
+        "direct",
+        "africa"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "africa-24-english-direct"
+    },
+    {
+      "id": "channel-afrika|africanews-french",
+      "key": "afrika|africanews-french",
+      "title": "Africanews French",
+      "country": "Afrika",
+      "routes": [
+        {
+          "source_id": "africanews-french-direct",
+          "title": "Africanews French",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://fr.africanews.com/live/",
+          "streamUrl": "https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8"
+        }
+      ],
+      "tags": [
+        "news",
+        "international",
+        "live",
+        "direct",
+        "africa"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "africanews-french-direct"
+    },
+    {
+      "id": "channel-australie|10-play",
+      "key": "australie|10-play",
+      "title": "10 Play",
+      "country": "Australië",
+      "routes": [
+        {
+          "source_id": "australie-10-play",
+          "title": "10 Play",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://10play.com.au",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "entertainment",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "australie-10-play"
+    },
+    {
+      "id": "channel-australie|7plus",
+      "key": "australie|7plus",
+      "title": "7plus",
+      "country": "Australië",
+      "routes": [
+        {
+          "source_id": "australie-7plus",
+          "title": "7plus",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://7plus.com.au",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "entertainment",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "australie-7plus"
+    },
+    {
+      "id": "channel-australie|9now",
+      "key": "australie|9now",
+      "title": "9Now",
+      "country": "Australië",
+      "routes": [
+        {
+          "source_id": "australie-9now",
+          "title": "9Now",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.9now.com.au",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "entertainment",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "australie-9now"
+    },
+    {
+      "id": "channel-australie|abc-news-australia",
+      "key": "australie|abc-news-australia",
+      "title": "ABC News Australia",
+      "country": "Australië",
+      "routes": [
+        {
+          "source_id": "australie-abc-news-australia",
+          "title": "ABC News Australia",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.abc.net.au/news",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "australie-abc-news-australia"
+    },
+    {
+      "id": "channel-australie|abc-tv",
+      "key": "australie|abc-tv",
+      "title": "ABC TV",
+      "country": "Australië",
+      "routes": [
+        {
+          "source_id": "australie-abc-tv",
+          "title": "ABC TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://iview.abc.net.au",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "entertainment",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "australie-abc-tv"
+    },
+    {
+      "id": "channel-australie|sbs",
+      "key": "australie|sbs",
+      "title": "SBS",
+      "country": "Australië",
+      "routes": [
+        {
+          "source_id": "australie-sbs",
+          "title": "SBS",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.sbs.com.au/ondemand",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "international",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "australie-sbs"
+    },
+    {
+      "id": "channel-australie|sbs-viceland",
+      "key": "australie|sbs-viceland",
+      "title": "SBS Viceland",
+      "country": "Australië",
+      "routes": [
+        {
+          "source_id": "australie-sbs-viceland",
+          "title": "SBS Viceland",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.sbs.com.au/ondemand",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "culture",
+        "documentary",
+        "en",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "australie-sbs-viceland"
+    },
+    {
+      "id": "channel-belgie|bruzz-tv",
+      "key": "belgie|bruzz-tv",
+      "title": "BRUZZ TV",
+      "country": "België",
+      "routes": [
+        {
+          "source_id": "belgie-bruzz-tv",
+          "title": "BRUZZ TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.bruzz.be",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "fr",
+        "live",
+        "local",
+        "news",
+        "nl",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "nl",
+        "fr"
+      ],
+      "primary_source_id": "belgie-bruzz-tv"
+    },
+    {
+      "id": "channel-belgie|ketnet",
+      "key": "belgie|ketnet",
+      "title": "Ketnet",
+      "country": "België",
+      "routes": [
+        {
+          "source_id": "belgie-ketnet",
+          "title": "Ketnet",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.vrt.be/vrtmax",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "family",
+        "kids",
+        "live",
+        "nl",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "belgie-ketnet"
+    },
+    {
+      "id": "channel-belgie|rtbf-la-trois",
+      "key": "belgie|rtbf-la-trois",
+      "title": "RTBF La Trois",
+      "country": "België",
+      "routes": [
+        {
+          "source_id": "belgie-rtbf-la-trois",
+          "title": "RTBF La Trois",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://auvio.rtbf.be",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "culture",
+        "fr",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "belgie-rtbf-la-trois"
+    },
+    {
+      "id": "channel-belgie|rtbf-la-une",
+      "key": "belgie|rtbf-la-une",
+      "title": "RTBF La Une",
+      "country": "België",
+      "routes": [
+        {
+          "source_id": "belgie-rtbf-la-une",
+          "title": "RTBF La Une",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://auvio.rtbf.be",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "fr",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "belgie-rtbf-la-une"
+    },
+    {
+      "id": "channel-belgie|rtbf-tipik",
+      "key": "belgie|rtbf-tipik",
+      "title": "RTBF Tipik",
+      "country": "België",
+      "routes": [
+        {
+          "source_id": "belgie-rtbf-tipik",
+          "title": "RTBF Tipik",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://auvio.rtbf.be",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "fr",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "belgie-rtbf-tipik"
+    },
+    {
+      "id": "channel-belgie|sporza",
+      "key": "belgie|sporza",
+      "title": "Sporza",
+      "country": "België",
+      "routes": [
+        {
+          "source_id": "belgie-sporza",
+          "title": "Sporza",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://sporza.be",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "live",
+        "nl",
+        "official",
+        "public",
+        "sport",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "belgie-sporza"
+    },
+    {
+      "id": "channel-belgie|vrt-1",
+      "key": "belgie|vrt-1",
+      "title": "VRT 1",
+      "country": "België",
+      "routes": [
+        {
+          "source_id": "belgie-vrt-1",
+          "title": "VRT 1",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.vrt.be/vrtmax",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "live",
+        "nl",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "belgie-vrt-1"
+    },
+    {
+      "id": "channel-belgie|vrt-canvas",
+      "key": "belgie|vrt-canvas",
+      "title": "VRT Canvas",
+      "country": "België",
+      "routes": [
+        {
+          "source_id": "belgie-vrt-canvas",
+          "title": "VRT Canvas",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.vrt.be/vrtmax",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "culture",
+        "documentary",
+        "live",
+        "nl",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "belgie-vrt-canvas"
+    },
+    {
+      "id": "channel-belgie|vrt-nws",
+      "key": "belgie|vrt-nws",
+      "title": "VRT NWS",
+      "country": "België",
+      "routes": [
+        {
+          "source_id": "belgie-vrt-nws",
+          "title": "VRT NWS",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.vrt.be/vrtnws/",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "live",
+        "news",
+        "nl",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "belgie-vrt-nws"
+    },
+    {
+      "id": "channel-belgie|vtm",
+      "key": "belgie|vtm",
+      "title": "VTM",
+      "country": "België",
+      "routes": [
+        {
+          "source_id": "belgie-vtm",
+          "title": "VTM",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.vtmgo.be",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "live",
+        "nl",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "belgie-vtm"
+    },
+    {
+      "id": "channel-belgie|vtm-2",
+      "key": "belgie|vtm-2",
+      "title": "VTM 2",
+      "country": "België",
+      "routes": [
+        {
+          "source_id": "belgie-vtm-2",
+          "title": "VTM 2",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.vtmgo.be",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "live",
+        "nl",
+        "official",
+        "public",
+        "series",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "belgie-vtm-2"
+    },
+    {
+      "id": "channel-belgie|vtm-3",
+      "key": "belgie|vtm-3",
+      "title": "VTM 3",
+      "country": "België",
+      "routes": [
+        {
+          "source_id": "belgie-vtm-3",
+          "title": "VTM 3",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.vtmgo.be",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "live",
+        "nl",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "belgie-vtm-3"
+    },
+    {
+      "id": "channel-belgie|vtm-4",
+      "key": "belgie|vtm-4",
+      "title": "VTM 4",
+      "country": "België",
+      "routes": [
+        {
+          "source_id": "belgie-vtm-4",
+          "title": "VTM 4",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.vtmgo.be",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "live",
+        "nl",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "belgie-vtm-4"
+    },
+    {
+      "id": "channel-brazilie|band",
+      "key": "brazilie|band",
+      "title": "Band",
+      "country": "Brazilië",
+      "routes": [
+        {
+          "source_id": "brazilie-band",
+          "title": "Band",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.band.uol.com.br",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "live",
+        "official",
+        "pt",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "pt"
+      ],
+      "primary_source_id": "brazilie-band"
+    },
+    {
+      "id": "channel-brazilie|cnn-brasil",
+      "key": "brazilie|cnn-brasil",
+      "title": "CNN Brasil",
+      "country": "Brazilië",
+      "routes": [
+        {
+          "source_id": "brazilie-cnn-brasil",
+          "title": "CNN Brasil",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.cnnbrasil.com.br",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "live",
+        "news",
+        "official",
+        "pt",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "pt"
+      ],
+      "primary_source_id": "brazilie-cnn-brasil"
+    },
+    {
+      "id": "channel-brazilie|globo",
+      "key": "brazilie|globo",
+      "title": "Globo",
+      "country": "Brazilië",
+      "routes": [
+        {
+          "source_id": "brazilie-globo",
+          "title": "Globo",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://globoplay.globo.com",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "live",
+        "official",
+        "pt",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "pt"
+      ],
+      "primary_source_id": "brazilie-globo"
+    },
+    {
+      "id": "channel-brazilie|record-tv",
+      "key": "brazilie|record-tv",
+      "title": "Record TV",
+      "country": "Brazilië",
+      "routes": [
+        {
+          "source_id": "brazilie-record-tv",
+          "title": "Record TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://record.r7.com",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "live",
+        "official",
+        "pt",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "pt"
+      ],
+      "primary_source_id": "brazilie-record-tv"
+    },
+    {
+      "id": "channel-brazilie|sbt",
+      "key": "brazilie|sbt",
+      "title": "SBT",
+      "country": "Brazilië",
+      "routes": [
+        {
+          "source_id": "brazilie-sbt",
+          "title": "SBT",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.sbt.com.br",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "live",
+        "official",
+        "pt",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "pt"
+      ],
+      "primary_source_id": "brazilie-sbt"
+    },
+    {
+      "id": "channel-brazilie|tv-brasil",
+      "key": "brazilie|tv-brasil",
+      "title": "TV Brasil",
+      "country": "Brazilië",
+      "routes": [
+        {
+          "source_id": "brazilie-tv-brasil",
+          "title": "TV Brasil",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://tvbrasil.ebc.com.br",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "live",
+        "news",
+        "official",
+        "pt",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "pt"
+      ],
+      "primary_source_id": "brazilie-tv-brasil"
+    },
+    {
+      "id": "channel-canada|cbc-tv",
+      "key": "canada|cbc-tv",
+      "title": "CBC TV",
+      "country": "Canada",
+      "routes": [
+        {
+          "source_id": "canada-cbc-tv",
+          "title": "CBC TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://gem.cbc.ca",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "entertainment",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "canada-cbc-tv"
+    },
+    {
+      "id": "channel-canada|cpac",
+      "key": "canada|cpac",
+      "title": "CPAC",
+      "country": "Canada",
+      "routes": [
+        {
+          "source_id": "canada-cpac",
+          "title": "CPAC",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.cpac.ca",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "fr",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "primary_source_id": "canada-cpac"
+    },
+    {
+      "id": "channel-canada|global-news",
+      "key": "canada|global-news",
+      "title": "Global News",
+      "country": "Canada",
+      "routes": [
+        {
+          "source_id": "canada-global-news",
+          "title": "Global News",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://globalnews.ca/live/",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "canada-global-news"
+    },
+    {
+      "id": "channel-canada|ici-tele",
+      "key": "canada|ici-tele",
+      "title": "ICI Télé",
+      "country": "Canada",
+      "routes": [
+        {
+          "source_id": "canada-ici-tele",
+          "title": "ICI Télé",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://ici.tou.tv",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "fr",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "canada-ici-tele"
+    },
+    {
+      "id": "channel-canada|tvo",
+      "key": "canada|tvo",
+      "title": "TVO",
+      "country": "Canada",
+      "routes": [
+        {
+          "source_id": "canada-tvo",
+          "title": "TVO",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.tvo.org",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "documentary",
+        "education",
+        "en",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "canada-tvo"
+    },
+    {
+      "id": "channel-duitsland|3sat",
+      "key": "duitsland|3sat",
+      "title": "3sat",
+      "country": "Duitsland",
+      "routes": [
+        {
+          "source_id": "duitsland-3sat",
+          "title": "3sat",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.3sat.de",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "culture",
+        "de",
+        "documentary",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "de"
+      ],
+      "primary_source_id": "duitsland-3sat"
+    },
+    {
+      "id": "channel-duitsland|ard-alpha",
+      "key": "duitsland|ard-alpha",
+      "title": "ARD-alpha",
+      "country": "Duitsland",
+      "routes": [
+        {
+          "source_id": "ard-alpha-direct",
+          "title": "ARD-alpha",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.ardalpha.de/",
+          "streamUrl": "https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8"
+        }
+      ],
+      "tags": [
+        "education",
+        "public",
+        "live",
+        "direct",
+        "science",
+        "culture"
+      ],
+      "languages": [
+        "de"
+      ],
+      "primary_source_id": "ard-alpha-direct"
+    },
+    {
+      "id": "channel-duitsland|arte-france",
+      "key": "duitsland|arte-france",
+      "title": "ARTE France",
+      "country": "Duitsland",
+      "routes": [
+        {
+          "source_id": "arte-france",
+          "title": "ARTE France",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.arte.tv/fr/",
+          "streamUrl": "https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8"
+        }
+      ],
+      "tags": [
+        "culture",
+        "de",
+        "direct",
+        "documentary",
+        "fr",
+        "free",
+        "hls",
+        "no-account",
+        "playable",
+        "public"
+      ],
+      "languages": [
+        "fr",
+        "de"
+      ],
+      "primary_source_id": "arte-france"
+    },
+    {
+      "id": "channel-duitsland|br-fernsehen-nord",
+      "key": "duitsland|br-fernsehen-nord",
+      "title": "BR Fernsehen Nord",
+      "country": "Duitsland",
+      "routes": [
+        {
+          "source_id": "br-fernsehen-nord-direct",
+          "title": "BR Fernsehen Nord",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.br.de/br-fernsehen/",
+          "streamUrl": "https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8"
+        }
+      ],
+      "tags": [
+        "public",
+        "regional",
+        "live",
+        "direct"
+      ],
+      "languages": [
+        "de"
+      ],
+      "primary_source_id": "br-fernsehen-nord-direct"
+    },
+    {
+      "id": "channel-duitsland|das-erste",
+      "key": "duitsland|das-erste",
+      "title": "Das Erste",
+      "country": "Duitsland",
+      "routes": [
+        {
+          "source_id": "das-erste-hd-direct",
+          "title": "Das Erste HD",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.daserste.de/live/index.html",
+          "streamUrl": "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8"
+        },
+        {
+          "source_id": "duitsland-das-erste",
+          "title": "Das Erste",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.ardmediathek.de/live",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "public",
+        "news",
+        "live",
+        "direct",
+        "channel",
+        "country-channel",
+        "de",
+        "entertainment",
+        "official",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "de"
+      ],
+      "primary_source_id": "das-erste-hd-direct"
+    },
+    {
+      "id": "channel-duitsland|deutsche-welle",
+      "key": "duitsland|deutsche-welle",
+      "title": "Deutsche Welle",
+      "country": "Duitsland",
+      "routes": [
+        {
+          "source_id": "dw",
+          "title": "Deutsche Welle",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.dw.com",
+          "streamUrl": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8"
+        }
+      ],
+      "tags": [
+        "direct",
+        "documentary",
+        "free",
+        "hls",
+        "live",
+        "news",
+        "no-account",
+        "playable",
+        "public"
+      ],
+      "languages": [
+        "multi"
+      ],
+      "primary_source_id": "dw"
+    },
+    {
+      "id": "channel-duitsland|dw-arabic-direct",
+      "key": "duitsland|dw-arabic-direct",
+      "title": "DW Arabic Direct",
+      "country": "Duitsland",
+      "routes": [
+        {
+          "source_id": "dw-arabic-direct",
+          "title": "DW Arabic Direct",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.dw.com/ar",
+          "streamUrl": "https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8"
+        }
+      ],
+      "tags": [
+        "ar",
+        "de",
+        "news",
+        "live",
+        "direct",
+        "playable",
+        "hls",
+        "public"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "dw-arabic-direct"
+    },
+    {
+      "id": "channel-duitsland|dw-deutsch",
+      "key": "duitsland|dw-deutsch",
+      "title": "DW Deutsch",
+      "country": "Duitsland",
+      "routes": [
+        {
+          "source_id": "duitsland-dw-deutsch",
+          "title": "DW Deutsch",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.dw.com/de/media-center/live-tv/s-100825",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "de",
+        "international",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "de"
+      ],
+      "primary_source_id": "duitsland-dw-deutsch"
+    },
+    {
+      "id": "channel-duitsland|dw-espanol-direct",
+      "key": "duitsland|dw-espanol-direct",
+      "title": "DW Español Direct",
+      "country": "Duitsland",
+      "routes": [
+        {
+          "source_id": "dw-espanol-direct",
+          "title": "DW Español Direct",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.dw.com/es",
+          "streamUrl": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8"
+        }
+      ],
+      "tags": [
+        "es",
+        "de",
+        "news",
+        "live",
+        "direct",
+        "playable",
+        "hls",
+        "public"
+      ],
+      "languages": [
+        "es"
+      ],
+      "primary_source_id": "dw-espanol-direct"
+    },
+    {
+      "id": "channel-duitsland|dw",
+      "key": "duitsland|dw",
+      "title": "DW на русском",
+      "country": "Duitsland",
+      "routes": [
+        {
+          "source_id": "dw-russian",
+          "title": "DW на русском",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.dw.com/ru",
+          "streamUrl": "https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/master.m3u8"
+        }
+      ],
+      "tags": [
+        "direct",
+        "europe",
+        "hls",
+        "news",
+        "original-catalog-recovery",
+        "playable",
+        "ru",
+        "russian-language"
+      ],
+      "languages": [
+        "ru"
+      ],
+      "primary_source_id": "dw-russian"
+    },
+    {
+      "id": "channel-duitsland|hamburg-1",
+      "key": "duitsland|hamburg-1",
+      "title": "Hamburg 1",
+      "country": "Duitsland",
+      "routes": [
+        {
+          "source_id": "hamburg-1-direct",
+          "title": "Hamburg 1",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.hamburg1.de/livestream",
+          "streamUrl": "https://stream.hamburg1.de/live_abr/hamburg1_abr/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "regional",
+        "news",
+        "live",
+        "direct"
+      ],
+      "languages": [
+        "de"
+      ],
+      "primary_source_id": "hamburg-1-direct"
+    },
+    {
+      "id": "channel-duitsland|hr-fernsehen",
+      "key": "duitsland|hr-fernsehen",
+      "title": "hr-fernsehen",
+      "country": "Duitsland",
+      "routes": [
+        {
+          "source_id": "hr-fernsehen-direct",
+          "title": "hr-fernsehen",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.hr-fernsehen.de/livestream/",
+          "streamUrl": "https://hrhls.akamaized.net/hls/live/2024525/hrhls/index.m3u8"
+        }
+      ],
+      "tags": [
+        "public",
+        "regional",
+        "live",
+        "direct"
+      ],
+      "languages": [
+        "de"
+      ],
+      "primary_source_id": "hr-fernsehen-direct"
+    },
+    {
+      "id": "channel-duitsland|kika",
+      "key": "duitsland|kika",
+      "title": "KiKA",
+      "country": "Duitsland",
+      "routes": [
+        {
+          "source_id": "kika-direct",
+          "title": "KiKA",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.kika.de/livestream",
+          "streamUrl": "https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8"
+        }
+      ],
+      "tags": [
+        "kids",
+        "children",
+        "family",
+        "public",
+        "live",
+        "direct"
+      ],
+      "languages": [
+        "de"
+      ],
+      "primary_source_id": "kika-direct"
+    },
+    {
+      "id": "channel-duitsland|ndr-fernsehen-international",
+      "key": "duitsland|ndr-fernsehen-international",
+      "title": "NDR Fernsehen International",
+      "country": "Duitsland",
+      "routes": [
+        {
+          "source_id": "ndr-international-direct",
+          "title": "NDR Fernsehen International",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.ndr.de/fernsehen/livestream/index.html",
+          "streamUrl": "https://ndrint.akamaized.net/hls/live/2020766/ndr_int/index.m3u8"
+        }
+      ],
+      "tags": [
+        "public",
+        "regional",
+        "live",
+        "direct"
+      ],
+      "languages": [
+        "de"
+      ],
+      "primary_source_id": "ndr-international-direct"
+    },
+    {
+      "id": "channel-duitsland|ndr-hamburg",
+      "key": "duitsland|ndr-hamburg",
+      "title": "NDR Hamburg",
+      "country": "Duitsland",
+      "routes": [
+        {
+          "source_id": "ndr-hamburg-direct",
+          "title": "NDR Hamburg",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.ndr.de/fernsehen/livestream/index.html",
+          "streamUrl": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8"
+        }
+      ],
+      "tags": [
+        "public",
+        "regional",
+        "live",
+        "direct"
+      ],
+      "languages": [
+        "de"
+      ],
+      "primary_source_id": "ndr-hamburg-direct"
+    },
+    {
+      "id": "channel-duitsland|one",
+      "key": "duitsland|one",
+      "title": "ONE",
+      "country": "Duitsland",
+      "routes": [
+        {
+          "source_id": "duitsland-one",
+          "title": "ONE",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.ardmediathek.de/one",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "de",
+        "entertainment",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "de"
+      ],
+      "primary_source_id": "duitsland-one"
+    },
+    {
+      "id": "channel-duitsland|phoenix",
+      "key": "duitsland|phoenix",
+      "title": "Phoenix",
+      "country": "Duitsland",
+      "routes": [
+        {
+          "source_id": "duitsland-phoenix",
+          "title": "Phoenix",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.phoenix.de",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "de",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "de"
+      ],
+      "primary_source_id": "duitsland-phoenix"
+    },
+    {
+      "id": "channel-duitsland|tagesschau24",
+      "key": "duitsland|tagesschau24",
+      "title": "tagesschau24",
+      "country": "Duitsland",
+      "routes": [
+        {
+          "source_id": "duitsland-tagesschau24",
+          "title": "tagesschau24",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.ardmediathek.de/tagesschau24",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "de",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "de"
+      ],
+      "primary_source_id": "duitsland-tagesschau24"
+    },
+    {
+      "id": "channel-duitsland|zdf",
+      "key": "duitsland|zdf",
+      "title": "ZDF",
+      "country": "Duitsland",
+      "routes": [
+        {
+          "source_id": "duitsland-zdf",
+          "title": "ZDF",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.zdf.de",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "de",
+        "entertainment",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "de"
+      ],
+      "primary_source_id": "duitsland-zdf"
+    },
+    {
+      "id": "channel-duitsland|zdfinfo",
+      "key": "duitsland|zdfinfo",
+      "title": "ZDFinfo",
+      "country": "Duitsland",
+      "routes": [
+        {
+          "source_id": "duitsland-zdfinfo",
+          "title": "ZDFinfo",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.zdf.de/dokumentation/zdfinfo-doku",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "de",
+        "documentary",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "de"
+      ],
+      "primary_source_id": "duitsland-zdfinfo"
+    },
+    {
+      "id": "channel-duitsland|zdfneo",
+      "key": "duitsland|zdfneo",
+      "title": "ZDFneo",
+      "country": "Duitsland",
+      "routes": [
+        {
+          "source_id": "duitsland-zdfneo",
+          "title": "ZDFneo",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.zdf.de/sender/zdfneo",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "de",
+        "entertainment",
+        "live",
+        "official",
+        "public",
+        "series",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "de"
+      ],
+      "primary_source_id": "duitsland-zdfneo"
+    },
+    {
+      "id": "channel-europa|arte",
+      "key": "europa|arte",
+      "title": "ARTE",
+      "country": "Europa",
+      "routes": [
+        {
+          "source_id": "arte",
+          "title": "ARTE",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.arte.tv",
+          "streamUrl": "https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8"
+        }
+      ],
+      "tags": [
+        "culture",
+        "direct",
+        "documentary",
+        "film",
+        "free",
+        "hls",
+        "live",
+        "no-account",
+        "playable",
+        "public"
+      ],
+      "languages": [
+        "fr",
+        "de",
+        "en",
+        "es",
+        "it",
+        "pl"
+      ],
+      "primary_source_id": "arte"
+    },
+    {
+      "id": "channel-europa|euronews",
+      "key": "europa|euronews",
+      "title": "Euronews",
+      "country": "Europa",
+      "routes": [
+        {
+          "source_id": "euronews-live",
+          "title": "Euronews Live",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.euronews.com/live",
+          "streamUrl": "https://2f6c5bf4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0ZyYW5jYWlzX0hMUw/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "direct",
+        "free",
+        "hls",
+        "live",
+        "news",
+        "no-account",
+        "playable"
+      ],
+      "languages": [
+        "multi"
+      ],
+      "primary_source_id": "euronews-live"
+    },
+    {
+      "id": "channel-europa|rakuten-tv",
+      "key": "europa|rakuten-tv",
+      "title": "Rakuten TV",
+      "country": "Europa",
+      "routes": [
+        {
+          "source_id": "rakuten-tv",
+          "title": "Rakuten TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": true,
+          "score": 82,
+          "url": "https://www.rakuten.tv",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "film",
+        "free",
+        "live",
+        "fast",
+        "paid"
+      ],
+      "languages": [
+        "multi"
+      ],
+      "primary_source_id": "rakuten-tv"
+    },
+    {
+      "id": "channel-frankrijk|africa-24",
+      "key": "frankrijk|africa-24",
+      "title": "Africa 24",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "africa-24-direct",
+          "title": "Africa 24",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.africa24tv.com/",
+          "streamUrl": "https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8"
+        }
+      ],
+      "tags": [
+        "news",
+        "international",
+        "live",
+        "direct",
+        "africa"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "africa-24-direct"
+    },
+    {
+      "id": "channel-frankrijk|africa-24-english",
+      "key": "frankrijk|africa-24-english",
+      "title": "Africa 24 English",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "africa-24-english-direct",
+          "title": "Africa 24 English",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.africa24tv.com/",
+          "streamUrl": "https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8"
+        }
+      ],
+      "tags": [
+        "news",
+        "international",
+        "live",
+        "direct",
+        "africa"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "africa-24-english-direct"
+    },
+    {
+      "id": "channel-frankrijk|africanews-french",
+      "key": "frankrijk|africanews-french",
+      "title": "Africanews French",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "africanews-french-direct",
+          "title": "Africanews French",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://fr.africanews.com/live/",
+          "streamUrl": "https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8"
+        }
+      ],
+      "tags": [
+        "news",
+        "international",
+        "live",
+        "direct",
+        "africa"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "africanews-french-direct"
+    },
+    {
+      "id": "channel-frankrijk|arte-france",
+      "key": "frankrijk|arte-france",
+      "title": "ARTE France",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "arte-france",
+          "title": "ARTE France",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.arte.tv/fr/",
+          "streamUrl": "https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8"
+        },
+        {
+          "source_id": "frankrijk-arte-france",
+          "title": "Arte France",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.arte.tv/fr",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "culture",
+        "de",
+        "direct",
+        "documentary",
+        "fr",
+        "free",
+        "hls",
+        "no-account",
+        "playable",
+        "public",
+        "channel",
+        "country-channel",
+        "live",
+        "official",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "fr",
+        "de"
+      ],
+      "primary_source_id": "arte-france"
+    },
+    {
+      "id": "channel-frankrijk|bfm-2",
+      "key": "frankrijk|bfm-2",
+      "title": "BFM 2",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "iptv-bfm-2-fr",
+          "title": "BFM 2",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.bfmtv.com/bfm2/",
+          "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM2/index.m3u8?end=END&start=LIVE"
+        }
+      ],
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "public",
+        "regional",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "iptv-bfm-2-fr"
+    },
+    {
+      "id": "channel-frankrijk|bfm-alsace",
+      "key": "frankrijk|bfm-alsace",
+      "title": "BFM Alsace",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "iptv-bfm-alsace-fr",
+          "title": "BFM Alsace",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.bfmtv.com/alsace/",
+          "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_ALSACE/index.m3u8?end=END&start=LIVE"
+        }
+      ],
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "regional",
+        "public",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "iptv-bfm-alsace-fr"
+    },
+    {
+      "id": "channel-frankrijk|bfm-business",
+      "key": "frankrijk|bfm-business",
+      "title": "BFM Business",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "iptv-bfm-business-fr",
+          "title": "BFM Business",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.bfmtv.com/economie/",
+          "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_BUSINESS/index.m3u8?end=END&start=LIVE"
+        }
+      ],
+      "tags": [
+        "news",
+        "business",
+        "fr",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "public",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "iptv-bfm-business-fr"
+    },
+    {
+      "id": "channel-frankrijk|bfm-dici-alpes-du-sud",
+      "key": "frankrijk|bfm-dici-alpes-du-sud",
+      "title": "BFM DICI Alpes du Sud",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "iptv-bfm-dici-alpes-du-sud-fr",
+          "title": "BFM DICI Alpes du Sud",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.bfmtv.com/bfm-dici/",
+          "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_DICI_ALPESDUSUD/index.m3u8?end=END&start=LIVE"
+        }
+      ],
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "regional",
+        "public",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "iptv-bfm-dici-alpes-du-sud-fr"
+    },
+    {
+      "id": "channel-frankrijk|bfm-dici-haute-provence",
+      "key": "frankrijk|bfm-dici-haute-provence",
+      "title": "BFM DICI Haute-Provence",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "iptv-bfm-dici-haute-provence-fr",
+          "title": "BFM DICI Haute-Provence",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.bfmtv.com/bfm-dici/",
+          "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_DICI_HAUTEPROVENCE/index.m3u8?end=END&start=LIVE"
+        }
+      ],
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "regional",
+        "public",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "iptv-bfm-dici-haute-provence-fr"
+    },
+    {
+      "id": "channel-frankrijk|bfm-grand-lille",
+      "key": "frankrijk|bfm-grand-lille",
+      "title": "BFM Grand Lille",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "iptv-bfm-grand-lille-fr",
+          "title": "BFM Grand Lille",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.bfmtv.com/grand-lille/",
+          "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFMGRANDLILLE/index.m3u8?end=END&start=LIVE"
+        }
+      ],
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "regional",
+        "public",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "iptv-bfm-grand-lille-fr"
+    },
+    {
+      "id": "channel-frankrijk|bfm-grand-littoral",
+      "key": "frankrijk|bfm-grand-littoral",
+      "title": "BFM Grand Littoral",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "iptv-bfm-grand-littoral-fr",
+          "title": "BFM Grand Littoral",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.bfmtv.com/grand-littoral/",
+          "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFMGRANDLITTORAL/index.m3u8?end=END&start=LIVE"
+        }
+      ],
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "regional",
+        "public",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "iptv-bfm-grand-littoral-fr"
+    },
+    {
+      "id": "channel-frankrijk|bfm-grands-reportages",
+      "key": "frankrijk|bfm-grands-reportages",
+      "title": "BFM Grands Reportages",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "iptv-bfm-grands-reportages-fr",
+          "title": "BFM Grands Reportages",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.bfmtv.com/replay-emissions/grands-reportages/",
+          "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_GRANDSREPORTAGES/index.m3u8?end=END&start=LIVE"
+        }
+      ],
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "documentary",
+        "live",
+        "iptv",
+        "public",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "iptv-bfm-grands-reportages-fr"
+    },
+    {
+      "id": "channel-frankrijk|bfm-lyon",
+      "key": "frankrijk|bfm-lyon",
+      "title": "BFM Lyon",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "iptv-bfm-lyon-fr",
+          "title": "BFM Lyon",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.bfmtv.com/lyon/",
+          "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_LYON/index.m3u8?end=END&start=LIVE"
+        }
+      ],
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "regional",
+        "public",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "iptv-bfm-lyon-fr"
+    },
+    {
+      "id": "channel-frankrijk|bfm-marseille-provence",
+      "key": "frankrijk|bfm-marseille-provence",
+      "title": "BFM Marseille Provence",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "iptv-bfm-marseille-fr",
+          "title": "BFM Marseille Provence",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.bfmtv.com/marseille/",
+          "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_MARSEILLEPROV/index.m3u8?end=END&start=LIVE"
+        }
+      ],
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "regional",
+        "public",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "iptv-bfm-marseille-fr"
+    },
+    {
+      "id": "channel-frankrijk|bfm-nice-cote-d-azur",
+      "key": "frankrijk|bfm-nice-cote-d-azur",
+      "title": "BFM Nice Côte d’Azur",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "iptv-bfm-nice-cote-dazur-fr",
+          "title": "BFM Nice Côte d’Azur",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.bfmtv.com/cote-d-azur/",
+          "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_NICECOTEDAZUR/index.m3u8?end=END&start=LIVE"
+        }
+      ],
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "regional",
+        "public",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "iptv-bfm-nice-cote-dazur-fr"
+    },
+    {
+      "id": "channel-frankrijk|bfm-normandie",
+      "key": "frankrijk|bfm-normandie",
+      "title": "BFM Normandie",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "iptv-bfm-normandie-fr",
+          "title": "BFM Normandie",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.bfmtv.com/normandie/",
+          "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_NORMANDIE/index.m3u8?end=END&start=LIVE"
+        }
+      ],
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "regional",
+        "public",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "iptv-bfm-normandie-fr"
+    },
+    {
+      "id": "channel-frankrijk|bfm-tech-co",
+      "key": "frankrijk|bfm-tech-co",
+      "title": "BFM Tech & Co",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "iptv-bfm-tech-co-fr",
+          "title": "BFM Tech & Co",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.bfmtv.com/tech/",
+          "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TECHANDCO/index.m3u8?end=END&start=LIVE"
+        }
+      ],
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "technology",
+        "live",
+        "iptv",
+        "public",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "iptv-bfm-tech-co-fr"
+    },
+    {
+      "id": "channel-frankrijk|bfm-toulon-var",
+      "key": "frankrijk|bfm-toulon-var",
+      "title": "BFM Toulon Var",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "iptv-bfm-toulon-var-fr",
+          "title": "BFM Toulon Var",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.bfmtv.com/var/",
+          "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TOULONVAR/index.m3u8?end=END&start=LIVE"
+        }
+      ],
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "regional",
+        "public",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "iptv-bfm-toulon-var-fr"
+    },
+    {
+      "id": "channel-frankrijk|bfm-tv",
+      "key": "frankrijk|bfm-tv",
+      "title": "BFM TV",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "bfm-tv-direct",
+          "title": "BFM TV",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.bfmtv.com/en-direct/",
+          "streamUrl": "https://live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8"
+        }
+      ],
+      "tags": [
+        "news",
+        "nieuws",
+        "live",
+        "direct"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "bfm-tv-direct"
+    },
+    {
+      "id": "channel-frankrijk|france-2",
+      "key": "frankrijk|france-2",
+      "title": "France 2",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "frankrijk-france-2",
+          "title": "France 2",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.france.tv/france-2/",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "fr",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "frankrijk-france-2"
+    },
+    {
+      "id": "channel-frankrijk|france-24",
+      "key": "frankrijk|france-24",
+      "title": "France 24",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "france-24-live",
+          "title": "France 24 Live",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.france24.com/en/live",
+          "streamUrl": "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_2300.m3u8"
+        }
+      ],
+      "tags": [
+        "direct",
+        "free",
+        "hls",
+        "live",
+        "news",
+        "no-account",
+        "playable"
+      ],
+      "languages": [
+        "fr",
+        "en",
+        "ar",
+        "es"
+      ],
+      "primary_source_id": "france-24-live"
+    },
+    {
+      "id": "channel-frankrijk|france-24-arabic-direct",
+      "key": "frankrijk|france-24-arabic-direct",
+      "title": "France 24 Arabic Direct",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "france-24-ar-direct",
+          "title": "France 24 Arabic Direct",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.france24.com/ar/live",
+          "streamUrl": "https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_2300.m3u8"
+        }
+      ],
+      "tags": [
+        "ar",
+        "news",
+        "live",
+        "direct",
+        "playable",
+        "hls",
+        "public"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "france-24-ar-direct"
+    },
+    {
+      "id": "channel-frankrijk|france-24-english",
+      "key": "frankrijk|france-24-english",
+      "title": "France 24 English",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "frankrijk-france-24-english",
+          "title": "France 24 English",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.france24.com/en/live",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "international",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "frankrijk-france-24-english"
+    },
+    {
+      "id": "channel-frankrijk|france-24-espanol-direct",
+      "key": "frankrijk|france-24-espanol-direct",
+      "title": "France 24 Español Direct",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "france-24-es-direct",
+          "title": "France 24 Español Direct",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.france24.com/es/en-vivo",
+          "streamUrl": "https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_2300.m3u8"
+        }
+      ],
+      "tags": [
+        "es",
+        "news",
+        "live",
+        "direct",
+        "playable",
+        "hls",
+        "public"
+      ],
+      "languages": [
+        "es"
+      ],
+      "primary_source_id": "france-24-es-direct"
+    },
+    {
+      "id": "channel-frankrijk|france-24-francais",
+      "key": "frankrijk|france-24-francais",
+      "title": "France 24 Français",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "frankrijk-france-24-francais",
+          "title": "France 24 Français",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.france24.com/fr/direct",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "fr",
+        "international",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "frankrijk-france-24-francais"
+    },
+    {
+      "id": "channel-frankrijk|france-24-francais-direct",
+      "key": "frankrijk|france-24-francais-direct",
+      "title": "France 24 Français Direct",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "france-24-fr-direct",
+          "title": "France 24 Français Direct",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.france24.com/fr/direct",
+          "streamUrl": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_2300.m3u8"
+        }
+      ],
+      "tags": [
+        "fr",
+        "news",
+        "live",
+        "direct",
+        "playable",
+        "hls",
+        "public"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "france-24-fr-direct"
+    },
+    {
+      "id": "channel-frankrijk|france-3",
+      "key": "frankrijk|france-3",
+      "title": "France 3",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "frankrijk-france-3",
+          "title": "France 3",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.france.tv/france-3/",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "fr",
+        "live",
+        "news",
+        "official",
+        "public",
+        "regional",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "frankrijk-france-3"
+    },
+    {
+      "id": "channel-frankrijk|france-4",
+      "key": "frankrijk|france-4",
+      "title": "France 4",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "frankrijk-france-4",
+          "title": "France 4",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.france.tv/france-4/",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "culture",
+        "fr",
+        "kids",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "frankrijk-france-4"
+    },
+    {
+      "id": "channel-frankrijk|france-5",
+      "key": "frankrijk|france-5",
+      "title": "France 5",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "frankrijk-france-5",
+          "title": "France 5",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.france.tv/france-5/",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "culture",
+        "documentary",
+        "fr",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "frankrijk-france-5"
+    },
+    {
+      "id": "channel-frankrijk|franceinfo",
+      "key": "frankrijk|franceinfo",
+      "title": "Franceinfo",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "frankrijk-franceinfo",
+          "title": "Franceinfo",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.france.tv/franceinfo/",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "fr",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "frankrijk-franceinfo"
+    },
+    {
+      "id": "channel-frankrijk|kto",
+      "key": "frankrijk|kto",
+      "title": "KTO",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "kto-direct",
+          "title": "KTO",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.ktotv.com/page/direct",
+          "streamUrl": "https://live-kto.akamaized.net/hls/live/2033284/KTO/master.m3u8"
+        }
+      ],
+      "tags": [
+        "religion",
+        "culture",
+        "live",
+        "direct"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "kto-direct"
+    },
+    {
+      "id": "channel-frankrijk|public-senat",
+      "key": "frankrijk|public-senat",
+      "title": "Public Sénat",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "public-senat-direct",
+          "title": "Public Sénat",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.publicsenat.fr/direct",
+          "streamUrl": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/publicsenat.m3u8"
+        }
+      ],
+      "tags": [
+        "public",
+        "news",
+        "politics",
+        "live",
+        "direct"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "public-senat-direct"
+    },
+    {
+      "id": "channel-frankrijk|rt-france",
+      "key": "frankrijk|rt-france",
+      "title": "RT France",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "rt-france",
+          "title": "RT France",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://francais.rt.com",
+          "streamUrl": "https://rt-fra.rttv.com/live/rtfrance/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "availability-limited",
+        "direct",
+        "french",
+        "hls",
+        "limited",
+        "news",
+        "original-catalog-recovery",
+        "playable",
+        "ru"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "rt-france"
+    },
+    {
+      "id": "channel-frankrijk|tv5monde",
+      "key": "frankrijk|tv5monde",
+      "title": "TV5Monde",
+      "country": "Frankrijk",
+      "routes": [
+        {
+          "source_id": "frankrijk-tv5monde",
+          "title": "TV5Monde",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.tv5mondeplus.com",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "fr",
+        "international",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "frankrijk-tv5monde"
+    },
+    {
+      "id": "channel-india|aaj-tak",
+      "key": "india|aaj-tak",
+      "title": "Aaj Tak",
+      "country": "India",
+      "routes": [
+        {
+          "source_id": "india-aaj-tak",
+          "title": "Aaj Tak",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.aajtak.in",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "hi",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "hi"
+      ],
+      "primary_source_id": "india-aaj-tak"
+    },
+    {
+      "id": "channel-india|doordarshan-national",
+      "key": "india|doordarshan-national",
+      "title": "Doordarshan National",
+      "country": "India",
+      "routes": [
+        {
+          "source_id": "india-doordarshan-national",
+          "title": "Doordarshan National",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://prasarbharati.gov.in",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "hi",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "hi",
+        "en"
+      ],
+      "primary_source_id": "india-doordarshan-national"
+    },
+    {
+      "id": "channel-india|india-today-tv",
+      "key": "india|india-today-tv",
+      "title": "India Today TV",
+      "country": "India",
+      "routes": [
+        {
+          "source_id": "india-india-today-tv",
+          "title": "India Today TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.indiatoday.in/livetv",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "india-india-today-tv"
+    },
+    {
+      "id": "channel-india|ndtv-24x7",
+      "key": "india|ndtv-24x7",
+      "title": "NDTV 24x7",
+      "country": "India",
+      "routes": [
+        {
+          "source_id": "india-ndtv-24x7",
+          "title": "NDTV 24x7",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.ndtv.com",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "india-ndtv-24x7"
+    },
+    {
+      "id": "channel-internationaal|al-araby-tv",
+      "key": "internationaal|al-araby-tv",
+      "title": "Al Araby TV",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "al-araby-tv-direct",
+          "title": "Al Araby TV",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.alaraby.com/live",
+          "streamUrl": "https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "news",
+        "live",
+        "direct",
+        "arabic",
+        "international"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "al-araby-tv-direct"
+    },
+    {
+      "id": "channel-internationaal|al-araby-tv-2",
+      "key": "internationaal|al-araby-tv-2",
+      "title": "Al Araby TV 2",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "al-araby-tv-2-direct",
+          "title": "Al Araby TV 2",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.alaraby.com/live",
+          "streamUrl": "https://live.kwikmotion.com/alaraby2live/alaraby2.smil/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "news",
+        "live",
+        "direct",
+        "arabic",
+        "international"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "al-araby-tv-2-direct"
+    },
+    {
+      "id": "channel-internationaal|al-jazeera",
+      "key": "internationaal|al-jazeera",
+      "title": "Al Jazeera",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "al-jazeera-live",
+          "title": "Al Jazeera Live",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.aljazeera.com/live",
+          "streamUrl": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8"
+        }
+      ],
+      "tags": [
+        "direct",
+        "free",
+        "hls",
+        "live",
+        "news",
+        "no-account",
+        "playable"
+      ],
+      "languages": [
+        "en",
+        "ar"
+      ],
+      "primary_source_id": "al-jazeera-live"
+    },
+    {
+      "id": "channel-internationaal|al-jazeera-arabic-direct",
+      "key": "internationaal|al-jazeera-arabic-direct",
+      "title": "Al Jazeera Arabic Direct",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "al-jazeera-arabic-direct",
+          "title": "Al Jazeera Arabic Direct",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.aljazeera.net/live",
+          "streamUrl": "https://live-hls-web-aja.getaj.net/AJA/index.m3u8"
+        }
+      ],
+      "tags": [
+        "ar",
+        "news",
+        "live",
+        "direct",
+        "playable",
+        "hls",
+        "public"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "al-jazeera-arabic-direct"
+    },
+    {
+      "id": "channel-internationaal|al-jazeera-documentary",
+      "key": "internationaal|al-jazeera-documentary",
+      "title": "Al Jazeera Documentary",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "al-jazeera-documentary-direct",
+          "title": "Al Jazeera Documentary",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://doc.aljazeera.net/",
+          "streamUrl": "https://live-hls-apps-ajd-v3-fa.getaj.net/AJD/index.m3u8"
+        }
+      ],
+      "tags": [
+        "documentary",
+        "docu",
+        "live",
+        "direct",
+        "arabic"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "al-jazeera-documentary-direct"
+    },
+    {
+      "id": "channel-internationaal|al-jazeera-mubasher-24",
+      "key": "internationaal|al-jazeera-mubasher-24",
+      "title": "Al Jazeera Mubasher 24",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "al-jazeera-mubasher-24-direct",
+          "title": "Al Jazeera Mubasher 24",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.aljazeera.net/live",
+          "streamUrl": "https://live-hls-web-ajm24-fa.getaj.net/AJM24/index.m3u8"
+        }
+      ],
+      "tags": [
+        "news",
+        "live",
+        "direct",
+        "arabic"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "al-jazeera-mubasher-24-direct"
+    },
+    {
+      "id": "channel-internationaal|al-jazeera-mubasher-direct",
+      "key": "internationaal|al-jazeera-mubasher-direct",
+      "title": "Al Jazeera Mubasher Direct",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "al-jazeera-mubasher-direct",
+          "title": "Al Jazeera Mubasher Direct",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://mubasher.aljazeera.net",
+          "streamUrl": "https://live-hls-web-ajm.getaj.net/AJM/index.m3u8"
+        }
+      ],
+      "tags": [
+        "ar",
+        "news",
+        "live",
+        "direct",
+        "playable",
+        "hls",
+        "public"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "al-jazeera-mubasher-direct"
+    },
+    {
+      "id": "channel-internationaal|alhurra",
+      "key": "internationaal|alhurra",
+      "title": "Alhurra",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "alhurra-direct",
+          "title": "Alhurra",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.alhurra.com/live",
+          "streamUrl": "https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038900/MBN_Alhurra_Worldsafe_HLS/master.m3u8"
+        }
+      ],
+      "tags": [
+        "news",
+        "arabic",
+        "live",
+        "direct",
+        "international"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "alhurra-direct"
+    },
+    {
+      "id": "channel-internationaal|alhurra-iraq",
+      "key": "internationaal|alhurra-iraq",
+      "title": "Alhurra Iraq",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "iptv-alhurra-iraq-us",
+          "title": "Alhurra Iraq",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.alhurra.com/iraq",
+          "streamUrl": "https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038899/MBN_Iraq_Worldsafe_HLS/master.m3u8"
+        }
+      ],
+      "tags": [
+        "ar",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "international",
+        "public",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "iptv-alhurra-iraq-us"
+    },
+    {
+      "id": "channel-internationaal|bloomberg-originals-direct",
+      "key": "internationaal|bloomberg-originals-direct",
+      "title": "Bloomberg Originals Direct",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "bloomberg-originals-direct",
+          "title": "Bloomberg Originals Direct",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.bloomberg.com/originals",
+          "streamUrl": "https://www.bloomberg.com/media-manifest/streams/originals-global.m3u8"
+        }
+      ],
+      "tags": [
+        "en",
+        "business",
+        "news",
+        "live",
+        "direct",
+        "playable",
+        "hls"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "bloomberg-originals-direct"
+    },
+    {
+      "id": "channel-internationaal|bloomberg-tv",
+      "key": "internationaal|bloomberg-tv",
+      "title": "Bloomberg TV",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "bloomberg-live",
+          "title": "Bloomberg Live TV",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.bloomberg.com/live",
+          "streamUrl": "https://bloomberg.com/media-manifest/streams/us.m3u8"
+        }
+      ],
+      "tags": [
+        "direct",
+        "en",
+        "free",
+        "hls",
+        "live",
+        "news",
+        "playable"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "bloomberg-live"
+    },
+    {
+      "id": "channel-internationaal|cloudflare-tv",
+      "key": "internationaal|cloudflare-tv",
+      "title": "Cloudflare TV",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "cloudflare-tv-direct",
+          "title": "Cloudflare TV",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://cloudflare.tv/",
+          "streamUrl": "https://cloudflare.tv/hls/live.m3u8"
+        }
+      ],
+      "tags": [
+        "technology",
+        "education",
+        "live",
+        "direct"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "cloudflare-tv-direct"
+    },
+    {
+      "id": "channel-internationaal|distrotv",
+      "key": "internationaal|distrotv",
+      "title": "DistroTV",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "distrotv",
+          "title": "DistroTV",
+          "kind": "official",
+          "direct": false,
+          "iptv": true,
+          "score": 82,
+          "url": "https://www.distro.tv/",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "fast",
+        "free",
+        "live",
+        "international",
+        "official",
+        "source",
+        "verified"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "distrotv"
+    },
+    {
+      "id": "channel-internationaal|dw-arabic-direct",
+      "key": "internationaal|dw-arabic-direct",
+      "title": "DW Arabic Direct",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "dw-arabic-direct",
+          "title": "DW Arabic Direct",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.dw.com/ar",
+          "streamUrl": "https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8"
+        }
+      ],
+      "tags": [
+        "ar",
+        "de",
+        "news",
+        "live",
+        "direct",
+        "playable",
+        "hls",
+        "public"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "dw-arabic-direct"
+    },
+    {
+      "id": "channel-internationaal|dw-espanol-direct",
+      "key": "internationaal|dw-espanol-direct",
+      "title": "DW Español Direct",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "dw-espanol-direct",
+          "title": "DW Español Direct",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.dw.com/es",
+          "streamUrl": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8"
+        }
+      ],
+      "tags": [
+        "es",
+        "de",
+        "news",
+        "live",
+        "direct",
+        "playable",
+        "hls",
+        "public"
+      ],
+      "languages": [
+        "es"
+      ],
+      "primary_source_id": "dw-espanol-direct"
+    },
+    {
+      "id": "channel-internationaal|france-24-arabic-direct",
+      "key": "internationaal|france-24-arabic-direct",
+      "title": "France 24 Arabic Direct",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "france-24-ar-direct",
+          "title": "France 24 Arabic Direct",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.france24.com/ar/live",
+          "streamUrl": "https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_2300.m3u8"
+        }
+      ],
+      "tags": [
+        "ar",
+        "news",
+        "live",
+        "direct",
+        "playable",
+        "hls",
+        "public"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "france-24-ar-direct"
+    },
+    {
+      "id": "channel-internationaal|france-24-espanol-direct",
+      "key": "internationaal|france-24-espanol-direct",
+      "title": "France 24 Español Direct",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "france-24-es-direct",
+          "title": "France 24 Español Direct",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.france24.com/es/en-vivo",
+          "streamUrl": "https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_2300.m3u8"
+        }
+      ],
+      "tags": [
+        "es",
+        "news",
+        "live",
+        "direct",
+        "playable",
+        "hls",
+        "public"
+      ],
+      "languages": [
+        "es"
+      ],
+      "primary_source_id": "france-24-es-direct"
+    },
+    {
+      "id": "channel-internationaal|plex-watch-free",
+      "key": "internationaal|plex-watch-free",
+      "title": "Plex Watch Free",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "plex-watch-free",
+          "title": "Plex Watch Free",
+          "kind": "official",
+          "direct": false,
+          "iptv": true,
+          "score": 82,
+          "url": "https://watch.plex.tv",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "free",
+        "no-account",
+        "live",
+        "film",
+        "series",
+        "fast"
+      ],
+      "languages": [
+        "multi"
+      ],
+      "primary_source_id": "plex-watch-free"
+    },
+    {
+      "id": "channel-internationaal|pluto-tv",
+      "key": "internationaal|pluto-tv",
+      "title": "Pluto TV",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "pluto-tv",
+          "title": "Pluto TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": true,
+          "score": 82,
+          "url": "https://pluto.tv",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "free",
+        "no-account",
+        "live",
+        "film",
+        "series",
+        "fast"
+      ],
+      "languages": [
+        "multi"
+      ],
+      "primary_source_id": "pluto-tv"
+    },
+    {
+      "id": "channel-internationaal|rt-arabic",
+      "key": "internationaal|rt-arabic",
+      "title": "RT Arabic",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "rt-arabic",
+          "title": "RT Arabic",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://arabic.rt.com",
+          "streamUrl": "https://rt-arb.rttv.com/live/rtarab/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "arabic",
+        "availability-limited",
+        "direct",
+        "hls",
+        "international",
+        "limited",
+        "live",
+        "news",
+        "original-catalog-recovery",
+        "playable",
+        "ru"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "rt-arabic"
+    },
+    {
+      "id": "channel-internationaal|rt-en-espanol",
+      "key": "internationaal|rt-en-espanol",
+      "title": "RT en Español",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "rt-espanol",
+          "title": "RT en Español",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://actualidad.rt.com",
+          "streamUrl": "https://rt-esp.rttv.com/live/rtesp/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "availability-limited",
+        "direct",
+        "hls",
+        "international",
+        "limited",
+        "live",
+        "news",
+        "original-catalog-recovery",
+        "playable",
+        "ru",
+        "spanish"
+      ],
+      "languages": [
+        "es"
+      ],
+      "primary_source_id": "rt-espanol"
+    },
+    {
+      "id": "channel-internationaal|samsung-tv-plus",
+      "key": "internationaal|samsung-tv-plus",
+      "title": "Samsung TV Plus",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "samsung-tv-plus",
+          "title": "Samsung TV Plus",
+          "kind": "official",
+          "direct": false,
+          "iptv": true,
+          "score": 82,
+          "url": "https://www.samsungtvplus.com/",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "fast",
+        "free",
+        "live",
+        "international",
+        "movies",
+        "news",
+        "sports",
+        "kids",
+        "official",
+        "source",
+        "verified"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "samsung-tv-plus"
+    },
+    {
+      "id": "channel-internationaal|tubi",
+      "key": "internationaal|tubi",
+      "title": "Tubi",
+      "country": "Internationaal",
+      "routes": [
+        {
+          "source_id": "tubi",
+          "title": "Tubi",
+          "kind": "official",
+          "direct": false,
+          "iptv": true,
+          "score": 82,
+          "url": "https://tubitv.com",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "free",
+        "film",
+        "series",
+        "fast"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "tubi"
+    },
+    {
+      "id": "channel-italie|cielo",
+      "key": "italie|cielo",
+      "title": "Cielo",
+      "country": "Italië",
+      "routes": [
+        {
+          "source_id": "italie-cielo",
+          "title": "Cielo",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.cielotv.it",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "it",
+        "live",
+        "movies",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "it"
+      ],
+      "primary_source_id": "italie-cielo"
+    },
+    {
+      "id": "channel-italie|la7",
+      "key": "italie|la7",
+      "title": "LA7",
+      "country": "Italië",
+      "routes": [
+        {
+          "source_id": "italie-la7",
+          "title": "LA7",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.la7.it",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "it",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "it"
+      ],
+      "primary_source_id": "italie-la7"
+    },
+    {
+      "id": "channel-italie|rai-1",
+      "key": "italie|rai-1",
+      "title": "Rai 1",
+      "country": "Italië",
+      "routes": [
+        {
+          "source_id": "italie-rai-1",
+          "title": "Rai 1",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.raiplay.it",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "it",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "it"
+      ],
+      "primary_source_id": "italie-rai-1"
+    },
+    {
+      "id": "channel-italie|rai-2",
+      "key": "italie|rai-2",
+      "title": "Rai 2",
+      "country": "Italië",
+      "routes": [
+        {
+          "source_id": "italie-rai-2",
+          "title": "Rai 2",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.raiplay.it",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "it",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "it"
+      ],
+      "primary_source_id": "italie-rai-2"
+    },
+    {
+      "id": "channel-italie|rai-3",
+      "key": "italie|rai-3",
+      "title": "Rai 3",
+      "country": "Italië",
+      "routes": [
+        {
+          "source_id": "italie-rai-3",
+          "title": "Rai 3",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.raiplay.it",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "culture",
+        "it",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "it"
+      ],
+      "primary_source_id": "italie-rai-3"
+    },
+    {
+      "id": "channel-italie|rai-gulp",
+      "key": "italie|rai-gulp",
+      "title": "Rai Gulp",
+      "country": "Italië",
+      "routes": [
+        {
+          "source_id": "italie-rai-gulp",
+          "title": "Rai Gulp",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.raiplay.it",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "family",
+        "it",
+        "kids",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "it"
+      ],
+      "primary_source_id": "italie-rai-gulp"
+    },
+    {
+      "id": "channel-italie|rai-news-24",
+      "key": "italie|rai-news-24",
+      "title": "Rai News 24",
+      "country": "Italië",
+      "routes": [
+        {
+          "source_id": "italie-rai-news-24",
+          "title": "Rai News 24",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.rainews.it",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "it",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "it"
+      ],
+      "primary_source_id": "italie-rai-news-24"
+    },
+    {
+      "id": "channel-italie|sky-tg24",
+      "key": "italie|sky-tg24",
+      "title": "Sky TG24",
+      "country": "Italië",
+      "routes": [
+        {
+          "source_id": "italie-sky-tg24",
+          "title": "Sky TG24",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://tg24.sky.it",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "it",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "it"
+      ],
+      "primary_source_id": "italie-sky-tg24"
+    },
+    {
+      "id": "channel-italie|tv2000",
+      "key": "italie|tv2000",
+      "title": "TV2000",
+      "country": "Italië",
+      "routes": [
+        {
+          "source_id": "tv2000",
+          "title": "TV2000",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.tv2000.it/",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "it",
+        "culture",
+        "public",
+        "religious",
+        "live",
+        "country-expansion",
+        "official",
+        "verified"
+      ],
+      "languages": [
+        "it"
+      ],
+      "primary_source_id": "tv2000"
+    },
+    {
+      "id": "channel-italie|tv8",
+      "key": "italie|tv8",
+      "title": "TV8",
+      "country": "Italië",
+      "routes": [
+        {
+          "source_id": "italie-tv8",
+          "title": "TV8",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.tv8.it",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "it",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "it"
+      ],
+      "primary_source_id": "italie-tv8"
+    },
+    {
+      "id": "channel-japan|fuji-tv",
+      "key": "japan|fuji-tv",
+      "title": "Fuji TV",
+      "country": "Japan",
+      "routes": [
+        {
+          "source_id": "japan-fuji-tv",
+          "title": "Fuji TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.fujitv.co.jp",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "ja",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "ja"
+      ],
+      "primary_source_id": "japan-fuji-tv"
+    },
+    {
+      "id": "channel-japan|nhk-e-tv",
+      "key": "japan|nhk-e-tv",
+      "title": "NHK E-TV",
+      "country": "Japan",
+      "routes": [
+        {
+          "source_id": "japan-nhk-e-tv",
+          "title": "NHK E-TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.nhk.jp",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "education",
+        "ja",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "ja"
+      ],
+      "primary_source_id": "japan-nhk-e-tv"
+    },
+    {
+      "id": "channel-japan|nhk-general",
+      "key": "japan|nhk-general",
+      "title": "NHK General",
+      "country": "Japan",
+      "routes": [
+        {
+          "source_id": "japan-nhk-general",
+          "title": "NHK General",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.nhk.jp",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "ja",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "ja"
+      ],
+      "primary_source_id": "japan-nhk-general"
+    },
+    {
+      "id": "channel-japan|nhk-world-japan",
+      "key": "japan|nhk-world-japan",
+      "title": "NHK World-Japan",
+      "country": "Japan",
+      "routes": [
+        {
+          "source_id": "japan-nhk-world-japan",
+          "title": "NHK World-Japan",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www3.nhk.or.jp/nhkworld",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "international",
+        "ja",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en",
+        "ja"
+      ],
+      "primary_source_id": "japan-nhk-world-japan"
+    },
+    {
+      "id": "channel-japan|nippon-tv",
+      "key": "japan|nippon-tv",
+      "title": "Nippon TV",
+      "country": "Japan",
+      "routes": [
+        {
+          "source_id": "japan-nippon-tv",
+          "title": "Nippon TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.ntv.co.jp",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "ja",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "ja"
+      ],
+      "primary_source_id": "japan-nippon-tv"
+    },
+    {
+      "id": "channel-japan|tbs-tv",
+      "key": "japan|tbs-tv",
+      "title": "TBS TV",
+      "country": "Japan",
+      "routes": [
+        {
+          "source_id": "japan-tbs-tv",
+          "title": "TBS TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.tbs.co.jp",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "ja",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "ja"
+      ],
+      "primary_source_id": "japan-tbs-tv"
+    },
+    {
+      "id": "channel-japan|tv-asahi",
+      "key": "japan|tv-asahi",
+      "title": "TV Asahi",
+      "country": "Japan",
+      "routes": [
+        {
+          "source_id": "japan-tv-asahi",
+          "title": "TV Asahi",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.tv-asahi.co.jp",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "ja",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "ja"
+      ],
+      "primary_source_id": "japan-tv-asahi"
+    },
+    {
+      "id": "channel-japan|tv-tokyo",
+      "key": "japan|tv-tokyo",
+      "title": "TV Tokyo",
+      "country": "Japan",
+      "routes": [
+        {
+          "source_id": "japan-tv-tokyo",
+          "title": "TV Tokyo",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.tv-tokyo.co.jp",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "ja",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "ja"
+      ],
+      "primary_source_id": "japan-tv-tokyo"
+    },
+    {
+      "id": "channel-mexico|adn40",
+      "key": "mexico|adn40",
+      "title": "ADN40",
+      "country": "Mexico",
+      "routes": [
+        {
+          "source_id": "mexico-adn40",
+          "title": "ADN40",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.adn40.mx",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "es",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "es"
+      ],
+      "primary_source_id": "mexico-adn40"
+    },
+    {
+      "id": "channel-mexico|canal-22",
+      "key": "mexico|canal-22",
+      "title": "Canal 22",
+      "country": "Mexico",
+      "routes": [
+        {
+          "source_id": "mexico-canal-22",
+          "title": "Canal 22",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://canal22.org.mx",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "culture",
+        "es",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "es"
+      ],
+      "primary_source_id": "mexico-canal-22"
+    },
+    {
+      "id": "channel-mexico|canal-once",
+      "key": "mexico|canal-once",
+      "title": "Canal Once",
+      "country": "Mexico",
+      "routes": [
+        {
+          "source_id": "mexico-canal-once",
+          "title": "Canal Once",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://canalonce.mx",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "education",
+        "es",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "es"
+      ],
+      "primary_source_id": "mexico-canal-once"
+    },
+    {
+      "id": "channel-mexico|foro-tv",
+      "key": "mexico|foro-tv",
+      "title": "Foro TV",
+      "country": "Mexico",
+      "routes": [
+        {
+          "source_id": "mexico-foro-tv",
+          "title": "Foro TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.forotv.mx",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "es",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "es"
+      ],
+      "primary_source_id": "mexico-foro-tv"
+    },
+    {
+      "id": "channel-mexico|imagen-tv",
+      "key": "mexico|imagen-tv",
+      "title": "Imagen TV",
+      "country": "Mexico",
+      "routes": [
+        {
+          "source_id": "mexico-imagen-tv",
+          "title": "Imagen TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.imagentv.com",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "es",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "es"
+      ],
+      "primary_source_id": "mexico-imagen-tv"
+    },
+    {
+      "id": "channel-mexico|las-estrellas",
+      "key": "mexico|las-estrellas",
+      "title": "Las Estrellas",
+      "country": "Mexico",
+      "routes": [
+        {
+          "source_id": "mexico-las-estrellas",
+          "title": "Las Estrellas",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.lasestrellas.tv",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "es",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "es"
+      ],
+      "primary_source_id": "mexico-las-estrellas"
+    },
+    {
+      "id": "channel-nederland|at5",
+      "key": "nederland|at5",
+      "title": "AT5",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-at5",
+          "title": "AT5",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.at5.nl/live",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "live",
+        "local",
+        "news",
+        "nl",
+        "official",
+        "public",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-at5"
+    },
+    {
+      "id": "channel-nederland|l1-tv",
+      "key": "nederland|l1-tv",
+      "title": "L1 TV",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-l1-tv",
+          "title": "L1 TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.1limburg.nl/tv",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "live",
+        "news",
+        "nl",
+        "official",
+        "public",
+        "regional",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-l1-tv"
+    },
+    {
+      "id": "channel-nederland|net5",
+      "key": "nederland|net5",
+      "title": "NET5",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-net5",
+          "title": "NET5",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.kijk.nl/livestreams",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "entertainment",
+        "live",
+        "nl",
+        "official",
+        "public",
+        "series",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-net5"
+    },
+    {
+      "id": "channel-nederland|nh-nieuws-tv",
+      "key": "nederland|nh-nieuws-tv",
+      "title": "NH Nieuws TV",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-nh-nieuws-tv",
+          "title": "NH Nieuws TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.nhnieuws.nl/live",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "live",
+        "news",
+        "nl",
+        "official",
+        "public",
+        "regional",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-nh-nieuws-tv"
+    },
+    {
+      "id": "channel-nederland|npo-1",
+      "key": "nederland|npo-1",
+      "title": "NPO 1",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-npo-1",
+          "title": "NPO 1",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.nederland.tv/npo1",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "entertainment",
+        "live",
+        "news",
+        "nl",
+        "official",
+        "public",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-npo-1"
+    },
+    {
+      "id": "channel-nederland|npo-1-extra",
+      "key": "nederland|npo-1-extra",
+      "title": "NPO 1 Extra",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-npo-1-extra",
+          "title": "NPO 1 Extra",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.npostart.nl/live/npo-1-extra",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "nl",
+        "live",
+        "zender",
+        "channel",
+        "official",
+        "public",
+        "country-channel",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-npo-1-extra"
+    },
+    {
+      "id": "channel-nederland|npo-2",
+      "key": "nederland|npo-2",
+      "title": "NPO 2",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-npo-2",
+          "title": "NPO 2",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.nederland.tv/npo2",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "culture",
+        "documentary",
+        "live",
+        "nl",
+        "official",
+        "public",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-npo-2"
+    },
+    {
+      "id": "channel-nederland|npo-2-extra",
+      "key": "nederland|npo-2-extra",
+      "title": "NPO 2 Extra",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-npo-2-extra",
+          "title": "NPO 2 Extra",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.npostart.nl/live/npo-2-extra",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "nl",
+        "live",
+        "zender",
+        "channel",
+        "official",
+        "public",
+        "country-channel",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-npo-2-extra"
+    },
+    {
+      "id": "channel-nederland|npo-3",
+      "key": "nederland|npo-3",
+      "title": "NPO 3",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-npo-3",
+          "title": "NPO 3",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.nederland.tv/npo3",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "entertainment",
+        "kids",
+        "live",
+        "nl",
+        "official",
+        "public",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-npo-3"
+    },
+    {
+      "id": "channel-nederland|npo-nieuws",
+      "key": "nederland|npo-nieuws",
+      "title": "NPO Nieuws",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-npo-nieuws",
+          "title": "NPO Nieuws",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.npostart.nl/live/npo-nieuws",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "live",
+        "news",
+        "nl",
+        "official",
+        "public",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-npo-nieuws"
+    },
+    {
+      "id": "channel-nederland|npo-politiek-en-nieuws",
+      "key": "nederland|npo-politiek-en-nieuws",
+      "title": "NPO Politiek en Nieuws",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-npo-politiek-en-nieuws",
+          "title": "NPO Politiek en Nieuws",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.npostart.nl/live/npo-politiek-en-nieuws",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "live",
+        "news",
+        "nl",
+        "official",
+        "public",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-npo-politiek-en-nieuws"
+    },
+    {
+      "id": "channel-nederland|npo-zapp",
+      "key": "nederland|npo-zapp",
+      "title": "NPO Zapp",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-npo-zapp",
+          "title": "NPO Zapp",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.zapp.nl/kijken",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "family",
+        "kids",
+        "live",
+        "nl",
+        "official",
+        "public",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-npo-zapp"
+    },
+    {
+      "id": "channel-nederland|omroep-brabant-tv",
+      "key": "nederland|omroep-brabant-tv",
+      "title": "Omroep Brabant TV",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-omroep-brabant-tv",
+          "title": "Omroep Brabant TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.omroepbrabant.nl/tv",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "live",
+        "news",
+        "nl",
+        "official",
+        "public",
+        "regional",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-omroep-brabant-tv"
+    },
+    {
+      "id": "channel-nederland|omroep-flevoland",
+      "key": "nederland|omroep-flevoland",
+      "title": "Omroep Flevoland",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-omroep-flevoland-tv",
+          "title": "Omroep Flevoland",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.omroepflevoland.nl/tv",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "nl",
+        "live",
+        "zender",
+        "channel",
+        "official",
+        "public",
+        "country-channel",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-omroep-flevoland-tv"
+    },
+    {
+      "id": "channel-nederland|omroep-gelderland-tv",
+      "key": "nederland|omroep-gelderland-tv",
+      "title": "Omroep Gelderland TV",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-omroep-gelderland-tv",
+          "title": "Omroep Gelderland TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.gld.nl/tv",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "live",
+        "news",
+        "nl",
+        "official",
+        "public",
+        "regional",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-omroep-gelderland-tv"
+    },
+    {
+      "id": "channel-nederland|omroep-zeeland-tv",
+      "key": "nederland|omroep-zeeland-tv",
+      "title": "Omroep Zeeland TV",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-omroep-zeeland-tv",
+          "title": "Omroep Zeeland TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.omroepzeeland.nl/tv",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "live",
+        "news",
+        "nl",
+        "official",
+        "public",
+        "regional",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-omroep-zeeland-tv"
+    },
+    {
+      "id": "channel-nederland|omrop-fryslan-tv",
+      "key": "nederland|omrop-fryslan-tv",
+      "title": "Omrop Fryslân TV",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-omrop-fryslan-tv",
+          "title": "Omrop Fryslân TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.omropfryslan.nl/nl/tv",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "fy",
+        "live",
+        "news",
+        "nl",
+        "official",
+        "public",
+        "regional",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl",
+        "fy"
+      ],
+      "primary_source_id": "nederland-omrop-fryslan-tv"
+    },
+    {
+      "id": "channel-nederland|radionl-tv",
+      "key": "nederland|radionl-tv",
+      "title": "RADIONL TV",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-radionl-tv",
+          "title": "RADIONL TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.radionl.fm/radionl-tv",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "nl",
+        "live",
+        "zender",
+        "channel",
+        "official",
+        "public",
+        "country-channel",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-radionl-tv"
+    },
+    {
+      "id": "channel-nederland|rijnmond-tv",
+      "key": "nederland|rijnmond-tv",
+      "title": "Rijnmond TV",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-rijnmond-tv",
+          "title": "Rijnmond TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.rijnmond.nl/tv",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "live",
+        "news",
+        "nl",
+        "official",
+        "public",
+        "regional",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-rijnmond-tv"
+    },
+    {
+      "id": "channel-nederland|rtl-4",
+      "key": "nederland|rtl-4",
+      "title": "RTL 4",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-rtl-4",
+          "title": "RTL 4",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.nederland.tv/rtl4",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "entertainment",
+        "live",
+        "nl",
+        "official",
+        "public",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-rtl-4"
+    },
+    {
+      "id": "channel-nederland|rtl-5",
+      "key": "nederland|rtl-5",
+      "title": "RTL 5",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-rtl-5",
+          "title": "RTL 5",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.nederland.tv/rtl5",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "entertainment",
+        "live",
+        "nl",
+        "official",
+        "public",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-rtl-5"
+    },
+    {
+      "id": "channel-nederland|rtl-7",
+      "key": "nederland|rtl-7",
+      "title": "RTL 7",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-rtl-7",
+          "title": "RTL 7",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.nederland.tv/rtl7",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "business",
+        "channel",
+        "live",
+        "nl",
+        "official",
+        "public",
+        "sport",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-rtl-7"
+    },
+    {
+      "id": "channel-nederland|rtl-8",
+      "key": "nederland|rtl-8",
+      "title": "RTL 8",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-rtl-8",
+          "title": "RTL 8",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.nederland.tv/rtl8",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "entertainment",
+        "live",
+        "nl",
+        "official",
+        "public",
+        "series",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-rtl-8"
+    },
+    {
+      "id": "channel-nederland|rtl-z",
+      "key": "nederland|rtl-z",
+      "title": "RTL Z",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-rtl-z",
+          "title": "RTL Z",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.nederland.tv/rtlz",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "business",
+        "channel",
+        "live",
+        "news",
+        "nl",
+        "official",
+        "public",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-rtl-z"
+    },
+    {
+      "id": "channel-nederland|rtv-drenthe-tv",
+      "key": "nederland|rtv-drenthe-tv",
+      "title": "RTV Drenthe TV",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-rtv-drenthe-tv",
+          "title": "RTV Drenthe TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.rtvdrenthe.nl/tv",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "live",
+        "news",
+        "nl",
+        "official",
+        "public",
+        "regional",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-rtv-drenthe-tv"
+    },
+    {
+      "id": "channel-nederland|rtv-noord-tv",
+      "key": "nederland|rtv-noord-tv",
+      "title": "RTV Noord TV",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-rtv-noord-tv",
+          "title": "RTV Noord TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.rtvnoord.nl/tv",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "live",
+        "news",
+        "nl",
+        "official",
+        "public",
+        "regional",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-rtv-noord-tv"
+    },
+    {
+      "id": "channel-nederland|rtv-oost-tv",
+      "key": "nederland|rtv-oost-tv",
+      "title": "RTV Oost TV",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-rtv-oost-tv",
+          "title": "RTV Oost TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.rtvoost.nl/tv",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "live",
+        "news",
+        "nl",
+        "official",
+        "public",
+        "regional",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-rtv-oost-tv"
+    },
+    {
+      "id": "channel-nederland|rtv-utrecht-tv",
+      "key": "nederland|rtv-utrecht-tv",
+      "title": "RTV Utrecht TV",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-rtv-utrecht-tv",
+          "title": "RTV Utrecht TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.rtvutrecht.nl/tv",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "live",
+        "news",
+        "nl",
+        "official",
+        "public",
+        "regional",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-rtv-utrecht-tv"
+    },
+    {
+      "id": "channel-nederland|sbs6",
+      "key": "nederland|sbs6",
+      "title": "SBS6",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-sbs6",
+          "title": "SBS6",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.kijk.nl/livestreams",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "entertainment",
+        "live",
+        "nl",
+        "official",
+        "public",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-sbs6"
+    },
+    {
+      "id": "channel-nederland|veronica",
+      "key": "nederland|veronica",
+      "title": "Veronica",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-veronica",
+          "title": "Veronica",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.kijk.nl/livestreams",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "entertainment",
+        "live",
+        "nl",
+        "official",
+        "public",
+        "sport",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-veronica"
+    },
+    {
+      "id": "channel-nederland|viaplay-tv",
+      "key": "nederland|viaplay-tv",
+      "title": "Viaplay TV",
+      "country": "Nederland",
+      "routes": [
+        {
+          "source_id": "nederland-viaplay-tv",
+          "title": "Viaplay TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.kijk.nl/livestreams",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "entertainment",
+        "live",
+        "nl",
+        "official",
+        "public",
+        "sport",
+        "verified",
+        "zender",
+        "country-channel",
+        "deduped",
+        "media-route"
+      ],
+      "languages": [
+        "nl"
+      ],
+      "primary_source_id": "nederland-viaplay-tv"
+    },
+    {
+      "id": "channel-polen|polsat",
+      "key": "polen|polsat",
+      "title": "Polsat",
+      "country": "Polen",
+      "routes": [
+        {
+          "source_id": "polen-polsat",
+          "title": "Polsat",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.polsatgo.pl",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "live",
+        "official",
+        "pl",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "pl"
+      ],
+      "primary_source_id": "polen-polsat"
+    },
+    {
+      "id": "channel-polen|tvn24",
+      "key": "polen|tvn24",
+      "title": "TVN24",
+      "country": "Polen",
+      "routes": [
+        {
+          "source_id": "polen-tvn24",
+          "title": "TVN24",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://tvn24.pl",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "live",
+        "news",
+        "official",
+        "pl",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "pl"
+      ],
+      "primary_source_id": "polen-tvn24"
+    },
+    {
+      "id": "channel-polen|tvp-sport",
+      "key": "polen|tvp-sport",
+      "title": "TVP Sport",
+      "country": "Polen",
+      "routes": [
+        {
+          "source_id": "polen-tvp-sport",
+          "title": "TVP Sport",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://sport.tvp.pl",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "live",
+        "official",
+        "pl",
+        "public",
+        "sport",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "pl"
+      ],
+      "primary_source_id": "polen-tvp-sport"
+    },
+    {
+      "id": "channel-polen|tvp1",
+      "key": "polen|tvp1",
+      "title": "TVP1",
+      "country": "Polen",
+      "routes": [
+        {
+          "source_id": "polen-tvp1",
+          "title": "TVP1",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://vod.tvp.pl",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "live",
+        "official",
+        "pl",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "pl"
+      ],
+      "primary_source_id": "polen-tvp1"
+    },
+    {
+      "id": "channel-polen|tvp2",
+      "key": "polen|tvp2",
+      "title": "TVP2",
+      "country": "Polen",
+      "routes": [
+        {
+          "source_id": "polen-tvp2",
+          "title": "TVP2",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://vod.tvp.pl",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "live",
+        "official",
+        "pl",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "pl"
+      ],
+      "primary_source_id": "polen-tvp2"
+    },
+    {
+      "id": "channel-portugal|cnn-portugal",
+      "key": "portugal|cnn-portugal",
+      "title": "CNN Portugal",
+      "country": "Portugal",
+      "routes": [
+        {
+          "source_id": "portugal-cnn-portugal",
+          "title": "CNN Portugal",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://cnnportugal.iol.pt",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "live",
+        "news",
+        "official",
+        "pt",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "pt"
+      ],
+      "primary_source_id": "portugal-cnn-portugal"
+    },
+    {
+      "id": "channel-portugal|rtp-memoria",
+      "key": "portugal|rtp-memoria",
+      "title": "RTP Memória",
+      "country": "Portugal",
+      "routes": [
+        {
+          "source_id": "portugal-rtp-memoria",
+          "title": "RTP Memória",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.rtp.pt/play",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "culture",
+        "live",
+        "official",
+        "pt",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "pt"
+      ],
+      "primary_source_id": "portugal-rtp-memoria"
+    },
+    {
+      "id": "channel-portugal|rtp1",
+      "key": "portugal|rtp1",
+      "title": "RTP1",
+      "country": "Portugal",
+      "routes": [
+        {
+          "source_id": "portugal-rtp1",
+          "title": "RTP1",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.rtp.pt/play",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "live",
+        "official",
+        "pt",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "pt"
+      ],
+      "primary_source_id": "portugal-rtp1"
+    },
+    {
+      "id": "channel-portugal|rtp2",
+      "key": "portugal|rtp2",
+      "title": "RTP2",
+      "country": "Portugal",
+      "routes": [
+        {
+          "source_id": "portugal-rtp2",
+          "title": "RTP2",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.rtp.pt/play",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "culture",
+        "documentary",
+        "live",
+        "official",
+        "pt",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "pt"
+      ],
+      "primary_source_id": "portugal-rtp2"
+    },
+    {
+      "id": "channel-portugal|rtp3",
+      "key": "portugal|rtp3",
+      "title": "RTP3",
+      "country": "Portugal",
+      "routes": [
+        {
+          "source_id": "portugal-rtp3",
+          "title": "RTP3",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.rtp.pt/play",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "live",
+        "news",
+        "official",
+        "pt",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "pt"
+      ],
+      "primary_source_id": "portugal-rtp3"
+    },
+    {
+      "id": "channel-portugal|sic",
+      "key": "portugal|sic",
+      "title": "SIC",
+      "country": "Portugal",
+      "routes": [
+        {
+          "source_id": "portugal-sic",
+          "title": "SIC",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://sic.pt",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "live",
+        "official",
+        "pt",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "pt"
+      ],
+      "primary_source_id": "portugal-sic"
+    },
+    {
+      "id": "channel-portugal|tvi",
+      "key": "portugal|tvi",
+      "title": "TVI",
+      "country": "Portugal",
+      "routes": [
+        {
+          "source_id": "portugal-tvi",
+          "title": "TVI",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://tvi.iol.pt",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "live",
+        "official",
+        "pt",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "pt"
+      ],
+      "primary_source_id": "portugal-tvi"
+    },
+    {
+      "id": "channel-qatar|al-araby-tv",
+      "key": "qatar|al-araby-tv",
+      "title": "Al Araby TV",
+      "country": "Qatar",
+      "routes": [
+        {
+          "source_id": "al-araby-tv-direct",
+          "title": "Al Araby TV",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.alaraby.com/live",
+          "streamUrl": "https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "news",
+        "live",
+        "direct",
+        "arabic",
+        "international"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "al-araby-tv-direct"
+    },
+    {
+      "id": "channel-qatar|al-araby-tv-2",
+      "key": "qatar|al-araby-tv-2",
+      "title": "Al Araby TV 2",
+      "country": "Qatar",
+      "routes": [
+        {
+          "source_id": "al-araby-tv-2-direct",
+          "title": "Al Araby TV 2",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.alaraby.com/live",
+          "streamUrl": "https://live.kwikmotion.com/alaraby2live/alaraby2.smil/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "news",
+        "live",
+        "direct",
+        "arabic",
+        "international"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "al-araby-tv-2-direct"
+    },
+    {
+      "id": "channel-qatar|al-jazeera-arabic-direct",
+      "key": "qatar|al-jazeera-arabic-direct",
+      "title": "Al Jazeera Arabic Direct",
+      "country": "Qatar",
+      "routes": [
+        {
+          "source_id": "al-jazeera-arabic-direct",
+          "title": "Al Jazeera Arabic Direct",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.aljazeera.net/live",
+          "streamUrl": "https://live-hls-web-aja.getaj.net/AJA/index.m3u8"
+        }
+      ],
+      "tags": [
+        "ar",
+        "news",
+        "live",
+        "direct",
+        "playable",
+        "hls",
+        "public"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "al-jazeera-arabic-direct"
+    },
+    {
+      "id": "channel-qatar|al-jazeera-documentary",
+      "key": "qatar|al-jazeera-documentary",
+      "title": "Al Jazeera Documentary",
+      "country": "Qatar",
+      "routes": [
+        {
+          "source_id": "al-jazeera-documentary-direct",
+          "title": "Al Jazeera Documentary",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://doc.aljazeera.net/",
+          "streamUrl": "https://live-hls-apps-ajd-v3-fa.getaj.net/AJD/index.m3u8"
+        }
+      ],
+      "tags": [
+        "documentary",
+        "docu",
+        "live",
+        "direct",
+        "arabic"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "al-jazeera-documentary-direct"
+    },
+    {
+      "id": "channel-qatar|al-jazeera-mubasher-24",
+      "key": "qatar|al-jazeera-mubasher-24",
+      "title": "Al Jazeera Mubasher 24",
+      "country": "Qatar",
+      "routes": [
+        {
+          "source_id": "al-jazeera-mubasher-24-direct",
+          "title": "Al Jazeera Mubasher 24",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.aljazeera.net/live",
+          "streamUrl": "https://live-hls-web-ajm24-fa.getaj.net/AJM24/index.m3u8"
+        }
+      ],
+      "tags": [
+        "news",
+        "live",
+        "direct",
+        "arabic"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "al-jazeera-mubasher-24-direct"
+    },
+    {
+      "id": "channel-qatar|al-jazeera-mubasher-direct",
+      "key": "qatar|al-jazeera-mubasher-direct",
+      "title": "Al Jazeera Mubasher Direct",
+      "country": "Qatar",
+      "routes": [
+        {
+          "source_id": "al-jazeera-mubasher-direct",
+          "title": "Al Jazeera Mubasher Direct",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://mubasher.aljazeera.net",
+          "streamUrl": "https://live-hls-web-ajm.getaj.net/AJM/index.m3u8"
+        }
+      ],
+      "tags": [
+        "ar",
+        "news",
+        "live",
+        "direct",
+        "playable",
+        "hls",
+        "public"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "al-jazeera-mubasher-direct"
+    },
+    {
+      "id": "channel-qatar|alkass-five",
+      "key": "qatar|alkass-five",
+      "title": "Alkass Five",
+      "country": "Qatar",
+      "routes": [
+        {
+          "source_id": "alkass-five-direct",
+          "title": "Alkass Five",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.alkass.net/",
+          "streamUrl": "https://liveeu-gcp.alkassdigital.net/alkass5-p/main.m3u8"
+        }
+      ],
+      "tags": [
+        "sport",
+        "sports",
+        "live",
+        "direct"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "alkass-five-direct"
+    },
+    {
+      "id": "channel-qatar|alkass-four",
+      "key": "qatar|alkass-four",
+      "title": "Alkass Four",
+      "country": "Qatar",
+      "routes": [
+        {
+          "source_id": "alkass-four-direct",
+          "title": "Alkass Four",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.alkass.net/",
+          "streamUrl": "https://liveeu-gcp.alkassdigital.net/alkass4-p/main.m3u8"
+        }
+      ],
+      "tags": [
+        "sport",
+        "sports",
+        "live",
+        "direct"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "alkass-four-direct"
+    },
+    {
+      "id": "channel-qatar|alkass-one",
+      "key": "qatar|alkass-one",
+      "title": "Alkass One",
+      "country": "Qatar",
+      "routes": [
+        {
+          "source_id": "alkass-one-direct",
+          "title": "Alkass One",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.alkass.net/",
+          "streamUrl": "https://liveeu-gcp.alkassdigital.net/alkass1-p/main.m3u8"
+        }
+      ],
+      "tags": [
+        "sport",
+        "sports",
+        "live",
+        "direct"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "alkass-one-direct"
+    },
+    {
+      "id": "channel-qatar|alkass-shoof",
+      "key": "qatar|alkass-shoof",
+      "title": "Alkass SHOOF",
+      "country": "Qatar",
+      "routes": [
+        {
+          "source_id": "alkass-shoof-direct",
+          "title": "Alkass SHOOF",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.alkass.net/",
+          "streamUrl": "https://liveeu-gcp.alkassdigital.net/shooflive/main.m3u8"
+        }
+      ],
+      "tags": [
+        "sport",
+        "sports",
+        "live",
+        "direct"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "alkass-shoof-direct"
+    },
+    {
+      "id": "channel-qatar|alkass-three",
+      "key": "qatar|alkass-three",
+      "title": "Alkass Three",
+      "country": "Qatar",
+      "routes": [
+        {
+          "source_id": "alkass-three-direct",
+          "title": "Alkass Three",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.alkass.net/",
+          "streamUrl": "https://liveeu-gcp.alkassdigital.net/alkass3-p/main.m3u8"
+        }
+      ],
+      "tags": [
+        "sport",
+        "sports",
+        "live",
+        "direct"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "alkass-three-direct"
+    },
+    {
+      "id": "channel-qatar|alkass-two",
+      "key": "qatar|alkass-two",
+      "title": "Alkass Two",
+      "country": "Qatar",
+      "routes": [
+        {
+          "source_id": "alkass-two-direct",
+          "title": "Alkass Two",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.alkass.net/",
+          "streamUrl": "https://liveeu-gcp.alkassdigital.net/alkass2-p/main.m3u8"
+        }
+      ],
+      "tags": [
+        "sport",
+        "sports",
+        "live",
+        "direct"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "alkass-two-direct"
+    },
+    {
+      "id": "channel-qatar|qatar-television",
+      "key": "qatar|qatar-television",
+      "title": "Qatar Television",
+      "country": "Qatar",
+      "routes": [
+        {
+          "source_id": "qatar-tv-direct",
+          "title": "Qatar Television",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.qatartv.qa/",
+          "streamUrl": "https://qatartv.akamaized.net/hls/live/2026573/qtv1/master.m3u8"
+        }
+      ],
+      "tags": [
+        "public",
+        "live",
+        "direct",
+        "international"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "qatar-tv-direct"
+    },
+    {
+      "id": "channel-qatar|qatar-television-2",
+      "key": "qatar|qatar-television-2",
+      "title": "Qatar Television 2",
+      "country": "Qatar",
+      "routes": [
+        {
+          "source_id": "qatar-tv-2-direct",
+          "title": "Qatar Television 2",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.qatartv.qa/",
+          "streamUrl": "https://qatartv.akamaized.net/hls/live/2026574/qtv2/master.m3u8"
+        }
+      ],
+      "tags": [
+        "public",
+        "live",
+        "direct",
+        "international"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "qatar-tv-2-direct"
+    },
+    {
+      "id": "channel-rusland|rt",
+      "key": "rusland|rt",
+      "title": "RT",
+      "country": "Rusland",
+      "routes": [
+        {
+          "source_id": "rt-live",
+          "title": "RT Live",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.rt.com/on-air/",
+          "streamUrl": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "direct",
+        "en",
+        "free",
+        "hls",
+        "international",
+        "limited",
+        "live",
+        "news",
+        "no-account",
+        "playable",
+        "ru"
+      ],
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "primary_source_id": "rt-live"
+    },
+    {
+      "id": "channel-rusland|rt-arabic",
+      "key": "rusland|rt-arabic",
+      "title": "RT Arabic",
+      "country": "Rusland",
+      "routes": [
+        {
+          "source_id": "rt-arabic",
+          "title": "RT Arabic",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://arabic.rt.com",
+          "streamUrl": "https://rt-arb.rttv.com/live/rtarab/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "arabic",
+        "availability-limited",
+        "direct",
+        "hls",
+        "international",
+        "limited",
+        "live",
+        "news",
+        "original-catalog-recovery",
+        "playable",
+        "ru"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "rt-arabic"
+    },
+    {
+      "id": "channel-rusland|rt-documentary",
+      "key": "rusland|rt-documentary",
+      "title": "RT Documentary",
+      "country": "Rusland",
+      "routes": [
+        {
+          "source_id": "rt-documentary",
+          "title": "RT Documentary",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://rtd.rt.com",
+          "streamUrl": "https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "availability-limited",
+        "direct",
+        "documentary",
+        "hls",
+        "limited",
+        "news",
+        "original-catalog-recovery",
+        "playable",
+        "ru",
+        "russian"
+      ],
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "primary_source_id": "rt-documentary"
+    },
+    {
+      "id": "channel-rusland|rt-documentary-russian-direct",
+      "key": "rusland|rt-documentary-russian-direct",
+      "title": "RT Documentary Russian Direct",
+      "country": "Rusland",
+      "routes": [
+        {
+          "source_id": "rt-documentary-russian-direct",
+          "title": "RT Documentary Russian Direct",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://rtd.rt.com",
+          "streamUrl": "https://rt-doc.rttv.com/dvr/rtdru/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "ru",
+        "russian",
+        "documentary",
+        "live",
+        "direct",
+        "playable",
+        "hls",
+        "limited",
+        "recovered"
+      ],
+      "languages": [
+        "ru"
+      ],
+      "primary_source_id": "rt-documentary-russian-direct"
+    },
+    {
+      "id": "channel-rusland|rt-en-espanol",
+      "key": "rusland|rt-en-espanol",
+      "title": "RT en Español",
+      "country": "Rusland",
+      "routes": [
+        {
+          "source_id": "rt-espanol",
+          "title": "RT en Español",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://actualidad.rt.com",
+          "streamUrl": "https://rt-esp.rttv.com/live/rtesp/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "availability-limited",
+        "direct",
+        "hls",
+        "international",
+        "limited",
+        "live",
+        "news",
+        "original-catalog-recovery",
+        "playable",
+        "ru",
+        "spanish"
+      ],
+      "languages": [
+        "es"
+      ],
+      "primary_source_id": "rt-espanol"
+    },
+    {
+      "id": "channel-rusland|rt-france",
+      "key": "rusland|rt-france",
+      "title": "RT France",
+      "country": "Rusland",
+      "routes": [
+        {
+          "source_id": "rt-france",
+          "title": "RT France",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://francais.rt.com",
+          "streamUrl": "https://rt-fra.rttv.com/live/rtfrance/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "availability-limited",
+        "direct",
+        "french",
+        "hls",
+        "limited",
+        "news",
+        "original-catalog-recovery",
+        "playable",
+        "ru"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "primary_source_id": "rt-france"
+    },
+    {
+      "id": "channel-rusland|tv-center",
+      "key": "rusland|tv-center",
+      "title": "TV Center",
+      "country": "Rusland",
+      "routes": [
+        {
+          "source_id": "tv-center",
+          "title": "TV Center",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.tvc.ru",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "ru",
+        "russian",
+        "news",
+        "tv",
+        "live",
+        "original-catalog-recovery"
+      ],
+      "languages": [
+        "ru"
+      ],
+      "primary_source_id": "tv-center"
+    },
+    {
+      "id": "channel-russischtalig|dw",
+      "key": "russischtalig|dw",
+      "title": "DW на русском",
+      "country": "Russischtalig",
+      "routes": [
+        {
+          "source_id": "dw-russian",
+          "title": "DW на русском",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.dw.com/ru",
+          "streamUrl": "https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/master.m3u8"
+        }
+      ],
+      "tags": [
+        "direct",
+        "europe",
+        "hls",
+        "news",
+        "original-catalog-recovery",
+        "playable",
+        "ru",
+        "russian-language"
+      ],
+      "languages": [
+        "ru"
+      ],
+      "primary_source_id": "dw-russian"
+    },
+    {
+      "id": "channel-spanje|antena-3",
+      "key": "spanje|antena-3",
+      "title": "Antena 3",
+      "country": "Spanje",
+      "routes": [
+        {
+          "source_id": "spanje-antena-3",
+          "title": "Antena 3",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.atresplayer.com",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "es",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "es"
+      ],
+      "primary_source_id": "spanje-antena-3"
+    },
+    {
+      "id": "channel-spanje|canal-24-horas",
+      "key": "spanje|canal-24-horas",
+      "title": "Canal 24 Horas",
+      "country": "Spanje",
+      "routes": [
+        {
+          "source_id": "spanje-canal-24-horas",
+          "title": "Canal 24 Horas",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.rtve.es/play/videos/directo/canal-24h/",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "es",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "es"
+      ],
+      "primary_source_id": "spanje-canal-24-horas"
+    },
+    {
+      "id": "channel-spanje|canal-sur",
+      "key": "spanje|canal-sur",
+      "title": "Canal Sur",
+      "country": "Spanje",
+      "routes": [
+        {
+          "source_id": "spanje-canal-sur",
+          "title": "Canal Sur",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.canalsur.es",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "es",
+        "live",
+        "news",
+        "official",
+        "public",
+        "regional",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "es"
+      ],
+      "primary_source_id": "spanje-canal-sur"
+    },
+    {
+      "id": "channel-spanje|clan",
+      "key": "spanje|clan",
+      "title": "Clan",
+      "country": "Spanje",
+      "routes": [
+        {
+          "source_id": "spanje-clan",
+          "title": "Clan",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.rtve.es/play/clan/",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "es",
+        "family",
+        "kids",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "es"
+      ],
+      "primary_source_id": "spanje-clan"
+    },
+    {
+      "id": "channel-spanje|la-1",
+      "key": "spanje|la-1",
+      "title": "La 1",
+      "country": "Spanje",
+      "routes": [
+        {
+          "source_id": "spanje-la-1",
+          "title": "La 1",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.rtve.es/play",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "es",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "es"
+      ],
+      "primary_source_id": "spanje-la-1"
+    },
+    {
+      "id": "channel-spanje|la-2",
+      "key": "spanje|la-2",
+      "title": "La 2",
+      "country": "Spanje",
+      "routes": [
+        {
+          "source_id": "spanje-la-2",
+          "title": "La 2",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.rtve.es/play",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "culture",
+        "documentary",
+        "es",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "es"
+      ],
+      "primary_source_id": "spanje-la-2"
+    },
+    {
+      "id": "channel-spanje|la-sexta",
+      "key": "spanje|la-sexta",
+      "title": "La Sexta",
+      "country": "Spanje",
+      "routes": [
+        {
+          "source_id": "spanje-la-sexta",
+          "title": "La Sexta",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.atresplayer.com",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "es",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "es"
+      ],
+      "primary_source_id": "spanje-la-sexta"
+    },
+    {
+      "id": "channel-spanje|teledeporte",
+      "key": "spanje|teledeporte",
+      "title": "Teledeporte",
+      "country": "Spanje",
+      "routes": [
+        {
+          "source_id": "spanje-teledeporte",
+          "title": "Teledeporte",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.rtve.es/play/teledeporte/",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "es",
+        "live",
+        "official",
+        "public",
+        "sport",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "es"
+      ],
+      "primary_source_id": "spanje-teledeporte"
+    },
+    {
+      "id": "channel-turkije|atv",
+      "key": "turkije|atv",
+      "title": "ATV",
+      "country": "Turkije",
+      "routes": [
+        {
+          "source_id": "turkije-atv",
+          "title": "ATV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.atv.com.tr",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "live",
+        "official",
+        "public",
+        "tr",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "tr"
+      ],
+      "primary_source_id": "turkije-atv"
+    },
+    {
+      "id": "channel-turkije|kanal-d",
+      "key": "turkije|kanal-d",
+      "title": "Kanal D",
+      "country": "Turkije",
+      "routes": [
+        {
+          "source_id": "turkije-kanal-d",
+          "title": "Kanal D",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.kanald.com.tr",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "live",
+        "official",
+        "public",
+        "series",
+        "tr",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "tr"
+      ],
+      "primary_source_id": "turkije-kanal-d"
+    },
+    {
+      "id": "channel-turkije|star-tv",
+      "key": "turkije|star-tv",
+      "title": "Star TV",
+      "country": "Turkije",
+      "routes": [
+        {
+          "source_id": "turkije-star-tv",
+          "title": "Star TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.startv.com.tr",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "live",
+        "official",
+        "public",
+        "tr",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "tr"
+      ],
+      "primary_source_id": "turkije-star-tv"
+    },
+    {
+      "id": "channel-turkije|trt-1",
+      "key": "turkije|trt-1",
+      "title": "TRT 1",
+      "country": "Turkije",
+      "routes": [
+        {
+          "source_id": "turkije-trt-1",
+          "title": "TRT 1",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.trt1.com.tr",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "entertainment",
+        "live",
+        "official",
+        "public",
+        "tr",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "tr"
+      ],
+      "primary_source_id": "turkije-trt-1"
+    },
+    {
+      "id": "channel-turkije|trt-cocuk",
+      "key": "turkije|trt-cocuk",
+      "title": "TRT Çocuk",
+      "country": "Turkije",
+      "routes": [
+        {
+          "source_id": "turkije-trt-cocuk",
+          "title": "TRT Çocuk",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.trtcocuk.net.tr",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "family",
+        "kids",
+        "live",
+        "official",
+        "public",
+        "tr",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "tr"
+      ],
+      "primary_source_id": "turkije-trt-cocuk"
+    },
+    {
+      "id": "channel-turkije|trt-world",
+      "key": "turkije|trt-world",
+      "title": "TRT World",
+      "country": "Turkije",
+      "routes": [
+        {
+          "source_id": "turkije-trt-world",
+          "title": "TRT World",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.trtworld.com",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "international",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "turkije-trt-world"
+    },
+    {
+      "id": "channel-verenigd-koninkrijk|bbc-four",
+      "key": "verenigd-koninkrijk|bbc-four",
+      "title": "BBC Four",
+      "country": "Verenigd Koninkrijk",
+      "routes": [
+        {
+          "source_id": "verenigd-koninkrijk-bbc-four",
+          "title": "BBC Four",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.bbc.co.uk/iplayer",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "culture",
+        "documentary",
+        "en",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigd-koninkrijk-bbc-four"
+    },
+    {
+      "id": "channel-verenigd-koninkrijk|bbc-news",
+      "key": "verenigd-koninkrijk|bbc-news",
+      "title": "BBC News",
+      "country": "Verenigd Koninkrijk",
+      "routes": [
+        {
+          "source_id": "verenigd-koninkrijk-bbc-news",
+          "title": "BBC News",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.bbc.com/news",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigd-koninkrijk-bbc-news"
+    },
+    {
+      "id": "channel-verenigd-koninkrijk|bbc-one",
+      "key": "verenigd-koninkrijk|bbc-one",
+      "title": "BBC One",
+      "country": "Verenigd Koninkrijk",
+      "routes": [
+        {
+          "source_id": "verenigd-koninkrijk-bbc-one",
+          "title": "BBC One",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.bbc.co.uk/iplayer",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "entertainment",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigd-koninkrijk-bbc-one"
+    },
+    {
+      "id": "channel-verenigd-koninkrijk|bbc-three",
+      "key": "verenigd-koninkrijk|bbc-three",
+      "title": "BBC Three",
+      "country": "Verenigd Koninkrijk",
+      "routes": [
+        {
+          "source_id": "verenigd-koninkrijk-bbc-three",
+          "title": "BBC Three",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.bbc.co.uk/iplayer",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "entertainment",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigd-koninkrijk-bbc-three"
+    },
+    {
+      "id": "channel-verenigd-koninkrijk|bbc-two",
+      "key": "verenigd-koninkrijk|bbc-two",
+      "title": "BBC Two",
+      "country": "Verenigd Koninkrijk",
+      "routes": [
+        {
+          "source_id": "verenigd-koninkrijk-bbc-two",
+          "title": "BBC Two",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.bbc.co.uk/iplayer",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "culture",
+        "documentary",
+        "en",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigd-koninkrijk-bbc-two"
+    },
+    {
+      "id": "channel-verenigd-koninkrijk|cbbc",
+      "key": "verenigd-koninkrijk|cbbc",
+      "title": "CBBC",
+      "country": "Verenigd Koninkrijk",
+      "routes": [
+        {
+          "source_id": "verenigd-koninkrijk-cbbc",
+          "title": "CBBC",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.bbc.co.uk/cbbc",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "family",
+        "kids",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigd-koninkrijk-cbbc"
+    },
+    {
+      "id": "channel-verenigd-koninkrijk|cbeebies",
+      "key": "verenigd-koninkrijk|cbeebies",
+      "title": "CBeebies",
+      "country": "Verenigd Koninkrijk",
+      "routes": [
+        {
+          "source_id": "verenigd-koninkrijk-cbeebies",
+          "title": "CBeebies",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.bbc.co.uk/cbeebies",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "family",
+        "kids",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigd-koninkrijk-cbeebies"
+    },
+    {
+      "id": "channel-verenigd-koninkrijk|channel-4",
+      "key": "verenigd-koninkrijk|channel-4",
+      "title": "Channel 4",
+      "country": "Verenigd Koninkrijk",
+      "routes": [
+        {
+          "source_id": "verenigd-koninkrijk-channel-4",
+          "title": "Channel 4",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.channel4.com",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "entertainment",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigd-koninkrijk-channel-4"
+    },
+    {
+      "id": "channel-verenigd-koninkrijk|e4",
+      "key": "verenigd-koninkrijk|e4",
+      "title": "E4",
+      "country": "Verenigd Koninkrijk",
+      "routes": [
+        {
+          "source_id": "verenigd-koninkrijk-e4",
+          "title": "E4",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.channel4.com",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "entertainment",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigd-koninkrijk-e4"
+    },
+    {
+      "id": "channel-verenigd-koninkrijk|film4",
+      "key": "verenigd-koninkrijk|film4",
+      "title": "Film4",
+      "country": "Verenigd Koninkrijk",
+      "routes": [
+        {
+          "source_id": "verenigd-koninkrijk-film4",
+          "title": "Film4",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.channel4.com",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "film",
+        "live",
+        "movies",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigd-koninkrijk-film4"
+    },
+    {
+      "id": "channel-verenigd-koninkrijk|itv1",
+      "key": "verenigd-koninkrijk|itv1",
+      "title": "ITV1",
+      "country": "Verenigd Koninkrijk",
+      "routes": [
+        {
+          "source_id": "verenigd-koninkrijk-itv1",
+          "title": "ITV1",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.itv.com/watch",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "entertainment",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigd-koninkrijk-itv1"
+    },
+    {
+      "id": "channel-verenigd-koninkrijk|itv2",
+      "key": "verenigd-koninkrijk|itv2",
+      "title": "ITV2",
+      "country": "Verenigd Koninkrijk",
+      "routes": [
+        {
+          "source_id": "verenigd-koninkrijk-itv2",
+          "title": "ITV2",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.itv.com/watch",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "entertainment",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigd-koninkrijk-itv2"
+    },
+    {
+      "id": "channel-verenigd-koninkrijk|itv3",
+      "key": "verenigd-koninkrijk|itv3",
+      "title": "ITV3",
+      "country": "Verenigd Koninkrijk",
+      "routes": [
+        {
+          "source_id": "verenigd-koninkrijk-itv3",
+          "title": "ITV3",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.itv.com/watch",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "live",
+        "official",
+        "public",
+        "series",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigd-koninkrijk-itv3"
+    },
+    {
+      "id": "channel-verenigd-koninkrijk|itv4",
+      "key": "verenigd-koninkrijk|itv4",
+      "title": "ITV4",
+      "country": "Verenigd Koninkrijk",
+      "routes": [
+        {
+          "source_id": "verenigd-koninkrijk-itv4",
+          "title": "ITV4",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.itv.com/watch",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "entertainment",
+        "live",
+        "official",
+        "public",
+        "sport",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigd-koninkrijk-itv4"
+    },
+    {
+      "id": "channel-verenigd-koninkrijk|more4",
+      "key": "verenigd-koninkrijk|more4",
+      "title": "More4",
+      "country": "Verenigd Koninkrijk",
+      "routes": [
+        {
+          "source_id": "verenigd-koninkrijk-more4",
+          "title": "More4",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.channel4.com",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "documentary",
+        "en",
+        "lifestyle",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigd-koninkrijk-more4"
+    },
+    {
+      "id": "channel-verenigde-staten|abc-news",
+      "key": "verenigde-staten|abc-news",
+      "title": "ABC News",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "verenigde-staten-abc-news-live",
+          "title": "ABC News Live",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://abcnews.go.com/Live",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigde-staten-abc-news-live"
+    },
+    {
+      "id": "channel-verenigde-staten|access-nashua",
+      "key": "verenigde-staten|access-nashua",
+      "title": "Access Nashua",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-access-nashua-us",
+          "title": "Access Nashua",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://accessnashua.org/",
+          "streamUrl": "https://livestream.telvue.com/nashuanh1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "local",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-access-nashua-us"
+    },
+    {
+      "id": "channel-verenigde-staten|accessvision-channel-16",
+      "key": "verenigde-staten|accessvision-channel-16",
+      "title": "AccessVision Channel 16",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-accessvision-channel-16-ve",
+          "title": "AccessVision Channel 16",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://accessvision.tv/",
+          "streamUrl": "https://livestream.telvue.com/accvision1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "local",
+        "public",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-accessvision-channel-16-ve"
+    },
+    {
+      "id": "channel-verenigde-staten|accessvision-channel-17",
+      "key": "verenigde-staten|accessvision-channel-17",
+      "title": "AccessVision Channel 17",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-accessvision-channel-17-ve",
+          "title": "AccessVision Channel 17",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://accessvision.tv/",
+          "streamUrl": "https://livestream.telvue.com/accvision2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "local",
+        "public",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-accessvision-channel-17-ve"
+    },
+    {
+      "id": "channel-verenigde-staten|actv-athens-community-tv",
+      "key": "verenigde-staten|actv-athens-community-tv",
+      "title": "ACTV Athens Community TV",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-actv-athens-community-tv-ve",
+          "title": "ACTV Athens Community TV",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.accgov.com/actv",
+          "streamUrl": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/athens/live/ch2/video.m3u8"
+        }
+      ],
+      "tags": [
+        "local",
+        "public",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-actv-athens-community-tv-ve"
+    },
+    {
+      "id": "channel-verenigde-staten|aftv-framingham",
+      "key": "verenigde-staten|aftv-framingham",
+      "title": "AFTV Framingham",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-aftv-framingham-ve",
+          "title": "AFTV Framingham",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://accessfram.tv/",
+          "streamUrl": "https://livestream.telvue.com/accframingham1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "local",
+        "public",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-aftv-framingham-ve"
+    },
+    {
+      "id": "channel-verenigde-staten|akaku-53-hawaii",
+      "key": "verenigde-staten|akaku-53-hawaii",
+      "title": "Akakū 53 Hawaii",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-akaku-53-us",
+          "title": "Akakū 53 Hawaii",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.akaku.org/",
+          "streamUrl": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch1/video.m3u8"
+        }
+      ],
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "local",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-akaku-53-us"
+    },
+    {
+      "id": "channel-verenigde-staten|akaku-54-hawaii",
+      "key": "verenigde-staten|akaku-54-hawaii",
+      "title": "Akakū 54 Hawaii",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-akaku-54-us",
+          "title": "Akakū 54 Hawaii",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.akaku.org/",
+          "streamUrl": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch2/video.m3u8"
+        }
+      ],
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "local",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-akaku-54-us"
+    },
+    {
+      "id": "channel-verenigde-staten|akaku-55-hawaii",
+      "key": "verenigde-staten|akaku-55-hawaii",
+      "title": "Akakū 55 Hawaii",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-akaku-55-us",
+          "title": "Akakū 55 Hawaii",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.akaku.org/",
+          "streamUrl": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch3/video.m3u8"
+        }
+      ],
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "local",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-akaku-55-us"
+    },
+    {
+      "id": "channel-verenigde-staten|alhurra",
+      "key": "verenigde-staten|alhurra",
+      "title": "Alhurra",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "alhurra-direct",
+          "title": "Alhurra",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.alhurra.com/live",
+          "streamUrl": "https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038900/MBN_Alhurra_Worldsafe_HLS/master.m3u8"
+        }
+      ],
+      "tags": [
+        "news",
+        "arabic",
+        "live",
+        "direct",
+        "international"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "alhurra-direct"
+    },
+    {
+      "id": "channel-verenigde-staten|alhurra-iraq",
+      "key": "verenigde-staten|alhurra-iraq",
+      "title": "Alhurra Iraq",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-alhurra-iraq-us",
+          "title": "Alhurra Iraq",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.alhurra.com/iraq",
+          "streamUrl": "https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038899/MBN_Iraq_Worldsafe_HLS/master.m3u8"
+        }
+      ],
+      "tags": [
+        "ar",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "international",
+        "public",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "primary_source_id": "iptv-alhurra-iraq-us"
+    },
+    {
+      "id": "channel-verenigde-staten|atxn-1",
+      "key": "verenigde-staten|atxn-1",
+      "title": "ATXN 1",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-atxn-1-us",
+          "title": "ATXN 1",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.austintexas.gov/department/austin-texas-network-atxn",
+          "streamUrl": "https://cdn-atxn-01.vos360.video/Content/HLS/Live/channel(616d6f49-eaec-6f7e-7186-2bbaf66c69c0)/index.m3u8"
+        }
+      ],
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "legislative",
+        "local",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-atxn-1-us"
+    },
+    {
+      "id": "channel-verenigde-staten|atxn-2",
+      "key": "verenigde-staten|atxn-2",
+      "title": "ATXN 2",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-atxn-2-us",
+          "title": "ATXN 2",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.austintexas.gov/department/austin-texas-network-atxn",
+          "streamUrl": "https://cdn-atxn-01.vos360.video/Content/HLS/Live/channel(f97b5ddc-b7e4-dff8-9f10-8c16d0833639)/index.m3u8"
+        }
+      ],
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "legislative",
+        "local",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-atxn-2-us"
+    },
+    {
+      "id": "channel-verenigde-staten|atxn-3",
+      "key": "verenigde-staten|atxn-3",
+      "title": "ATXN 3",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-atxn-3-us",
+          "title": "ATXN 3",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.austintexas.gov/department/austin-texas-network-atxn",
+          "streamUrl": "https://cdn-atxn-01.vos360.video/Content/HLS/Live/channel(c55d1594-ad62-7434-aa17-4d71adb80f99)/index.m3u8"
+        }
+      ],
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "legislative",
+        "local",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-atxn-3-us"
+    },
+    {
+      "id": "channel-verenigde-staten|batv-channel-5",
+      "key": "verenigde-staten|batv-channel-5",
+      "title": "BATV Channel 5",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-batv-channel-5-ve",
+          "title": "BATV Channel 5",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://batv.org/",
+          "streamUrl": "https://reflect-batv.cablecast.tv/live-5/live/live.m3u8"
+        }
+      ],
+      "tags": [
+        "local",
+        "public",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-batv-channel-5-ve"
+    },
+    {
+      "id": "channel-verenigde-staten|batv-government-tv",
+      "key": "verenigde-staten|batv-government-tv",
+      "title": "BATV Government TV",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-batv-government-tv-ve",
+          "title": "BATV Government TV",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://batv.org/",
+          "streamUrl": "https://reflect-batv.cablecast.tv/live-3/live/live.m3u8"
+        }
+      ],
+      "tags": [
+        "local",
+        "public",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-batv-government-tv-ve"
+    },
+    {
+      "id": "channel-verenigde-staten|berks-community-tv",
+      "key": "verenigde-staten|berks-community-tv",
+      "title": "Berks Community TV",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-berks-community-tv-ve",
+          "title": "Berks Community TV",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://bctv.org/",
+          "streamUrl": "https://livestream.telvue.com/berkscmttv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "local",
+        "public",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-berks-community-tv-ve"
+    },
+    {
+      "id": "channel-verenigde-staten|big-civic-channel",
+      "key": "verenigde-staten|big-civic-channel",
+      "title": "BIG Civic Channel",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-big-civic-channel-us",
+          "title": "BIG Civic Channel",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://brooklineinteractive.org/",
+          "streamUrl": "https://reflect-brookline-interactive-group.cablecast.tv/live-5/live/stream-2/live.m3u8"
+        }
+      ],
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "legislative",
+        "local",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-big-civic-channel-us"
+    },
+    {
+      "id": "channel-verenigde-staten|big-community-channel",
+      "key": "verenigde-staten|big-community-channel",
+      "title": "BIG Community Channel",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-big-community-channel-us",
+          "title": "BIG Community Channel",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://brooklineinteractive.org/",
+          "streamUrl": "https://reflect-brookline-interactive-group.cablecast.tv/live-4/live/stream-1/live.m3u8"
+        }
+      ],
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "local",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-big-community-channel-us"
+    },
+    {
+      "id": "channel-verenigde-staten|billiard-tv",
+      "key": "verenigde-staten|billiard-tv",
+      "title": "Billiard TV",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "billiard-tv-direct",
+          "title": "Billiard TV",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.billiardtv.com/",
+          "streamUrl": "https://1621590671.rsc.cdn77.org/HLS/BILLIARDTV.m3u8"
+        }
+      ],
+      "tags": [
+        "sport",
+        "sports",
+        "live",
+        "direct"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "billiard-tv-direct"
+    },
+    {
+      "id": "channel-verenigde-staten|bmc-tv",
+      "key": "verenigde-staten|bmc-tv",
+      "title": "BMC- TV",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-bmc-hd-tv-ve",
+          "title": "BMC-HD TV",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.belmontmedia.org/",
+          "streamUrl": "https://livestream.telvue.com/belmontmedia4/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "local",
+        "public",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-bmc-hd-tv-ve"
+    },
+    {
+      "id": "channel-verenigde-staten|bx-arts",
+      "key": "verenigde-staten|bx-arts",
+      "title": "BX Arts",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-bx-arts-ve",
+          "title": "BX Arts",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.bronxnet.org/",
+          "streamUrl": "https://reflect-stream-bronxnet.cablecast.tv/live-19/live/stream-2/live.m3u8"
+        }
+      ],
+      "tags": [
+        "local",
+        "public",
+        "culture",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-bx-arts-ve"
+    },
+    {
+      "id": "channel-verenigde-staten|bx-culture",
+      "key": "verenigde-staten|bx-culture",
+      "title": "BX Culture",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-bx-culture-ve",
+          "title": "BX Culture",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.bronxnet.org/",
+          "streamUrl": "https://reflect-stream-bronxnet.cablecast.tv/live-7/live/stream-3/live.m3u8"
+        }
+      ],
+      "tags": [
+        "local",
+        "public",
+        "culture",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-bx-culture-ve"
+    },
+    {
+      "id": "channel-verenigde-staten|bx-inform",
+      "key": "verenigde-staten|bx-inform",
+      "title": "BX Inform",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-bx-inform-ve",
+          "title": "BX Inform",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.bronxnet.org/",
+          "streamUrl": "https://reflect-stream-bronxnet.cablecast.tv/live-8/live/stream-4/live.m3u8"
+        }
+      ],
+      "tags": [
+        "local",
+        "public",
+        "news",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-bx-inform-ve"
+    },
+    {
+      "id": "channel-verenigde-staten|bx-inspire",
+      "key": "verenigde-staten|bx-inspire",
+      "title": "BX Inspire",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-bx-inspire-ve",
+          "title": "BX Inspire",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.bronxnet.org/",
+          "streamUrl": "https://reflect-stream-bronxnet.cablecast.tv/live-18/live/stream-7/live.m3u8"
+        }
+      ],
+      "tags": [
+        "local",
+        "public",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-bx-inspire-ve"
+    },
+    {
+      "id": "channel-verenigde-staten|bx-omni",
+      "key": "verenigde-staten|bx-omni",
+      "title": "BX Omni",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-bx-omni-ve",
+          "title": "BX Omni",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.bronxnet.org/",
+          "streamUrl": "https://reflect-stream-bronxnet.cablecast.tv/live-16/live/stream-1/live.m3u8"
+        }
+      ],
+      "tags": [
+        "local",
+        "public",
+        "international",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-bx-omni-ve"
+    },
+    {
+      "id": "channel-verenigde-staten|c-span",
+      "key": "verenigde-staten|c-span",
+      "title": "C-SPAN",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "verenigde-staten-c-span",
+          "title": "C-SPAN Live",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.c-span.org",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigde-staten-c-span"
+    },
+    {
+      "id": "channel-verenigde-staten|can-tv-19-chicago",
+      "key": "verenigde-staten|can-tv-19-chicago",
+      "title": "CAN TV 19 Chicago",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-can-tv-19-us",
+          "title": "CAN TV 19 Chicago",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://cantv.org/",
+          "streamUrl": "https://cantv.streamguys1.com/cantv/cantv19hls/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "local",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-can-tv-19-us"
+    },
+    {
+      "id": "channel-verenigde-staten|can-tv-21-chicago",
+      "key": "verenigde-staten|can-tv-21-chicago",
+      "title": "CAN TV 21 Chicago",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-can-tv-21-us",
+          "title": "CAN TV 21 Chicago",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://cantv.org/",
+          "streamUrl": "https://cantv.streamguys1.com/cantv/cantv21hls/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "local",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-can-tv-21-us"
+    },
+    {
+      "id": "channel-verenigde-staten|can-tv-27-chicago",
+      "key": "verenigde-staten|can-tv-27-chicago",
+      "title": "CAN TV 27 Chicago",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-can-tv-27-us",
+          "title": "CAN TV 27 Chicago",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://cantv.org/",
+          "streamUrl": "https://cantv.streamguys1.com/cantv/cantv27hls/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "local",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-can-tv-27-us"
+    },
+    {
+      "id": "channel-verenigde-staten|can-tv-36-chicago",
+      "key": "verenigde-staten|can-tv-36-chicago",
+      "title": "CAN TV 36 Chicago",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-can-tv-36-us",
+          "title": "CAN TV 36 Chicago",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://cantv.org/",
+          "streamUrl": "https://cantv.streamguys1.com/cantv/cantv36hls/playlist.m3u8"
+        }
+      ],
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "local",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-can-tv-36-us"
+    },
+    {
+      "id": "channel-verenigde-staten|catholic-tv",
+      "key": "verenigde-staten|catholic-tv",
+      "title": "Catholic TV",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "catholic-tv-direct",
+          "title": "Catholic TV",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.catholictv.org/watch-live.html",
+          "streamUrl": "https://catholictvhd-lh.akamaized.net/hls/live/2043390/CTVLiveHD/master.m3u8"
+        }
+      ],
+      "tags": [
+        "religion",
+        "live",
+        "direct"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "catholic-tv-direct"
+    },
+    {
+      "id": "channel-verenigde-staten|cbn-news-channel",
+      "key": "verenigde-staten|cbn-news-channel",
+      "title": "CBN News Channel",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-cbn-news-channel-ve",
+          "title": "CBN News Channel",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www2.cbn.com/news/channel",
+          "streamUrl": "https://fastly.live.brightcove.com/6380396819112/us-east-1/734546207001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiczFpM3ZpLmVncmVzcy50N2M3emwiLCJhY2NvdW50X2lkIjoiNzM0NTQ2MjA3MDAxIiwiZWhuIjoiZmFzdGx5LmxpdmUuYnJpZ2h0Y292ZS5jb20iLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjczNDU0NjIwNzAwMSJdLCJqdGkiOiI2MzgwMzk2ODE5MTEyIn0.GDYp4IWtzwPkupEWeeOavnioVknO-Ev3UGlHvM1rE6I/playlist-hls.m3u8"
+        }
+      ],
+      "tags": [
+        "news",
+        "religious",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "public",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-cbn-news-channel-ve"
+    },
+    {
+      "id": "channel-verenigde-staten|cbs-news",
+      "key": "verenigde-staten|cbs-news",
+      "title": "CBS News",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "verenigde-staten-cbs-news",
+          "title": "CBS News",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.cbsnews.com/live",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigde-staten-cbs-news"
+    },
+    {
+      "id": "channel-verenigde-staten|ccx1-minnesota",
+      "key": "verenigde-staten|ccx1-minnesota",
+      "title": "CCX1 Minnesota",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-ccx1-minnesota-ve",
+          "title": "CCX1 Minnesota",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://ccxmedia.org/",
+          "streamUrl": "https://reflect-ccx.cablecast.tv/live-9/live/stream-1/live.m3u8"
+        }
+      ],
+      "tags": [
+        "local",
+        "public",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-ccx1-minnesota-ve"
+    },
+    {
+      "id": "channel-verenigde-staten|charge",
+      "key": "verenigde-staten|charge",
+      "title": "Charge!",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "charge-tv-direct",
+          "title": "Charge!",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://watchcharge.com/",
+          "streamUrl": "https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8"
+        }
+      ],
+      "tags": [
+        "entertainment",
+        "live",
+        "direct"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "charge-tv-direct"
+    },
+    {
+      "id": "channel-verenigde-staten|classic-arts-showcase",
+      "key": "verenigde-staten|classic-arts-showcase",
+      "title": "Classic Arts Showcase",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "iptv-classic-arts-showcase-ve",
+          "title": "Classic Arts Showcase",
+          "kind": "iptv",
+          "direct": true,
+          "iptv": true,
+          "score": 222,
+          "url": "https://www.classicartsshowcase.org/",
+          "streamUrl": "https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8"
+        }
+      ],
+      "tags": [
+        "culture",
+        "arts",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "public",
+        "controlled",
+        "gecontroleerde-iptv"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "iptv-classic-arts-showcase-ve"
+    },
+    {
+      "id": "channel-verenigde-staten|cloudflare-tv",
+      "key": "verenigde-staten|cloudflare-tv",
+      "title": "Cloudflare TV",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "cloudflare-tv-direct",
+          "title": "Cloudflare TV",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://cloudflare.tv/",
+          "streamUrl": "https://cloudflare.tv/hls/live.m3u8"
+        }
+      ],
+      "tags": [
+        "technology",
+        "education",
+        "live",
+        "direct"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "cloudflare-tv-direct"
+    },
+    {
+      "id": "channel-verenigde-staten|freevee",
+      "key": "verenigde-staten|freevee",
+      "title": "Freevee",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "freevee",
+          "title": "Freevee",
+          "kind": "official",
+          "direct": false,
+          "iptv": true,
+          "score": 70,
+          "url": "https://www.amazon.com/freevee",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "en",
+        "free",
+        "film",
+        "series",
+        "fast",
+        "official",
+        "source",
+        "verified"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "freevee"
+    },
+    {
+      "id": "channel-verenigde-staten|haystack-news",
+      "key": "verenigde-staten|haystack-news",
+      "title": "Haystack News",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "haystack-news",
+          "title": "Haystack News",
+          "kind": "official",
+          "direct": false,
+          "iptv": true,
+          "score": 82,
+          "url": "https://www.haystack.tv/",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "en",
+        "news",
+        "fast",
+        "free",
+        "us",
+        "country-expansion",
+        "official",
+        "verified"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "haystack-news"
+    },
+    {
+      "id": "channel-verenigde-staten|local-now",
+      "key": "verenigde-staten|local-now",
+      "title": "Local Now",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "local-now",
+          "title": "Local Now",
+          "kind": "official",
+          "direct": false,
+          "iptv": true,
+          "score": 82,
+          "url": "https://www.localnow.com/",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "fast",
+        "free",
+        "live",
+        "local",
+        "news",
+        "weather",
+        "us",
+        "official",
+        "source",
+        "verified"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "local-now"
+    },
+    {
+      "id": "channel-verenigde-staten|nasa-tv",
+      "key": "verenigde-staten|nasa-tv",
+      "title": "NASA TV",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "verenigde-staten-nasa-tv",
+          "title": "NASA TV",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://plus.nasa.gov",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "education",
+        "en",
+        "live",
+        "official",
+        "public",
+        "science",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigde-staten-nasa-tv"
+    },
+    {
+      "id": "channel-verenigde-staten|nasa-tv-media-direct",
+      "key": "verenigde-staten|nasa-tv-media-direct",
+      "title": "NASA TV Media Direct",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "nasa-tv-media-direct",
+          "title": "NASA TV Media Direct",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://www.nasa.gov/nasatv/",
+          "streamUrl": "https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-Media/master.m3u8"
+        }
+      ],
+      "tags": [
+        "us",
+        "science",
+        "space",
+        "live",
+        "direct",
+        "playable",
+        "hls",
+        "public"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "nasa-tv-media-direct"
+    },
+    {
+      "id": "channel-verenigde-staten|nasa",
+      "key": "verenigde-staten|nasa",
+      "title": "NASA+",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "nasa-plus",
+          "title": "NASA+",
+          "kind": "direct",
+          "direct": true,
+          "iptv": false,
+          "score": 102,
+          "url": "https://plus.nasa.gov",
+          "streamUrl": "https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-Public/master.m3u8"
+        }
+      ],
+      "tags": [
+        "direct",
+        "documentary",
+        "education",
+        "free",
+        "hls",
+        "live",
+        "no-account",
+        "playable",
+        "science"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "nasa-plus"
+    },
+    {
+      "id": "channel-verenigde-staten|nbc-news-now",
+      "key": "verenigde-staten|nbc-news-now",
+      "title": "NBC News NOW",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "verenigde-staten-nbc-news-now",
+          "title": "NBC News NOW",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.nbcnews.com/now",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "live",
+        "news",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigde-staten-nbc-news-now"
+    },
+    {
+      "id": "channel-verenigde-staten|pbs",
+      "key": "verenigde-staten|pbs",
+      "title": "PBS",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "verenigde-staten-pbs",
+          "title": "PBS",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://www.pbs.org/livestream/",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "documentary",
+        "en",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigde-staten-pbs"
+    },
+    {
+      "id": "channel-verenigde-staten|pbs-kids",
+      "key": "verenigde-staten|pbs-kids",
+      "title": "PBS Kids",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "verenigde-staten-pbs-kids",
+          "title": "PBS Kids",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://pbskids.org",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "family",
+        "kids",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigde-staten-pbs-kids"
+    },
+    {
+      "id": "channel-verenigde-staten|samsung-tv-plus",
+      "key": "verenigde-staten|samsung-tv-plus",
+      "title": "Samsung TV Plus",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "samsung-tv-plus",
+          "title": "Samsung TV Plus",
+          "kind": "official",
+          "direct": false,
+          "iptv": true,
+          "score": 82,
+          "url": "https://www.samsungtvplus.com/",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "fast",
+        "free",
+        "live",
+        "international",
+        "movies",
+        "news",
+        "sports",
+        "kids",
+        "official",
+        "source",
+        "verified"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "samsung-tv-plus"
+    },
+    {
+      "id": "channel-verenigde-staten|the-weather-channel",
+      "key": "verenigde-staten|the-weather-channel",
+      "title": "The Weather Channel",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "verenigde-staten-the-weather-channel",
+          "title": "The Weather Channel",
+          "kind": "official",
+          "direct": false,
+          "iptv": false,
+          "score": 62,
+          "url": "https://weather.com",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "channel",
+        "country-channel",
+        "en",
+        "live",
+        "official",
+        "public",
+        "verified",
+        "weather",
+        "zender"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "verenigde-staten-the-weather-channel"
+    },
+    {
+      "id": "channel-verenigde-staten|vizio-watchfree",
+      "key": "verenigde-staten|vizio-watchfree",
+      "title": "Vizio WatchFree+",
+      "country": "Verenigde Staten",
+      "routes": [
+        {
+          "source_id": "vizio-watchfree-plus",
+          "title": "Vizio WatchFree+",
+          "kind": "official",
+          "direct": false,
+          "iptv": true,
+          "score": 82,
+          "url": "https://www.vizio.com/en/watchfreeplus",
+          "streamUrl": ""
+        }
+      ],
+      "tags": [
+        "fast",
+        "free",
+        "live",
+        "us",
+        "official",
+        "source",
+        "verified"
+      ],
+      "languages": [
+        "en"
+      ],
+      "primary_source_id": "vizio-watchfree-plus"
+    }
+  ]
+};

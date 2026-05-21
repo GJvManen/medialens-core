@@ -1,0 +1,3326 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-05-21T00:00:00.000Z",
+  "policy": "approved_public_iptv_only",
+  "description": "Single source of truth for checked IPTV/FAST sources. Run npm run sync:iptv to publish/enrich catalogs without manual edits.",
+  "source_count": 49,
+  "sources": [
+    {
+      "id": "iptv-bfm-business-fr",
+      "title": "BFM Business",
+      "url": "https://www.bfmtv.com/economie/",
+      "description": "Gecontroleerde publieke IPTV-route voor BFM Business. Beschikbaarheid kan per land of netwerk verschillen.",
+      "country": "Frankrijk",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "news",
+        "business",
+        "fr",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "public",
+        "controlled"
+      ],
+      "language": [
+        "fr"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Europa",
+      "availability": "regional",
+      "officialUrl": "https://www.bfmtv.com/economie/",
+      "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_BUSINESS/index.m3u8?end=END&start=LIVE",
+      "canonical_id": "iptv-bfm-business-fr",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u"
+      },
+      "origin_country": "Frankrijk",
+      "primary_markets": [
+        "Frankrijk"
+      ],
+      "availability_model": {
+        "origin_country": "Frankrijk",
+        "primary_markets": [
+          "Frankrijk"
+        ],
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "availability_scope": "regional",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen."
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org/manual-public",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde livebron",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-classic-arts-showcase-ve",
+      "title": "Classic Arts Showcase",
+      "url": "https://www.classicartsshowcase.org/",
+      "description": "Gecontroleerde publieke IPTV-route voor Classic Arts Showcase. Beschikbaarheid kan per land of netwerk verschillen.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "culture",
+        "arts",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "public",
+        "controlled"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://www.classicartsshowcase.org/",
+      "streamUrl": "https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8",
+      "canonical_id": "iptv-classic-arts-showcase-ve",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "availability_scope": "regional",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen."
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org/manual-public",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde livebron",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-cbn-news-channel-ve",
+      "title": "CBN News Channel",
+      "url": "https://www2.cbn.com/news/channel",
+      "description": "Gecontroleerde publieke IPTV-route voor CBN News Channel. Beschikbaarheid kan per land of netwerk verschillen.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "news",
+        "religious",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "public",
+        "controlled"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://www2.cbn.com/news/channel",
+      "streamUrl": "https://fastly.live.brightcove.com/6380396819112/us-east-1/734546207001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiczFpM3ZpLmVncmVzcy50N2M3emwiLCJhY2NvdW50X2lkIjoiNzM0NTQ2MjA3MDAxIiwiZWhuIjoiZmFzdGx5LmxpdmUuYnJpZ2h0Y292ZS5jb20iLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjczNDU0NjIwNzAwMSJdLCJqdGkiOiI2MzgwMzk2ODE5MTEyIn0.GDYp4IWtzwPkupEWeeOavnioVknO-Ev3UGlHvM1rE6I/playlist-hls.m3u8",
+      "canonical_id": "iptv-cbn-news-channel-ve",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "availability_scope": "regional",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen."
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org/manual-public",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde livebron",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-bfm-2-fr",
+      "title": "BFM 2",
+      "url": "https://www.bfmtv.com/bfm2/",
+      "description": "Officiële Franse live-nieuwsroute via gecontroleerde publieke IPTV-bron.",
+      "country": "Frankrijk",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "public",
+        "regional"
+      ],
+      "language": [
+        "fr"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Europa",
+      "availability": "regional",
+      "officialUrl": "https://www.bfmtv.com/bfm2/",
+      "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM2/index.m3u8?end=END&start=LIVE",
+      "canonical_id": "iptv-bfm-2-fr",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u"
+      },
+      "origin_country": "Frankrijk",
+      "primary_markets": [
+        "Frankrijk"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Frankrijk",
+        "primary_markets": [
+          "Frankrijk"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-bfm-alsace-fr",
+      "title": "BFM Alsace",
+      "url": "https://www.bfmtv.com/alsace/",
+      "description": "Regionale BFM-nieuwszender voor Alsace via gecontroleerde IPTV-route.",
+      "country": "Frankrijk",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "regional"
+      ],
+      "language": [
+        "fr"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Europa",
+      "availability": "regional",
+      "officialUrl": "https://www.bfmtv.com/alsace/",
+      "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_ALSACE/index.m3u8?end=END&start=LIVE",
+      "canonical_id": "iptv-bfm-alsace-fr",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u"
+      },
+      "origin_country": "Frankrijk",
+      "primary_markets": [
+        "Frankrijk"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Frankrijk",
+        "primary_markets": [
+          "Frankrijk"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-bfm-dici-alpes-du-sud-fr",
+      "title": "BFM DICI Alpes du Sud",
+      "url": "https://www.bfmtv.com/bfm-dici/",
+      "description": "Regionale BFM-nieuwszender voor Alpes du Sud via gecontroleerde IPTV-route.",
+      "country": "Frankrijk",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "regional"
+      ],
+      "language": [
+        "fr"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Europa",
+      "availability": "regional",
+      "officialUrl": "https://www.bfmtv.com/bfm-dici/",
+      "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_DICI_ALPESDUSUD/index.m3u8?end=END&start=LIVE",
+      "canonical_id": "iptv-bfm-dici-alpes-du-sud-fr",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u"
+      },
+      "origin_country": "Frankrijk",
+      "primary_markets": [
+        "Frankrijk"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Frankrijk",
+        "primary_markets": [
+          "Frankrijk"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-bfm-dici-haute-provence-fr",
+      "title": "BFM DICI Haute-Provence",
+      "url": "https://www.bfmtv.com/bfm-dici/",
+      "description": "Regionale BFM-nieuwszender voor Haute-Provence via gecontroleerde IPTV-route.",
+      "country": "Frankrijk",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "regional"
+      ],
+      "language": [
+        "fr"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Europa",
+      "availability": "regional",
+      "officialUrl": "https://www.bfmtv.com/bfm-dici/",
+      "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_DICI_HAUTEPROVENCE/index.m3u8?end=END&start=LIVE",
+      "canonical_id": "iptv-bfm-dici-haute-provence-fr",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u"
+      },
+      "origin_country": "Frankrijk",
+      "primary_markets": [
+        "Frankrijk"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Frankrijk",
+        "primary_markets": [
+          "Frankrijk"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-bfm-grand-lille-fr",
+      "title": "BFM Grand Lille",
+      "url": "https://www.bfmtv.com/grand-lille/",
+      "description": "Regionale BFM-nieuwszender voor Grand Lille via gecontroleerde IPTV-route.",
+      "country": "Frankrijk",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "regional"
+      ],
+      "language": [
+        "fr"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Europa",
+      "availability": "regional",
+      "officialUrl": "https://www.bfmtv.com/grand-lille/",
+      "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFMGRANDLILLE/index.m3u8?end=END&start=LIVE",
+      "canonical_id": "iptv-bfm-grand-lille-fr",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u"
+      },
+      "origin_country": "Frankrijk",
+      "primary_markets": [
+        "Frankrijk"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Frankrijk",
+        "primary_markets": [
+          "Frankrijk"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-bfm-grand-littoral-fr",
+      "title": "BFM Grand Littoral",
+      "url": "https://www.bfmtv.com/grand-littoral/",
+      "description": "Regionale BFM-nieuwszender voor Grand Littoral via gecontroleerde IPTV-route.",
+      "country": "Frankrijk",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "regional"
+      ],
+      "language": [
+        "fr"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Europa",
+      "availability": "regional",
+      "officialUrl": "https://www.bfmtv.com/grand-littoral/",
+      "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFMGRANDLITTORAL/index.m3u8?end=END&start=LIVE",
+      "canonical_id": "iptv-bfm-grand-littoral-fr",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u"
+      },
+      "origin_country": "Frankrijk",
+      "primary_markets": [
+        "Frankrijk"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Frankrijk",
+        "primary_markets": [
+          "Frankrijk"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-bfm-grands-reportages-fr",
+      "title": "BFM Grands Reportages",
+      "url": "https://www.bfmtv.com/replay-emissions/grands-reportages/",
+      "description": "BFM-reportagekanaal via gecontroleerde IPTV-route.",
+      "country": "Frankrijk",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "documentary",
+        "live",
+        "iptv"
+      ],
+      "language": [
+        "fr"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Europa",
+      "availability": "regional",
+      "officialUrl": "https://www.bfmtv.com/replay-emissions/grands-reportages/",
+      "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_GRANDSREPORTAGES/index.m3u8?end=END&start=LIVE",
+      "canonical_id": "iptv-bfm-grands-reportages-fr",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u"
+      },
+      "origin_country": "Frankrijk",
+      "primary_markets": [
+        "Frankrijk"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Frankrijk",
+        "primary_markets": [
+          "Frankrijk"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-bfm-lyon-fr",
+      "title": "BFM Lyon",
+      "url": "https://www.bfmtv.com/lyon/",
+      "description": "Regionale BFM-nieuwszender voor Lyon via gecontroleerde IPTV-route.",
+      "country": "Frankrijk",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "regional"
+      ],
+      "language": [
+        "fr"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Europa",
+      "availability": "regional",
+      "officialUrl": "https://www.bfmtv.com/lyon/",
+      "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_LYON/index.m3u8?end=END&start=LIVE",
+      "canonical_id": "iptv-bfm-lyon-fr",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u"
+      },
+      "origin_country": "Frankrijk",
+      "primary_markets": [
+        "Frankrijk"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Frankrijk",
+        "primary_markets": [
+          "Frankrijk"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-bfm-marseille-fr",
+      "title": "BFM Marseille Provence",
+      "url": "https://www.bfmtv.com/marseille/",
+      "description": "Regionale BFM-nieuwszender voor Marseille Provence via gecontroleerde IPTV-route.",
+      "country": "Frankrijk",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "regional"
+      ],
+      "language": [
+        "fr"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Europa",
+      "availability": "regional",
+      "officialUrl": "https://www.bfmtv.com/marseille/",
+      "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_MARSEILLEPROV/index.m3u8?end=END&start=LIVE",
+      "canonical_id": "iptv-bfm-marseille-fr",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u"
+      },
+      "origin_country": "Frankrijk",
+      "primary_markets": [
+        "Frankrijk"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Frankrijk",
+        "primary_markets": [
+          "Frankrijk"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-bfm-nice-cote-dazur-fr",
+      "title": "BFM Nice Côte d’Azur",
+      "url": "https://www.bfmtv.com/cote-d-azur/",
+      "description": "Regionale BFM-nieuwszender voor Nice Côte d’Azur via gecontroleerde IPTV-route.",
+      "country": "Frankrijk",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "regional"
+      ],
+      "language": [
+        "fr"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Europa",
+      "availability": "regional",
+      "officialUrl": "https://www.bfmtv.com/cote-d-azur/",
+      "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_NICECOTEDAZUR/index.m3u8?end=END&start=LIVE",
+      "canonical_id": "iptv-bfm-nice-cote-dazur-fr",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u"
+      },
+      "origin_country": "Frankrijk",
+      "primary_markets": [
+        "Frankrijk"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Frankrijk",
+        "primary_markets": [
+          "Frankrijk"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-bfm-normandie-fr",
+      "title": "BFM Normandie",
+      "url": "https://www.bfmtv.com/normandie/",
+      "description": "Regionale BFM-nieuwszender voor Normandie via gecontroleerde IPTV-route.",
+      "country": "Frankrijk",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "regional"
+      ],
+      "language": [
+        "fr"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Europa",
+      "availability": "regional",
+      "officialUrl": "https://www.bfmtv.com/normandie/",
+      "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_NORMANDIE/index.m3u8?end=END&start=LIVE",
+      "canonical_id": "iptv-bfm-normandie-fr",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u"
+      },
+      "origin_country": "Frankrijk",
+      "primary_markets": [
+        "Frankrijk"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Frankrijk",
+        "primary_markets": [
+          "Frankrijk"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-bfm-tech-co-fr",
+      "title": "BFM Tech & Co",
+      "url": "https://www.bfmtv.com/tech/",
+      "description": "Frans technologienieuws via gecontroleerde IPTV-route.",
+      "country": "Frankrijk",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "technology",
+        "live",
+        "iptv"
+      ],
+      "language": [
+        "fr"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Europa",
+      "availability": "regional",
+      "officialUrl": "https://www.bfmtv.com/tech/",
+      "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TECHANDCO/index.m3u8?end=END&start=LIVE",
+      "canonical_id": "iptv-bfm-tech-co-fr",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u"
+      },
+      "origin_country": "Frankrijk",
+      "primary_markets": [
+        "Frankrijk"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Frankrijk",
+        "primary_markets": [
+          "Frankrijk"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-bfm-toulon-var-fr",
+      "title": "BFM Toulon Var",
+      "url": "https://www.bfmtv.com/var/",
+      "description": "Regionale BFM-nieuwszender voor Toulon Var via gecontroleerde IPTV-route.",
+      "country": "Frankrijk",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "fr",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "regional"
+      ],
+      "language": [
+        "fr"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Europa",
+      "availability": "regional",
+      "officialUrl": "https://www.bfmtv.com/var/",
+      "streamUrl": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TOULONVAR/index.m3u8?end=END&start=LIVE",
+      "canonical_id": "iptv-bfm-toulon-var-fr",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u"
+      },
+      "origin_country": "Frankrijk",
+      "primary_markets": [
+        "Frankrijk"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Frankrijk",
+        "primary_markets": [
+          "Frankrijk"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/fr_bfm.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-alhurra-iraq-us",
+      "title": "Alhurra Iraq",
+      "url": "https://www.alhurra.com/iraq",
+      "description": "Publiek beschikbare Arabischtalige nieuwszender via gecontroleerde IPTV-route.",
+      "country": "Verenigde Staten / Irak",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "ar",
+        "free",
+        "no-account",
+        "news",
+        "live",
+        "iptv",
+        "international"
+      ],
+      "language": [
+        "ar"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Internationaal",
+      "availability": "international",
+      "officialUrl": "https://www.alhurra.com/iraq",
+      "streamUrl": "https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038899/MBN_Iraq_Worldsafe_HLS/master.m3u8",
+      "canonical_id": "iptv-alhurra-iraq-us",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "availability_scope": "international",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "international"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-access-nashua-us",
+      "title": "Access Nashua",
+      "url": "https://accessnashua.org/",
+      "description": "Lokale publieke/community-zender via gecontroleerde IPTV-route.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "local",
+        "live",
+        "iptv"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://accessnashua.org/",
+      "streamUrl": "https://livestream.telvue.com/nashuanh1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
+      "canonical_id": "iptv-access-nashua-us",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-akaku-53-us",
+      "title": "Akakū 53 Hawaii",
+      "url": "https://www.akaku.org/",
+      "description": "Hawaii community-access kanaal via gecontroleerde IPTV-route.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "local",
+        "live",
+        "iptv"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://www.akaku.org/",
+      "streamUrl": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch1/video.m3u8",
+      "canonical_id": "iptv-akaku-53-us",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-akaku-54-us",
+      "title": "Akakū 54 Hawaii",
+      "url": "https://www.akaku.org/",
+      "description": "Hawaii community-access kanaal via gecontroleerde IPTV-route.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "local",
+        "live",
+        "iptv"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://www.akaku.org/",
+      "streamUrl": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch2/video.m3u8",
+      "canonical_id": "iptv-akaku-54-us",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-akaku-55-us",
+      "title": "Akakū 55 Hawaii",
+      "url": "https://www.akaku.org/",
+      "description": "Hawaii community-access kanaal via gecontroleerde IPTV-route.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "local",
+        "live",
+        "iptv"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://www.akaku.org/",
+      "streamUrl": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch3/video.m3u8",
+      "canonical_id": "iptv-akaku-55-us",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-atxn-1-us",
+      "title": "ATXN 1",
+      "url": "https://www.austintexas.gov/department/austin-texas-network-atxn",
+      "description": "Austin Texas Network bestuurs- en publieke informatiezender via gecontroleerde IPTV-route.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "legislative",
+        "local",
+        "live",
+        "iptv"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://www.austintexas.gov/department/austin-texas-network-atxn",
+      "streamUrl": "https://cdn-atxn-01.vos360.video/Content/HLS/Live/channel(616d6f49-eaec-6f7e-7186-2bbaf66c69c0)/index.m3u8",
+      "canonical_id": "iptv-atxn-1-us",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-atxn-2-us",
+      "title": "ATXN 2",
+      "url": "https://www.austintexas.gov/department/austin-texas-network-atxn",
+      "description": "Austin Texas Network publieke informatiezender via gecontroleerde IPTV-route.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "legislative",
+        "local",
+        "live",
+        "iptv"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://www.austintexas.gov/department/austin-texas-network-atxn",
+      "streamUrl": "https://cdn-atxn-01.vos360.video/Content/HLS/Live/channel(f97b5ddc-b7e4-dff8-9f10-8c16d0833639)/index.m3u8",
+      "canonical_id": "iptv-atxn-2-us",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-atxn-3-us",
+      "title": "ATXN 3",
+      "url": "https://www.austintexas.gov/department/austin-texas-network-atxn",
+      "description": "Austin Texas Network publieke informatiezender via gecontroleerde IPTV-route.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "legislative",
+        "local",
+        "live",
+        "iptv"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://www.austintexas.gov/department/austin-texas-network-atxn",
+      "streamUrl": "https://cdn-atxn-01.vos360.video/Content/HLS/Live/channel(c55d1594-ad62-7434-aa17-4d71adb80f99)/index.m3u8",
+      "canonical_id": "iptv-atxn-3-us",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-big-civic-channel-us",
+      "title": "BIG Civic Channel",
+      "url": "https://brooklineinteractive.org/",
+      "description": "Brookline Interactive Group civic kanaal via gecontroleerde IPTV-route.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "legislative",
+        "local",
+        "live",
+        "iptv"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://brooklineinteractive.org/",
+      "streamUrl": "https://reflect-brookline-interactive-group.cablecast.tv/live-5/live/stream-2/live.m3u8",
+      "canonical_id": "iptv-big-civic-channel-us",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-big-community-channel-us",
+      "title": "BIG Community Channel",
+      "url": "https://brooklineinteractive.org/",
+      "description": "Brookline Interactive Group community-kanaal via gecontroleerde IPTV-route.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "local",
+        "live",
+        "iptv"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://brooklineinteractive.org/",
+      "streamUrl": "https://reflect-brookline-interactive-group.cablecast.tv/live-4/live/stream-1/live.m3u8",
+      "canonical_id": "iptv-big-community-channel-us",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-can-tv-19-us",
+      "title": "CAN TV 19 Chicago",
+      "url": "https://cantv.org/",
+      "description": "Chicago community-access kanaal via gecontroleerde IPTV-route.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "local",
+        "live",
+        "iptv"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://cantv.org/",
+      "streamUrl": "https://cantv.streamguys1.com/cantv/cantv19hls/playlist.m3u8",
+      "canonical_id": "iptv-can-tv-19-us",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-can-tv-21-us",
+      "title": "CAN TV 21 Chicago",
+      "url": "https://cantv.org/",
+      "description": "Chicago community-access kanaal via gecontroleerde IPTV-route.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "local",
+        "live",
+        "iptv"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://cantv.org/",
+      "streamUrl": "https://cantv.streamguys1.com/cantv/cantv21hls/playlist.m3u8",
+      "canonical_id": "iptv-can-tv-21-us",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-can-tv-27-us",
+      "title": "CAN TV 27 Chicago",
+      "url": "https://cantv.org/",
+      "description": "Chicago community-access kanaal via gecontroleerde IPTV-route.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "local",
+        "live",
+        "iptv"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://cantv.org/",
+      "streamUrl": "https://cantv.streamguys1.com/cantv/cantv27hls/playlist.m3u8",
+      "canonical_id": "iptv-can-tv-27-us",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-can-tv-36-us",
+      "title": "CAN TV 36 Chicago",
+      "url": "https://cantv.org/",
+      "description": "Chicago community-access kanaal via gecontroleerde IPTV-route.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "en",
+        "free",
+        "no-account",
+        "public",
+        "local",
+        "live",
+        "iptv"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://cantv.org/",
+      "streamUrl": "https://cantv.streamguys1.com/cantv/cantv36hls/playlist.m3u8",
+      "canonical_id": "iptv-can-tv-36-us",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "availability_scope": "regional",
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen.",
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "geo_restriction": "unknown_or_variable"
+      },
+      "delivery": {
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde IPTV",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-accessvision-channel-16-ve",
+      "title": "AccessVision Channel 16",
+      "url": "https://accessvision.tv/",
+      "description": "Gecontroleerde publieke IPTV-route voor AccessVision Channel 16. Beschikbaarheid kan per land of netwerk verschillen.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "local",
+        "public",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://accessvision.tv/",
+      "streamUrl": "https://livestream.telvue.com/accvision1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
+      "canonical_id": "iptv-accessvision-channel-16-ve",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "availability_scope": "regional",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen."
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org/manual-public",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde livebron",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-accessvision-channel-17-ve",
+      "title": "AccessVision Channel 17",
+      "url": "https://accessvision.tv/",
+      "description": "Gecontroleerde publieke IPTV-route voor AccessVision Channel 17. Beschikbaarheid kan per land of netwerk verschillen.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "local",
+        "public",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://accessvision.tv/",
+      "streamUrl": "https://livestream.telvue.com/accvision2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
+      "canonical_id": "iptv-accessvision-channel-17-ve",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "availability_scope": "regional",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen."
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org/manual-public",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde livebron",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-actv-athens-community-tv-ve",
+      "title": "ACTV Athens Community TV",
+      "url": "https://www.accgov.com/actv",
+      "description": "Gecontroleerde publieke IPTV-route voor ACTV Athens Community TV. Beschikbaarheid kan per land of netwerk verschillen.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "local",
+        "public",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://www.accgov.com/actv",
+      "streamUrl": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/athens/live/ch2/video.m3u8",
+      "canonical_id": "iptv-actv-athens-community-tv-ve",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "availability_scope": "regional",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen."
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org/manual-public",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde livebron",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-aftv-framingham-ve",
+      "title": "AFTV Framingham",
+      "url": "https://accessfram.tv/",
+      "description": "Gecontroleerde publieke IPTV-route voor AFTV Framingham. Beschikbaarheid kan per land of netwerk verschillen.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "local",
+        "public",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://accessfram.tv/",
+      "streamUrl": "https://livestream.telvue.com/accframingham1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
+      "canonical_id": "iptv-aftv-framingham-ve",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "availability_scope": "regional",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen."
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org/manual-public",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde livebron",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-berks-community-tv-ve",
+      "title": "Berks Community TV",
+      "url": "https://bctv.org/",
+      "description": "Gecontroleerde publieke IPTV-route voor Berks Community TV. Beschikbaarheid kan per land of netwerk verschillen.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "local",
+        "public",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://bctv.org/",
+      "streamUrl": "https://livestream.telvue.com/berkscmttv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
+      "canonical_id": "iptv-berks-community-tv-ve",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "availability_scope": "regional",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen."
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org/manual-public",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde livebron",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-bmc-hd-tv-ve",
+      "title": "BMC-HD TV",
+      "url": "https://www.belmontmedia.org/",
+      "description": "Gecontroleerde publieke IPTV-route voor BMC-HD TV. Beschikbaarheid kan per land of netwerk verschillen.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "local",
+        "public",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://www.belmontmedia.org/",
+      "streamUrl": "https://livestream.telvue.com/belmontmedia4/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
+      "canonical_id": "iptv-bmc-hd-tv-ve",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "availability_scope": "regional",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen."
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org/manual-public",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde livebron",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-batv-government-tv-ve",
+      "title": "BATV Government TV",
+      "url": "https://batv.org/",
+      "description": "Gecontroleerde publieke IPTV-route voor BATV Government TV. Beschikbaarheid kan per land of netwerk verschillen.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "local",
+        "public",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://batv.org/",
+      "streamUrl": "https://reflect-batv.cablecast.tv/live-3/live/live.m3u8",
+      "canonical_id": "iptv-batv-government-tv-ve",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "availability_scope": "regional",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen."
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org/manual-public",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde livebron",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-batv-channel-5-ve",
+      "title": "BATV Channel 5",
+      "url": "https://batv.org/",
+      "description": "Gecontroleerde publieke IPTV-route voor BATV Channel 5. Beschikbaarheid kan per land of netwerk verschillen.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "local",
+        "public",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://batv.org/",
+      "streamUrl": "https://reflect-batv.cablecast.tv/live-5/live/live.m3u8",
+      "canonical_id": "iptv-batv-channel-5-ve",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "availability_scope": "regional",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen."
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org/manual-public",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde livebron",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-bx-arts-ve",
+      "title": "BX Arts",
+      "url": "https://www.bronxnet.org/",
+      "description": "Gecontroleerde publieke IPTV-route voor BX Arts. Beschikbaarheid kan per land of netwerk verschillen.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "local",
+        "public",
+        "culture",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://www.bronxnet.org/",
+      "streamUrl": "https://reflect-stream-bronxnet.cablecast.tv/live-19/live/stream-2/live.m3u8",
+      "canonical_id": "iptv-bx-arts-ve",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "availability_scope": "regional",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen."
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org/manual-public",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde livebron",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-bx-culture-ve",
+      "title": "BX Culture",
+      "url": "https://www.bronxnet.org/",
+      "description": "Gecontroleerde publieke IPTV-route voor BX Culture. Beschikbaarheid kan per land of netwerk verschillen.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "local",
+        "public",
+        "culture",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://www.bronxnet.org/",
+      "streamUrl": "https://reflect-stream-bronxnet.cablecast.tv/live-7/live/stream-3/live.m3u8",
+      "canonical_id": "iptv-bx-culture-ve",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "availability_scope": "regional",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen."
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org/manual-public",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde livebron",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-bx-inform-ve",
+      "title": "BX Inform",
+      "url": "https://www.bronxnet.org/",
+      "description": "Gecontroleerde publieke IPTV-route voor BX Inform. Beschikbaarheid kan per land of netwerk verschillen.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "local",
+        "public",
+        "news",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://www.bronxnet.org/",
+      "streamUrl": "https://reflect-stream-bronxnet.cablecast.tv/live-8/live/stream-4/live.m3u8",
+      "canonical_id": "iptv-bx-inform-ve",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "availability_scope": "regional",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen."
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org/manual-public",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde livebron",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-bx-inspire-ve",
+      "title": "BX Inspire",
+      "url": "https://www.bronxnet.org/",
+      "description": "Gecontroleerde publieke IPTV-route voor BX Inspire. Beschikbaarheid kan per land of netwerk verschillen.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "local",
+        "public",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://www.bronxnet.org/",
+      "streamUrl": "https://reflect-stream-bronxnet.cablecast.tv/live-18/live/stream-7/live.m3u8",
+      "canonical_id": "iptv-bx-inspire-ve",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "availability_scope": "regional",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen."
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org/manual-public",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde livebron",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-bx-omni-ve",
+      "title": "BX Omni",
+      "url": "https://www.bronxnet.org/",
+      "description": "Gecontroleerde publieke IPTV-route voor BX Omni. Beschikbaarheid kan per land of netwerk verschillen.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "local",
+        "public",
+        "international",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://www.bronxnet.org/",
+      "streamUrl": "https://reflect-stream-bronxnet.cablecast.tv/live-16/live/stream-1/live.m3u8",
+      "canonical_id": "iptv-bx-omni-ve",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "availability_scope": "regional",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen."
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org/manual-public",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde livebron",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-ccx1-minnesota-ve",
+      "title": "CCX1 Minnesota",
+      "url": "https://ccxmedia.org/",
+      "description": "Gecontroleerde publieke IPTV-route voor CCX1 Minnesota. Beschikbaarheid kan per land of netwerk verschillen.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "local",
+        "public",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://ccxmedia.org/",
+      "streamUrl": "https://reflect-ccx.cablecast.tv/live-9/live/stream-1/live.m3u8",
+      "canonical_id": "iptv-ccx1-minnesota-ve",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "availability_scope": "regional",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen."
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org/manual-public",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde livebron",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-cantv-chicago-27-ve",
+      "title": "CANTV Chicago 27",
+      "url": "https://cantv.org/",
+      "description": "Gecontroleerde publieke IPTV-route voor CANTV Chicago 27. Beschikbaarheid kan per land of netwerk verschillen.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "local",
+        "public",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://cantv.org/",
+      "streamUrl": "https://cantv.streamguys1.com/cantv/cantv27hls/playlist.m3u8",
+      "canonical_id": "iptv-cantv-chicago-27-ve",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "availability_scope": "regional",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen."
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org/manual-public",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde livebron",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-catholictv-ve",
+      "title": "CatholicTV",
+      "url": "https://www.catholictv.org/",
+      "description": "Gecontroleerde publieke IPTV-route voor CatholicTV. Beschikbaarheid kan per land of netwerk verschillen.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "religious",
+        "public",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "controlled"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://www.catholictv.org/",
+      "streamUrl": "https://catholictvhd-lh.akamaized.net/hls/live/2043390/CTVLiveHD/master.m3u8",
+      "canonical_id": "iptv-catholictv-ve",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "availability_scope": "regional",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen."
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org/manual-public",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde livebron",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-cloudflare-tv-in",
+      "title": "Cloudflare TV",
+      "url": "https://cloudflare.tv/",
+      "description": "Gecontroleerde publieke IPTV-route voor Cloudflare TV. Beschikbaarheid kan per land of netwerk verschillen.",
+      "country": "Internationaal",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "technology",
+        "international",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "public",
+        "controlled"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Internationaal",
+      "availability": "regional",
+      "officialUrl": "https://cloudflare.tv/",
+      "streamUrl": "https://cloudflare.tv/hls/live.m3u8",
+      "canonical_id": "iptv-cloudflare-tv-in",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "Internationaal"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "Internationaal"
+        ],
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "availability_scope": "regional",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen."
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org/manual-public",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde livebron",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-alhurra-ve",
+      "title": "Alhurra",
+      "url": "https://www.alhurra.com/live",
+      "description": "Gecontroleerde publieke IPTV-route voor Alhurra. Beschikbaarheid kan per land of netwerk verschillen.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "news",
+        "ar",
+        "international",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "public",
+        "controlled"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://www.alhurra.com/live",
+      "streamUrl": "https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038900/MBN_Alhurra_Worldsafe_HLS/master.m3u8",
+      "canonical_id": "iptv-alhurra-ve",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "availability_scope": "regional",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen."
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org/manual-public",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde livebron",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    },
+    {
+      "id": "iptv-alhurra-iraq-ve",
+      "title": "Alhurra Iraq",
+      "url": "https://www.alhurra.com/iraq/live",
+      "description": "Gecontroleerde publieke IPTV-route voor Alhurra Iraq. Beschikbaarheid kan per land of netwerk verschillen.",
+      "country": "Verenigde Staten",
+      "type": "Gecontroleerde IPTV",
+      "tags": [
+        "news",
+        "ar",
+        "international",
+        "en",
+        "free",
+        "no-account",
+        "live",
+        "iptv",
+        "public",
+        "controlled"
+      ],
+      "language": [
+        "en"
+      ],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "iptv-controlled-candidate-approved",
+      "playbackMode": "direct-or-official-fallback",
+      "region": "Noord-Amerika",
+      "availability": "regional",
+      "officialUrl": "https://www.alhurra.com/iraq/live",
+      "streamUrl": "https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038899/MBN_Iraq_Worldsafe_HLS/master.m3u8",
+      "canonical_id": "iptv-alhurra-iraq-ve",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "public",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-05-19",
+        "probe_status": "unknown",
+        "confidence_score": 74,
+        "evidence_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u"
+      },
+      "origin_country": "Verenigde Staten",
+      "primary_markets": [
+        "Verenigde Staten"
+      ],
+      "availability_model": {
+        "origin_country": "Verenigde Staten",
+        "primary_markets": [
+          "Verenigde Staten"
+        ],
+        "known_available_countries": [],
+        "known_restricted_countries": [],
+        "availability_scope": "regional",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "do_not_hide_by_origin; test playback per user location",
+        "consumer_note": "Kan internationaal werken, maar beschikbaarheid kan per land of netwerk verschillen."
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "delivery_kind": "hls",
+        "review_status": "approved_controlled",
+        "playlist_origin": "iptv-org/manual-public",
+        "source_list_url": "https://github.com/iptv-org/iptv/blob/master/streams/us.m3u",
+        "rights_review": "public_playlist_plus_official_route",
+        "consumer_safe_label": "Gecontroleerde livebron",
+        "iptv_review_status": "approved"
+      },
+      "import_metadata": {}
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "free-tv-iptv",
+  "provider": "Free-TV/IPTV",
+  "name": "Glotovpa / Free-TV-IPTV playlist",
+  "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
+  "officialUrl": "https://github.com/Free-TV/IPTV",
+  "source_project": "Free-TV/IPTV",
+  "feed_type": "public_iptv_index",
+  "provider_type": "public_index",
+  "priority": "medium",
+  "market_hint": [
+    "international"
+  ],
+  "category_hint": [
+    "mixed"
+  ],
+  "risk_level": "medium_high",
+  "import_mode": "candidate_review_queue",
+  "auto_publish": false,
+  "consumer_visibility": "approved_only",
+  "policy": {
+    "import_mode": "candidate_review_queue",
+    "auto_publish": false,
+    "consumer_visibility": "approved_only",
+    "default_review_status": "needs_review",
+    "default_consumer_visible": false,
+    "notes": "FAST/IPTV feeds are discovery inputs. Entries are never bulk-published to consumers without dedupe, review, evidence, and safe consumer labels."
+  }
+}

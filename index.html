@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-store" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <title>MediaLens — Streaming Discovery</title>
+  <meta name="description" content="MediaLens helpt kijkers livekanalen, officiële platforms en gecontroleerde kijkroutes overzichtelijk te vinden." />
+  <link rel="icon" href="assets/medialens-logo.svg" type="image/svg+xml" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="stylesheet" href="assets/platform.css?v=1.0.0" />
+  <script src="assets/starter-catalog.js?v=1.0.0"></script>
+  <script src="assets/i18n.js?v=1.0.0"></script>
+  <script src="assets/fast-feed-registry.js?v=1.0.0"></script>
+  <script src="assets/imported-iptv-catalog.js?v=1.0.0"></script>
+  <script src="assets/watch-graph.js?v=1.0.0"></script>
+  <script defer src="assets/app.js?v=1.0.0"></script>
+</head>
+<body>
+  <div id="app" class="app-shell" aria-live="polite"></div>
+  <noscript><main class="noscript"><h1>MediaLens</h1><p>Zet JavaScript aan om bronnen te ontdekken en directe streams te proberen.</p></main></noscript>
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("assets/service-worker.js?v=1.0.0").then(reg => {
+    reg.update().catch(()=>{});
+  }).catch(()=>{});
+}
+</script>
+</body>
+</html>

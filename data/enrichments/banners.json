@@ -1,0 +1,1936 @@
+{
+  "version": "v21.1",
+  "strategy": "generated brand-safe gradients per source/type; favicons are never used as large banners",
+  "items": [
+    {
+      "id": "npo-start",
+      "title": "NPO Start",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "nos",
+      "title": "NOS",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rtl-nl",
+      "title": "RTL.nl",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "videoland",
+      "title": "Videoland",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "kijk",
+      "title": "KIJK",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "nlziet",
+      "title": "NLZIET",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "pathe-thuis",
+      "title": "Pathé Thuis",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "cinetree",
+      "title": "Cinetree",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "vrt-max",
+      "title": "VRT MAX",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "vtm-go",
+      "title": "VTM GO",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rtbf-auvio",
+      "title": "RTBF Auvio",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "ketnet",
+      "title": "Ketnet",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "streamz",
+      "title": "Streamz",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "youtube",
+      "title": "YouTube",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "youtube-kids",
+      "title": "YouTube Kids",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "netflix",
+      "title": "Netflix",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "prime-video",
+      "title": "Prime Video",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "disney-plus",
+      "title": "Disney+",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "max",
+      "title": "Max",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "apple-tv",
+      "title": "Apple TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "skyshowtime",
+      "title": "SkyShowtime",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "mubi",
+      "title": "MUBI",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "crunchyroll",
+      "title": "Crunchyroll",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "dazn",
+      "title": "DAZN",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "viaplay",
+      "title": "Viaplay",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "pluto-tv",
+      "title": "Pluto TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "plex-watch-free",
+      "title": "Plex Watch Free",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rakuten-tv",
+      "title": "Rakuten TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tubi",
+      "title": "Tubi",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "arte",
+      "title": "ARTE",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "france-tv",
+      "title": "France.tv",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tv5mondeplus",
+      "title": "TV5MONDEplus",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "ard-mediathek",
+      "title": "ARD Mediathek",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "zdf-mediathek",
+      "title": "ZDF Mediathek",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "3sat",
+      "title": "3sat",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "orf-on",
+      "title": "ORF ON",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "play-suisse",
+      "title": "Play Suisse",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "bbc-iplayer",
+      "title": "BBC iPlayer",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "channel-4",
+      "title": "Channel 4",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "itvx",
+      "title": "ITVX",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rte-player",
+      "title": "RTÉ Player",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "svt-play",
+      "title": "SVT Play",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "nrk-tv",
+      "title": "NRK TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "dr-tv",
+      "title": "DR TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "yle-areena",
+      "title": "Yle Areena",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rtve-play",
+      "title": "RTVE Play",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "raiplay",
+      "title": "RaiPlay",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "pbs",
+      "title": "PBS",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "nasa-plus",
+      "title": "NASA+",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "ted-talks",
+      "title": "TED Talks",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "red-bull-tv",
+      "title": "Red Bull TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "twitch",
+      "title": "Twitch",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "vimeo-watch",
+      "title": "Vimeo Watch",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "fifa-plus",
+      "title": "FIFA+",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "olympics",
+      "title": "Olympics",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "france-24-live",
+      "title": "France 24 Live",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "dw",
+      "title": "Deutsche Welle",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "euronews-live",
+      "title": "Euronews Live",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "al-jazeera-live",
+      "title": "Al Jazeera Live",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "omroep-brabant",
+      "title": "Omroep Brabant",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rijnmond",
+      "title": "Rijnmond",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "at5",
+      "title": "AT5",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "nh-nieuws",
+      "title": "NH Nieuws",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rtv-utrecht",
+      "title": "RTV Utrecht",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "omroep-gelderland",
+      "title": "Omroep Gelderland",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rtv-oost",
+      "title": "RTV Oost",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rtv-noord",
+      "title": "RTV Noord",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "omrop-fryslan",
+      "title": "Omrop Fryslân",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rtv-drenthe",
+      "title": "RTV Drenthe",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "omroep-zeeland",
+      "title": "Omroep Zeeland",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "l1",
+      "title": "L1",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "podium-kunst",
+      "title": "NPO Klassiek",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "schooltv",
+      "title": "Schooltv",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "vrt-nws",
+      "title": "VRT NWS",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "sporza",
+      "title": "Sporza",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "bruzz",
+      "title": "BRUZZ",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "bx1",
+      "title": "BX1",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rtl-play-belgique",
+      "title": "RTL Play",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rtl-lu",
+      "title": "RTL Luxembourg",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tagesschau",
+      "title": "tagesschau",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "kika",
+      "title": "KiKA",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "phoenix",
+      "title": "Phoenix",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "one-ard",
+      "title": "ONE",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "ard-alpha",
+      "title": "ARD alpha",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "ndr",
+      "title": "NDR",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "wdr",
+      "title": "WDR",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "br",
+      "title": "Bayerischer Rundfunk",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "swr",
+      "title": "SWR",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "mdr",
+      "title": "MDR",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "hr",
+      "title": "hr Fernsehen",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rbb",
+      "title": "rbb",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "joyn",
+      "title": "Joyn",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rtl-plus",
+      "title": "RTL+",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "srf-play",
+      "title": "SRF Play",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rts-play",
+      "title": "RTS Play",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rsi-play",
+      "title": "RSI Play",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "servustv-on",
+      "title": "ServusTV On",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "puls24",
+      "title": "PULS 24",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tf1-plus",
+      "title": "TF1+",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "m6-plus",
+      "title": "M6+",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "arte-france",
+      "title": "ARTE France",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "ina",
+      "title": "INA",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "lcp",
+      "title": "LCP",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "public-senat",
+      "title": "Public Sénat",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "bfmtv",
+      "title": "BFMTV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "lci",
+      "title": "LCI",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "franceinfo",
+      "title": "franceinfo",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "canal-plus",
+      "title": "CANAL+",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "my5",
+      "title": "My5",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "uktv-play",
+      "title": "U",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "stv-player",
+      "title": "STV Player",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "sky-news-live",
+      "title": "Sky News",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "s4c-clic",
+      "title": "S4C Clic",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "parliamentlive-tv",
+      "title": "Parliamentlive.tv",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "virgin-media-player",
+      "title": "Virgin Media Player",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tg4-player",
+      "title": "TG4 Player",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "atresplayer",
+      "title": "Atresplayer",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "mitele",
+      "title": "Mitele",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "movistar-plus",
+      "title": "Movistar Plus+",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "filmin",
+      "title": "Filmin",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "clan-rtve",
+      "title": "Clan RTVE",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "mediaset-infinity",
+      "title": "Mediaset Infinity",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "la7",
+      "title": "LA7",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "sky-tg24",
+      "title": "Sky TG24",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "chili",
+      "title": "CHILI",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rtp-play",
+      "title": "RTP Play",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "sic",
+      "title": "SIC",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tvi-player",
+      "title": "TVI Player",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tv4-play-sweden",
+      "title": "TV4 Play",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "ur-play",
+      "title": "UR Play",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tv2-play-denmark",
+      "title": "TV 2 Play Denmark",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tv2-play-norway",
+      "title": "TV 2 Play Norway",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "mtv-katsomo",
+      "title": "MTV Katsomo",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "ruutu",
+      "title": "Ruutu",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tvp-vod",
+      "title": "TVP VOD",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "player-pl",
+      "title": "Player.pl",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "ct-ivysilani",
+      "title": "ČT iVysílání",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "iprima",
+      "title": "iPrima",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "trt-izle",
+      "title": "TRT İzle",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "exxen",
+      "title": "Exxen",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "cbc-gem",
+      "title": "CBC Gem",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "radio-canada-ici-tou-tv",
+      "title": "ICI TOU.TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "ctv",
+      "title": "CTV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "global-tv",
+      "title": "Global TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tvo-today",
+      "title": "TVO Today",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "knowledge-network",
+      "title": "Knowledge Network",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "nfb",
+      "title": "National Film Board of Canada",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "abc",
+      "title": "ABC",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "nbc",
+      "title": "NBC",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "cbs",
+      "title": "CBS",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "fox",
+      "title": "FOX",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "abc-news-live",
+      "title": "ABC News Live",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "cbs-news",
+      "title": "CBS News",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "nbc-news-now",
+      "title": "NBC News NOW",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "pbs-kids",
+      "title": "PBS Kids",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "peacock",
+      "title": "Peacock",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "paramount-plus",
+      "title": "Paramount+",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "hulu",
+      "title": "Hulu",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "roku-channel",
+      "title": "The Roku Channel",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "amazon-freevee",
+      "title": "Amazon Freevee",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "sling-freestream",
+      "title": "Sling Freestream",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "xumo-play",
+      "title": "Xumo Play",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "crackle",
+      "title": "Crackle",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "c-span",
+      "title": "C-SPAN",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "smithsonian-channel",
+      "title": "Smithsonian Channel",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "abc-iview",
+      "title": "ABC iview",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "sbs-on-demand",
+      "title": "SBS On Demand",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "seven-plus",
+      "title": "7plus",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "9now",
+      "title": "9Now",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "10play",
+      "title": "10 Play",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "stan",
+      "title": "Stan",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tvnz-plus",
+      "title": "TVNZ+",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "threenow",
+      "title": "ThreeNow",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "maori-plus",
+      "title": "Māori+",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "nhk-world-japan",
+      "title": "NHK WORLD-JAPAN",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tver",
+      "title": "TVer",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "abema",
+      "title": "ABEMA",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "kbs-world",
+      "title": "KBS WORLD",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "mbc-korea",
+      "title": "MBC",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "sbs-korea",
+      "title": "SBS Korea",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tving",
+      "title": "TVING",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "wavve",
+      "title": "Wavve",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "viki",
+      "title": "Rakuten Viki",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "disney-hotstar",
+      "title": "Disney+ Hotstar",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "sonyliv",
+      "title": "SonyLIV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "zee5",
+      "title": "ZEE5",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "jiohotstar",
+      "title": "JioHotstar",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "me-watch",
+      "title": "meWATCH",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "cna",
+      "title": "CNA",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "iqiyi",
+      "title": "iQIYI",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "youku",
+      "title": "Youku",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "bilibili",
+      "title": "Bilibili",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "viu",
+      "title": "Viu",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "sabc-plus",
+      "title": "SABC+",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "etv-evod",
+      "title": "eVOD",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "showmax",
+      "title": "Showmax",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "enca",
+      "title": "eNCA",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "africanews",
+      "title": "Africanews",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "cgtn-africa",
+      "title": "CGTN Africa",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "shahid",
+      "title": "Shahid",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tod-tv",
+      "title": "TOD",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "alaraby-tv",
+      "title": "Al Araby TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "trt-world",
+      "title": "TRT World",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "globoplay",
+      "title": "Globoplay",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "sbt-videos",
+      "title": "SBT Vídeos",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "bandplay",
+      "title": "Bandplay",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "record-play",
+      "title": "Record Play",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "telefe",
+      "title": "Telefe",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tv-publica-argentina",
+      "title": "TV Pública Argentina",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "cine-ar",
+      "title": "CINE.AR",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tvn-chile",
+      "title": "TVN Chile",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "canal-13-chile",
+      "title": "Canal 13 Chile",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "caracol-play",
+      "title": "Caracol Play",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rtvcplay",
+      "title": "RTVCPlay",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "vix",
+      "title": "ViX",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "canal-once",
+      "title": "Canal Once",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tv-unam",
+      "title": "TV UNAM",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "cnn-live",
+      "title": "CNN",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "reuters-video",
+      "title": "Reuters Video",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "ap-news-video",
+      "title": "AP News Video",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "bloomberg-live",
+      "title": "Bloomberg Live TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "cnbc-video",
+      "title": "CNBC Video",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "euractiv",
+      "title": "Euractiv Video",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "europarl-multimedia",
+      "title": "European Parliament Multimedia",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "un-web-tv",
+      "title": "UN Web TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "world-bank-live",
+      "title": "World Bank Live",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "internet-archive-moving-image",
+      "title": "Internet Archive Moving Image",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "loc-video",
+      "title": "Library of Congress Video",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "europeana",
+      "title": "Europeana",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "sesame-street",
+      "title": "Sesame Street",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "khan-academy",
+      "title": "Khan Academy",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "national-geographic",
+      "title": "National Geographic",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "curiosity-stream",
+      "title": "Curiosity Stream",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "smotrim",
+      "title": "Smotrim",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "channel-one-russia",
+      "title": "Channel One Russia",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "ntv-russia",
+      "title": "NTV Russia",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rutube",
+      "title": "RUTUBE",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "ivi",
+      "title": "IVI",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "okko",
+      "title": "Okko",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "kinopoisk",
+      "title": "Kinopoisk",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "start",
+      "title": "START",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "premier",
+      "title": "PREMIER",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "kion",
+      "title": "KION",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "wink",
+      "title": "Wink",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "more-tv",
+      "title": "more.tv",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "amediateka",
+      "title": "Amediateka",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tv-rain",
+      "title": "TV Rain",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "current-time-tv",
+      "title": "Current Time TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rbc-tv",
+      "title": "RBC TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rt-live",
+      "title": "RT Live",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "moscow-24",
+      "title": "Moscow 24",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "mir-24",
+      "title": "Mir 24",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "ren-tv",
+      "title": "REN TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "5-tv",
+      "title": "5-tv",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "zvezda-tv",
+      "title": "Zvezda TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "megogo",
+      "title": "MEGOGO",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "suspilne",
+      "title": "Suspilne",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "1-1-video",
+      "title": "1+1 video",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "kyivstar-tv",
+      "title": "Kyivstar TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "sweet-tv",
+      "title": "SWEET.TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "hromadske",
+      "title": "Hromadske",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "espreso-tv",
+      "title": "Espreso TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "lrt-mediateka",
+      "title": "LRT Mediateka",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "err-jupiter",
+      "title": "ERR Jupiter",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "lsm-replay",
+      "title": "LSM Replay",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "mediaklikk",
+      "title": "Mediaklikk",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rtl-hungary",
+      "title": "RTL+ Hungary",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tv2-play-hungary",
+      "title": "TV2 Play Hungary",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tvr",
+      "title": "TVR+",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "pro-tv",
+      "title": "PRO TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "antenaplay",
+      "title": "AntenaPLAY",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "ertflix",
+      "title": "ERTFLIX",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "ant1",
+      "title": "ANT1+",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "ruv",
+      "title": "RÚV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rts-planeta",
+      "title": "RTS Planeta",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "hrti",
+      "title": "HRTi",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rtv-slo",
+      "title": "RTV SLO",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "bnt",
+      "title": "BNT",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "nova-play-bulgaria",
+      "title": "NOVA Play Bulgaria",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "cctv",
+      "title": "CCTV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tencent-video",
+      "title": "Tencent Video",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "mango-tv",
+      "title": "Mango TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "wetv",
+      "title": "WeTV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "vidio",
+      "title": "Vidio",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rcti",
+      "title": "RCTI+",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "thai-pbs",
+      "title": "Thai PBS",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "channel-3-plus",
+      "title": "Channel 3 Plus",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "iwanttfc",
+      "title": "iWantTFC",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "abs-cbn-news",
+      "title": "ABS-CBN News",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tonton",
+      "title": "Tonton",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tvbanywhere",
+      "title": "TVBAnywhere+",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rthk-tv",
+      "title": "RTHK TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "taiwanplus",
+      "title": "TaiwanPlus",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "pts-taiwan",
+      "title": "PTS Taiwan",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "kan-11",
+      "title": "Kan 11",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "i24news",
+      "title": "i24NEWS",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "al-arabiya",
+      "title": "Al Arabiya",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "roya-tv",
+      "title": "Roya TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "nta-network-news",
+      "title": "NTA Network News",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "channels-television",
+      "title": "Channels Television",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "citizen-tv-kenya",
+      "title": "Citizen TV Kenya",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "ktn-news",
+      "title": "KTN News",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "nile-tv-international",
+      "title": "Nile TV International",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "2m-maroc",
+      "title": "2M Maroc",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "mega-chile",
+      "title": "Mega Chile",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "chilevision",
+      "title": "Chilevisión",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "senal-colombia",
+      "title": "Señal Colombia",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rcn",
+      "title": "RCN",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tv-azteca",
+      "title": "TV Azteca",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "las-estrellas",
+      "title": "Las Estrellas",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "ipe",
+      "title": "IPe",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tv-publica-argentina-live",
+      "title": "TV Pública Argentina Live",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "canal-encuentro",
+      "title": "Canal Encuentro",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tvcultura-play",
+      "title": "TVCultura Play",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "canal-brasil-play",
+      "title": "Canal Brasil Play",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rt",
+      "title": "RT",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rt-documentary",
+      "title": "RT Documentary",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rt-espanol",
+      "title": "RT en Español",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rt-arabic",
+      "title": "RT Arabic",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rt-france",
+      "title": "RT France",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "sputnik",
+      "title": "Sputnik",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "russia-24",
+      "title": "Russia 24",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rossiya-1",
+      "title": "Rossiya 1",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rossiya-k",
+      "title": "Rossiya K",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tv-center",
+      "title": "TV Center",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "otr",
+      "title": "OTR",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "match-tv",
+      "title": "Match TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "tnt-online",
+      "title": "TNT Online",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "sts",
+      "title": "STS",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "domashny",
+      "title": "Domashny",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "friday-tv",
+      "title": "Friday!",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "karusel",
+      "title": "Karusel",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "2x2",
+      "title": "2x2",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "amedia-online",
+      "title": "Amedia Online",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "lime-tv",
+      "title": "Lime HD TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "peers-tv",
+      "title": "Peers.TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "24tv-ru",
+      "title": "24TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "euronews-russian",
+      "title": "Euronews на русском",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "dw-russian",
+      "title": "DW на русском",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "bbc-russian",
+      "title": "BBC News Русская служба",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rfi-russian",
+      "title": "RFI на русском",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "france-24-fr-direct",
+      "title": "France 24 Français Direct",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "france-24-ar-direct",
+      "title": "France 24 Arabic Direct",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "france-24-es-direct",
+      "title": "France 24 Español Direct",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "dw-arabic-direct",
+      "title": "DW Arabic Direct",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "dw-espanol-direct",
+      "title": "DW Español Direct",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "al-jazeera-arabic-direct",
+      "title": "Al Jazeera Arabic Direct",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "al-jazeera-mubasher-direct",
+      "title": "Al Jazeera Mubasher Direct",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "nasa-tv-media-direct",
+      "title": "NASA TV Media Direct",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "bloomberg-originals-direct",
+      "title": "Bloomberg Originals Direct",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "arte-de-direct",
+      "title": "ARTE Deutsch Direct",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "rt-documentary-russian-direct",
+      "title": "RT Documentary Russian Direct",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "al-araby-tv-direct",
+      "title": "Al Araby TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "al-araby-tv-2-direct",
+      "title": "Al Araby TV 2",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "al-jazeera-documentary-direct",
+      "title": "Al Jazeera Documentary",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "al-jazeera-mubasher-24-direct",
+      "title": "Al Jazeera Mubasher 24",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "qatar-tv-direct",
+      "title": "Qatar Television",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "qatar-tv-2-direct",
+      "title": "Qatar Television 2",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "alkass-one-direct",
+      "title": "Alkass One",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "alkass-two-direct",
+      "title": "Alkass Two",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "alkass-three-direct",
+      "title": "Alkass Three",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "alkass-four-direct",
+      "title": "Alkass Four",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "alkass-five-direct",
+      "title": "Alkass Five",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "alkass-shoof-direct",
+      "title": "Alkass SHOOF",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "ard-alpha-direct",
+      "title": "ARD-alpha",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "br-fernsehen-nord-direct",
+      "title": "BR Fernsehen Nord",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "das-erste-hd-direct",
+      "title": "Das Erste HD",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "ndr-international-direct",
+      "title": "NDR Fernsehen International",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "ndr-hamburg-direct",
+      "title": "NDR Hamburg",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "hr-fernsehen-direct",
+      "title": "hr-fernsehen",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "hamburg-1-direct",
+      "title": "Hamburg 1",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "kika-direct",
+      "title": "KiKA",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "bfm-tv-direct",
+      "title": "BFM TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "bfm-business-direct",
+      "title": "BFM Business",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "africa-24-direct",
+      "title": "Africa 24",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "africa-24-english-direct",
+      "title": "Africa 24 English",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "africanews-french-direct",
+      "title": "Africanews French",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "kto-direct",
+      "title": "KTO",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "public-senat-direct",
+      "title": "Public Sénat",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "cloudflare-tv-direct",
+      "title": "Cloudflare TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "classic-arts-showcase-direct",
+      "title": "Classic Arts Showcase",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "cbn-news-direct",
+      "title": "CBN News Channel",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "catholic-tv-direct",
+      "title": "Catholic TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "charge-tv-direct",
+      "title": "Charge!",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "billiard-tv-direct",
+      "title": "Billiard TV",
+      "bannerMode": "generated-gradient"
+    },
+    {
+      "id": "alhurra-direct",
+      "title": "Alhurra",
+      "bannerMode": "generated-gradient"
+    }
+  ]
+}
