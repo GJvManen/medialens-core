@@ -4,6 +4,7 @@
   "private": false,
   "type": "module",
   "description": "A consumer-facing streaming discovery interface for live TV, official platforms and verified IPTV/FAST watch routes.",
+  "license": "Apache-2.0",
   "scripts": {
     "serve": "python3 -m http.server 5173",
     "serve:player": "node scripts/player-server.mjs .",
