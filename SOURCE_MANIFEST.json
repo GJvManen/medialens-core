@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "brand": "MediaLens",
   "generatedAt": "2026-05-21T00:00:00.000Z",
-  "count": 1839,
+  "count": 1902,
   "sources": [
     {
       "id": "npo-start",
@@ -129784,6 +129784,4542 @@
         "source_tier": "B",
         "approval_mode": "live_policy_gate",
         "rights_basis": "Project states public and official streams only."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-france-24-english-106-france24-franc",
+      "title": "France 24 English",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "News",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "news"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://amg00106-france24-france24-samsunguk-qvpp8.amagi.tv/playlist/amg00106-france24-france24-samsunguk/playlist.m3u8",
+      "canonical_id": "freecasthub-public-iptv-france-24-english-106-france24-franc",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-france-24-espanol-s-master-5000-m3u8",
+      "title": "France 24 Español",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "News",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "news"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8",
+      "canonical_id": "freecasthub-public-iptv-france-24-espanol-s-master-5000-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-voa-tv-africa-mc06-playlist-m3u8",
+      "title": "VOA TV Africa",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "News",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "news"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://voa-ingest.akamaized.net/hls/live/2033874/tvmc06/playlist.m3u8",
+      "canonical_id": "freecasthub-public-iptv-voa-tv-africa-mc06-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-voa-persian-mc07-playlist-m3u8",
+      "title": "VOA Persian",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "News",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "news"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8",
+      "canonical_id": "freecasthub-public-iptv-voa-persian-mc07-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-cgtn-agi-tv-master-m3u8",
+      "title": "CGTN",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "News",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "news"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8",
+      "canonical_id": "freecasthub-public-iptv-cgtn-agi-tv-master-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-cgtn-arabic-izen-playlist-m3u8",
+      "title": "CGTN Arabic",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "News",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "news"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://dash3.antik.sk/live/test_cgtn_arb_tizen/playlist.m3u8",
+      "canonical_id": "freecasthub-public-iptv-cgtn-arabic-izen-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-cgtn-french-izen-playlist-m3u8",
+      "title": "CGTN French",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "News",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "news"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://dash4.antik.sk/live/test_cgtn_fra_tizen/playlist.m3u8",
+      "canonical_id": "freecasthub-public-iptv-cgtn-french-izen-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-cgtn-russian-izen-playlist-m3u8",
+      "title": "CGTN Russian",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "News",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "news"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://dash3.antik.sk/live/test_cgtn_rus_tizen/playlist.m3u8",
+      "canonical_id": "freecasthub-public-iptv-cgtn-russian-izen-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-cgtn-spanish-izen-playlist-m3u8",
+      "title": "CGTN Spanish",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "News",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "news"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://dash4.antik.sk/live/test_cgtn_esp_tizen/playlist.m3u8",
+      "canonical_id": "freecasthub-public-iptv-cgtn-spanish-izen-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-trt-world-tktv-playlist-m3u8",
+      "title": "TRT World",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "News",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "news"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://dash2.antik.sk/live/test_trt_world_atktv/playlist.m3u8",
+      "canonical_id": "freecasthub-public-iptv-trt-world-tktv-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-nhk-world-japan-pbs-org-index-m3u8",
+      "title": "NHK World-Japan",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "News",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "news"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://nhk.lls.pbs.org/index.m3u8",
+      "canonical_id": "freecasthub-public-iptv-nhk-world-japan-pbs-org-index-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-arirang-tv-smil-playlist-m3u8",
+      "title": "Arirang TV",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "News",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "news"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "internal-proxy-required",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+      "canonical_id": "freecasthub-public-iptv-arirang-tv-smil-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": true
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-abc-news-australia-406a440133-index-m",
+      "title": "ABC News Australia",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "News",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "news"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8",
+      "canonical_id": "freecasthub-public-iptv-abc-news-australia-406a440133-index-m",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-dd-news-d2fa18b-index-m3u8",
+      "title": "DD News",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "News",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "news"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0811cd8c37ca4c409d5385a6cd2fa18b/index.m3u8",
+      "canonical_id": "freecasthub-public-iptv-dd-news-d2fa18b-index-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-3catinfo-24-hls-master-m3u8",
+      "title": "3CatInfo",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "News",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "news"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8",
+      "canonical_id": "freecasthub-public-iptv-3catinfo-24-hls-master-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-ici-rdi-canrdi-master-m3u8",
+      "title": "ICI RDI",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "News",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "news"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master.m3u8",
+      "canonical_id": "freecasthub-public-iptv-ici-rdi-canrdi-master-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-belarus-24-smil-playlist-m3u8",
+      "title": "Belarus 24",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "News",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "news"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8",
+      "canonical_id": "freecasthub-public-iptv-belarus-24-smil-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-redbull-tv-umfrdxrlblrwlwdix1",
+      "title": "Red Bull TV",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Sports",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "sports"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://e7c8f7d5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVi0xX0hMUw/playlist.m3u8",
+      "canonical_id": "freecasthub-public-iptv-redbull-tv-umfrdxrlblrwlwdix1",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-fifa-english-umfrdxrlblrwlwv1x0",
+      "title": "FIFA+ English",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Sports",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "sports"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8",
+      "canonical_id": "freecasthub-public-iptv-fifa-english-umfrdxrlblrwlwv1x0",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-fifa-women-u2ftc3vuzy1nyl9gsu",
+      "title": "FIFA+ Women",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Sports",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "sports"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://cffda8ff.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9GSUZBUGx1c3dvbWVuX0hMUw/playlist.m3u8",
+      "canonical_id": "freecasthub-public-iptv-fifa-women-u2ftc3vuzy1nyl9gsu",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-esport3-t3-hls-master-m3u8",
+      "title": "Esport3",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Sports",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "sports"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8",
+      "canonical_id": "freecasthub-public-iptv-esport3-t3-hls-master-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-san-marino-rtv-sport-2-smil-master-m3u8",
+      "title": "San Marino RTV Sport",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Sports",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "sports"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/smil:ch-02.smil/master.m3u8",
+      "canonical_id": "freecasthub-public-iptv-san-marino-rtv-sport-2-smil-master-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-belarus-5-smil-playlist-m3u8",
+      "title": "Belarus 5",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Sports",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "sports"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8",
+      "canonical_id": "freecasthub-public-iptv-belarus-5-smil-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-tjk-tv-tjk-org-tjktv-m3u8",
+      "title": "TJK TV",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Sports",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "sports"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://tjktv-live.tjk.org/tjktv.m3u8",
+      "canonical_id": "freecasthub-public-iptv-tjk-tv-tjk-org-tjktv-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-stadium-52e6-playlist-m3u8",
+      "title": "Stadium",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Sports",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "sports"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://aegis-cloudfront-1.tubi.video/74681dcc-e6d0-4add-ad67-a22ad9c152e6/playlist.m3u8",
+      "canonical_id": "freecasthub-public-iptv-stadium-52e6-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-sportsgrid-i-tv-playlist-m3u8",
+      "title": "SportsGrid",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Sports",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "sports"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://sportsgrid-tribal.amagi.tv/playlist.m3u8",
+      "canonical_id": "freecasthub-public-iptv-sportsgrid-i-tv-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-world-of-freesports-i-tv-playlist-m3u8",
+      "title": "World of Freesports",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Sports",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "sports"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/playlist.m3u8",
+      "canonical_id": "freecasthub-public-iptv-world-of-freesports-i-tv-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-trace-sport-stars-i-tv-playlist-m3u8",
+      "title": "Trace Sport Stars",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Sports",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "sports"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
+      "canonical_id": "freecasthub-public-iptv-trace-sport-stars-i-tv-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-fox-weather--stream-index-m3u8",
+      "title": "Fox Weather",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Weather",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "weather"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://247wlive.foxweather.com/stream/index.m3u8",
+      "canonical_id": "freecasthub-public-iptv-fox-weather--stream-index-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-accuweather-now--plex-playlist-m3u",
+      "title": "AccuWeather Now",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Weather",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "weather"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8",
+      "canonical_id": "freecasthub-public-iptv-accuweather-now--plex-playlist-m3u",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-sky-news-weather-oop-stream-all-pla",
+      "title": "Sky News Weather",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Weather",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "weather"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8",
+      "canonical_id": "freecasthub-public-iptv-sky-news-weather-oop-stream-all-pla",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-meteonews-et-hls-stream-m3u8",
+      "title": "Meteonews",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Weather",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "weather"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://streaming.meteonews.net/hls/stream.m3u8",
+      "canonical_id": "freecasthub-public-iptv-meteonews-et-hls-stream-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-nhk-kishou-saigai-ssimul-master-m3u8",
+      "title": "NHK Kishou Saigai",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Weather",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "weather"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://newssimul-stream.nhk.jp/hls/live/2010561/nhknewssimul/master.m3u8",
+      "canonical_id": "freecasthub-public-iptv-nhk-kishou-saigai-ssimul-master-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-ard-alpha-119899-master-m3u8",
+      "title": "ARD-alpha",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://brlive-lh.akamaihd.net/i/bralpha_germany@119899/master.m3u8",
+      "canonical_id": "freecasthub-public-iptv-ard-alpha-119899-master-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-canal-educacao--com-br-index-m3u8",
+      "title": "Canal Educação",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://canaleducacao-stream.ebc.com.br/index.m3u8",
+      "canonical_id": "freecasthub-public-iptv-canal-educacao--com-br-index-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-canal-savoir-a-live-stream-m3u8",
+      "title": "Canal Savoir",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://hls.savoir.media/live/stream.m3u8",
+      "canonical_id": "freecasthub-public-iptv-canal-savoir-a-live-stream-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-create-pbs-org-index-m3u8",
+      "title": "Create",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://create.lls.pbs.org/index.m3u8",
+      "canonical_id": "freecasthub-public-iptv-create-pbs-org-index-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-1--ac-th-dltv01-m3u8",
+      "title": "DLTV 1",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://cdn-live.dltv.ac.th/dltv01.m3u8",
+      "canonical_id": "freecasthub-public-iptv-dltv-1--ac-th-dltv01-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-2--ac-th-dltv02-m3u8",
+      "title": "DLTV 2",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://cdn-live.dltv.ac.th/dltv02.m3u8",
+      "canonical_id": "freecasthub-public-iptv-dltv-2--ac-th-dltv02-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-3--ac-th-dltv03-m3u8",
+      "title": "DLTV 3",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://cdn-live.dltv.ac.th/dltv03.m3u8",
+      "canonical_id": "freecasthub-public-iptv-dltv-3--ac-th-dltv03-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-4--ac-th-dltv04-m3u8",
+      "title": "DLTV 4",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://cdn-live.dltv.ac.th/dltv04.m3u8",
+      "canonical_id": "freecasthub-public-iptv-dltv-4--ac-th-dltv04-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-5--ac-th-dltv05-m3u8",
+      "title": "DLTV 5",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://cdn-live.dltv.ac.th/dltv05.m3u8",
+      "canonical_id": "freecasthub-public-iptv-dltv-5--ac-th-dltv05-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-6--ac-th-dltv06-m3u8",
+      "title": "DLTV 6",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://cdn-live.dltv.ac.th/dltv06.m3u8",
+      "canonical_id": "freecasthub-public-iptv-dltv-6--ac-th-dltv06-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-7--ac-th-dltv07-m3u8",
+      "title": "DLTV 7",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://cdn-live.dltv.ac.th/dltv07.m3u8",
+      "canonical_id": "freecasthub-public-iptv-dltv-7--ac-th-dltv07-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-8--ac-th-dltv08-m3u8",
+      "title": "DLTV 8",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://cdn-live.dltv.ac.th/dltv08.m3u8",
+      "canonical_id": "freecasthub-public-iptv-dltv-8--ac-th-dltv08-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-9--ac-th-dltv09-m3u8",
+      "title": "DLTV 9",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://cdn-live.dltv.ac.th/dltv09.m3u8",
+      "canonical_id": "freecasthub-public-iptv-dltv-9--ac-th-dltv09-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-10--ac-th-dltv10-m3u8",
+      "title": "DLTV 10",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://cdn-live.dltv.ac.th/dltv10.m3u8",
+      "canonical_id": "freecasthub-public-iptv-dltv-10--ac-th-dltv10-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-11--ac-th-dltv11-m3u8",
+      "title": "DLTV 11",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://cdn-live.dltv.ac.th/dltv11.m3u8",
+      "canonical_id": "freecasthub-public-iptv-dltv-11--ac-th-dltv11-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-12--ac-th-dltv12-m3u8",
+      "title": "DLTV 12",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://cdn-live.dltv.ac.th/dltv12.m3u8",
+      "canonical_id": "freecasthub-public-iptv-dltv-12--ac-th-dltv12-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-13--ac-th-dltv13-m3u8",
+      "title": "DLTV 13",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://cdn-live.dltv.ac.th/dltv13.m3u8",
+      "canonical_id": "freecasthub-public-iptv-dltv-13--ac-th-dltv13-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-14--ac-th-dltv14-m3u8",
+      "title": "DLTV 14",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://cdn-live.dltv.ac.th/dltv14.m3u8",
+      "canonical_id": "freecasthub-public-iptv-dltv-14--ac-th-dltv14-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-15--ac-th-dltv15-m3u8",
+      "title": "DLTV 15",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://cdn-live.dltv.ac.th/dltv15.m3u8",
+      "canonical_id": "freecasthub-public-iptv-dltv-15--ac-th-dltv15-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-oun-ive1-playlist-m3u8",
+      "title": "OUN",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://live.knou.ac.kr/knou1/live1/playlist.m3u8",
+      "canonical_id": "freecasthub-public-iptv-oun-ive1-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-pbs-honolulu-3d8ea9b-index-m3u8",
+      "title": "PBS Honolulu",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://khetdt.lls.pbs.org/out/v1/7ec7903413294b72bb64f83963d8ea9b/index.m3u8",
+      "canonical_id": "freecasthub-public-iptv-pbs-honolulu-3d8ea9b-index-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-pbs-kids-50e53443c-est-m3u8",
+      "title": "PBS Kids",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8",
+      "canonical_id": "freecasthub-public-iptv-pbs-kids-50e53443c-est-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-pbs-kids-alaska-f1c00b82-akst-m3u8",
+      "title": "PBS Kids Alaska",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://livestream.pbskids.org/out/v1/94b88ad58fc14f84a9382341f1c00b82/akst.m3u8",
+      "canonical_id": "freecasthub-public-iptv-pbs-kids-alaska-f1c00b82-akst-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-pbs-kids-hawaii-3f04d150-hast-m3u8",
+      "title": "PBS Kids Hawaii",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://livestream.pbskids.org/out/v1/aa31792fee094b24b09045483f04d150/hast.m3u8",
+      "canonical_id": "freecasthub-public-iptv-pbs-kids-hawaii-3f04d150-hast-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-pbs-kids-mountain-9d9eba3e6-mst-m3u8",
+      "title": "PBS Kids Mountain",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://livestream.pbskids.org/out/v1/3fe3030a2c8045a3932f4289d9eba3e6/mst.m3u8",
+      "canonical_id": "freecasthub-public-iptv-pbs-kids-mountain-9d9eba3e6-mst-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-pbs-kids-pacific-863960e79-pst-m3u8",
+      "title": "PBS Kids Pacific",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8",
+      "canonical_id": "freecasthub-public-iptv-pbs-kids-pacific-863960e79-pst-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-trt-eba-lise-com-tr-master-m3u8",
+      "title": "TRT EBA Lise",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://tv-e-okul02.medya.trt.com.tr/master.m3u8",
+      "canonical_id": "freecasthub-public-iptv-trt-eba-lise-com-tr-master-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-tve-rs-stve-playlist-m3u8",
+      "title": "TVE RS",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8",
+      "canonical_id": "freecasthub-public-iptv-tve-rs-stve-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-vyas-nic-ive-vyas-vyas-m3u8",
+      "title": "Vyas NIC",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://playhls.media.nic.in/hls/live/vyas/vyas.m3u8",
+      "canonical_id": "freecasthub-public-iptv-vyas-nic-ive-vyas-vyas-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
+      }
+    },
+    {
+      "id": "freecasthub-public-iptv-world-channel-pbs-org-index-m3u8",
+      "title": "World Channel",
+      "url": "https://github.com/freecasthub/public-iptv",
+      "description": "Gecontroleerde live-bron via FreeCastHub.",
+      "country": "Internationaal",
+      "type": "Education",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "education"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "Internationaal",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://github.com/freecasthub/public-iptv",
+      "streamUrl": "https://world.lls.pbs.org/index.m3u8",
+      "canonical_id": "freecasthub-public-iptv-world-channel-pbs-org-index-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://github.com/freecasthub/public-iptv",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "Internationaal",
+      "primary_markets": [
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "Internationaal",
+        "primary_markets": [
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "international_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "freecasthub-public-iptv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "freecasthub-public-iptv",
+        "source_feed_provider": "FreeCastHub",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project inclusion policy requires free, official public and legal streams."
       }
     }
   ],

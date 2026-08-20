@@ -1,20 +1,20 @@
 {
   "version": "38.0-source-expansion",
-  "generated_at": "2026-08-20T14:54:13.576Z",
+  "generated_at": "2026-08-20T15:04:28.760Z",
   "offline": false,
-  "feed_filter": "m3upt",
+  "feed_filter": "freecasthub-public-iptv",
   "source_count": 1,
-  "candidate_count": 898,
+  "candidate_count": 108,
   "consumer_visible_count": 0,
   "rule": "Source expansion creates review candidates only; consumer publication requires the standard MediaLens approval gates.",
   "sources": [
     {
-      "id": "m3upt",
+      "id": "freecasthub-public-iptv",
       "role": "controlled_public_catalogue",
-      "candidate_count": 898,
-      "duplicate_count": 28,
+      "candidate_count": 108,
+      "duplicate_count": 17,
       "rejected_count": 0,
-      "drm_review_count": 56,
+      "drm_review_count": 3,
       "consumer_visible_count": 0
     }
   ]
