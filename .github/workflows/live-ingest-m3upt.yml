@@ -1,0 +1,92 @@
+name: Live M3UPT ingest
+
+on:
+  pull_request:
+    types: [opened, reopened]
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  live-ingest:
+    if: ${{ github.head_ref == 'm3upt-live-ingest' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm install
+      - name: Snapshot existing terminal probe state
+        run: node scripts/snapshot-source-expansion-probe-state.mjs .
+      - name: Import current M3UPT catalogue
+        run: node scripts/import-source-expansion.mjs . --feed=m3upt
+      - name: Validate M3UPT import safety gates
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const doc = JSON.parse(fs.readFileSync('data/candidates/m3upt.candidates.json', 'utf8'));
+          if (doc.source_expansion !== true) throw new Error('M3UPT output is not source-expansion gated');
+          if (doc.consumer_visible_count !== 0) throw new Error('M3UPT import exposed consumer-visible candidates');
+          for (const c of doc.candidates || []) {
+            if (c.review_status === 'needs_drm_official_fallback' && c.direct_playback_allowed !== false) {
+              throw new Error(`DRM/DASH candidate ${c.id} is not explicitly blocked from direct playback`);
+            }
+            if (/\.mpd(?:$|\?)/i.test(c.streamUrl || '') && c.review_status !== 'needs_drm_official_fallback') {
+              throw new Error(`DASH candidate ${c.id} escaped DRM/DASH hold`);
+            }
+          }
+          console.log(`M3UPT safety gate OK: ${doc.candidate_count} candidates, ${doc.duplicate_count} import duplicates, ${doc.drm_review_count} DRM/DASH holds.`);
+          NODE
+      - name: Live probe M3UPT candidates only
+        run: node scripts/probe-source-expansion.mjs . --feed=m3upt --live --resume --concurrency=12 --timeout=6000
+      - name: Apply M3UPT approval gate only
+        run: node scripts/approve-source-expansion.mjs . --feed=m3upt
+      - name: Promote approved M3UPT candidates only
+        run: node scripts/promote-source-expansion.mjs . --feed=m3upt --write
+      - name: Verify resulting catalog
+        run: npm run verify
+      - name: Print M3UPT live summary
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const candidate = JSON.parse(fs.readFileSync('data/candidates/m3upt.candidates.json', 'utf8'));
+          const probe = JSON.parse(fs.readFileSync('data/reports/source-expansion-probe-report.json', 'utf8'));
+          const approval = JSON.parse(fs.readFileSync('data/reports/source-expansion-approval-report.json', 'utf8'));
+          const promotion = JSON.parse(fs.readFileSync('data/reports/source-expansion-promotion-report.json', 'utf8'));
+          const state = JSON.parse(fs.readFileSync('data/iptv/source-expansion-probe-state.json', 'utf8'));
+          console.log('M3UPT_LIVE_SUMMARY', JSON.stringify({
+            candidates: candidate.candidate_count,
+            import_duplicates: candidate.duplicate_count,
+            rejected: candidate.rejected_count,
+            drm_holds: candidate.drm_review_count,
+            actively_probed: probe.actively_probed,
+            resume_skipped: probe.resume_skipped,
+            passed: probe.passed,
+            blocked: probe.blocked,
+            deferred_needs_probe: probe.deferred_needs_probe,
+            approved: approval.approved,
+            held: approval.held,
+            promotion_eligible: promotion.eligible_after_promotion_gate,
+            promotion_blocked: promotion.blocked,
+            published: promotion.published,
+            total_probe_state_records: state.record_count
+          }));
+          NODE
+      - name: Commit M3UPT evidence and promoted catalog
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add SOURCE_MANIFEST.json data/SOURCE_MANIFEST.json data/sources.json data/official-starter-catalog.json data/generated/app-catalog.json assets/starter-catalog.js
+          git add data/candidates/m3upt.candidates.json data/iptv/source-expansion-probe-state.json
+          git add data/reports/source-expansion-import-report.json data/reports/source-expansion-probe-report.json data/reports/source-expansion-approval-report.json data/reports/source-expansion-promotion-report.json
+          if git diff --cached --quiet; then
+            echo "No M3UPT live ingest changes to commit."
+            exit 0
+          fi
+          git commit -m "Live M3UPT ingest output [live-ingest-output]"
+          git push origin HEAD:${{ github.head_ref }}
