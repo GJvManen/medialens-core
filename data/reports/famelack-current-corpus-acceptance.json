@@ -1,0 +1,21 @@
+{
+  "version": "1.0-famelack-current-corpus-acceptance",
+  "generated_at": "2026-08-20T15:36:25.342Z",
+  "source": "famelack-data",
+  "policy": "dataset license is not stream-rights evidence; empty production allowlist means inventory-only and zero publication",
+  "country_files_processed": 168,
+  "candidates": 7256,
+  "duplicates": 585,
+  "drm_holds": 0,
+  "web_fallback_holds": 0,
+  "independently_verified": 0,
+  "held_for_independent_evidence": 6667,
+  "already_policy_blocked": 4,
+  "provenance_duplicates": 585,
+  "actively_probed": 0,
+  "approved": 0,
+  "held": 7256,
+  "promotion_eligible": 0,
+  "published": 0,
+  "decision": "accepted_inventory_only_no_publication"
+}

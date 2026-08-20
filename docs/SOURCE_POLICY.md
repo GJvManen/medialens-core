@@ -52,11 +52,48 @@ Import, approval and publication are separate operations. `approved_iptv` is not
 
 ## Live evidence requirement
 
-Production promotion requires `live_policy_gate` approval. The automated production gate accepts only a successful live probe together with a Tier-B controlled source, evidence URL and documented rights basis.
+Production promotion requires `live_policy_gate` approval. The automated production gate accepts only a successful live probe together with a Tier-B controlled source, evidence URL and documented rights basis. Candidate-level rights evidence is allowed when the catalogue itself is not broadcaster authority, but it must be independently verified and attached to the exact candidate.
 
 Fixture probe/approval evidence is valid only for CI and deterministic testing. A fixture approval cannot be published by the production promoter unless `--allow-fixture` is explicitly supplied. That flag is not part of the normal release workflow.
 
-Famelack Data is intentionally held by the automated production approval gate while a sufficient rights basis is absent. Its dataset can still support gap analysis, dedupe and provenance research.
+## Famelack evidence policy
+
+Famelack Data is MIT-licensed as a dataset, but the dataset license is not treated as evidence that every underlying broadcaster stream may be republished by MediaLens. The dataset also acknowledges IPTV-org as a significant discovery upstream. Therefore:
+
+- every Famelack candidate is held before network probing unless an exact `channel_id + stream_url` record exists in `data/iptv/famelack-official-evidence.json`;
+- an allowlist record must carry an independently verified official broadcaster/source URL, an evidence URL and a candidate-level rights basis;
+- unverified records receive `dataset_license_not_stream_rights_evidence`, remain non-direct-playable and do not consume live-probe capacity;
+- dataset provenance is retained separately for research/audit, but is not substituted for broadcaster evidence;
+- the production allowlist defaults to empty and must only be expanded through reviewed evidence changes.
+
+This lets Famelack support gap analysis and source research without weakening MediaLens publication controls.
+
+## IPTV Nexus enrichment policy
+
+IPTV Nexus is a Tier-C enrichment source only. MediaLens may exact-match Nexus metadata against a stream URL that already exists in the MediaLens catalog and attach supplemental metadata under `external_enrichment.iptv_nexus`, including health, uptime, quality, stream rank and EPG-guide hints.
+
+The enrichment contract is intentionally narrow:
+
+- matching is `exact_stream_url` only; no fuzzy source creation;
+- the number of MediaLens catalog sources must not increase;
+- MediaLens catalog version is preserved;
+- Nexus health does not replace MediaLens approval/probe evidence;
+- Nexus metadata is never rights or provenance authority for publication;
+- an unmatched Nexus channel is ignored rather than imported as a second IPTV-org-derived catalog.
+
+## Discovery-only policy: IPTVCat and LyngSat Stream
+
+IPTVCat and LyngSat Stream remain Tier-C targeted discovery sources. They are useful for identifying coverage gaps, but neither directory has a direct publication path.
+
+For both sources MediaLens enforces:
+
+- zero bulk candidates from the discovery importer;
+- zero consumer-visible records;
+- no bulk scraping/copying into the MediaLens catalog;
+- use only for a named coverage gap or candidate investigation;
+- any candidate must be independently re-established through an official broadcaster/source or another controlled Tier-A/Tier-B evidence path before dedupe, live probe, approval and explicit promotion.
+
+The generated `data/reports/source-discovery-plan.json` records the current discovery sources, low-coverage targets and the required promotion path.
 
 ## Discovery/enrichment restrictions
 
