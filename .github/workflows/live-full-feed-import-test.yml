@@ -1,0 +1,87 @@
+name: Full-feed import test
+
+on:
+  pull_request:
+    types: [opened, reopened]
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  full-feed-test:
+    if: ${{ github.head_ref == 'full-feed-import-test-20260820' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout test branch
+        uses: actions/checkout@v7
+        with:
+          ref: full-feed-import-test-20260820
+
+      - name: Setup Node 24
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          package-manager-cache: false
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Prepare clean temporary catalog workspace
+        run: |
+          rm -rf /tmp/medialens-full-feed-test
+          mkdir -p /tmp/medialens-full-feed-test
+          rsync -a --exclude='.git' ./ /tmp/medialens-full-feed-test/
+          rm -rf /tmp/medialens-full-feed-test/data/candidates
+          mkdir -p /tmp/medialens-full-feed-test/data/candidates
+
+      - name: Run current full-feed importer in isolated workspace
+        working-directory: /tmp/medialens-full-feed-test
+        run: node scripts/import-iptv-feeds.mjs .
+
+      - name: Run catalog sync dry-run
+        working-directory: /tmp/medialens-full-feed-test
+        run: node scripts/sync-approved-iptv-sources.mjs . --dry-run
+
+      - name: Build test evidence report
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const temp = '/tmp/medialens-full-feed-test';
+          const importSummary = JSON.parse(fs.readFileSync(`${temp}/data/reports/iptv-import-summary.json`, 'utf8'));
+          const syncSummary = JSON.parse(fs.readFileSync(`${temp}/data/reports/approved-iptv-sync.json`, 'utf8'));
+          const report = {
+            version: '1.0-full-feed-import-test',
+            tested_at: new Date().toISOString(),
+            branch_head: process.env.GITHUB_SHA,
+            mode: 'isolated_live_import_plus_sync_dry_run',
+            shipping_catalog_modified: false,
+            baseline_shipping_sources: importSummary.source_count_before_import,
+            feed_count: importSummary.summaries.length,
+            candidate_count: importSummary.candidate_count,
+            visible_imported_source_count: importSummary.visible_imported_source_count,
+            import_duplicate_count: importSummary.duplicate_count,
+            sync_approved_inputs: syncSummary.approved_inputs,
+            projected_after_sync_sources: syncSummary.after_sources,
+            projected_added_sources: syncSummary.added_sources,
+            projected_updated_existing: syncSummary.updated_existing,
+            projected_skipped_sources: syncSummary.skipped_sources,
+            feeds: importSummary.summaries
+          };
+          fs.mkdirSync('data/reports', { recursive: true });
+          fs.writeFileSync('data/reports/full-feed-import-test-2026-08-20.json', JSON.stringify(report, null, 2) + '\n');
+          console.log(JSON.stringify(report, null, 2));
+          NODE
+
+      - name: Commit test evidence only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/reports/full-feed-import-test-2026-08-20.json
+          if git diff --cached --quiet; then
+            echo 'No evidence changes to commit.'
+          else
+            git commit -m 'Record current full-feed import test results [full-feed-test-output]'
+            git push origin HEAD:full-feed-import-test-20260820
+          fi
