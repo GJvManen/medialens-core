@@ -4,3 +4,11 @@
 #EXTVLCOPT:http-origin=https://www.rtp.pt
 #EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp1
 https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="CNNBrasil.br" tvg-name="CNN Brasil" tvg-language="por",CNN Brasil
+https://example.invalid/cnn-brasil/master.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="DRMFixture.pt" tvg-name="DRM Fixture" tvg-language="por",DRM Fixture
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+https://example.invalid/drm/manifest.mpd
