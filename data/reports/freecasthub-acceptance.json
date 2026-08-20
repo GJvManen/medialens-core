@@ -1,0 +1,73 @@
+{
+  "version": "1.0.0",
+  "source": "freecasthub-public-iptv",
+  "accepted_at": "2026-08-20T15:06:00Z",
+  "live_workflow_run": 32383929191,
+  "live_output_commit": "056cd8bf59bfc760eae0a39bf97a494f446a9c31",
+  "policy": {
+    "source_tier": "B",
+    "integration_role": "controlled_public_catalogue",
+    "feed_scope": "freecasthub-public-iptv",
+    "consumer_visibility_at_import": false,
+    "auto_publish": false,
+    "live_probe_required": true,
+    "approval_gate": "live_policy_gate",
+    "promotion_write_explicit": true,
+    "drm_dash_direct_publish": false,
+    "unknown_country_policy": "international_no_guess",
+    "catalog_version_preserved": "1.0.0"
+  },
+  "source_evidence": {
+    "playlist": "https://raw.githubusercontent.com/freecasthub/public-iptv/main/playlist.m3u",
+    "project": "https://github.com/freecasthub/public-iptv",
+    "rights_basis": "Project inclusion policy requires free, legal, publicly available and official broadcaster streams and excludes paid, pirated, adult and unofficial sources."
+  },
+  "import": {
+    "candidates": 108,
+    "consumer_visible": 0,
+    "duplicates": 17,
+    "rejected": 0,
+    "terminal_drm_review_statuses": 3
+  },
+  "probe": {
+    "checked": 108,
+    "actively_probed": 88,
+    "policy_blocked_before_probe": 20,
+    "passed": 63,
+    "failed": 25,
+    "blocked_or_deferred_total": 45,
+    "deferred_needs_probe": 0,
+    "resume_skipped": 0,
+    "concurrency": 12,
+    "timeout_ms": 6000,
+    "total_persisted_probe_state_records_after_run": 1474
+  },
+  "approval": {
+    "considered": 108,
+    "approved": 63,
+    "held": 45
+  },
+  "promotion": {
+    "eligible_after_promotion_gate": 63,
+    "blocked_by_final_publication_gate": 0,
+    "published": 63
+  },
+  "metadata_acceptance": {
+    "missing_country_remains_international": true,
+    "published_unknown_country_label": "Internationaal",
+    "drm_dash_direct_playback_blocked": true,
+    "freecasthub_regression_test": true,
+    "feed_isolation": true
+  },
+  "release_verification": {
+    "ok": true,
+    "catalog_sources": 1902,
+    "direct_player_sources": 1244,
+    "imported_iptv_inputs": 49,
+    "watch_graph_channels": 287,
+    "watch_graph_routes": 289,
+    "watch_graph_countries": 23
+  },
+  "decision": "accepted_for_exact_head_verification",
+  "notes": "FreeCastHub was processed as a feed-scoped Tier-B catalogue. Existing routes and MPD/DASH candidates were held before probing; only successful live probes were approved. Missing country metadata was deliberately left international rather than inferred from channel names."
+}
