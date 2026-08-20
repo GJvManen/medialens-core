@@ -1,0 +1,263 @@
+{
+  "version": "1.0-source-discovery-plan",
+  "generated_at": "2026-08-20T15:36:27.615Z",
+  "catalog_version": "1.0.0",
+  "catalog_sources": 2900,
+  "discovery_source_count": 2,
+  "consumer_publication_from_discovery": false,
+  "bulk_scraping": false,
+  "low_coverage_targets": [
+    {
+      "country": "Armenië",
+      "current_sources": 1
+    },
+    {
+      "country": "Azerbeidzjan",
+      "current_sources": 1
+    },
+    {
+      "country": "Azië",
+      "current_sources": 1
+    },
+    {
+      "country": "Bahrein",
+      "current_sources": 1
+    },
+    {
+      "country": "Bosnië en Herzegovina",
+      "current_sources": 1
+    },
+    {
+      "country": "Cyprus",
+      "current_sources": 1
+    },
+    {
+      "country": "DO",
+      "current_sources": 1
+    },
+    {
+      "country": "Duitsland/Frankrijk",
+      "current_sources": 1
+    },
+    {
+      "country": "Duitsland/Russischtalig",
+      "current_sources": 1
+    },
+    {
+      "country": "Duitsland/Zwitserland/Oostenrijk",
+      "current_sources": 1
+    },
+    {
+      "country": "Egypte",
+      "current_sources": 1
+    },
+    {
+      "country": "Europa/Russischtalig",
+      "current_sources": 1
+    },
+    {
+      "country": "Frankrijk/Duitsland",
+      "current_sources": 1
+    },
+    {
+      "country": "Frankrijk/Russischtalig",
+      "current_sources": 1
+    },
+    {
+      "country": "Georgië",
+      "current_sources": 1
+    },
+    {
+      "country": "GH",
+      "current_sources": 1
+    },
+    {
+      "country": "IJsland",
+      "current_sources": 1
+    },
+    {
+      "country": "IS",
+      "current_sources": 1
+    },
+    {
+      "country": "Koeweit",
+      "current_sources": 1
+    },
+    {
+      "country": "KP",
+      "current_sources": 1
+    },
+    {
+      "country": "Latijns-Amerika",
+      "current_sources": 1
+    },
+    {
+      "country": "Malta",
+      "current_sources": 1
+    },
+    {
+      "country": "Marokko",
+      "current_sources": 1
+    },
+    {
+      "country": "MC",
+      "current_sources": 1
+    },
+    {
+      "country": "Moldavië",
+      "current_sources": 1
+    },
+    {
+      "country": "Montenegro",
+      "current_sources": 1
+    },
+    {
+      "country": "MT",
+      "current_sources": 1
+    },
+    {
+      "country": "NO",
+      "current_sources": 1
+    },
+    {
+      "country": "Noord-Macedonië",
+      "current_sources": 1
+    },
+    {
+      "country": "Oekraïne/Russischtalig",
+      "current_sources": 1
+    },
+    {
+      "country": "Oman",
+      "current_sources": 1
+    },
+    {
+      "country": "Rusland/CIS",
+      "current_sources": 1
+    },
+    {
+      "country": "Rusland/Frankrijk",
+      "current_sources": 1
+    },
+    {
+      "country": "Saoedi-Arabië",
+      "current_sources": 1
+    },
+    {
+      "country": "Saudi-Arabië",
+      "current_sources": 1
+    },
+    {
+      "country": "Servië",
+      "current_sources": 1
+    },
+    {
+      "country": "SG",
+      "current_sources": 1
+    },
+    {
+      "country": "SI",
+      "current_sources": 1
+    },
+    {
+      "country": "SM",
+      "current_sources": 1
+    },
+    {
+      "country": "TD",
+      "current_sources": 1
+    },
+    {
+      "country": "TW",
+      "current_sources": 1
+    },
+    {
+      "country": "Uruguay",
+      "current_sources": 1
+    },
+    {
+      "country": "Verenigd Koninkrijk/Russischtalig",
+      "current_sources": 1
+    },
+    {
+      "country": "Verenigde Arabische Emiraten",
+      "current_sources": 1
+    },
+    {
+      "country": "XK",
+      "current_sources": 1
+    },
+    {
+      "country": "Afrika",
+      "current_sources": 2
+    },
+    {
+      "country": "Albanië",
+      "current_sources": 2
+    },
+    {
+      "country": "Algerije",
+      "current_sources": 2
+    },
+    {
+      "country": "Bangladesh",
+      "current_sources": 2
+    },
+    {
+      "country": "Bolivia",
+      "current_sources": 2
+    }
+  ],
+  "sources": [
+    {
+      "id": "iptvcat",
+      "provider": "IPTVCat",
+      "tier": "C",
+      "priority": "P2",
+      "official_url": "https://iptvcat.com/",
+      "evidence_url": "https://iptvcat.com/",
+      "import_mode": "discovery_only_no_bulk_publish",
+      "consumer_visibility": "never_direct_from_discovery",
+      "respect_site_terms": true,
+      "operational_use": "targeted_gap_discovery_only",
+      "promotion_path": [
+        "identify specific coverage gap",
+        "find candidate reference without bulk copying",
+        "independently establish official broadcaster/source evidence",
+        "register candidate in a controlled Tier A/B source or explicit evidence record",
+        "dedupe and live-probe through standard gates",
+        "approve and explicitly promote"
+      ],
+      "prohibited": [
+        "bulk scraping into MediaLens catalogue",
+        "direct publication from discovery directory",
+        "treating directory availability as rights evidence"
+      ]
+    },
+    {
+      "id": "lyngsat-stream",
+      "provider": "LyngSat Stream",
+      "tier": "C",
+      "priority": "P2",
+      "official_url": "https://www.lyngsat.com/stream/",
+      "evidence_url": "https://www.lyngsat.com/stream/",
+      "import_mode": "discovery_only_no_bulk_copy",
+      "consumer_visibility": "never_direct_from_discovery",
+      "respect_site_terms": true,
+      "operational_use": "targeted_gap_discovery_only",
+      "promotion_path": [
+        "identify specific coverage gap",
+        "find candidate reference without bulk copying",
+        "independently establish official broadcaster/source evidence",
+        "register candidate in a controlled Tier A/B source or explicit evidence record",
+        "dedupe and live-probe through standard gates",
+        "approve and explicitly promote"
+      ],
+      "prohibited": [
+        "bulk scraping into MediaLens catalogue",
+        "direct publication from discovery directory",
+        "treating directory availability as rights evidence"
+      ]
+    }
+  ]
+}
