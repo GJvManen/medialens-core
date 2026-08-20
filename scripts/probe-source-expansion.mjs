@@ -6,6 +6,7 @@ const args = process.argv.slice(2);
 const live = args.includes('--live');
 const resume = args.includes('--resume');
 const retryFailed = args.includes('--retry-failed');
+const feedArg = args.find(x => x.startsWith('--feed='))?.split('=')[1] || 'all';
 const timeoutMs = Number(args.find(x => x.startsWith('--timeout='))?.split('=')[1] || 7000);
 const concurrency = Math.max(1, Number(args.find(x => x.startsWith('--concurrency='))?.split('=')[1] || (live ? 12 : 1)));
 const limit = Math.max(0, Number(args.find(x => x.startsWith('--limit='))?.split('=')[1] || 0));
@@ -36,7 +37,10 @@ function candidateFiles() {
     .filter(file => {
       try {
         const doc = JSON.parse(fs.readFileSync(file, 'utf8'));
-        return doc.source_expansion === true;
+        if (doc.source_expansion !== true) return false;
+        if (feedArg === 'all') return true;
+        if (doc.feed?.id === feedArg) return true;
+        return (doc.candidates || []).some(candidate => candidate.source_feed_id === feedArg);
       } catch {
         return false;
       }
@@ -52,7 +56,7 @@ async function probe(url, headers = {}) {
     const response = await fetch(url, {
       method: 'GET',
       signal: ctrl.signal,
-      headers: { Range: 'bytes=0-2048', 'user-agent': 'MediaLens/38.3 source-expansion-probe', ...headers }
+      headers: { Range: 'bytes=0-2048', 'user-agent': 'MediaLens/38.4 source-expansion-probe', ...headers }
     });
     const contentType = response.headers.get('content-type') || '';
     const status = response.ok ? 'ok' : (response.status === 403 || response.status === 451 ? 'geo_blocked' : 'http_error');
@@ -116,6 +120,7 @@ for (const file of candidateFiles()) {
   const queue = [];
 
   for (const candidate of doc.candidates || []) {
+    if (feedArg !== 'all' && candidate.source_feed_id !== feedArg) continue;
     if (!candidate.streamUrl) continue;
     checked++;
 
@@ -194,15 +199,16 @@ const stateRecords = Array.from(stateMap.values()).sort((a, b) => {
 });
 fs.mkdirSync(path.dirname(statePath), { recursive: true });
 fs.writeFileSync(statePath, JSON.stringify({
-  version: '38.3-source-expansion-probe-state',
+  version: '38.4-source-expansion-probe-state',
   generated_at: new Date().toISOString(),
   record_count: stateRecords.length,
   records: stateRecords
 }, null, 2) + '\n');
 
 const report = {
-  version: '38.3-source-expansion-probe',
+  version: '38.4-source-expansion-probe',
   generated_at: new Date().toISOString(),
+  feed_filter: feedArg,
   live,
   resume,
   retry_failed: retryFailed,
@@ -219,4 +225,4 @@ const report = {
   results
 };
 fs.writeFileSync(path.join(reportDir, 'source-expansion-probe-report.json'), JSON.stringify(report, null, 2) + '\n');
-console.log(`Source-expansion probe complete: ${checked} checked, ${probedBudget} actively probed, ${resumeSkipped} resumed/skipped, ${passed} newly passed, ${blocked} blocked/deferred (${live ? 'live' : 'fixture'} mode, concurrency ${concurrency}).`);
+console.log(`Source-expansion probe complete: ${checked} checked, ${probedBudget} actively probed, ${resumeSkipped} resumed/skipped, ${passed} newly passed, ${blocked} blocked/deferred (${live ? 'live' : 'fixture'} mode, feed ${feedArg}, concurrency ${concurrency}).`);
