@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "brand": "MediaLens",
   "generatedAt": "2026-05-21T00:00:00.000Z",
-  "count": 822,
+  "count": 895,
   "sources": [
     {
       "id": "npo-start",
@@ -51270,6 +51270,5452 @@
       "officialUrl": "https://www.tdtchannels.com/",
       "streamUrl": "https://broadcast1.radioponiente.org/almeria24h_aac/index.m3u8",
       "canonical_id": "tdtchannels-tv-almeria-24h-tv-24h-aac-index-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-ondacadiz-tv-ulti-playlist-m3u8",
+      "title": "Onda Cádiz",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://ondacadiztv.es:30443/octv/directo_multi/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-ondacadiz-tv-ulti-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-8tv-sierra-de-cadiz-decadiz-index-m3u8",
+      "title": "8TV Sierra de Cádiz",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://s.emisoras.tv:8081/sierradecadiz/index.m3u8",
+      "canonical_id": "tdtchannels-tv-8tv-sierra-de-cadiz-decadiz-index-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-8tv-chiclana-hiclana-index-m3u8",
+      "title": "8TV Chiclana",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://s.emisoras.tv:8081/chiclana/index.m3u8",
+      "canonical_id": "tdtchannels-tv-8tv-chiclana-hiclana-index-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-8tv-la-janda-lajanda-index-m3u8",
+      "title": "8TV La Janda",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://s.emisoras.tv:8081/lajanda/index.m3u8",
+      "canonical_id": "tdtchannels-tv-8tv-la-janda-lajanda-index-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-tuyalajanda-tv-p-tv-playlist-m3u8",
+      "title": "Tuya La Janda TV",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://nimble.tuyapro.es/app/tv/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-tuyalajanda-tv-p-tv-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-ondaalgeciras-tv-tv-livestream-m3u8",
+      "title": "Onda Algeciras TV",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://cloudtv.provideo.es/live/algecirastv-livestream.m3u8",
+      "canonical_id": "tdtchannels-tv-ondaalgeciras-tv-tv-livestream-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-andalucia-cocina-ocina-acocina-m3u8",
+      "title": "Andalucía Cocina",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://cloud.fastchannel.es/mic/manifiest/hls/acocina/acocina.m3u8",
+      "canonical_id": "tdtchannels-tv-andalucia-cocina-ocina-acocina-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-andalucia-turismo-rk-id-12685-live-1",
+      "title": "Andalucía Turismo",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://stream-us-east-1.getpublica.com/playlist.m3u8?&network_id=12685&live=1",
+      "canonical_id": "tdtchannels-tv-andalucia-turismo-rk-id-12685-live-1",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-teleonuba-tv-ecto-playlist-m3u8",
+      "title": "Teleonuba",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://5f71743aa95e4.streamlock.net:1936/Teleonuba/endirecto/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-teleonuba-tv-ecto-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-101tv-sevilla-smil-playlist-m3u8",
+      "title": "101TV Sevilla",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://liveingesta318.cdnmedia.tv/101televisionlive/smil:sevillaott.smil/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-101tv-sevilla-smil-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160",
+          "Referer": "https://player.instantvideocloud.net/"
+        },
+        "requires_proxy": false
+      },
+      "request_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160",
+        "Referer": "https://player.instantvideocloud.net/"
+      },
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-101tv-sevilla-cofrade-smil-playlist-m3u8",
+      "title": "101TV Sevilla Cofrade",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://liveingesta318.cdnmedia.tv/101weblive/smil:CofradeSevilla.smil/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-101tv-sevilla-cofrade-smil-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160",
+          "Referer": "https://player.instantvideocloud.net/"
+        },
+        "requires_proxy": false
+      },
+      "request_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160",
+        "Referer": "https://player.instantvideocloud.net/"
+      },
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-101tv-granada-smil-playlist-m3u8",
+      "title": "101TV Granada",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://liveingesta318.cdnmedia.tv/101weblive/smil:granada.smil/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-101tv-granada-smil-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160",
+          "Referer": "https://player.instantvideocloud.net/"
+        },
+        "requires_proxy": false
+      },
+      "request_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160",
+        "Referer": "https://player.instantvideocloud.net/"
+      },
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-canalcosta-tv-ecto-playlist-m3u8",
+      "title": "CanalCosta",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://5f71743aa95e4.streamlock.net:1936/CanalcostaTV/endirecto/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-canalcosta-tv-ecto-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-condavision-tv-ecto-playlist-m3u8",
+      "title": "Condavisión",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://5f71743aa95e4.streamlock.net:1936/Condavision/endirecto/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-condavision-tv-ecto-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-m95-marbella-95-livestream-m3u8",
+      "title": "M95 Marbella",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://limited2.todostreaming.es/live/m95-livestream.m3u8",
+      "canonical_id": "tdtchannels-tv-m95-marbella-95-livestream-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-estepona-tv-81-8022-index-m3u8",
+      "title": "Estepona TV",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://cloudvideo.servers10.com:8081/8022/index.m3u8",
+      "canonical_id": "tdtchannels-tv-estepona-tv-81-8022-index-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-canal-45-tv-9oze65-master-m3u8",
+      "title": "Canal 45 TV",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://nlb1-live.emitstream.com/hls/625csn5et2iszm9oze65/master.m3u8",
+      "canonical_id": "tdtchannels-tv-canal-45-tv-9oze65-master-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-canalmalaga-tv--com-playlist-m3u8",
+      "title": "Canal Málaga",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://canalmalaga-tv-live.flumotion.com/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-canalmalaga-tv--com-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-101antequera-tv-smil-playlist-m3u8",
+      "title": "101TV Antequera",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://liveingesta318.cdnmedia.tv/101weblive/smil:antequera.smil/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-101antequera-tv-smil-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160",
+          "Referer": "https://player.instantvideocloud.net/"
+        },
+        "requires_proxy": false
+      },
+      "request_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160",
+        "Referer": "https://player.instantvideocloud.net/"
+      },
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-101tv-cadiz-smil-playlist-m3u8",
+      "title": "101TV Cádiz",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://liveingesta318.cdnmedia.tv/101weblive/smil:CADIZ.smil/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-101tv-cadiz-smil-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160",
+          "Referer": "https://player.instantvideocloud.net/"
+        },
+        "requires_proxy": false
+      },
+      "request_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160",
+        "Referer": "https://player.instantvideocloud.net/"
+      },
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-101tv-costa-del-sol-smil-playlist-m3u8",
+      "title": "101TV Costa del Sol",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://liveingesta318.cdnmedia.tv/101weblive/smil:BENALMADENA.smil/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-101tv-costa-del-sol-smil-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160",
+          "Referer": "https://player.instantvideocloud.net/"
+        },
+        "requires_proxy": false
+      },
+      "request_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160",
+        "Referer": "https://player.instantvideocloud.net/"
+      },
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-television-alhaurin-rk-id-13354-live-1",
+      "title": "Televisión Alhaurín",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=13354&live=1",
+      "canonical_id": "tdtchannels-tv-television-alhaurin-rk-id-13354-live-1",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-interalmeria-tv--directo-live-m3u8",
+      "title": "Interalmería TV",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://interalmeria.tv/directo/live.m3u8",
+      "canonical_id": "tdtchannels-tv-interalmeria-tv--directo-live-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-canal-luz-television-ecto-playlist-m3u8",
+      "title": "Canal Luz Televisión",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://5f71743aa95e4.streamlock.net:1936/CanalLuz/enDirecto/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-canal-luz-television-ecto-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-almeria-tv-org-atv-index-m3u8",
+      "title": "Almería TV",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://broadcast1.radioponiente.org/atv/index.m3u8",
+      "canonical_id": "tdtchannels-tv-almeria-tv-org-atv-index-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-canal-san-roque-smil-playlist-m3u8",
+      "title": "Canal San Roque",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://cdnlivevlc.codev8.net/aytosanroquelive/smil:channel1.smil/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-canal-san-roque-smil-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-telemotril-tv-8431-playlist-m3u8",
+      "title": "Telemotril",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://5940924978228.streamlock.net/8431/8431/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-telemotril-tv-8431-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-torrevision-tv-smil-playlist-m3u8",
+      "title": "Torremolinos TV",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://cdnlivevlc.codev8.net/canaltorremolinoslive/smil:channel1.smil/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-torrevision-tv-smil-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-tg7-g7-index-fmp4-m3u8",
+      "title": "TG7",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://flu-01.hucame.es/TG7/index.fmp4.m3u8",
+      "canonical_id": "tdtchannels-tv-tg7-g7-index-fmp4-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-sal-tv-v-tv-playlist-m3u8",
+      "title": "Sal TV",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://nimble.tuyapro.es/saltv/tv/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-sal-tv-v-tv-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-manilva-tv-0b7b17b7952a5-trac",
+      "title": "Manilva TV",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://stream.castr.com/627a72d21914543be01c1720/live_e2ae1780dc2a11eca660b7b17b7952a5/tracks-v1a1/mono.m3u8",
+      "canonical_id": "tdtchannels-tv-manilva-tv-0b7b17b7952a5-trac",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {
+          "Referer": "https://player.castr.com/"
+        },
+        "requires_proxy": false
+      },
+      "request_headers": {
+        "Referer": "https://player.castr.com/"
+      },
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-fuengirolatv-tv-o-com-hls-ftv-m3u8",
+      "title": "Fuengirola TV",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://streaming004.gestec-video.com/hls/FTV.m3u8",
+      "canonical_id": "tdtchannels-tv-fuengirolatv-tv-o-com-hls-ftv-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-mijas340tv-tv-com-hls-mijas-m3u8",
+      "title": "Mijas 3.40 TV",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://streaming004.gestec-video.com/hls/MIJAS.m3u8",
+      "canonical_id": "tdtchannels-tv-mijas340tv-tv-com-hls-mijas-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-dieztv-andujar-tv-tvandujarlive-m3u8",
+      "title": "Diez TV Andújar",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://streamtv2.elitecomunicacion.cloud:3305/live/10tvandujarlive.m3u8",
+      "canonical_id": "tdtchannels-tv-dieztv-andujar-tv-tvandujarlive-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-dieztv-lasvillas-tv-es-mmj2-index-m3u8",
+      "title": "Diez TV Las Villas",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://streaming.cloud.innovasur.es/mmj2/index.m3u8",
+      "canonical_id": "tdtchannels-tv-dieztv-lasvillas-tv-es-mmj2-index-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-dieztv-ubeda-tv--es-mmj-index-m3u8",
+      "title": "Diez TV Úbeda",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://streaming.cloud.innovasur.es/mmj/index.m3u8",
+      "canonical_id": "tdtchannels-tv-dieztv-ubeda-tv--es-mmj-index-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-cartaya-tv-artayatv-live-m3u8",
+      "title": "Cartaya TV",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://video3.lhdserver.es/cartayatv/live.m3u8",
+      "canonical_id": "tdtchannels-tv-cartaya-tv-artayatv-live-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160"
+        },
+        "requires_proxy": false
+      },
+      "request_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160"
+      },
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-tvm-cordoba-e6e9-continuous-8f",
+      "title": "TVM Córdoba",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://d16pwlnz9msuji.cloudfront.net/wct-dad9c712-1c61-4a61-aeee-8be9f5c9e6e9/continuous/8fbfd2f5-30c2-4d48-a24e-73f5d35ba491/index.m3u8",
+      "canonical_id": "tdtchannels-tv-tvm-cordoba-e6e9-continuous-8f",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-telegranada-es-hls-stream-m3u8",
+      "title": "TeleGranada",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://telegranada.es/hls/stream.m3u8",
+      "canonical_id": "tdtchannels-tv-telegranada-es-hls-stream-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-music-tv-granada-81-8032-index-m3u8",
+      "title": "Music TV Granada",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://cloudvideo.servers10.com:8081/8032/index.m3u8",
+      "canonical_id": "tdtchannels-tv-music-tv-granada-81-8032-index-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-parlamento-de-andalucia-ion1-playlist-m3u8",
+      "title": "Parlamento de Andalucía",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Andalucía",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "andalucia"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://stream1.parlamentodeandalucia.es/realizacion1/realizacion1/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-parlamento-de-andalucia-ion1-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-canarias-tv--index-events-m3u8",
+      "title": "TV Canaria (RTVC)",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Canarias",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "canarias"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://d1oyt3v08gcy18.cloudfront.net/index-events.m3u8",
+      "canonical_id": "tdtchannels-tv-canarias-tv--index-events-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-la1-can-tv--can-main-dvr-m3u8",
+      "title": "La 1 Canarias",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Canarias",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "canarias"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://rtvelivestream.rtve.es/rtvesec/can/la1_can_main_dvr.m3u8",
+      "canonical_id": "tdtchannels-tv-la1-can-tv--can-main-dvr-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-la2-can-tv--can-main-dvr-m3u8",
+      "title": "La 2 Canarias",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Canarias",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "canarias"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://rtvelivestream.rtve.es/rtvesec/can/la2_can_main_dvr.m3u8",
+      "canonical_id": "tdtchannels-tv-la2-can-tv--can-main-dvr-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-24h-can-tv--ztnr-5473142-m3u8",
+      "title": "24h Canarias",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Canarias",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "canarias"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://ztnr.rtve.es/ztnr/5473142.m3u8",
+      "canonical_id": "tdtchannels-tv-24h-can-tv--ztnr-5473142-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-canal4-tenerife-tv-eu-hkbpjryheu-m3u8",
+      "title": "Canal 4 Tenerife",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Canarias",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "canarias"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://videoserver.tmcreativos.com:19360/hkbpjryheu/hkbpjryheu.m3u8",
+      "canonical_id": "tdtchannels-tv-canal4-tenerife-tv-eu-hkbpjryheu-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-mirametv-tv-rk-id-13696-live-1",
+      "title": "Mírame TV",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Canarias",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "canarias"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=13696&live=1",
+      "canonical_id": "tdtchannels-tv-mirametv-tv-rk-id-13696-live-1",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-tenerife-plus-tv-ifeplus-index-m3u8",
+      "title": "Tenerife Plus TV",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Canarias",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "canarias"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://k20.usastreams.com:8081/tenerifeplus/index.m3u8",
+      "canonical_id": "tdtchannels-tv-tenerife-plus-tv-ifeplus-index-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-atlanticotv-tv--hls-hi-index-m3u8",
+      "title": "Atlántico Televisión",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Canarias",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "canarias"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://live.atlanticotelevision.com/hls/hi/index.m3u8",
+      "canonical_id": "tdtchannels-tv-atlanticotv-tv--hls-hi-index-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-lancelot-tv-vision-master-m3u8",
+      "title": "Lancelot TV",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Canarias",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "canarias"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://5c0956165db0b.streamlock.net:8090/directo/_definst_/lancelot.television/master.m3u8",
+      "canonical_id": "tdtchannels-tv-lancelot-tv-vision-master-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-nortevision-ns-org-8870-0-m3u8",
+      "title": "NORTEvisión",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Canarias",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "canarias"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "internal-proxy-required",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "http://amaru.dyndns.org:8870/0.m3u8",
+      "canonical_id": "tdtchannels-tv-nortevision-ns-org-8870-0-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": true
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-rtv-mogan-81-8028-index-m3u8",
+      "title": "RTV Mogán",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Canarias",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "canarias"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://cloudvideo.servers10.com:8081/8028/index.m3u8",
+      "canonical_id": "tdtchannels-tv-rtv-mogan-81-8028-index-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-fuerteventura-tv-t-ftv-directo-m3u8",
+      "title": "Fuerteventura TV",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Canarias",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "canarias"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://5c0956165db0b.streamlock.net/ftv/directo/.m3u8",
+      "canonical_id": "tdtchannels-tv-fuerteventura-tv-t-ftv-directo-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-radio-calima-tv-mafm-playlist-m3u8",
+      "title": "Radio Calima TV",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Canarias",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "canarias"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://nrvideo1.newradio.it/calimafm/calimafm/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-radio-calima-tv-mafm-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-afortunadas-tv-81-8108-index-m3u8",
+      "title": "Afortunadas TV",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Canarias",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "canarias"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://cloudvideo.servers10.com:8081/8108/index.m3u8",
+      "canonical_id": "tdtchannels-tv-afortunadas-tv-81-8108-index-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-saja-nansa-tv-live-playlist-m3u8",
+      "title": "Saja Nansa TV",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Cantabria",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "cantabria"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://streamlov.alsolnet.com/sajanansatv/live/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-saja-nansa-tv-live-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-populartv-s-tv-ia-livestream-m3u8",
+      "title": "Popular TV Cantabria",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Cantabria",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "cantabria"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://limited12.todostreaming.es/live/ptvcantabria-livestream.m3u8",
+      "canonical_id": "tdtchannels-tv-populartv-s-tv-ia-livestream-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-de-laredu-lin-tv-81-8034-index-m3u8",
+      "title": "De Laredu Lin TV",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Cantabria",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "cantabria"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://eu1.servers10.com:8081/8034/index.m3u8",
+      "canonical_id": "tdtchannels-tv-de-laredu-lin-tv-81-8034-index-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-tevecan-9-live-playlist-m3u8",
+      "title": "Tevecan 9",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Cantabria",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "cantabria"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://streamlov.alsolnet.com/jarbhouse/live/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-tevecan-9-live-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-cmm-tv-1-gnz6ity9-protoco",
+      "title": "Castilla-La Mancha Media (CMM)",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Castilla-La Mancha",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "castilla-la-mancha"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_gnz6ity9/protocol/https/format/applehttp/a.m3u8",
+      "canonical_id": "tdtchannels-tv-cmm-tv-1-gnz6ity9-protoco",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-castilla-la-mancha-radio-1-fmx3e3sd-protoco",
+      "title": "Castilla-La Mancha Radio (CMM)",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Castilla-La Mancha",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "castilla-la-mancha"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_fmx3e3sd/protocol/https/format/applehttp/a.m3u8",
+      "canonical_id": "tdtchannels-tv-castilla-la-mancha-radio-1-fmx3e3sd-protoco",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-guada-tv-media-rk-id-12689-live-1",
+      "title": "Guada TV Media",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Castilla-La Mancha",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "castilla-la-mancha"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12689&live=1",
+      "canonical_id": "tdtchannels-tv-guada-tv-media-rk-id-12689-live-1",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-alcarria-tv-tv-livestream-m3u8",
+      "title": "Alcarria TV",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Castilla-La Mancha",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "castilla-la-mancha"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://cls.alcarria.tv/live/alcarriatv-livestream.m3u8",
+      "canonical_id": "tdtchannels-tv-alcarria-tv-tv-livestream-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-canal-4-mancha-live-playlist-m3u8",
+      "title": "Canal 4 Mancha",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Castilla-La Mancha",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "castilla-la-mancha"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://5924d3ad0efcf.streamlock.net/canal4/canal4live/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-canal-4-mancha-live-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-canal-2000-ams-canal2000-m3u8",
+      "title": "Canal 2000",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Castilla-La Mancha",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "castilla-la-mancha"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "internal-proxy-required",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "http://canal2000.berkano-systems.net/streaming/streams/canal2000-720p.m3u8",
+      "canonical_id": "tdtchannels-tv-canal-2000-ams-canal2000-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": true
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-teletoledo-rk-id-12688-live-1",
+      "title": "TeleToledo",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Castilla-La Mancha",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "castilla-la-mancha"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12688&live=1",
+      "canonical_id": "tdtchannels-tv-teletoledo-rk-id-12688-live-1",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-tv-aranda-rk-id-12686-live-1",
+      "title": "TV Aranda",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Castilla y León",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "castilla-y-leon"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12686&live=1",
+      "canonical_id": "tdtchannels-tv-tv-aranda-rk-id-12686-live-1",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-cortes-de-castilla-y-leon-smil-playlist-m3u8",
+      "title": "Cortes de Castilla y León",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Castilla y León",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "castilla-y-leon"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://directo.ccyl.es/Hemiciclo/smil:Hemiciclo.smil/playlist.m3u8",
+      "canonical_id": "tdtchannels-tv-cortes-de-castilla-y-leon-smil-playlist-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-3cat-doraemon--doraemon-hls-m3u8",
+      "title": "3Cat Doraemon",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Cataluña",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "cataluna"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://fast-tailor.3catdirectes.cat/v1/channel/doraemon/hls.m3u8",
+      "canonical_id": "tdtchannels-tv-3cat-doraemon--doraemon-hls-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-3cat-cameres-del-temps-es-hls-master-m3u8",
+      "title": "3Cat Càmeres del temps",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Cataluña",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "cataluna"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://directes-tv-int.3catdirectes.cat/live-content/beauties-hls/master.m3u8",
+      "canonical_id": "tdtchannels-tv-3cat-cameres-del-temps-es-hls-master-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-3cat-joc-de-cartes-de-cartes-hls-m3u8",
+      "title": "3Cat Joc de Cartes",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Cataluña",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "cataluna"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://fast-tailor.3catdirectes.cat/v1/channel/joc-de-cartes/hls.m3u8",
+      "canonical_id": "tdtchannels-tv-3cat-joc-de-cartes-de-cartes-hls-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-3cat-plats-bruts--channel2-hls-m3u8",
+      "title": "3Cat Plats bruts",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Cataluña",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "cataluna"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://fast-tailor.3catdirectes.cat/v1/channel/ccma-channel2/hls.m3u8",
+      "canonical_id": "tdtchannels-tv-3cat-plats-bruts--channel2-hls-m3u8",
+      "source_type": "public_iptv_channel",
+      "source_quality": {
+        "verification_status": "approved",
+        "source_kind": "public_iptv_channel",
+        "last_checked_at": "2026-08-20",
+        "probe_status": "ok",
+        "confidence_score": 82,
+        "evidence_url": "https://www.tdtchannels.com/listas/",
+        "notes": "Promoted through source-expansion ingest, duplicate, probe, rights/evidence and approval gates."
+      },
+      "origin_country": "ES",
+      "primary_markets": [
+        "ES",
+        "international"
+      ],
+      "availability_model": {
+        "origin_country": "ES",
+        "primary_markets": [
+          "ES",
+          "international"
+        ],
+        "known_available_countries": [],
+        "availability_scope": "regional_or_variable",
+        "geo_restriction": "unknown_or_variable",
+        "cross_border_policy": "show_in_international_search_unless_probe_confirms_blocked",
+        "consumer_note": "Beschikbaarheid kan per land verschillen.",
+        "known_restricted_countries": []
+      },
+      "delivery": {
+        "web": true,
+        "direct_stream": true,
+        "iptv": true,
+        "iptv_review_status": "approved_iptv",
+        "source_expansion": true,
+        "source_feed_id": "tdtchannels-tv",
+        "request_headers": {},
+        "requires_proxy": false
+      },
+      "request_headers": {},
+      "import_metadata": {
+        "importer": "source-expansion",
+        "source_feed_id": "tdtchannels-tv",
+        "source_feed_provider": "TDTChannels",
+        "source_tier": "B",
+        "approval_mode": "live_policy_gate",
+        "rights_basis": "Project states lists use official broadcaster sources and are free/open."
+      }
+    },
+    {
+      "id": "tdtchannels-tv-3cat-vinagreta-vinagreta-hls-m3u8",
+      "title": "3Cat Vinagreta",
+      "url": "https://www.tdtchannels.com/",
+      "description": "Gecontroleerde live-bron via TDTChannels.",
+      "country": "ES",
+      "type": "Cataluña",
+      "tags": [
+        "iptv",
+        "live",
+        "free",
+        "no-account",
+        "source-expansion",
+        "cataluna"
+      ],
+      "language": [],
+      "free": true,
+      "requiresAccount": false,
+      "isLive": true,
+      "streamHealth": "verified-live",
+      "playbackMode": "direct-or-official",
+      "region": "ES",
+      "availability": "unknown_or_variable",
+      "officialUrl": "https://www.tdtchannels.com/",
+      "streamUrl": "https://fast-tailor.3catdirectes.cat/v1/channel/vinagreta/hls.m3u8",
+      "canonical_id": "tdtchannels-tv-3cat-vinagreta-vinagreta-hls-m3u8",
       "source_type": "public_iptv_channel",
       "source_quality": {
         "verification_status": "approved",

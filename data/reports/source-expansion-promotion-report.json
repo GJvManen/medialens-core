@@ -1,13 +1,13 @@
 {
   "version": "38.2-source-expansion-promotion",
-  "generated_at": "2026-08-20T14:04:45.942Z",
+  "generated_at": "2026-08-20T14:15:16.254Z",
   "write": true,
   "allow_fixture": false,
   "catalog_version_preserved": "1.0.0",
   "loaded_candidates": 576,
-  "eligible_after_promotion_gate": 58,
-  "blocked": 37,
-  "published": 58,
+  "eligible_after_promotion_gate": 73,
+  "blocked": 46,
+  "published": 73,
   "blocked_items": [
     {
       "id": "tdtchannels-tv-la1-tv--td-6-is-lat-dnt-u",
@@ -308,354 +308,519 @@
       "duplicate_types": [
         "title_country"
       ]
+    },
+    {
+      "id": "tdtchannels-tv-ondacadiz-tv--24h-playlist-m3u8",
+      "title": "Onda Cádiz",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-parlamento-de-andalucia-ion3-playlist-m3u8",
+      "title": "Parlamento de Andalucía",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-parlamento-de-andalucia-ion4-playlist-m3u8",
+      "title": "Parlamento de Andalucía",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-canarias-tv-smil-playlist-m3u8",
+      "title": "TV Canaria (RTVC)",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-24h-can-tv--can-main-dvr-m3u8",
+      "title": "24h Canarias",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-alcarria-tv-tv-livestream-m3u8",
+      "title": "Alcarria TV",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "id",
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-cortes-de-castilla-y-leon--playlist-m3u8-dvr",
+      "title": "Cortes de Castilla y León",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-cortes-de-castilla-y-leon-smil-playlist-m3u8",
+      "title": "Cortes de Castilla y León",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "id",
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-cortes-de-castilla-y-leon-smil-playlist-m3u8",
+      "title": "Cortes de Castilla y León",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "id",
+        "title_country"
+      ]
     }
   ],
   "additions": [
     {
-      "id": "tdtchannels-tv-la1-tv--la1-main-dvr-m3u8",
-      "title": "La 1",
+      "id": "tdtchannels-tv-ondacadiz-tv-ulti-playlist-m3u8",
+      "title": "Onda Cádiz",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-la2-tv--la2-main-dvr-m3u8",
-      "title": "La 2",
+      "id": "tdtchannels-tv-8tv-sierra-de-cadiz-decadiz-index-m3u8",
+      "title": "8TV Sierra de Cádiz",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-eltorotv-tv-ing-web-index-m3u8",
-      "title": "El Toro TV",
+      "id": "tdtchannels-tv-8tv-chiclana-hiclana-index-m3u8",
+      "title": "8TV Chiclana",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-13-tv--021-playlist-m3u8",
-      "title": "TRECE",
+      "id": "tdtchannels-tv-8tv-la-janda-lajanda-index-m3u8",
+      "title": "8TV La Janda",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-rne-tv--ztnr-6688753-m3u8",
-      "title": "RNE para todos",
+      "id": "tdtchannels-tv-tuyalajanda-tv-p-tv-playlist-m3u8",
+      "title": "Tuya La Janda TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-24horas-tv--ztnr-1694255-m3u8",
-      "title": "24h",
+      "id": "tdtchannels-tv-ondaalgeciras-tv-tv-livestream-m3u8",
+      "title": "Onda Algeciras TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-euronews-tv-b67b746e47670f558b",
-      "title": "Euronews",
+      "id": "tdtchannels-tv-andalucia-cocina-ocina-acocina-m3u8",
+      "title": "Andalucía Cocina",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-324-tv-24-hls-master-m3u8",
-      "title": "3CatInfo",
+      "id": "tdtchannels-tv-andalucia-turismo-rk-id-12685-live-1",
+      "title": "Andalucía Turismo",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-rne-tv--ztnr-6982891-m3u8",
-      "title": "Radio Nacional",
+      "id": "tdtchannels-tv-teleonuba-tv-ecto-playlist-m3u8",
+      "title": "Teleonuba",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-rne-radio5-tv--ztnr-6982917-m3u8",
-      "title": "Radio 5",
+      "id": "tdtchannels-tv-101tv-sevilla-smil-playlist-m3u8",
+      "title": "101TV Sevilla",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-elpais-tv-73da68a62b09d1-cc-",
-      "title": "El País",
+      "id": "tdtchannels-tv-101tv-sevilla-cofrade-smil-playlist-m3u8",
+      "title": "101TV Sevilla Cofrade",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-elconfidencial-tv-bmo0niz694whx-m3u8",
-      "title": "El Confidencial",
+      "id": "tdtchannels-tv-101tv-granada-smil-playlist-m3u8",
+      "title": "101TV Granada",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-ondacero-tv-ve-obs-master-m3u8",
-      "title": "Onda Cero",
+      "id": "tdtchannels-tv-canalcosta-tv-ecto-playlist-m3u8",
+      "title": "CanalCosta",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-negocios-tv-ost-negociostv-sam",
-      "title": "Negocios TV",
+      "id": "tdtchannels-tv-condavision-tv-ecto-playlist-m3u8",
+      "title": "Condavisión",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tdp-tv--tdp-tdp-main-m3u8",
-      "title": "Teledeporte",
+      "id": "tdtchannels-tv-m95-marbella-95-livestream-m3u8",
+      "title": "M95 Marbella",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-etbd-tv-hd-hls-master-m3u8",
-      "title": "ETB Deportes (Kirolak 360)",
+      "id": "tdtchannels-tv-estepona-tv-81-8022-index-m3u8",
+      "title": "Estepona TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-vinx-tv-treams-vinxtv-m3u8",
-      "title": "Vinx TV",
+      "id": "tdtchannels-tv-canal-45-tv-9oze65-master-m3u8",
+      "title": "Canal 45 TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-rmtv-tv-es-web-master-m3u8",
-      "title": "Real Madrid TV",
+      "id": "tdtchannels-tv-canalmalaga-tv--com-playlist-m3u8",
+      "title": "Canal Málaga",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-top-barca-tv-u-w1-n2-playlist-a",
-      "title": "Top Barça",
+      "id": "tdtchannels-tv-101antequera-tv-smil-playlist-m3u8",
+      "title": "101TV Antequera",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-futsalmafer-tv-mafertv-index-m3u8",
-      "title": "Futsalmafer.tv",
+      "id": "tdtchannels-tv-101tv-cadiz-smil-playlist-m3u8",
+      "title": "101TV Cádiz",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-clan-tv--ztnr-5466990-m3u8",
-      "title": "Clan",
+      "id": "tdtchannels-tv-101tv-costa-del-sol-smil-playlist-m3u8",
+      "title": "101TV Costa del Sol",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-infantil--fast2-master-m3u8",
-      "title": "Infantil (Canal Extremadura)",
+      "id": "tdtchannels-tv-television-alhaurin-rk-id-13354-live-1",
+      "title": "Televisión Alhaurín",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-pequeradio-tv-iotv-playlist-m3u8",
-      "title": "Pequeradio TV",
+      "id": "tdtchannels-tv-interalmeria-tv--directo-live-m3u8",
+      "title": "Interalmería TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-24--ztnr-6108696-m3u8",
-      "title": "+24",
+      "id": "tdtchannels-tv-canal-luz-television-ecto-playlist-m3u8",
+      "title": "Canal Luz Televisión",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tdp--ztnr-6712453-m3u8",
-      "title": "+tdp",
+      "id": "tdtchannels-tv-almeria-tv-org-atv-index-m3u8",
+      "title": "Almería TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-hola-play-v1-master-0547f186",
-      "title": "¡HOLA! Play",
+      "id": "tdtchannels-tv-canal-san-roque-smil-playlist-m3u8",
+      "title": "Canal San Roque",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-rtve-conciertos-r3-tv--ztnr-6924117-m3u8",
-      "title": "Conciertos Radio 3 (RTVE)",
+      "id": "tdtchannels-tv-telemotril-tv-8431-playlist-m3u8",
+      "title": "Telemotril",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-rtve-cuentame-tv--ztnr-6909843-m3u8",
-      "title": "Cuéntame (RTVE)",
+      "id": "tdtchannels-tv-torrevision-tv-smil-playlist-m3u8",
+      "title": "Torremolinos TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-rtve-promesa-tv--ztnr-2472039-m3u8",
-      "title": "La Promesa (RTVE)",
+      "id": "tdtchannels-tv-tg7-g7-index-fmp4-m3u8",
+      "title": "TG7",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-rtve-epoca-tv-ztnr-16464388-m3u8",
-      "title": "La Revuelta (RTVE)",
+      "id": "tdtchannels-tv-sal-tv-v-tv-playlist-m3u8",
+      "title": "Sal TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-rtve-somoscine-tv--ztnr-6909845-m3u8",
-      "title": "Somos Cine (RTVE)",
+      "id": "tdtchannels-tv-manilva-tv-0b7b17b7952a5-trac",
+      "title": "Manilva TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-rtve-cocina-tv-ztnr-16656232-m3u8",
-      "title": "Cocina (RTVE)",
+      "id": "tdtchannels-tv-fuengirolatv-tv-o-com-hls-ftv-m3u8",
+      "title": "Fuengirola TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-rtve-popup-tv-ztnr-16862827-m3u8",
-      "title": "Al cielo con ella (RTVE)",
+      "id": "tdtchannels-tv-mijas340tv-tv-com-hls-mijas-m3u8",
+      "title": "Mijas 3.40 TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-rtve-en-play-tv-ztnr-17017351-m3u8",
-      "title": "En Play (RTVE)",
+      "id": "tdtchannels-tv-dieztv-andujar-tv-tvandujarlive-m3u8",
+      "title": "Diez TV Andújar",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-canal-parlamento-amento-master-m3u8",
-      "title": "Canal Parlamento",
+      "id": "tdtchannels-tv-dieztv-lasvillas-tv-es-mmj2-index-m3u8",
+      "title": "Diez TV Las Villas",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-congreso-de-los-diputados-canal1-master-m3u8",
-      "title": "Congreso de los Diputados",
+      "id": "tdtchannels-tv-dieztv-ubeda-tv--es-mmj-index-m3u8",
+      "title": "Diez TV Úbeda",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-senado-punto1-master-m3u8",
-      "title": "Senado",
+      "id": "tdtchannels-tv-cartaya-tv-artayatv-live-m3u8",
+      "title": "Cartaya TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-canalsura-tv-74cdbd1b401a7598ab",
-      "title": "Canal Sur Andalucía",
+      "id": "tdtchannels-tv-tvm-cordoba-e6e9-continuous-8f",
+      "title": "TVM Córdoba",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-canalsura-tv-loud-playlist-m3u8",
-      "title": "Canal Sur 2 Accesible",
+      "id": "tdtchannels-tv-telegranada-es-hls-stream-m3u8",
+      "title": "TeleGranada",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-canal-sur-mas-noticias-loud-playlist-m3u8",
-      "title": "Canal Sur Más Noticias",
+      "id": "tdtchannels-tv-music-tv-granada-81-8032-index-m3u8",
+      "title": "Music TV Granada",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-7tv-andalucia-tv--hls-regional-m3u8",
-      "title": "7TV Andalucía",
+      "id": "tdtchannels-tv-parlamento-de-andalucia-ion1-playlist-m3u8",
+      "title": "Parlamento de Andalucía",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-7tv-almeria-ls-7tvalmeria-m3u8",
-      "title": "7TV Almería",
+      "id": "tdtchannels-tv-canarias-tv--index-events-m3u8",
+      "title": "TV Canaria (RTVC)",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-7tv-cadiz--hls-7tvcadiz-m3u8",
-      "title": "7TV Cádiz",
+      "id": "tdtchannels-tv-la1-can-tv--can-main-dvr-m3u8",
+      "title": "La 1 Canarias",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-7tv-granada-ls-7tvgranada-m3u8",
-      "title": "7TV Granada",
+      "id": "tdtchannels-tv-la2-can-tv--can-main-dvr-m3u8",
+      "title": "La 2 Canarias",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-7tv-huelva--hls-regional-m3u8",
-      "title": "7TV Huelva",
+      "id": "tdtchannels-tv-24h-can-tv--ztnr-5473142-m3u8",
+      "title": "24h Canarias",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-7tv-jaen-m-hls-7tvjaen-m3u8",
-      "title": "7TV Jaén",
+      "id": "tdtchannels-tv-canal4-tenerife-tv-eu-hkbpjryheu-m3u8",
+      "title": "Canal 4 Tenerife",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-7tv-malaga-hls-7tvmalaga-m3u8",
-      "title": "7TV Málaga",
+      "id": "tdtchannels-tv-mirametv-tv-rk-id-13696-live-1",
+      "title": "Mírame TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-7tv-sevilla-ls-7tvsevilla-m3u8",
-      "title": "7TV Sevilla",
+      "id": "tdtchannels-tv-tenerife-plus-tv-ifeplus-index-m3u8",
+      "title": "Tenerife Plus TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-7tv-aljarafe-s-7tvaljarafe-m3u8",
-      "title": "7TV Aljarafe",
+      "id": "tdtchannels-tv-atlanticotv-tv--hls-hi-index-m3u8",
+      "title": "Atlántico Televisión",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-7tv-arcos--hls-7tvarcos-m3u8",
-      "title": "7TV Arcos",
+      "id": "tdtchannels-tv-lancelot-tv-vision-master-m3u8",
+      "title": "Lancelot TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-7tv-campo-de-gibraltar--7tvalgeciras-m3u8",
-      "title": "7TV Campo de Gibraltar",
+      "id": "tdtchannels-tv-nortevision-ns-org-8870-0-m3u8",
+      "title": "NORTEvisión",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-7tv-linares-ls-7tvlinares-m3u8",
-      "title": "7TV Linares",
+      "id": "tdtchannels-tv-rtv-mogan-81-8028-index-m3u8",
+      "title": "RTV Mogán",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-7tv-jerez--hls-7tvjerez-m3u8",
-      "title": "7TV Jerez",
+      "id": "tdtchannels-tv-fuerteventura-tv-t-ftv-directo-m3u8",
+      "title": "Fuerteventura TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-7tv-san-fernando-tvsanfernando-m3u8",
-      "title": "7TV San Fernando",
+      "id": "tdtchannels-tv-radio-calima-tv-mafm-playlist-m3u8",
+      "title": "Radio Calima TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-7tv-rota-m-hls-7tvrota-m3u8",
-      "title": "7TV Rota",
+      "id": "tdtchannels-tv-afortunadas-tv-81-8108-index-m3u8",
+      "title": "Afortunadas TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-101malaga-tv--playlist-m3u8-dvr",
-      "title": "101TV Málaga",
+      "id": "tdtchannels-tv-saja-nansa-tv-live-playlist-m3u8",
+      "title": "Saja Nansa TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-101malaga-tv-smil-playlist-m3u8",
-      "title": "101TV Málaga Cofrade",
+      "id": "tdtchannels-tv-populartv-s-tv-ia-livestream-m3u8",
+      "title": "Popular TV Cantabria",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-almeria-24h-tv-24h-aac-index-m3u8",
-      "title": "Almería 24h TV",
+      "id": "tdtchannels-tv-de-laredu-lin-tv-81-8034-index-m3u8",
+      "title": "De Laredu Lin TV",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-tevecan-9-live-playlist-m3u8",
+      "title": "Tevecan 9",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-cmm-tv-1-gnz6ity9-protoco",
+      "title": "Castilla-La Mancha Media (CMM)",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-castilla-la-mancha-radio-1-fmx3e3sd-protoco",
+      "title": "Castilla-La Mancha Radio (CMM)",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-guada-tv-media-rk-id-12689-live-1",
+      "title": "Guada TV Media",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-alcarria-tv-tv-livestream-m3u8",
+      "title": "Alcarria TV",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-canal-4-mancha-live-playlist-m3u8",
+      "title": "Canal 4 Mancha",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-canal-2000-ams-canal2000-m3u8",
+      "title": "Canal 2000",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-teletoledo-rk-id-12688-live-1",
+      "title": "TeleToledo",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-tv-aranda-rk-id-12686-live-1",
+      "title": "TV Aranda",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-cortes-de-castilla-y-leon-smil-playlist-m3u8",
+      "title": "Cortes de Castilla y León",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-doraemon--doraemon-hls-m3u8",
+      "title": "3Cat Doraemon",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-cameres-del-temps-es-hls-master-m3u8",
+      "title": "3Cat Càmeres del temps",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-joc-de-cartes-de-cartes-hls-m3u8",
+      "title": "3Cat Joc de Cartes",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-plats-bruts--channel2-hls-m3u8",
+      "title": "3Cat Plats bruts",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-vinagreta-vinagreta-hls-m3u8",
+      "title": "3Cat Vinagreta",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     }

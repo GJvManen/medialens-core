@@ -1,6 +1,6 @@
 {
   "version": "38.0-source-expansion",
-  "generated_at": "2026-08-20T14:04:24.214Z",
+  "generated_at": "2026-08-20T14:14:51.683Z",
   "offline": false,
   "feed_filter": "tdtchannels-tv",
   "source_count": 1,
@@ -12,7 +12,7 @@
       "id": "tdtchannels-tv",
       "role": "controlled_public_catalogue",
       "candidate_count": 576,
-      "duplicate_count": 4,
+      "duplicate_count": 62,
       "rejected_count": 0,
       "drm_review_count": 0,
       "consumer_visible_count": 0
