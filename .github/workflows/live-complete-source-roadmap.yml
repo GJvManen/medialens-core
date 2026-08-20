@@ -1,0 +1,139 @@
+name: Complete remaining source roadmap
+
+on:
+  pull_request:
+    types: [opened, reopened]
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  source-roadmap:
+    if: ${{ github.head_ref == 'complete-source-expansion-roadmap' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout roadmap branch
+        uses: actions/checkout@v4
+        with:
+          ref: complete-source-expansion-roadmap
+
+      - name: Use Node 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install
+        run: npm install
+
+      - name: Inventory full Famelack TV corpus
+        run: node scripts/import-source-expansion.mjs . --feed=famelack-data --all-countries
+
+      - name: Apply Famelack independent evidence gate
+        run: node scripts/gate-famelack-evidence.mjs .
+
+      - name: Validate empty production Famelack allowlist posture
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const allowlist = JSON.parse(fs.readFileSync('data/iptv/famelack-official-evidence.json', 'utf8'));
+          const report = JSON.parse(fs.readFileSync('data/reports/famelack-provenance-report.json', 'utf8'));
+          if ((allowlist.records || []).length !== 0) throw new Error('Completion run expects reviewed production allowlist to remain empty');
+          if (report.independently_verified !== 0) throw new Error('Empty Famelack allowlist unexpectedly verified candidates');
+          if (report.consumer_visible !== 0) throw new Error('Famelack evidence gate exposed consumer-visible candidates');
+          console.log(`Famelack evidence posture OK: ${report.considered} candidates inventoried; 0 independently verified from empty production allowlist.`);
+          NODE
+
+      - name: Prove Famelack evidence holds consume zero live probes
+        run: node scripts/probe-source-expansion.mjs . --feed=famelack-data --live --resume --concurrency=12 --timeout=6000
+
+      - name: Apply Famelack approval gate
+        run: node scripts/approve-source-expansion.mjs . --feed=famelack-data
+
+      - name: Dry-run Famelack promotion
+        run: node scripts/promote-source-expansion.mjs . --feed=famelack-data
+
+      - name: Record Famelack current-corpus acceptance
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const candidates = JSON.parse(fs.readFileSync('data/candidates/famelack-data.candidates.json', 'utf8'));
+          const provenance = JSON.parse(fs.readFileSync('data/reports/famelack-provenance-report.json', 'utf8'));
+          const probe = JSON.parse(fs.readFileSync('data/reports/source-expansion-probe-report.json', 'utf8'));
+          const approval = JSON.parse(fs.readFileSync('data/reports/source-expansion-approval-report.json', 'utf8'));
+          const promotion = JSON.parse(fs.readFileSync('data/reports/source-expansion-promotion-report.json', 'utf8'));
+          if (probe.actively_probed !== 0) throw new Error(`Famelack completion must probe 0 candidates while allowlist is empty; got ${probe.actively_probed}`);
+          if (approval.approved !== 0) throw new Error(`Famelack completion must approve 0 candidates while allowlist is empty; got ${approval.approved}`);
+          if (promotion.eligible_after_promotion_gate !== 0 || promotion.published !== 0) throw new Error('Famelack completion unexpectedly found publishable candidates');
+          const out = {
+            version: '1.0-famelack-current-corpus-acceptance',
+            generated_at: new Date().toISOString(),
+            source: 'famelack-data',
+            policy: 'dataset license is not stream-rights evidence; empty production allowlist means inventory-only and zero publication',
+            country_files_processed: candidates.country_files_processed || 0,
+            candidates: candidates.candidate_count || 0,
+            duplicates: candidates.duplicate_count || 0,
+            drm_holds: candidates.drm_review_count || 0,
+            web_fallback_holds: candidates.web_fallback_count || 0,
+            independently_verified: provenance.independently_verified,
+            held_for_independent_evidence: provenance.held_for_independent_evidence,
+            already_policy_blocked: provenance.already_policy_blocked,
+            provenance_duplicates: provenance.duplicates,
+            actively_probed: probe.actively_probed,
+            approved: approval.approved,
+            held: approval.held,
+            promotion_eligible: promotion.eligible_after_promotion_gate,
+            published: promotion.published,
+            decision: 'accepted_inventory_only_no_publication'
+          };
+          fs.writeFileSync('data/reports/famelack-current-corpus-acceptance.json', JSON.stringify(out, null, 2) + '\n');
+          console.log('FAMELACK_ACCEPTANCE', JSON.stringify(out));
+          NODE
+
+      - name: Enrich existing catalog from IPTV Nexus only
+        run: node scripts/enrich-iptv-nexus.mjs . --write
+
+      - name: Register IPTVCat and LyngSat discovery-only plan
+        run: |
+          node scripts/import-source-expansion.mjs . --offline --feed=iptvcat
+          node scripts/import-source-expansion.mjs . --offline --feed=lyngsat-stream
+          node scripts/register-discovery-sources.mjs .
+
+      - name: Verify complete resulting release
+        run: npm run verify
+
+      - name: Print completion summary
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const fam = JSON.parse(fs.readFileSync('data/reports/famelack-current-corpus-acceptance.json', 'utf8'));
+          const nexus = JSON.parse(fs.readFileSync('data/reports/iptv-nexus-enrichment-report.json', 'utf8'));
+          const discovery = JSON.parse(fs.readFileSync('data/reports/source-discovery-plan.json', 'utf8'));
+          console.log('SOURCE_ROADMAP_SUMMARY', JSON.stringify({
+            famelack_candidates: fam.candidates,
+            famelack_live_probes: fam.actively_probed,
+            famelack_published: fam.published,
+            nexus_channels_loaded: nexus.nexus_channels_loaded,
+            nexus_streams_indexed: nexus.nexus_streams_indexed,
+            nexus_catalog_matches: nexus.matched_sources,
+            nexus_new_sources: nexus.new_sources_published,
+            discovery_sources: discovery.discovery_source_count,
+            discovery_low_coverage_targets: discovery.low_coverage_targets.length,
+            catalog_sources: nexus.catalog_sources_after,
+            catalog_version: nexus.catalog_version
+          }));
+          NODE
+
+      - name: Commit accepted roadmap outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add SOURCE_MANIFEST.json data/SOURCE_MANIFEST.json data/sources.json data/official-starter-catalog.json data/generated/app-catalog.json assets/starter-catalog.js
+          git add data/reports/famelack-current-corpus-acceptance.json data/reports/iptv-nexus-enrichment-report.json data/reports/source-discovery-plan.json
+          if git diff --cached --quiet; then
+            echo "No accepted roadmap output changes to commit."
+            exit 0
+          fi
+          git commit -m "Complete remaining source roadmap output [live-ingest-output]"
+          git push origin HEAD:complete-source-expansion-roadmap
