@@ -1,0 +1,79 @@
+{
+  "version": "1.0.0",
+  "source": "free-tv-iptv-recovery",
+  "accepted_at": "2026-08-20T15:23:00Z",
+  "live_workflow_run": 32385011779,
+  "live_output_commit": "7ae01bae1c22adbb92eacf281bc83491529fa3ac",
+  "policy": {
+    "source_tier": "B",
+    "integration_role": "controlled_public_catalogue",
+    "feed_scope": "free-tv-iptv-recovery",
+    "legacy_import_path_used": false,
+    "consumer_visibility_at_import": false,
+    "auto_publish": false,
+    "live_probe_required": true,
+    "approval_gate": "live_policy_gate",
+    "promotion_write_explicit": true,
+    "drm_dash_direct_publish": false,
+    "official_web_page_direct_publish": false,
+    "http_requires_proxy": true,
+    "catalog_version_preserved": "1.0.0"
+  },
+  "source_evidence": {
+    "playlist": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
+    "project": "https://github.com/Free-TV/IPTV",
+    "rights_basis": "Project policy allows only free channels and channels officially provided for free. MediaLens independently applies dedupe, safety, live probe, approval and explicit promotion gates."
+  },
+  "import": {
+    "candidates": 2041,
+    "consumer_visible": 0,
+    "duplicates": 106,
+    "rejected": 0,
+    "terminal_drm_review_statuses": 22,
+    "terminal_web_fallback_statuses": 139
+  },
+  "probe": {
+    "checked": 2041,
+    "policy_blocked_before_probe": 400,
+    "actively_probed": 1641,
+    "resume_skipped": 0,
+    "passed": 1064,
+    "failed": 577,
+    "blocked_or_deferred_total": 977,
+    "deferred_needs_probe": 0,
+    "concurrency": 16,
+    "timeout_ms": 6000,
+    "total_persisted_probe_state_records_after_run": 3115
+  },
+  "approval": {
+    "considered": 2041,
+    "approved": 1064,
+    "held": 977
+  },
+  "promotion": {
+    "eligible_after_promotion_gate": 998,
+    "blocked_by_final_publication_gate": 66,
+    "published": 998
+  },
+  "safety_acceptance": {
+    "web_only_guard": true,
+    "live_web_only_example": "ABC News Albania",
+    "live_web_only_example_decision": "held",
+    "live_web_only_example_probe": "skipped_policy_block",
+    "drm_dash_guard": true,
+    "http_proxy_regression": true,
+    "feed_isolation": true,
+    "legacy_import_reactivation": false
+  },
+  "release_verification": {
+    "ok": true,
+    "catalog_sources": 2900,
+    "direct_player_sources": 2242,
+    "imported_iptv_inputs": 49,
+    "watch_graph_channels": 287,
+    "watch_graph_routes": 289,
+    "watch_graph_countries": 23
+  },
+  "decision": "accepted_for_exact_head_verification",
+  "notes": "Free-TV/IPTV recovery was processed only through the strict feed-scoped source-expansion path. The recovery added a generic official-web fallback guard so web pages such as YouTube/Twitch are not accepted as direct streams based on HTTP 200 responses. Only successful direct live probes reached approval, and 66 additional routes were blocked by the final publication duplicate gate."
+}
