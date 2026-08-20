@@ -125,7 +125,7 @@ for (const file of candidateFiles()) {
     checked++;
 
     const prior = resume ? matchingState(candidate) : null;
-    const hardBlocked = ['duplicate', 'rejected', 'needs_rights_review', 'needs_drm_official_fallback'].includes(candidate.review_status);
+    const hardBlocked = ['duplicate', 'rejected', 'needs_rights_review', 'needs_drm_official_fallback', 'needs_official_web_fallback'].includes(candidate.review_status);
 
     if (prior) {
       candidate.probe = { ...prior.probe };

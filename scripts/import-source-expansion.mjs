@@ -154,6 +154,13 @@ function applySafety(candidate, chunk = '') {
     c.blocked_reason = 'drm_or_dash_requires_supported_official_fallback';
     c.direct_playback_allowed = false;
   }
+  const webOnly = /^https?:\/\/(?:www\.)?(?:youtube\.com|youtu\.be|twitch\.tv|dailymotion\.com|vimeo\.com)(?:\/|$)/i.test(c.streamUrl);
+  if (webOnly) {
+    c.review_status = 'needs_official_web_fallback';
+    c.blocked_reason = 'web_page_requires_official_embed_fallback';
+    c.direct_playback_allowed = false;
+    c.official_page_url = c.streamUrl;
+  }
   if (/^http:\/\//i.test(c.streamUrl)) c.requires_proxy = true;
   return c;
 }
@@ -234,6 +241,7 @@ function writeCandidateFile(source, candidates, extra = {}) {
     duplicate_count: candidates.filter(c => c.review_status === 'duplicate').length,
     rejected_count: candidates.filter(c => c.review_status === 'rejected').length,
     drm_review_count: candidates.filter(c => c.review_status === 'needs_drm_official_fallback').length,
+    web_fallback_count: candidates.filter(c => c.review_status === 'needs_official_web_fallback').length,
     consumer_visible_count: candidates.filter(c => c.consumer_visible).length
   };
   const doc = {
