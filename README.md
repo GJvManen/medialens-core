@@ -31,6 +31,14 @@ The 2,900 sources consist of 764 existing/base MediaLens sources plus 373 accept
 
 See [Current source status](docs/SOURCE_STATUS.md) for the auditable source-count breakdown and [Source-expansion completion](docs/SOURCE_EXPANSION_COMPLETION.md) for acceptance evidence.
 
+## Current full-feed test
+
+A fresh isolated live test of all **13 legacy/full-feed sources** was run on **2026-08-20** against the 2,900-source shipping baseline. It processed **21,341 candidates**, blocked **6,369 import duplicates**, rebuilt **13,922 globally visible imported sources**, and the sync dry-run projected **14,059 net new sources**. A legacy full sync would therefore project **16,959 total catalog sources**.
+
+The **16,959** value is a tested dry-run projection, not the current shipping catalog. No catalog source was published by this test. The run also exposed a 137-record order-dependent duplicate/reporting difference in the legacy importer, which is documented explicitly rather than treated as a shipping result.
+
+See [Full-feed import test](docs/FULL_FEED_IMPORT_TEST.md) for the complete per-feed results and machine-readable evidence.
+
 ## How the system is structured
 
 MediaLens is built around four layers:
@@ -89,6 +97,7 @@ npm run serve:player           # Start the local player compatibility server
 - [Getting started](docs/GETTING_STARTED.md)
 - [Project structure](docs/PROJECT_STRUCTURE.md)
 - [Current source status](docs/SOURCE_STATUS.md)
+- [Full-feed import test](docs/FULL_FEED_IMPORT_TEST.md)
 - [Source policy](docs/SOURCE_POLICY.md)
 - [IPTV/FAST import](docs/IPTV_FAST_IMPORT.md)
 - [Source-expansion completion](docs/SOURCE_EXPANSION_COMPLETION.md)
