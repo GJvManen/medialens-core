@@ -26,6 +26,22 @@ MediaLens therefore uses `data/iptv/famelack-official-evidence.json` as the only
 
 The one-time completion workflow inventories the current full TV corpus. With an empty production allowlist, acceptance requires zero live probes, zero approvals and zero publications from Famelack.
 
+### Live Famelack acceptance — 2026-08-20
+
+The completion run processed **168 country files** and **7,256 TV candidates**. Results:
+
+- 585 candidates were already duplicates;
+- 6,667 candidates were held specifically for independent official-source evidence;
+- 4 additional candidates were already blocked by another safety/policy rule;
+- 0 candidates had an independently verified production allowlist record;
+- 0 candidates consumed a live stream probe;
+- 0 candidates were approved;
+- all 7,256 candidates were held;
+- 0 candidates were eligible for promotion;
+- 0 Famelack routes were published.
+
+This is the intended acceptance state: the dataset is operationally useful for inventory and research without converting dataset licensing into stream-publication authority.
+
 ## IPTV Nexus
 
 `scripts/enrich-iptv-nexus.mjs` reads the Nexus channel API and builds an exact stream-URL index. It may attach supplemental metadata only to a MediaLens source that already contains the exact stream URL.
@@ -40,6 +56,19 @@ Attached metadata is stored under `external_enrichment.iptv_nexus` and can inclu
 
 The enrichment contract preserves catalog version and source count and creates zero new sources. Nexus evidence is supplemental only and does not replace MediaLens rights, provenance, probe or approval evidence.
 
+### Live IPTV Nexus acceptance — 2026-08-20
+
+The live Nexus API reported **39,659 channels** and **14,026 stream records**. Exact URL enrichment produced:
+
+- 944 existing MediaLens source matches;
+- 914 matches reported online;
+- 30 matches were offline or not conclusively online;
+- 0 new MediaLens sources created;
+- catalog source count preserved at 2,900;
+- catalog version preserved at `1.0.0`.
+
+Nexus therefore enriches roughly two-fifths of current direct-player routes while remaining completely isolated from source publication authority.
+
 ## IPTVCat and LyngSat Stream
 
 Both remain discovery-only. `scripts/register-discovery-sources.mjs` records the active discovery directories plus low-coverage MediaLens countries/regions to guide targeted research.
@@ -53,6 +82,17 @@ The discovery path is:
 5. dedupe, live-probe, approve and explicitly promote through the normal pipeline.
 
 Bulk scraping, direct directory publication and treating directory availability as rights evidence are prohibited.
+
+### Live discovery-plan acceptance — 2026-08-20
+
+The completion run registered exactly **2 discovery-only sources** and identified the first **50 low-coverage catalog targets**. Both directories continue to produce:
+
+- 0 imported channel candidates;
+- 0 consumer-visible records;
+- 0 direct publication paths;
+- no bulk scraping or bulk copying.
+
+The target list is a research queue only. A discovered route cannot become a MediaLens source until independent official evidence has been established and the normal controlled-source gates have been completed.
 
 ## Regression gates
 
