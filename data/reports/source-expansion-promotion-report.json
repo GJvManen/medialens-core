@@ -1,13 +1,13 @@
 {
   "version": "38.2-source-expansion-promotion",
-  "generated_at": "2026-08-20T14:27:08.062Z",
+  "generated_at": "2026-08-20T14:31:49.306Z",
   "write": true,
   "allow_fixture": false,
   "catalog_version_preserved": "1.0.0",
   "loaded_candidates": 576,
-  "eligible_after_promotion_gate": 87,
-  "blocked": 79,
-  "published": 87,
+  "eligible_after_promotion_gate": 67,
+  "blocked": 98,
+  "published": 67,
   "blocked_items": [
     {
       "id": "tdtchannels-tv-la1-tv--td-6-is-lat-dnt-u",
@@ -660,528 +660,565 @@
         "id",
         "title_country"
       ]
+    },
+    {
+      "id": "tdtchannels-tv-tastemade-rnationalenglish24",
+      "title": "Tastemade",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-akc-tv-dogs-ktop-playlist-m3u8",
+      "title": "AKC TV Dogs",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "id",
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-1muz-bielorrusia-leport-cc-hls-m3u8",
+      "title": "1Muz Bielorrusia",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "id",
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-tropical-moon-tv-live-1-avod-0-hls-",
+      "title": "Tropical Moon TV",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "id",
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-dance-tv-estonia-televisiontwo-m3u8",
+      "title": "Dance TV Estonia",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-dance-tv-estonia-levisionthree-m3u8",
+      "title": "Dance TV Estonia",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-dance-tv-estonia-elevisionfour-m3u8",
+      "title": "Dance TV Estonia",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-dance-tv-estonia-elevisionfive-m3u8",
+      "title": "Dance TV Estonia",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-dance-tv-estonia-nsix-multibit-m3u8",
+      "title": "Dance TV Estonia",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-dance-tv-estonia-even-multibit-m3u8",
+      "title": "Dance TV Estonia",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-dance-tv-estonia-ight-multibit-m3u8",
+      "title": "Dance TV Estonia",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-dance-tv-estonia-nine-multibit-m3u8",
+      "title": "Dance TV Estonia",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-solidaria-tv-argentina-web-m3u8",
+      "title": "Solidaria TV",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-solidaria-tv-olivia-stream-m3u8",
+      "title": "Solidaria TV",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-cetelmon-tv-espana-3aca6-992-low-m3u8",
+      "title": "Cetelmon TV España",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-maria-vision-espana-y-mexico-vision-master-m3u8",
+      "title": "María Visión España y México",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-ewtn-tv-1313014-index-m3u8",
+      "title": "EWTN",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-ewtn-tv-live-playlist-m3u8",
+      "title": "EWTN",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "id",
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-3abn-usa-smil-playlist-m3u8",
+      "title": "3ABN USA",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "id",
+        "title_country"
+      ]
     }
   ],
   "additions": [
     {
-      "id": "tdtchannels-tv-tve-inter-tv-main-dvr-1080-m3u8",
-      "title": "TVE Int. Europa",
+      "id": "tdtchannels-tv-fashion-tv--hls-manifest-m3u8",
+      "title": "Fashion TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tve-star-tv-main-dvr-1080-m3u8",
-      "title": "Star TVE Europa",
+      "id": "tdtchannels-tv-miami-tv-fashion-live-1-avod-0-hls-",
+      "title": "Miami TV Fashion",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tvc-tv-vi-hls-master-m3u8",
-      "title": "TV3 CAT",
+      "id": "tdtchannels-tv-miami-tv-gold-om-v1-master-c3d3f",
+      "title": "Miami TV Gold",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tvga-tv--playlist-dvr-m3u8",
-      "title": "TVG Europa",
+      "id": "tdtchannels-tv-miami-tv-latino-live-1-avod-0-hls-",
+      "title": "Miami TV Latino",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tv-canaria-net--index-events-m3u8",
-      "title": "TV Canaria Net",
+      "id": "tdtchannels-tv-miami-tv-jenny-live-om-v1-master-c3d3f",
+      "title": "Miami TV Jenny Live",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-islas-canarias-tv-rk-id-17089-live-1",
-      "title": "Islas Canarias TV",
+      "id": "tdtchannels-tv-agrotendencia-hls-marker-1-posit",
+      "title": "Agrotendencia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-atvhd-tv-24e2-manifest-m3u8",
-      "title": "ATV Andorra",
+      "id": "tdtchannels-tv-akc-tv-dogs-ktop-playlist-m3u8",
+      "title": "AKC TV Dogs",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-cnnint-tv-3da68a62b09d1-cc-7",
-      "title": "CNN Internacional",
+      "id": "tdtchannels-tv-servustv-wetterpanorama-norama-master-m3u8",
+      "title": "ServusTV WetterPanorama",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-bloom-tv-st-streams-eu-m3u8",
-      "title": "Bloomberg Europe",
+      "id": "tdtchannels-tv-red-bull-tv-orb-at-master-m3u8",
+      "title": "Red Bull TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-sport-italia-abr2-playlist-m3u8",
-      "title": "Sport Italia",
+      "id": "tdtchannels-tv-stadium-usa-om-v1-master-44f73",
+      "title": "Stadium USA",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-la7-italia-73da68a62b09d1-cc-",
-      "title": "La7 Italia",
+      "id": "tdtchannels-tv-garage-tv-argentina--hls-garagetv-m3u8",
+      "title": "Garage TV Argentina",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-dw-tv-ream104-index-m3u8",
-      "title": "DW Alemania",
+      "id": "tdtchannels-tv-morethansports-tv--web-playlist-m3u8",
+      "title": "MoreThanSports TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tagesschau24-alemania-chau-1-master-m3u8",
-      "title": "Tagesschau24 Alemania",
+      "id": "tdtchannels-tv-rne-radio3-tv--ztnr-6982918-m3u8",
+      "title": "Radio 3",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-wdr-westdeutschen-alemania-s247ww-master-m3u8",
-      "title": "WDR Westdeutschen Alemania",
+      "id": "tdtchannels-tv-solmusica-tv-73da68a62b09d1-cc-",
+      "title": "Sol Música España",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-ndr-niedersachsen-alemania-dr-int-master-m3u8",
-      "title": "NDR Niedersachsen Alemania",
+      "id": "tdtchannels-tv-activa-tv-espana-ctivatv-index-m3u8",
+      "title": "Activa TV España",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-br-bayerischer-alemania-ls-int-master-m3u8",
-      "title": "BR Bayerischer Alemania",
+      "id": "tdtchannels-tv-molahits-tv-espana--mola-directe-m3u8",
+      "title": "Molahits TV España",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-hr-hessenschau-alemania-hls-de-master-m3u8",
-      "title": "HR Hessenschau Alemania",
+      "id": "tdtchannels-tv-cadena-elite-espana-81-8004-index-m3u8",
+      "title": "Cadena Elite España",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-sr-saarland-alemania-srfsgeo-index-m3u8",
-      "title": "SR Saarland Alemania",
+      "id": "tdtchannels-tv-spektra-tv-espana-ks-v1a1-index-m3u8",
+      "title": "Spektra TV España",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-sky-news-reino-unido-mo-channelid-89006",
-      "title": "Sky News Reino Unido",
+      "id": "tdtchannels-tv-radio-italia-tv-aliatv-master-m3u8",
+      "title": "Radio Italia TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-gb-news-reino-unido-amg01076-lightning",
-      "title": "GB News Reino Unido",
+      "id": "tdtchannels-tv-rtl-102-5-italia-rpbl-playlist-vide",
+      "title": "RTL 102.5 Italia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-digi24-rumania-vzehsq-master-m3u8",
-      "title": "Digi24 Rumanía",
+      "id": "tdtchannels-tv-rtl-radio-freccia-italia-fkf-playlist-video",
+      "title": "RTL Radio Freccia Italia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-trt-world-turquia-com-tr-master-m3u8",
-      "title": "TRT World Turquía",
+      "id": "tdtchannels-tv-rtl-zeta-italia-nic-playlist-video",
+      "title": "RTL Zeta Italia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-rtcg-sat-montenegro--004-playlist-m3u8",
-      "title": "RTCG SAT Montenegro",
+      "id": "tdtchannels-tv-rtl-102-5-best-italia-ta0m-playlist-vide",
+      "title": "RTL 102.5 Best Italia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-ruv-islandia-ruverl-ruverl-m3u8",
-      "title": "RÚV Islandia",
+      "id": "tdtchannels-tv-rtl-102-5-disco-italia-2b5z-playlist-vide",
+      "title": "RTL 102.5 Disco Italia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-san-marino-rtv-1-smil-master-m3u8",
-      "title": "San Marino RTV",
+      "id": "tdtchannels-tv-rtl-102-5-caliente-italia-9ue-playlist-video",
+      "title": "RTL 102.5 Caliente Italia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-n1-croacia-el-n1hrv-u-n1info-",
-      "title": "N1 Croacia",
+      "id": "tdtchannels-tv-rtl-102-5-bro-sis-italia-dq3b-playlist-vide",
+      "title": "RTL 102.5 Bro&Sis Italia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-vizionplus-albania-xerdfcvrtryuy-m3u8",
-      "title": "VizionPlus Albania",
+      "id": "tdtchannels-tv-rtl-102-5-napule-italia-lhnz-playlist-vide",
+      "title": "RTL 102.5 Napulè Italia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-channel-24-ucrania-ream-playlist-m3u8",
-      "title": "Channel 24 Ucrania",
+      "id": "tdtchannels-tv-rtl-102-5-traffic-italia-ggrr-playlist-vide",
+      "title": "RTL 102.5 Traffic Italia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-current-time-tv-mc05-playlist-m3u8",
-      "title": "Current Time TV",
+      "id": "tdtchannels-tv-rds-social-tv-italia-v-radio-index-m3u8",
+      "title": "RDS Social TV Italia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-fox-live-now-usa-i-tv-playlist-m3u8",
-      "title": "FOX Live Now USA",
+      "id": "tdtchannels-tv-m2o-italia-1aoo-playlist-m3u8",
+      "title": "m2o Italia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-cbs-news-usa-2deeca-master-m3u8",
-      "title": "CBS News USA",
+      "id": "tdtchannels-tv-radio-capital-italia-yank-playlist-m3u8",
+      "title": "Radio Capital Italia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-cheddar-usa-ddar-playlist-m3u8",
-      "title": "Cheddar USA",
+      "id": "tdtchannels-tv-70-80-s-italia-9050-playlist-m3u8",
+      "title": "70-80's Italia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-bloomberg-usa-st-streams-us-m3u8",
-      "title": "Bloomberg USA",
+      "id": "tdtchannels-tv-on-tv-portugal-stream-master-m3u8",
+      "title": "On TV Portugal",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-courttv-usa-676e9699a10ef-m3u8",
-      "title": "CourtTV USA",
+      "id": "tdtchannels-tv-kronehit-austria--hls-playlist-m3u8",
+      "title": "Kronehit Austria",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-weathernation-usa-73da68a62b09d1-cc-",
-      "title": "WeatherNation USA",
+      "id": "tdtchannels-tv-qmusic-paises-bajos-usic-videohls-m3u8",
+      "title": "QMusic Países Bajos",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-america-s-voice-usa-73da68a62b09d1-ame",
-      "title": "America's Voice USA",
+      "id": "tdtchannels-tv-ocko-chequia-t-cze-live-hq-m3u8",
+      "title": "Ocko Chequia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-buzzr-tv-usa-i-tv-playlist-m3u8",
-      "title": "BUZZR TV USA",
+      "id": "tdtchannels-tv-star-chequia-t-cze-live-hq-m3u8",
+      "title": "Star Chequia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-newsmax-tv-usa--live-1-index-m3u8",
-      "title": "Newsmax TV USA",
+      "id": "tdtchannels-tv-expres-chequia-t-cze-live-hq-m3u8",
+      "title": "Expres Chequia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-america-teve-usa-ateve2-master-m3u8",
-      "title": "America TeVe USA",
+      "id": "tdtchannels-tv-retro-music-tv-chequia-vhq1-playlist-m3u8",
+      "title": "Retro Music TV Chequia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tv-florida-usa-live-1-avod-0-hls-",
-      "title": "TV Florida USA",
+      "id": "tdtchannels-tv-4fun-tv-polonia-4f-high-index-m3u8",
+      "title": "4FUN TV Polonia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-adn40-tv-47317de7b57ac-m3u8",
-      "title": "ADN Noticias México",
+      "id": "tdtchannels-tv-number1-fm-turquia-5c9e17cd59e8b-smil",
+      "title": "Number1 FM Turquía",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-canal-once-mexico-ital-playlist-m3u8",
-      "title": "Canal Once México",
+      "id": "tdtchannels-tv-power-tv-turquia-mil-playlists-m3u8",
+      "title": "Power TV Turquía",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-quiero-tv-mexico-yvuw-playlist-m3u8",
-      "title": "Quiero TV México",
+      "id": "tdtchannels-tv-nrg91-grecia-live-playlist-m3u8",
+      "title": "NRG91 Grecia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-mexico-travel-tv-avel-playlist-m3u8",
-      "title": "México Travel TV",
+      "id": "tdtchannels-tv-cmc-croacia-9998-cmc-live-m3u8",
+      "title": "CMC Croacia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-estrella-tv-mexico-v-estrellamedia-pl",
-      "title": "Estrella TV México",
+      "id": "tdtchannels-tv-sky-folk-macedonia-yfolk-mk-live-m3u8",
+      "title": "Sky Folk Macedonia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tele-10-nayarit-mexico-hls-nayarittv-m3u8",
-      "title": "TELE 10 Nayarit México",
+      "id": "tdtchannels-tv-1muz-bielorrusia-leport-cc-hls-m3u8",
+      "title": "1Muz Bielorrusia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-noticias-rcn-e-t2-origin-out-v1",
-      "title": "Noticias RCN",
+      "id": "tdtchannels-tv-tropical-moon-tv-live-1-avod-0-hls-",
+      "title": "Tropical Moon TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-teleantioquia-colombia--playlist-dvr-m3u8",
-      "title": "Teleantioquia Colombia",
+      "id": "tdtchannels-tv-vm-latino-costa-rica-tino-playlist-m3u8",
+      "title": "VM Latino Costa Rica",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-senal-colombia-smil-playlist-m3u8",
-      "title": "Señal Colombia",
+      "id": "tdtchannels-tv-venus-media-paraguay--alt-playlist-m3u8",
+      "title": "Venus Media Paraguay",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-telepacifico-colombia-1-live-telepacific",
-      "title": "Telepacifico Colombia",
+      "id": "tdtchannels-tv-la-mega-mundial-usa-7-stream-play-m3u8",
+      "title": "La Mega Mundial USA",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-canal-telecaribe-colombia--playlist-m3u8-dvr",
-      "title": "Canal Telecaribe Colombia",
+      "id": "tdtchannels-tv-retro-plus-tv-chile-live-playlist-m3u8",
+      "title": "Retro Plus TV Chile",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-canal-tro-colombia-smil-playlist-m3u8",
-      "title": "Canal TRO Colombia",
+      "id": "tdtchannels-tv-portal-foxmix-chile-8040-playlist-m3u8",
+      "title": "Portal Foxmix Chile",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-exitosa-noticias-peru-a451262-index-m3u8",
-      "title": "Exitosa Noticias Perú",
+      "id": "tdtchannels-tv-30a-music-usa-ch-30atvmusic-m3u8",
+      "title": "30A Music USA",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tv-peru-4f6ee57dbcaf7-m3u8",
-      "title": "TV Perú",
+      "id": "tdtchannels-tv-spirit-tv-usa-43240-2-index-m3u8",
+      "title": "Spirit TV USA",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tv-peru-noticias-60efa00660e47-m3u8",
-      "title": "TV Perú Noticias",
+      "id": "tdtchannels-tv-radiou-tv-usa-6200335-index-m3u8",
+      "title": "RadioU TV USA",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-canal-ipe-peru-f18d83199e677-m3u8",
-      "title": "Canal IPe Perú",
+      "id": "tdtchannels-tv-dance-tv-estonia-televisionone-m3u8",
+      "title": "Dance TV Estonia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-latina-peru-31dfea-latina-lati",
-      "title": "Latina Perú",
+      "id": "tdtchannels-tv-ecclesia-cope-espana--com-playlist-m3u8",
+      "title": "Ecclesia COPE España",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-cosmos-tv-peru-smos-tvcosmos-m3u8",
-      "title": "Cosmos TV Perú",
+      "id": "tdtchannels-tv-solidaria-tv-dariatv-webhd-m3u8",
+      "title": "Solidaria TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-telesur-tv-main-playlist-m3u8",
-      "title": "TeleSUR Venezuela",
+      "id": "tdtchannels-tv-rtv-vida-espana-a-emisiontvhd-m3u8",
+      "title": "RTV Vida España",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-globovision-venezuela-lobo-playlist-m3u8",
-      "title": "Globovision Venezuela",
+      "id": "tdtchannels-tv-rtv-diocesana-toledo-espana-yu22ij-master-m3u8",
+      "title": "RTV Diocesana Toledo España",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-ecuador-tv-ecuador-029a8fdf-live-m3u8",
-      "title": "Ecuador TV Ecuador",
+      "id": "tdtchannels-tv-tbn-espana-reams-tbnlive-m3u8",
+      "title": "TBN España",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-oromar-tv-ecuador-artv-hi-index-m3u8",
-      "title": "Oromar TV Ecuador",
+      "id": "tdtchannels-tv-cetelmon-tv-espana-aca6-992-high-m3u8",
+      "title": "Cetelmon TV España",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-pat-bolivia-play-12-index-m3u8",
-      "title": "Pat Bolivia",
+      "id": "tdtchannels-tv-maria-vision-espana-y-mexico-atre-playlist-m3u8",
+      "title": "María Visión España y México",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-cubavision-tv-ream-playlist-m3u8",
-      "title": "Cubavisión TV Cuba",
+      "id": "tdtchannels-tv-ewtn-tv-live-playlist-m3u8",
+      "title": "EWTN",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-wtv-nicaragua-81-8130-index-m3u8",
-      "title": "WTV Nicaragua",
+      "id": "tdtchannels-tv-enlace-tv-costa-rica-smil-playlist-m3u8",
+      "title": "Enlace TV Costa Rica",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-telediario-costa-rica-a282c34d65445-m3u8",
-      "title": "TeleDiario Costa Rica",
+      "id": "tdtchannels-tv-redevida-brasil-f17ce12-index-m3u8",
+      "title": "Redevida Brasil",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tv-cultura-brasil-ive-tvcultura-m3u8",
-      "title": "TV Cultura Brasil",
-      "country": "ES",
-      "source_feed_id": "tdtchannels-tv"
-    },
-    {
-      "id": "tdtchannels-tv-tve-int-asia-y-pacifico-main-dvr-1080-m3u8",
-      "title": "TVE Int. Asia y Pacífico",
-      "country": "ES",
-      "source_feed_id": "tdtchannels-tv"
-    },
-    {
-      "id": "tdtchannels-tv-cgtn-news-china-m-live-encgtn-m3u8",
-      "title": "CGTN News China",
-      "country": "ES",
-      "source_feed_id": "tdtchannels-tv"
-    },
-    {
-      "id": "tdtchannels-tv-cgtn-documentary-china--live-doccgtn-m3u8",
-      "title": "CGTN Documentary China",
-      "country": "ES",
-      "source_feed_id": "tdtchannels-tv"
-    },
-    {
-      "id": "tdtchannels-tv-aljq-tv-com-aje-index-m3u8",
-      "title": "Al Jazeera Catar",
-      "country": "ES",
-      "source_feed_id": "tdtchannels-tv"
-    },
-    {
-      "id": "tdtchannels-tv-nhk-world-japon-w-live-master-m3u8",
-      "title": "NHK World Japón",
-      "country": "ES",
-      "source_feed_id": "tdtchannels-tv"
-    },
-    {
-      "id": "tdtchannels-tv-arirang-tv-corea-del-sur-ch-smil-playlist-m",
-      "title": "Arirang TV Corea del Sur",
-      "country": "ES",
-      "source_feed_id": "tdtchannels-tv"
-    },
-    {
-      "id": "tdtchannels-tv-al-arabiya-emiratos-arabes-smil-playlist-m3u8",
-      "title": "Al Arabiya Emiratos Árabes",
-      "country": "ES",
-      "source_feed_id": "tdtchannels-tv"
-    },
-    {
-      "id": "tdtchannels-tv-india-today-ylive-playlist-m3u",
-      "title": "India Today",
-      "country": "ES",
-      "source_feed_id": "tdtchannels-tv"
-    },
-    {
-      "id": "tdtchannels-tv-new-delhi-tv-24x7-india-dtv24x7master-m3u8",
-      "title": "New Delhi TV 24x7 India",
-      "country": "ES",
-      "source_feed_id": "tdtchannels-tv"
-    },
-    {
-      "id": "tdtchannels-tv-republic-world-tv-india-0ca1413453772ac7-v",
-      "title": "Republic World TV India",
-      "country": "ES",
-      "source_feed_id": "tdtchannels-tv"
-    },
-    {
-      "id": "tdtchannels-tv-channel-newsasia-f66ebbe-index-m3u8",
-      "title": "Channel NewsAsia",
-      "country": "ES",
-      "source_feed_id": "tdtchannels-tv"
-    },
-    {
-      "id": "tdtchannels-tv-tvk-camboya-ream-playlist-m3u8",
-      "title": "TVK Camboya",
-      "country": "ES",
-      "source_feed_id": "tdtchannels-tv"
-    },
-    {
-      "id": "tdtchannels-tv-teledifusao-de-macau-live-playlist-m3u8",
-      "title": "Teledifusão de Macau",
-      "country": "ES",
-      "source_feed_id": "tdtchannels-tv"
-    },
-    {
-      "id": "tdtchannels-tv-oman-tv-m-smil-master-m3u8",
-      "title": "Oman TV",
-      "country": "ES",
-      "source_feed_id": "tdtchannels-tv"
-    },
-    {
-      "id": "tdtchannels-tv-medi1-tv--playlist-dvr-m3u8",
-      "title": "Medi1 TV Marruecos",
-      "country": "ES",
-      "source_feed_id": "tdtchannels-tv"
-    },
-    {
-      "id": "tdtchannels-tv-tvge-1-guinea-ecuatorial-smil-playlist-m3u8",
-      "title": "TVGE 1 Guinea Ecuatorial",
-      "country": "ES",
-      "source_feed_id": "tdtchannels-tv"
-    },
-    {
-      "id": "tdtchannels-tv-rasd-tv-rk-id-12830-live-1",
-      "title": "RASD TV",
-      "country": "ES",
-      "source_feed_id": "tdtchannels-tv"
-    },
-    {
-      "id": "tdtchannels-tv-abc-news-australia-e7ca2bc792-index-m",
-      "title": "ABC News Australia",
-      "country": "ES",
-      "source_feed_id": "tdtchannels-tv"
-    },
-    {
-      "id": "tdtchannels-tv-bloomberg-originals-st-streams-qt-m3u8",
-      "title": "Bloomberg Originals",
-      "country": "ES",
-      "source_feed_id": "tdtchannels-tv"
-    },
-    {
-      "id": "tdtchannels-tv-tastemade-international24i-o",
-      "title": "Tastemade",
+      "id": "tdtchannels-tv-3abn-usa-smil-playlist-m3u8",
+      "title": "3ABN USA",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     }
