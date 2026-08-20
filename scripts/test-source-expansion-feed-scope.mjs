@@ -46,7 +46,14 @@ try {
   const tdtBefore = read('data/candidates/tdtchannels-tv.candidates.json');
   const m3Before = read('data/candidates/m3upt.candidates.json');
   assert(tdtBefore.candidates.length === 1, 'fixture must include one TDT candidate');
-  assert(m3Before.candidates.length === 1, 'fixture must include one M3UPT candidate');
+  assert(m3Before.candidates.length === 3, 'fixture must include three M3UPT candidates');
+
+  const cnnBrasil = m3Before.candidates.find(c => c.title === 'CNN Brasil');
+  const drmFixture = m3Before.candidates.find(c => c.title === 'DRM Fixture');
+  assert(cnnBrasil?.country_hint?.[0] === 'BR', 'CNN Brasil must infer BR from tvg-id before PT source fallback');
+  assert(cnnBrasil?.epg_url === 'https://m3upt.com/epg', 'M3UPT candidates must carry source EPG metadata');
+  assert(drmFixture?.review_status === 'needs_drm_official_fallback', 'DASH fixture must be held for official fallback');
+  assert(drmFixture?.direct_playback_allowed === false, 'DASH fixture direct playback must be disabled');
 
   run('probe-source-expansion.mjs', '--feed=m3upt');
   const probeReport = read('data/reports/source-expansion-probe-report.json');
@@ -54,28 +61,30 @@ try {
   const tdtAfterProbe = read('data/candidates/tdtchannels-tv.candidates.json');
   const m3AfterProbe = read('data/candidates/m3upt.candidates.json');
   assert(probeReport.feed_filter === 'm3upt', 'probe report must record m3upt filter');
-  assert(probeReport.checked === 1 && probeReport.actively_probed === 1, 'only the M3UPT fixture candidate may be probed');
-  assert(state.records.length === 1 && state.records[0].source_feed_id === 'm3upt', 'probe state addition must belong to M3UPT only');
+  assert(probeReport.checked === 3 && probeReport.actively_probed === 2, 'only two non-DRM M3UPT fixture candidates may be probed');
+  assert(state.records.length === 2 && state.records.every(x => x.source_feed_id === 'm3upt'), 'probe state additions must belong to M3UPT only');
   assert(!tdtAfterProbe.candidates[0].probe, 'TDT candidate must remain untouched by M3UPT probe');
-  assert(m3AfterProbe.candidates[0].probe?.probe_status === 'fixture_ok', 'M3UPT fixture must be probed');
+  assert(m3AfterProbe.filter(c => c.probe?.probe_status === 'fixture_ok').length === 2, 'two M3UPT fixtures must be probed successfully');
+  assert(m3AfterProbe.find(c => c.title === 'DRM Fixture')?.probe?.probe_status === 'skipped_policy_block', 'DRM fixture must be skipped by probe policy');
 
   run('approve-source-expansion.mjs', '--feed=m3upt', '--allow-fixture');
   const approvalReport = read('data/reports/source-expansion-approval-report.json');
   const tdtAfterApproval = read('data/candidates/tdtchannels-tv.candidates.json');
   const m3AfterApproval = read('data/candidates/m3upt.candidates.json');
   assert(approvalReport.feed_filter === 'm3upt', 'approval report must record m3upt filter');
-  assert(approvalReport.considered === 1 && approvalReport.approved === 1, 'only M3UPT fixture may be approved');
+  assert(approvalReport.considered === 3 && approvalReport.approved === 2 && approvalReport.held === 1, 'M3UPT fixture approval must hold the DRM candidate');
   assert(!tdtAfterApproval.candidates[0].approval, 'TDT candidate must remain untouched by M3UPT approval');
-  assert(m3AfterApproval.candidates[0].approval?.status === 'approved', 'M3UPT fixture must be approved');
+  assert(m3AfterApproval.filter(c => c.approval?.status === 'approved').length === 2, 'two M3UPT fixtures must be approved');
+  assert(m3AfterApproval.find(c => c.title === 'DRM Fixture')?.approval?.status === 'held', 'DRM fixture must remain held');
 
   run('promote-source-expansion.mjs', '--feed=m3upt', '--allow-fixture');
   const promotionReport = read('data/reports/source-expansion-promotion-report.json');
   assert(promotionReport.feed_filter === 'm3upt', 'promotion report must record m3upt filter');
-  assert(promotionReport.loaded_candidates === 1, 'promotion must load only one M3UPT candidate');
-  assert(promotionReport.eligible_after_promotion_gate === 1, 'M3UPT fixture must reach promotion dry-run');
+  assert(promotionReport.loaded_candidates === 3, 'promotion must load only the three M3UPT candidates');
+  assert(promotionReport.eligible_after_promotion_gate === 2, 'only two non-DRM M3UPT fixtures may reach promotion dry-run');
   assert(promotionReport.additions.every(x => x.source_feed_id === 'm3upt'), 'all proposed additions must be M3UPT');
 
-  console.log('Source-expansion feed scope test OK: M3UPT probe, approval and promotion remained isolated from TDTChannels.');
+  console.log('Source-expansion feed scope test OK: M3UPT stayed isolated, inferred country correctly, carried EPG metadata, and held DRM/DASH.');
 } finally {
   fs.rmSync(tmp, { recursive: true, force: true });
 }
