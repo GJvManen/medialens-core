@@ -34,11 +34,12 @@ for (const file of files()) {
     considered++;
     const source = byId.get(candidate.source_feed_id);
     const reasons = [];
+    const rightsBasis = candidate.rights_basis || source?.rights_basis || null;
     if (!source) reasons.push('unregistered_source');
     if (source && !(source.tier === 'B' && source.integration_role === 'controlled_public_catalogue')) reasons.push('not_controlled_tier_b');
     if (!candidate.streamUrl) reasons.push('missing_stream_url');
     if (!candidate.evidence_url && !source?.evidence_url) reasons.push('missing_provenance_evidence');
-    if (!source?.rights_basis) reasons.push('missing_rights_basis');
+    if (!rightsBasis) reasons.push('missing_rights_basis');
     if (candidate.duplicate_of?.length) reasons.push('duplicate');
     if (candidate.blocked_reason) reasons.push(candidate.blocked_reason);
     if (!candidate.probe) reasons.push('missing_probe');
@@ -58,7 +59,7 @@ for (const file of files()) {
         approved_at: new Date().toISOString(),
         source_tier: source.tier,
         evidence_url: candidate.evidence_url || source.evidence_url,
-        rights_basis: source.rights_basis,
+        rights_basis: rightsBasis,
         probe_status: candidate.probe.probe_status
       };
       approved++;
@@ -79,14 +80,14 @@ for (const file of files()) {
 }
 
 const report = {
-  version: '38.4-source-expansion-approval',
+  version: '38.5-source-expansion-approval',
   generated_at: new Date().toISOString(),
   feed_filter: feedArg,
   allow_fixture: allowFixture,
   considered,
   approved,
   held,
-  publication_note: 'Approval does not publish. Promotion is a separate explicit write step.',
+  publication_note: 'Approval does not publish. Promotion is a separate explicit write step. Candidate-level rights evidence may satisfy the rights gate when a catalogue itself is not broadcaster authority.',
   decisions
 };
 fs.writeFileSync(path.join(reportDir, 'source-expansion-approval-report.json'), JSON.stringify(report, null, 2) + '\n');
