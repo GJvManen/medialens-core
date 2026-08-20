@@ -136,19 +136,33 @@ Famelack intentionally remains held by the automated approval policy until suffi
 
 ## TDTChannels live batches
 
-Batch 1 was accepted on 2026-08-20 and established the first production evidence set:
+### Batch 1 — accepted 2026-08-20
 
 - 576 candidates imported with zero import-time consumer visibility;
 - 120 candidates actively live-probed;
-- 95 live probes passed;
-- 25 live probes failed;
+- 95 live probes passed and 25 failed;
 - 95 candidates passed approval;
 - 37 were stopped by the final duplicate gate;
 - 58 new routes were published;
-- the shipping catalog version remained `1.0.0`;
-- the release verifier passed with 822 catalog sources and 164 direct-player sources.
+- release verification passed with 822 catalog sources and 164 direct-player sources.
 
-Remaining TDTChannels candidates continue through resumable batches rather than restarting from the first 120 entries.
+### Batch 2 — accepted 2026-08-20
+
+Batch 2 is the first production run using the persistent resume state.
+
+- the snapshot recovered exactly 120 terminal probes from batch 1;
+- all 120 earlier probes were restored and skipped;
+- the entire 120-probe budget was therefore spent on previously unprocessed candidates;
+- 82 of those new probes passed and 38 failed;
+- persistent probe state grew from 120 to 240 records;
+- 119 candidates were approval-eligible when restored prior successes and new successes were evaluated together;
+- 46 approval-passed routes were stopped by the final duplicate gate;
+- 73 new routes were published;
+- 332 candidates remain `needs_probe` for subsequent normal batches;
+- release verification passed with 895 catalog sources and 237 direct-player sources;
+- shipping catalog version remained `1.0.0`.
+
+The cumulative TDTChannels production state after batch 2 is therefore 240 actually probed stream routes, 131 newly published MediaLens routes across the two batches, and 332 still-unprocessed candidates in the current upstream catalogue. Failed routes remain persisted and are not retried during normal continuation.
 
 ## P1/P2 behavior
 
