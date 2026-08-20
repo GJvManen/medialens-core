@@ -17,6 +17,20 @@ Core capabilities:
 - **IPTV/FAST import pipeline** for large verified feed sets.
 - **Multilingual interface foundation** with a compact cinematic leader and international visual direction.
 
+## Current catalog status
+
+The verified shipping catalog on `main` currently contains:
+
+- **2,900 total sources**;
+- **2,242 direct-player sources**;
+- **49 imported IPTV inputs**;
+- **287 watch-graph channels** and **289 watch-graph routes** across **23 countries**;
+- catalog contract version **1.0.0**.
+
+The 2,900 sources consist of 764 existing/base MediaLens sources plus 373 accepted TDTChannels additions, 702 M3UPT additions, 63 FreeCastHub additions and 998 Free-TV/IPTV recovery additions. Famelack remains candidate-evidence gated, IPTV Nexus is enrichment-only, and IPTVCat/LyngSat remain discovery-only, so those integrations do not add unverified sources directly to the shipping catalog.
+
+See [Current source status](docs/SOURCE_STATUS.md) for the auditable source-count breakdown and [Source-expansion completion](docs/SOURCE_EXPANSION_COMPLETION.md) for acceptance evidence.
+
 ## How the system is structured
 
 MediaLens is built around four layers:
@@ -30,7 +44,9 @@ This structure makes it possible to add thousands of IPTV/FAST entries while kee
 
 ## IPTV/FAST expansion
 
-The included import workflow can process large live-channel feed sets and publish classified sources into the consumer interface. A full reference import processed more than **20,000 candidates** and produced approximately **14,400 visible IPTV/FAST additions**, bringing the synced catalog to **15,579 total sources** in that run.
+MediaLens uses a gated source-expansion pipeline rather than treating raw feed size as a shipping metric. New external candidates remain non-consumer-visible until they pass dedupe, safety/DRM, provenance/rights, live-probe, approval and explicit promotion gates.
+
+The completed controlled expansion added **2,136 accepted sources** to the original catalog and brought the verified shipping state to **2,900 total sources**, including **2,242 direct-player sources**.
 
 See [IPTV/FAST import](docs/IPTV_FAST_IMPORT.md) for the workflow.
 
@@ -72,8 +88,10 @@ npm run serve:player           # Start the local player compatibility server
 
 - [Getting started](docs/GETTING_STARTED.md)
 - [Project structure](docs/PROJECT_STRUCTURE.md)
+- [Current source status](docs/SOURCE_STATUS.md)
 - [Source policy](docs/SOURCE_POLICY.md)
 - [IPTV/FAST import](docs/IPTV_FAST_IMPORT.md)
+- [Source-expansion completion](docs/SOURCE_EXPANSION_COMPLETION.md)
 - [Release 1.0.0](docs/RELEASE_1_0.md)
 - [Screenshots](docs/SCREENSHOTS.md)
 - [Disclaimer](DISCLAIMER.md)
