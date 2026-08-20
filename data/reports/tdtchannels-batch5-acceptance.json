@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "source": "tdtchannels-tv",
+  "batch": 5,
+  "accepted_at": "2026-08-20T14:32:00Z",
+  "live_output_commit": "0832c167ff7dbad46942508d0d903c2cdf154e34",
+  "policy": {
+    "source_tier": "B",
+    "consumer_visibility_before_approval": false,
+    "resume_state_required": true,
+    "state_key": "source_feed_id + normalized_stream_url",
+    "live_probe_required": true,
+    "approval_gate": "live_policy_gate",
+    "promotion_write_explicit": true,
+    "catalog_version_preserved": "1.0.0"
+  },
+  "resume": {
+    "snapshot_records_before_import": 480,
+    "previously_processed_skipped": 480,
+    "persisted_probe_records_after_batch": 572,
+    "retry_failed": false
+  },
+  "import": {
+    "candidates": 576,
+    "consumer_visible_at_import": 0
+  },
+  "probe": {
+    "checked": 576,
+    "actively_probed": 92,
+    "newly_passed": 86,
+    "newly_failed": 6,
+    "resume_skipped": 480,
+    "deferred_needs_probe": 0,
+    "blocked_or_non_probe_gated": 4,
+    "concurrency": 12,
+    "timeout_ms": 6000
+  },
+  "approval": {
+    "considered": 576,
+    "approved": 165,
+    "held": 411
+  },
+  "promotion": {
+    "approval_passed": 165,
+    "blocked_by_final_publication_gate": 98,
+    "published": 67
+  },
+  "release_verification": {
+    "ok": true,
+    "catalog_sources": 1137,
+    "direct_player_sources": 479,
+    "imported_iptv_inputs": 49,
+    "watch_graph_channels": 287,
+    "watch_graph_routes": 289,
+    "watch_graph_countries": 23
+  },
+  "cumulative_tdtchannels": {
+    "terminal_live_probe_records": 572,
+    "live_probe_passes": 471,
+    "live_probe_failures": 101,
+    "published_routes": 373,
+    "normal_probe_backlog": 0
+  },
+  "decision": "normal_backlog_completed_accept_for_exact_head_verification",
+  "notes": "Batch 5 exhausted the normal TDTChannels probe backlog. All 480 prior terminal routes were restored and skipped, all 92 remaining needs-probe candidates were processed, deferred_needs_probe reached zero, 67 new routes were published after approval and final publication gates, and the release verifier passed while preserving catalog version 1.0.0."
+}
