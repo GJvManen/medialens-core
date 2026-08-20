@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "source": "tdtchannels-tv",
+  "batch": 1,
+  "accepted_at": "2026-08-20T14:06:00Z",
+  "live_output_commit": "18f5e912c9e16fb170f0686b004c796ecf7d7105",
+  "policy": {
+    "source_tier": "B",
+    "consumer_visibility_before_approval": false,
+    "live_probe_required": true,
+    "approval_gate": "live_policy_gate",
+    "promotion_write_explicit": true,
+    "catalog_version_preserved": "1.0.0"
+  },
+  "import": {
+    "candidates": 576,
+    "consumer_visible_at_import": 0
+  },
+  "probe": {
+    "checked": 576,
+    "actively_probed": 120,
+    "passed": 95,
+    "failed": 25,
+    "deferred_needs_probe": 456,
+    "concurrency": 12,
+    "timeout_ms": 6000
+  },
+  "approval": {
+    "considered": 576,
+    "approved": 95,
+    "held": 481
+  },
+  "promotion": {
+    "approval_passed": 95,
+    "blocked_by_final_duplicate_gate": 37,
+    "published": 58
+  },
+  "release_verification": {
+    "ok": true,
+    "catalog_sources": 822,
+    "direct_player_sources": 164,
+    "imported_iptv_inputs": 49,
+    "watch_graph_channels": 287,
+    "watch_graph_routes": 289,
+    "watch_graph_countries": 23
+  },
+  "decision": "accepted_for_merge",
+  "notes": "The first live attempt exposed and led to correction of a catalog-version mutation in the promoter. The corrected run preserved version 1.0.0, passed full release verification, published 58 live-probed non-duplicate routes, and kept all unprobed/failed/duplicate candidates out of publication. Remaining TDTChannels candidates stay in the review queue for later batches."
+}
