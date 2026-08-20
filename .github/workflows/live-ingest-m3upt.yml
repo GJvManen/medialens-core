@@ -30,17 +30,24 @@ jobs:
           node --input-type=module <<'NODE'
           import fs from 'node:fs';
           const doc = JSON.parse(fs.readFileSync('data/candidates/m3upt.candidates.json', 'utf8'));
+          const drmReason = 'drm_or_dash_requires_supported_official_fallback';
           if (doc.source_expansion !== true) throw new Error('M3UPT output is not source-expansion gated');
           if (doc.consumer_visible_count !== 0) throw new Error('M3UPT import exposed consumer-visible candidates');
           for (const c of doc.candidates || []) {
-            if (c.review_status === 'needs_drm_official_fallback' && c.direct_playback_allowed !== false) {
+            if (c.blocked_reason === drmReason && c.direct_playback_allowed !== false) {
               throw new Error(`DRM/DASH candidate ${c.id} is not explicitly blocked from direct playback`);
             }
-            if (/\.mpd(?:$|\?)/i.test(c.streamUrl || '') && c.review_status !== 'needs_drm_official_fallback') {
-              throw new Error(`DASH candidate ${c.id} escaped DRM/DASH hold`);
+            const dash = /\.mpd(?:$|\?)/i.test(c.streamUrl || '');
+            if (dash && c.review_status !== 'rejected') {
+              if (c.direct_playback_allowed !== false || c.blocked_reason !== drmReason) {
+                throw new Error(`DASH candidate ${c.id} escaped DRM/DASH safety flags`);
+              }
+              if (!['needs_drm_official_fallback', 'duplicate'].includes(c.review_status)) {
+                throw new Error(`DASH candidate ${c.id} has an unexpected publishable status: ${c.review_status}`);
+              }
             }
           }
-          console.log(`M3UPT safety gate OK: ${doc.candidate_count} candidates, ${doc.duplicate_count} import duplicates, ${doc.drm_review_count} DRM/DASH holds.`);
+          console.log(`M3UPT safety gate OK: ${doc.candidate_count} candidates, ${doc.duplicate_count} import duplicates, ${doc.drm_review_count} terminal DRM-review statuses.`);
           NODE
       - name: Live probe M3UPT candidates only
         run: node scripts/probe-source-expansion.mjs . --feed=m3upt --live --resume --concurrency=12 --timeout=6000
