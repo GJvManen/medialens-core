@@ -1,0 +1,6 @@
+#EXTM3U url-tvg="https://m3upt.com/epg"
+#EXTINF:-1 group-title="TV" tvg-id="RTP1.pt" tvg-name="RTP 1" tvg-country="PT" tvg-language="por",RTP 1
+#EXTVLCOPT:http-user-agent="Mozilla/5.0"
+#EXTVLCOPT:http-origin=https://www.rtp.pt
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp1
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8

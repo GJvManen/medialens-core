@@ -8,10 +8,13 @@
   "scripts": {
     "serve": "python3 -m http.server 5173",
     "serve:player": "node scripts/player-server.mjs .",
-    "verify": "node scripts/verify-release.mjs .",
+    "verify": "node --check scripts/import-source-expansion.mjs && node scripts/validate-source-expansion.mjs . && node scripts/verify-release.mjs .",
+    "verify:source-expansion": "node --check scripts/import-source-expansion.mjs && node scripts/validate-source-expansion.mjs .",
     "build:watch-graph": "node scripts/build-watch-graph.mjs .",
     "import:iptv-feeds": "node scripts/import-iptv-feeds.mjs . && node scripts/sync-approved-iptv-sources.mjs . --write",
     "import:iptv-feeds:offline": "node scripts/import-iptv-feeds.mjs . --offline && node scripts/sync-approved-iptv-sources.mjs . --write",
+    "import:source-expansion": "node scripts/import-source-expansion.mjs .",
+    "import:source-expansion:offline": "node scripts/import-source-expansion.mjs . --offline",
     "sync:iptv": "node scripts/sync-approved-iptv-sources.mjs . --write",
     "sync:iptv:dry": "node scripts/sync-approved-iptv-sources.mjs . --dry-run",
     "probe:streams": "node scripts/probe-streams.mjs . --offline"
