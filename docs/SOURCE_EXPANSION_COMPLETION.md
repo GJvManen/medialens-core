@@ -2,6 +2,20 @@
 
 This document closes the remaining source-expansion items after TDTChannels, M3UPT, FreeCastHub and Free-TV/IPTV were operationalized.
 
+## Current shipping catalog snapshot
+
+The completed source-expansion roadmap leaves the shipping catalog on `main` at:
+
+- **2,900 total sources**;
+- **2,242 direct-player sources**;
+- **49 imported IPTV inputs**;
+- **287 watch-graph channels**;
+- **289 watch-graph routes**;
+- **23 watch-graph countries**;
+- catalog contract version **1.0.0**.
+
+The published source-expansion contribution is **2,136 sources**: 373 TDTChannels, 702 M3UPT, 63 FreeCastHub and 998 Free-TV/IPTV recovery additions on top of the original 764-source MediaLens catalog. See [`SOURCE_STATUS.md`](SOURCE_STATUS.md) for the current count breakdown.
+
 ## Remaining sources and final role
 
 | Source | Tier | Final role | Direct publication |
@@ -64,7 +78,8 @@ The live Nexus API reported **39,659 channels** and **14,026 stream records**. E
 - 914 matches reported online;
 - 30 matches were offline or not conclusively online;
 - 0 new MediaLens sources created;
-- catalog source count preserved at 2,900;
+- catalog source count preserved at **2,900**;
+- direct-player source count preserved at **2,242**;
 - catalog version preserved at `1.0.0`.
 
 Nexus therefore enriches roughly two-fifths of current direct-player routes while remaining completely isolated from source publication authority.
