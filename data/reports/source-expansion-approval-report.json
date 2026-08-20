@@ -1,16 +1,92 @@
 {
   "version": "38.4-source-expansion-approval",
-  "generated_at": "2026-08-20T14:55:15.989Z",
-  "feed_filter": "m3upt",
+  "generated_at": "2026-08-20T15:05:03.557Z",
+  "feed_filter": "freecasthub-public-iptv",
   "allow_fixture": false,
-  "considered": 898,
-  "approved": 707,
-  "held": 191,
+  "considered": 108,
+  "approved": 63,
+  "held": 45,
   "publication_note": "Approval does not publish. Promotion is a separate explicit write step.",
   "decisions": [
     {
-      "id": "m3upt-rtp1-pt-smil-playlist-m3u8",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-dw-english-eam102-master-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "duplicate",
+        "duplicate_candidate_or_existing_source",
+        "probe_not_accepted",
+        "review_status_duplicate"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-dw-arabic-eam103-master-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "duplicate",
+        "duplicate_candidate_or_existing_source",
+        "probe_not_accepted",
+        "review_status_duplicate"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-dw-espanol-eam104-master-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "duplicate",
+        "duplicate_candidate_or_existing_source",
+        "probe_not_accepted",
+        "review_status_duplicate"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-france-24-english-106-france24-franc",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-france-24-arabic-s-master-5000-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "duplicate",
+        "duplicate_candidate_or_existing_source",
+        "probe_not_accepted",
+        "review_status_duplicate"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-france-24-espanol-s-master-5000-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-bbc-arabic--arabic-tv-pc-hd-a",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "drm_or_dash_requires_supported_official_fallback",
+        "probe_not_accepted",
+        "review_status_needs_drm_official_fallback"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-bbc-persian--persian-tv-pc-hd-",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "drm_or_dash_requires_supported_official_fallback",
+        "probe_not_accepted",
+        "review_status_needs_drm_official_fallback"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-abc-news-live-1-master-4000-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "held",
       "reasons": [
         "stream_probe_http_error",
@@ -19,18 +95,117 @@
       ]
     },
     {
-      "id": "m3upt-rtp2-pt-smil-playlist-m3u8",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-voa-tv-africa-mc06-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-voa-persian-mc07-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-alhurra-rldsafe-hls-master",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "held",
       "reasons": [
-        "stream_probe_http_error",
+        "duplicate",
+        "duplicate_candidate_or_existing_source",
+        "probe_not_accepted",
+        "review_status_duplicate"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-al-jazeera-english-net-aje-index-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "stream_probe_network_error",
         "probe_not_accepted",
         "review_status_probe_failed"
       ]
     },
     {
-      "id": "m3upt-sic-pt-a-pt-sic1080p-m3u8",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-al-jazeera-arabic-net-aja-index-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "duplicate",
+        "duplicate_candidate_or_existing_source",
+        "probe_not_accepted",
+        "review_status_duplicate"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-cgtn-agi-tv-master-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-cgtn-arabic-izen-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-cgtn-french-izen-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-cgtn-russian-izen-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-cgtn-spanish-izen-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-euronews-english-720p-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "duplicate",
+        "duplicate_candidate_or_existing_source",
+        "probe_not_accepted",
+        "review_status_duplicate"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-trt-world-tktv-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-nhk-world-japan-pbs-org-index-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-arirang-tv-smil-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-abc-news-australia-406a440133-index-m",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-cna-international-4bf-ap-southeast-1",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "held",
       "reasons": [
         "stream_probe_geo_blocked",
@@ -39,24 +214,117 @@
       ]
     },
     {
-      "id": "m3upt-tvi-pt--main-m3u-tvi-m3u8",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-dd-news-d2fa18b-index-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "approved",
       "reasons": []
     },
     {
-      "id": "m3upt-rtpnoticias-pt-smil-playlist-m3u8",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-24-horas-73da68a62b09d1-cc-",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "held",
       "reasons": [
-        "stream_probe_http_error",
+        "stream_probe_network_error",
         "probe_not_accepted",
         "review_status_probe_failed"
       ]
     },
     {
-      "id": "m3upt-sicnoticias-pt-esa-pt-sicnot-m3u8",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-3catinfo-24-hls-master-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-ici-rdi-canrdi-master-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-belarus-24-smil-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-press-tv-english-v-5-482-index-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "stream_probe_network_error",
+        "probe_not_accepted",
+        "review_status_probe_failed"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-africanews-french-r-25050-index-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "duplicate",
+        "duplicate_candidate_or_existing_source",
+        "probe_not_accepted",
+        "review_status_duplicate"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-redbull-tv-umfrdxrlblrwlwdix1",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-fifa-english-umfrdxrlblrwlwv1x0",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-fifa-women-u2ftc3vuzy1nyl9gsu",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-motorsport-tv-umfrdxrlblrwlwv1x0",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "stream_probe_network_error",
+        "probe_not_accepted",
+        "review_status_probe_failed"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-teledeporte-73da68a62b09d1-cc-",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "stream_probe_network_error",
+        "probe_not_accepted",
+        "review_status_probe_failed"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-esport3-t3-hls-master-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-l-equipe-3da68a62b09d1-cc-g",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "stream_probe_network_error",
+        "probe_not_accepted",
+        "review_status_probe_failed"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-ert-sports-1-ertsports-mpeg-2ts",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "held",
       "reasons": [
         "stream_probe_geo_blocked",
@@ -65,675 +333,8 @@
       ]
     },
     {
-      "id": "m3upt-cnnportugal-pt--cnn-portugal-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-cnnbrasil-br--net-hls-main-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-euronewsportuguese-fr-umxhehhuvi1ldv9fdx",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-artv-pt-pub2-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-rtpmemoria-pt-smil-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-rtpacores-pt-smil-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-rtpmadeira-pt-smil-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-rtpafrica-pt-smil-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-rtpmundo-pt-smil-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-tviinternacional-pt-internacional-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-vplustvi-pt-m3u-vmais-tvi-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-tvificcao-pt-3u-tvi-ficcao-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-tvireality-pt-u-tvi-reality-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-sicreplay-pt-c2e-channels-d9070",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-sicaltadefinicao-pt-b6b-channels-d9070",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-portocanal-pt-fa318f7133-pc1-jhr",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-famatv-pt-ve-famatvlive-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-conectvalgarve-pt--conectv-live-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-tds-pt-ale5-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-nmttv-pt-6ole9wb-index-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-rfptv-pt-fptv-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-assim-e-portugal-ugal-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-tvbrasilinternacional-br--com-br-index-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-brazitv-us-ls-livest2024-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-redebrasil-br-ve-hls-stream-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-tvcamara-br--tv1-manifest-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-tvcultura-br-ive-tvcultura-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "duplicate",
-        "duplicate_candidate_or_existing_source",
-        "probe_not_accepted",
-        "review_status_duplicate"
-      ]
-    },
-    {
-      "id": "m3upt-agrobrasil-tv-a577-output-0-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-foratediotv-br-edio-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-canalmacau-mo-live-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "duplicate",
-        "duplicate_candidate_or_existing_source",
-        "probe_not_accepted",
-        "review_status_duplicate"
-      ]
-    },
-    {
-      "id": "m3upt-tdmmacausatellite-mo-live-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-tvzimbo-ao-bo-index-fmp4-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-tvm-mz--tvm-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-tvminternacional-mz-tvmi-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-muzangalatv-ao-gala-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-tvbricsportuguese-br--v1a1-mono-ts-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-mytimemovienetwork-br-i-tv-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-moviesphere-us-i-tv-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-rakutentvtopmovies-es-bec7b67b746e47670f",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-rakutenviki-es-om-v1-master-04fd9",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-shemaroobollywood-us-llywood-ono-playli",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-travelxp-in-om-v1-master-44f73",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-realwild-us-i-tv-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-italianfishingtv-it-ngtv-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-thejamieoliverchannel-us-i-tv-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-euronewsenglish-fr-720p-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-euronewsspanish-fr-s-25053-index-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-euronewsitalian-fr-umxhehhuvi1ldv9fdx",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-euronewsfrench-fr-umxhehhuvi1ldv9fdx",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "duplicate",
-        "duplicate_candidate_or_existing_source",
-        "probe_not_accepted",
-        "review_status_duplicate"
-      ]
-    },
-    {
-      "id": "m3upt-euronewsgerman-fr-umxhehhuvi1ldv9fdx",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-telesur-ve-main-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "duplicate",
-        "duplicate_candidate_or_existing_source",
-        "probe_not_accepted",
-        "review_status_duplicate"
-      ]
-    },
-    {
-      "id": "m3upt-telesur-ve-vev3-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-hispantv-ir--hls-hispantv-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_network_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-presstv-ir-r-hls-presstv-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_network_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-freespeechtv-us-ve-channel-index-m",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-rt-ru-080p-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-cgtn-cn-yypdyyctzb-hd-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-cgtnespanol-cn-aufh8vznble1znea22",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-cgtnfrancais-cn-o0ut9r71uq3k5goca2",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-cgtndocumentary-cn-yypdjlctzb-hd-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-aljazeera-qa-net-aje-index-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "duplicate",
-        "duplicate_candidate_or_existing_source",
-        "probe_not_accepted",
-        "review_status_duplicate"
-      ]
-    },
-    {
-      "id": "m3upt-france24english-fr-s-master-5000-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-france24espanol-fr-s-master-5000-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-france24french-fr-s-master-5000-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-france24arabic-fr-s-master-5000-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-bbcnews-uk-ews-channel-hd-t-3",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-skynewsinternational-uk-e04991ed59ac7790b6",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-africanewsenglish-fr-om-v1-master-0547f",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-trtworld-tr-com-tr-master-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "duplicate",
-        "duplicate_candidate_or_existing_source",
-        "probe_not_accepted",
-        "review_status_duplicate"
-      ]
-    },
-    {
-      "id": "m3upt-cnninternational-us-73da68a62b09d1-cc-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-cbsnews247-us-2deeca-master-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "duplicate",
-        "duplicate_candidate_or_existing_source",
-        "probe_not_accepted",
-        "review_status_duplicate"
-      ]
-    },
-    {
-      "id": "m3upt-nbcnewsnow-us-channel-master-mpd",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-bloombergtv-us-umfrdxrlblrwlwv1x0",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-bloombergtv-us-ginia-1-source-usp",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-nhkworldjapan-jp-w-live-master-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "duplicate",
-        "duplicate_candidate_or_existing_source",
-        "probe_not_accepted",
-        "review_status_duplicate"
-      ]
-    },
-    {
-      "id": "m3upt-arirangtv-kr-smil-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-cnainternational-sg-utheast-1-60579944",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-ntdtvenglish-us-ylist-amg17596-new",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-dwenglish-de-ream102-index-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-dw-de-espanol-ream104-index-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "duplicate",
-        "duplicate_candidate_or_existing_source",
-        "probe_not_accepted",
-        "review_status_duplicate"
-      ]
-    },
-    {
-      "id": "m3upt-dw-de-arabic-ream103-index-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-tv5monde-fr-annel-variant-m3u8",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-ert-sports-2--ertplay2-mpeg-2ts",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "held",
       "reasons": [
         "stream_probe_geo_blocked",
@@ -742,186 +343,30 @@
       ]
     },
     {
-      "id": "m3upt-bfmtv-fr-tv-com-master-m3u8",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-san-marino-rtv-sport-2-smil-master-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-rtsh-sport-port-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "held",
       "reasons": [
-        "duplicate",
-        "duplicate_candidate_or_existing_source",
+        "stream_probe_timeout",
         "probe_not_accepted",
-        "review_status_duplicate"
+        "review_status_probe_failed"
       ]
     },
     {
-      "id": "m3upt-tve24h-pt--24h-main-dvr-m3u8",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-belarus-5-smil-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "approved",
       "reasons": []
     },
     {
-      "id": "m3upt-la1-es--la1-main-dvr-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "duplicate",
-        "duplicate_candidate_or_existing_source",
-        "probe_not_accepted",
-        "review_status_duplicate"
-      ]
-    },
-    {
-      "id": "m3upt-la2-es--la2-main-dvr-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "duplicate",
-        "duplicate_candidate_or_existing_source",
-        "probe_not_accepted",
-        "review_status_duplicate"
-      ]
-    },
-    {
-      "id": "m3upt-galiciatveuropa-es-loud-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "duplicate",
-        "duplicate_candidate_or_existing_source",
-        "probe_not_accepted",
-        "review_status_duplicate"
-      ]
-    },
-    {
-      "id": "m3upt-canalmalagartv-es--com-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-etb1-es-us-hls-master-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-etb2-es-us-hls-master-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-etbbasque-es-us-hls-master-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-canalextremadurasatelite-es-e9ba-continuous-9b",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "duplicate",
-        "duplicate_candidate_or_existing_source",
-        "probe_not_accepted",
-        "review_status_duplicate"
-      ]
-    },
-    {
-      "id": "m3upt-tv3cat-es-vi-hls-master-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "duplicate",
-        "duplicate_candidate_or_existing_source",
-        "probe_not_accepted",
-        "review_status_duplicate"
-      ]
-    },
-    {
-      "id": "m3upt-3catinfo-es-24-hls-master-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "duplicate",
-        "duplicate_candidate_or_existing_source",
-        "probe_not_accepted",
-        "review_status_duplicate"
-      ]
-    },
-    {
-      "id": "m3upt-cubavisioninternacional-cu-ream-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "duplicate",
-        "duplicate_candidate_or_existing_source",
-        "probe_not_accepted",
-        "review_status_duplicate"
-      ]
-    },
-    {
-      "id": "m3upt-aztecainternacional-mx-m-azt-mun-mun-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-rainews24-it-s-playlist-mo-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-ebsenglish-kr-pc1m-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-ebs1tv-kr-pc1m-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-ebs2tv-kr-pc1m-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-ebsplus1-kr-pc1m-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-ebsplus2-kr-pc1m-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-ebskids-kr-pc1m-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-rakutentvfamilymovies-es-om-v1-master-0547f",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-geekdot-br-4-hybrid-play-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-locomotion-loco-hi-index-m3u8",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-tvri-sport-d-hls-sporthd-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "held",
       "reasons": [
         "stream_probe_http_error",
@@ -930,86 +375,66 @@
       ]
     },
     {
-      "id": "m3upt-on-fm-portugal-ream-playlist-m3u8",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-tdm-sports-live-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "stream_probe_timeout",
+        "probe_not_accepted",
+        "review_status_probe_failed"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-mnb-sport-h-fta-mnbsport-mpd",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "drm_or_dash_requires_supported_official_fallback",
+        "probe_not_accepted",
+        "review_status_needs_drm_official_fallback"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-varzesh-tv-1226845-index-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "stream_probe_http_error",
+        "probe_not_accepted",
+        "review_status_probe_failed"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-rta-sport-channel-index-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "stream_probe_http_error",
+        "probe_not_accepted",
+        "review_status_probe_failed"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-tjk-tv-tjk-org-tjktv-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "approved",
       "reasons": []
     },
     {
-      "id": "m3upt-radiosines-pt-smil-playlist-m3u8",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-stadium-52e6-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "approved",
       "reasons": []
     },
     {
-      "id": "m3upt-traceurban-fr-i-tv-playlist-m3u8",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-sportsgrid-i-tv-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "approved",
       "reasons": []
     },
     {
-      "id": "m3upt-tracetoca-fr-toca-hd-index-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-traceafrica-fr-a-fr-hd-index-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-tracebrasil-fr-131-tracetv-traceb",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-tracelatina-fr-amsungspain-playli",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-traceuk-uk-fast-hd-index-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-tracenaija-fr-aija-hd-index-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-tracekitoko-fr-toko-hd-index-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-tracemiziki-fr-ziki-hd-index-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-tracegospel-fr-rod-gospel-fr-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-xite-nl-i-tv-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-nrg91-gr-live-playlist-m3u8",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-fuel-tv-data-rakutenaa-fue",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "held",
       "reasons": [
         "duplicate",
@@ -1019,14 +444,70 @@
       ]
     },
     {
-      "id": "m3upt-mydeejay-it-808-smo0tz9sr2rk-p",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-edgesport-i-tv-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "stream_probe_network_error",
+        "probe_not_accepted",
+        "review_status_probe_failed"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-world-of-freesports-i-tv-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "approved",
       "reasons": []
     },
     {
-      "id": "m3upt-4fun-pl-4f-high-index-m3u8",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-trace-sport-stars-i-tv-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-fox-weather--stream-index-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-accuweather-now--plex-playlist-m3u",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-sky-news-weather-oop-stream-all-pla",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-meteonews-et-hls-stream-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-nhk-kishou-saigai-ssimul-master-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-weathernews-6488-11ed8ed8ca-is",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "stream_probe_http_error",
+        "probe_not_accepted",
+        "review_status_probe_failed"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-3cat-cameres-del-temps-es-hls-master-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "held",
       "reasons": [
         "duplicate",
@@ -1036,491 +517,18 @@
       ]
     },
     {
-      "id": "m3upt-kpoptvplay-br-play-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-fmitalia-it-ream-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-colosaltv-cr-osal-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-californiamusicchannel-us-i-tv-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-fifaplus-uk-umfrdxrlblrwlxb0x0",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-realmadridtv-es-es-web-master-m3u8",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-source-b-hls-live-sd-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "held",
       "reasons": [
-        "duplicate",
-        "duplicate_candidate_or_existing_source",
-        "probe_not_accepted",
-        "review_status_duplicate"
-      ]
-    },
-    {
-      "id": "m3upt-fueltv-at-data-rakutenaa-fue",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-nauticalchannel-it--231198-index-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-redbulltv-at-orb-at-master-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "duplicate",
-        "duplicate_candidate_or_existing_source",
-        "probe_not_accepted",
-        "review_status_duplicate"
-      ]
-    },
-    {
-      "id": "m3upt-motorvision-de-com-mvg-mv-mv-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-supertennis-it-pu-a-c0-16-restrea",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-fashiontveurope-fr--n2-playlist-amg01",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-worldfashionchannel-ru-dn-stream-eng-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-icitele-ca-stream-master-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-daserste-de-hls-de-master-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-akaku53-us-ive-ch1-video-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "duplicate",
-        "duplicate_candidate_or_existing_source",
-        "probe_not_accepted",
-        "review_status_duplicate"
-      ]
-    },
-    {
-      "id": "m3upt-akaku54-us-ive-ch2-video-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "duplicate",
-        "duplicate_candidate_or_existing_source",
-        "probe_not_accepted",
-        "review_status_duplicate"
-      ]
-    },
-    {
-      "id": "m3upt-akaku55-us-ive-ch3-video-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "duplicate",
-        "duplicate_candidate_or_existing_source",
-        "probe_not_accepted",
-        "review_status_duplicate"
-      ]
-    },
-    {
-      "id": "m3upt-kuriakostv-pt-smil-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_network_error",
+        "stream_probe_timeout",
         "probe_not_accepted",
         "review_status_probe_failed"
       ]
     },
     {
-      "id": "m3upt-kuriakoscine-pt-smil-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_network_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-kuriakoskids-pt-smil-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_network_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-kuriakosmusic-pt-smil-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_network_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-tvmana1-pt-smil-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_network_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-tvmana2-pt-smil-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_network_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-tvmanabrasil-pt-smil-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_network_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-tvmanamocambique-mz-smil-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_network_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-tvcancaonova-pt-720p-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-rtp-antena-1-180a-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-rtp-antena-2-280a-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-rtp-antena-3-380a-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-rtp-antena-1-acores-s80a-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-rtp-antena-1-madeira-a80a-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-rtp-antena-3-madeira-a80a-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-rtp-mundo-t80a-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-rtp-africa-a80a-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-rtp-vida-a80a-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-rtp-lusitania-a80a-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-rtp-fado-o80a-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-rtp-jazzin-n80a-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-rtp-opera-a80a-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-amalia--1487014253471-mp3",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-cidade-fm--aac-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-cidade-hip-hop--aac-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-cidade-latina--aac-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-comercial--aac-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-comercial-rock--aac-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-comercial-dance--aac-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-comercial-by-night--aac-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-comercial-one-hit-wonders--aac-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-comercial-kids--aac-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-comercial-portugal--aac-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-comercial-brasil--aac-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-comercial-90s--aac-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-comercial-2000s--aac-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-m80--aac-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-mega-hits-d-com-mega-hits-sc",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-meo-music-pt-8495-listen-pls",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-nostalgia-bcorp-es-8040-live",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-nova-era-ova-radios-pt-9478",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-nova-98-9-fm-porto--radio-com-pt-9528",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-observador-bservador-adp-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-orbital-ng-net-3025-stream",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-oxigenio-t-com-oxigenio-aac",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-radar-vspt-com-radar-aac",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-renascenca-adio-renascencaaac",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-rfm-heworld-com-rfmaac",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_network_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-radio-rfm-oitentas-ld-com-gr80srfmaac",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-rfm-on-the-rock-om-rfmontherockaac",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_network_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-radio-rfm-dancefloor-danceontheflooraac",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_network_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-radio-rfm-oceano-pacifico-om-oceanpacificaac",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-altv-t-1080p-index-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "held",
       "reasons": [
         "stream_probe_geo_blocked",
@@ -1529,90 +537,20 @@
       ]
     },
     {
-      "id": "m3upt-radio-sbsr-roxy-435-mp-stream",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-radio-smooth-fm--aac-playlist-m3u8",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-ard-alpha-119899-master-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "approved",
       "reasons": []
     },
     {
-      "id": "m3upt-radio-super-fm-tream-2-stream-mp3",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_network_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-radio-tsf--pt-tsfdirecto-mp3",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-canal-educacao--com-br-index-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "approved",
       "reasons": []
     },
     {
-      "id": "m3upt-batida-fm--aac-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-miudos--s9c516a065-listen",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-rtp-zig-zag-g80a-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-quinta-do-conde-io-com-8100-stream",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-cascais-tream-2-stream-mp3",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_network_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-radio-castelo-branco--radio-com-pt-9462",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_network_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-radio-clube-penafiel-ova-radios-pt-9476",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-jm-madeira-130-8000-type-http",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-canal-saude-ream-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "held",
       "reasons": [
         "stream_probe_timeout",
@@ -1621,2160 +559,14 @@
       ]
     },
     {
-      "id": "m3upt-hiper-fm-243-10460-stream-1",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-radio-hertz-6-92-8-8030-stream",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-radio-linear-lrm-pt-8184-stream",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-marcoense-fm--250-8000-stream-1",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-monsanto-ng-net-9029-stream",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-montemuro--pt-8060-radio-mp3",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-noar-web-pt-8026-stream",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-nove3cinco-ova-radios-pt-9522",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-portalegre-ios-pt-9492-stream",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-portuense-o-com-10905-stream",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-regional-ioregional-pt-8002",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-regional-ioregional-pt-8000",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-regional-rock-ioregional-pt-8046",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-regional-dance-djs-ioregional-pt-8064",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-regional-love-songs-ioregional-pt-8058",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-regional-oldies-ioregional-pt-8052",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-regional-portuguesa-ioregional-pt-8040",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-regional-arouca-com-pt-8485-stream",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-sines-io-com-9580-stream",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-fama-radio-st4u-com-famaradio",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-terra-nova-ios-pt-9404-stream",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-universitaria-de-coimbra-stream-ruc-pt-high",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-universitaria-do-minho-o-com-pt-proxy-558",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-vale-do-minho--radio-com-pt-9434",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-rfptv-radio-so-folclore-de-portugal-tv-ic-com-8012-stream",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-radio-quantica-ntica-com-main-mp3",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-avfm--com-ssl-radioavfm",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-venice-classic-radio-auditorium-pulse-com-ssl-vcr1",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-venice-classic-radio-live-pulse-com-ssl-vcr2",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-vila-praia-de-ancora-cora-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-viana-do-castelo-afife-arda-fife-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-viana-do-castelo-cabedelo-iana-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-esposende-ende-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-esposende-foz-do-rio-cavado-ende-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-ofir-ofir-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-apulia-ulia-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-vila-do-conde-caxinas-inas-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-leca-da-palmeira-eira-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-leca-da-palmeira-panoramica-aterro-leca-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-matosinhos-nhos-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-porto-homem-do-leme-leme-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-porto-carneiro-eiro-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-praia-canide-norte-sul-delo-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-espinho-panoramica-inho-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-espinho-pico-do-casino-estatica-fixa-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-espinho-silvalde-vade-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-espinho-silvalde-estatica-fixa-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-esmoriz-oriz-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-furadouro-ouro-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-da-torreira-eira-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-de-sao-jacinto-barra-arra-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-da-barra-eiro-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-costa-nova-nova-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-vagueira-casablanca-anca-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-vagueira-labrego-rego-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-vagueira-areao-reao-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-praia-de-mira-mira-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-da-tocha-ocha-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-murtinheira-eira-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-figueira-da-foz-buarcos-estatica-rcos-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-figueira-da-foz-buarcos-dois-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-figueira-da-foz-panoramica-afoz-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-figueira-da-foz-cabedelo-ledo-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-osso-da-baleia-leia-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-praia-do-pedrogao-ogao-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-da-vieira-eira-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-sao-pedro-de-moel-moel-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pedra-do-ouro-ouro-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-paredes-da-vitoria-oria-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-nazare-praia-do-norte-zare-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-nazare-praia-do-norte-panoramica-orte-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-nazare-forte-s-miguel-arcanjo-panoramica-norte-njo1-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-nazare-forte-s-miguel-arcanjo-panoramica-njo2-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-nazare-forte-s-miguel-arcanjo-njo3-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-nazare-forte-s-miguel-arcanjo-baia-raia-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-nazare-praia-da-vila-vila-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-nazare-porto-de-abrigo-rigo-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-sao-martinho-do-porto-inho-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-foz-do-arelho-elho-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-peniche-lagide-estatica-fixa-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-peniche-lagide-cantinho-da-baia-gide-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-peniche-cantinho-da-baia-estatica-inho-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-peniche-baleal-panoramica-eral-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-peniche-supertubos-molhe-leste-ubos-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-peniche-molhe-leste-estatica-este-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-peniche-supertubos-estatica-fixa-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-peniche-consolacao-acao-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-areia-branca-anca-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-de-santa-rita-eiro-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-santa-cruz-navio-cruz-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-santa-cruz-praia-azul-azul-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-da-calada-lada-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-sao-lourenco-enco-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-ribeira-d-ilhas-eira-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-ribeira-d-ilhas-estatica-fixa-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-ericeira-reef-pedra-branca-pots-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-matadouro-park-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-dos-pescadores-ores-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-ericeira-praia-do-sul-eira-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-foz-do-lizandro-ndro-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-sao-juliao-liao-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-do-magoito-oito-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-das-macas-acas-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-pequena-uena-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-grande-norte-ande-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-grande-sul-nde2-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-da-adraga-raga-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-do-guincho-norte-orte-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-praia-do-guincho-estatica-fixa-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-praia-do-guincho-sul-osul-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-da-cresmina-mina-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-baia-de-cascais-ores-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-da-conceicao-e-duquesa-icao-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-das-moitas-itas-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-praia-das-moitas-estatica-fixa-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-do-tamariz-ariz-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-sao-joao-do-estoril-oril-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-sao-pedro-do-estoril-oria-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-sao-pedro-do-estoril-oria-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_timeout",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-sao-pedro-do-estoril-bico-estatica-fixa-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-bafureira-estatica-fixa-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-das-avencas-ncas-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-parede-rede-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-parede-estatica-fixa-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-carcavelos-elos-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-carcavelos-calhau-los2-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-carcavelos-calhau-estatica-fixa-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-carcavelos-norte-estatica-fixa-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-da-torre-orre-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-santo-amaro-maro-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-santo-amaro-estatica-fixa-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-paco-de-arcos-rcos-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-paco-de-arcos-estatica-fixa-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-costa-de-caparica-praia-norte-estatica-onio-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-costa-de-caparica-sao-joao-cova-do-vapor-joao-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-costa-de-caparica-sao-joao-estatica-fixa-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-costa-de-caparica-praia-do-norte-joao-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-costa-de-caparica-cds-norte-estatica-fixa-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-costa-de-caparica-cds-norte-acds-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-costa-de-caparica-cds-sul-estatica-nard-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-costa-de-caparica-cds-sul-nard-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-costa-de-caparica-tarquinio-estatica-nho2-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-costa-de-caparica-tarquinio-inho-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-costa-de-caparica-praia-nova-estatica-raia-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-costa-de-caparica-praia-nova-raia-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-costa-de-caparica-nova-praia-cuda-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-costa-de-caparica-riviera-iera-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-costa-de-caparica-praia-da-sereia-morena-kiki-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-fonte-da-telha-norte-elha-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-fonte-da-telha-sul-ambu-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-lagoa-de-albufeira-eira-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-do-meco-meco-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-das-bicas-icas-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-sesimbra-mbra-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-portinho-da-arrabida-inho-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-albarquel-quel-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-troia-roia-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-comporta-orta-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-do-carvalhal-lhal-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-lagoa-de-santo-andre-ndre-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-sao-torpes-rpes-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-sao-torpes-estatica-pes2-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-v-n-milfontes-farol-arol-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-v-n-milfontes-franquia-quia-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-v-n-milfontes-furnas-mar-smar-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-almograve-rave-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-zambujeira-do-mar-eira-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-carvalhal-mira-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-odeceixe-eixe-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-da-amoreira-eira-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-monte-clerigo-rigo-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-arrifana-fana-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-do-amado-mado-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-cordoama-oama-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-sagres-gres-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-da-luz--luz-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-meia-praia-raia-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-alvor-lvor-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-alvor-nascente-ente-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-do-alemao-emao-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-praia-do-vau-imao-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-portimao-praia-do-amado-imao-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-praia-da-rocha-miradouro-ocha-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-praia-da-rocha-panoramica-ocha-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-da-rocha-estatica-imao-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-praia-da-rocha-marina-mao2-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-ferragudo-praia-grande-gudo-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-carvoeiro-eiro-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-senhora-da-rocha-e-praia-nova-reja-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-armacao-de-pera-pera-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-da-gale-gale-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-praia-do-peneco-neco-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-da-falesia-oura-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-vilamoura-ule1-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-quarteira-oeste-ule2-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-quarteira-este-ule3-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-faro-praia-de-faro-oeste-raia-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-faro-praia-de-faro-este-faro-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-faro-ilha-da-culatra-faro-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-alagoa-altura-agoa-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-verde-castro-marim-erde-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-porto-santo-anto-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-madeira-praia-da-maiata-iata-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-madeira-faja-da-areia-faja-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-madeira-seixal-ixal-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-madeira-paul-do-mar-mar2-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-madeira-ponta-pequena-omar-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-madeira-jardim-do-mar-dois-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-acores-ribeira-grande-ande-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-das-rocas-ocas-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-fluvial-do-cabril-bril-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-praia-fluvial-lago-azul-azul-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-ferreira-do-zezere-dornes-rnes-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-ferreira-do-zezere-wake-park-eira-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-ski-clube-quinta-grande-nde1-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-lisboa-belem-elem-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-lisboa-cais-do-sodre-odre-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-caxias-xias-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-farol-do-bugio-norte-gio1-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-farol-do-bugio-sul-gio2-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-viana-do-castelo-wake-park-park-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-boardriders-skatepark-kate-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-ria-de-aveiro-murtosa-tosa-playlist-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-eixo-do-mal-30-7-2026-a39a-c427144a0523-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-23-7-2026-9efe-0b5f020d2f74-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-16-7-2026-bdd6-870d1702f293-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-9-7-2026-9f4c-226dd5cb2c6e-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-25-6-2026-a675-916da0f9110c-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-18-6-2026-bca1-2ac1ef8eaaf3-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-11-6-2026-b34a-4e8b339df451-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-4-6-2026-9edc-b21c93936f4c-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-28-5-2026-8132-35731e624dce-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-21-5-2026-9d7f-04bd1d316c1f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-14-5-2026-b3e0-aee7b774bd3b-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-7-5-2026-96a0-e7b3cc986ef7-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-30-4-2026-8fa1-9ca55fa3b321-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-23-4-2026-8239-8860045e3fc8-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-16-4-2026-9065-8409d6918fd2-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-9-4-2026-9670-46e81a61a3b8-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-2-4-2026-8a81-a75b09fbfa7a-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-26-3-2026-aeb1-1d8d01f53b3a-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-19-3-2026-a05f-e600f1cbb288-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-12-3-2026-8b73-4f922c7c1ad1-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-5-3-2026-b2bb-98731feef73c-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-26-2-2026-b2da-713ff6953c68-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-19-2-2026-a254-0c15742793b8-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-12-2-2026-927c-a5e8bbcf4ea3-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-5-2-2026-891b-082c340a812a-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-29-1-2026-884c-9f574bf6ae8a-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-22-1-2026-b996-4bdd09d13e42-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-15-1-2026-9d87-6df8078f41ff-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-8-1-2026-822f-3e80914a295a-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-1-1-2026-b8cd-cd3c08aeeb44-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-18-12-2025-aae4-385e8271e105-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-11-12-2025-a7e3-c7086275c074-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-4-12-2025-8400-b67efc41c23f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-27-11-2025-af89-55b49eda299b-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-20-11-2025-a8b9-1875eeb16511-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-13-11-2025-93df-07fee5538f4c-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-6-11-2025-b4cd-65f6d960edba-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-30-10-2025-97db-d2de1925f928-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-23-10-2025-9803-13d85b8caafb-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-16-10-2025-86ec-ce0c22cfbf4f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-9-10-2025-8af1-36c044960b7a-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-2-10-2025-8db4-bdf45fd537f6-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-25-9-2025-a814-3472b84710df-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-18-9-2025-b76b-b841deab92d1-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-11-9-2025-b2ef-83ba2069cf39-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-4-9-2025-b9f6-676d6ca8c3b1-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-31-7-2025-aba8-4a6bb6e553c0-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-24-7-2025-91e8-997351d13982-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-17-7-2025-8f14-572424cfb47e-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-10-7-2025-a19b-f0ba173ca892-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-3-7-2025-8f7f-0e65a0f7ce61-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-26-6-2025-b640-30c31fbf1157-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-19-6-2025-8881-8e632f1a19ba-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-12-6-2025-aab5-5e9ee466cdd1-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-5-6-2025-bc69-82ff90c8c793-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-29-5-2025-a662-40aeb994c1ed-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-22-5-2025-b211-3146bf220a6b-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-15-5-2025-a9c5-0544362f393f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-8-5-2025-b892-375d2ecb2711-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-1-5-2025-89f5-c28b14a41c9d-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-24-4-2025-883d-2e9868abb5d5-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-17-4-2025-98d7-00de651ed0aa-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-10-4-2025-817d-75cf981c2c93-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-3-4-2025-b100-9d6744168e78-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-27-3-2025-9231-c0a7c576ff6a-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-20-3-2025-8133-9c26708384c0-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-13-3-2025-ad3c-1b88eb305646-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-7-3-2025-b714-59b147d7cd00-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-28-2-2025-aea9-93d5b44fb50a-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-21-2-2025-a739-9c353b1fa610-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-13-2-2025-87c4-dc8675a72f53-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-6-2-2025-b510-160eb7f5415b-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-30-1-2025-9f21-ea8b57ba8f1b-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-24-1-2025-8597-4ae170deba86-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-16-1-2025-8035-82b08cb572e4-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-10-1-2025-9d98-44bdbd4032dc-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-3-1-2025-88b0-ff87383adeee-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-27-12-2024-b520-6e61b0e7bb42-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-19-12-2024-b66f-d36a7bc4527c-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-13-12-2024-a3a6-a2e14d5a86b6-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-5-12-2024-bef2-2c2191cf5242-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-28-11-2024-9eb9-94d015afbf2a-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-22-11-2024-8a1b-d0ee76d1ae14-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-15-11-2024-88c4-542eeaa92816-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-8-11-2024-b110-823fc118c8db-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-1-11-2024-81aa-13153fce7287-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-24-10-2024-bf09-5fde6f06e1fd-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-17-10-2024-b1c9-652874df3d11-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-10-10-2024-b0f3-6408943f4a1e-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-4-10-2024-a631-0923b394b67b-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-26-9-2024-b613-3620874f324f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-20-9-2024-b132-c3a6e2bea64d-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-12-9-2024-b379-66b134348529-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-5-9-2024-8245-0edcee30cbda-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-1-8-2024-938e-ed141bba171f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-25-7-2024-87a5-431bc46ae9f9-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-18-7-2024-a829-f1817e5b3092-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-11-7-2024-8912-8edecae715e2-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-5-7-2024-9eb6-e0f36d93e81e-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-27-6-2024-ae7d-c1301da57d26-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-20-6-2024-9010-74234a38c1d2-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-13-6-2024-9406-e71b299abe01-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-6-6-2024-bc5b-cc61bc085acd-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-30-5-2024-b492-cde67f31455f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-23-5-2024-8b96-256522f64bf6-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-16-5-2024-935b-3322a2b4cac2-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-10-5-2024-92d5-469e06e5a07f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-2-5-2024-ab25-645ef7acab71-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-25-4-2024-9f64-79ef4dd25c2b-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-18-4-2024-b7c7-b5a007910aff-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-11-4-2024-a718-ad33655e7e88-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-4-4-2024-9c48-a5e753e91675-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-28-3-2024-aa5c-b7101e34678d-",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-canal-savoir-a-live-stream-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "approved",
       "reasons": []
     },
     {
-      "id": "m3upt-eixo-do-mal-21-3-2024-aa5c-b7101e34678d-",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-classic-arts-showcase-57-cas-master-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "held",
       "reasons": [
         "duplicate",
@@ -3784,2408 +576,281 @@
       ]
     },
     {
-      "id": "m3upt-eixo-do-mal-21-3-2024-9fee-459fff4d23c6-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-7-3-2024-822f-536a17127424-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-29-2-2024-ace8-e79a08e1485d-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-22-2-2024-9f52-82b2b71f8ea6-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-15-2-2024-9549-841ea4b001a3-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-8-2-2024-b00e-115dab6558ee-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-1-2-2024-b5b9-e388f7a2f780-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-26-1-2024-bcfe-12b05d2eacfa-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-18-1-2024-b01a-2ede0f3ee507-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-11-1-2024-baa5-73fc33390e06-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-4-1-2024-99d1-13596a04868c-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-28-12-2023-85b5-19c4eec04cab-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-21-12-2023-b7d7-deeae3c64681-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-15-12-2023-875b-43ab703a470c-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-7-12-2023-b0e6-0719d05f28ad-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-1-12-2023-b63b-49842c76fe43-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-24-11-2023-9f42-7ad45c177800-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-16-11-2023-890d-6f3e1f092def-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-10-11-2023-8a1b-a9cf84a51b31-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-3-11-2023-994a-f3053e5186fb-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-27-10-2023-a8e1-9a515c08d258-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-20-10-2023-b896-3f6f85433251-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-13-10-2023-badf-523dabf2c744-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-6-10-2023-a1e7-8470c4cf88a5-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-28-9-2023-bcf5-4690494e4909-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-22-9-2023-85bd-71e703af5403-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-15-9-2023-9bc2-7fa8e0974a6f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-7-9-2023-a667-8758d9af385b-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-27-7-2023-953f-d6e77b0e0b44-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-20-7-2023-9382-462279ca7a9e-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-14-7-2023-ab85-0482b3dfd121-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-7-7-2023-8f65-d9e52c26fab0-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-29-6-2023-9c00-0ac3998c323f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-22-6-2023-8d05-07f8c25f1f40-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-16-6-2023-b077-4076aff30d82-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-9-6-2023-9e57-5b8e8d164313-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-2-6-2023-af1f-1f8ec020cf3b-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-26-5-2023-ac0c-346fe9121a3e-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-12-5-2023-b693-b8dbb5066a4c-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-5-5-2023-82c2-989c672de917-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-28-4-2023-8e42-d0740f77ef8d-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-21-4-2023-b22f-07805f48f252-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-14-4-2023-bd49-19a4f8bf82e6-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-7-4-2023-9fdb-1cf318c03933-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-30-3-2023-844d-b5d465fbe2cc-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-24-3-2023-a46f-523b9b4fbc7c-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-17-3-2023-88b1-f9ac16f0c090-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-9-3-2023-9ded-f38da17b02fe-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-2-3-2023-ae82-bb7bceb6e898-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-23-2-2023-be3a-f0ec37b5fa57-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-17-2-2023-bdcb-f2edfd6ae44f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-10-2-2023-9d03-90f5bb9b557d-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-3-2-2023-9eba-3f897e3a3e81-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-27-1-2023-8ae2-38f02392c210-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-20-1-2023-ac6d-c002f1afadf4-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-13-1-2023-87bb-326d7f2fa82e-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-6-1-2023-b343-eed3862a9767-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-29-12-2022-9184-59bd5a9dc090-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-23-12-2022-a14c-26b0603b4c13-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-16-12-2022-b454-c6a3a292aca8-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-9-12-2022-978a-bf56827f7776-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-2-12-2022-b703-eecea7cdc819-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-25-11-2022-aec3-5e4e7a836a67-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-18-11-2022-b005-1c75b5e31a79-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-11-11-2022-872e-dfe38804a4e7-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-4-11-2022-89b7-543721c91016-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-28-10-2022-a35d-ecc44db695f3-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-21-10-2022-973c-d712658efdef-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-14-10-2022-8698-af1af19c84ae-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-7-10-2022-84b1-a26ebba57de5-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-30-9-2022-896a-e167affa1c8f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-23-9-2022-8b26-38cf585c6924-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-16-9-2022-bb1d-cd1ef23e37e6-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-2-9-2022-9369-0e3a88f2f039-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-29-7-2022-b3d9-18cb270adeb2-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-21-7-2022-82da-cecb5c891c40-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-8-7-2022-9ba5-a488c778569f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-1-7-2022-b4f5-937c2e500f70-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-24-6-2022-8d18-b7bba91ffbb9-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-17-6-2022-a203-5c4466c69a00-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-10-6-2022-a2f8-e8d82d99c222-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-eixo-do-mal-3-6-2022-ests-d8bdno1g-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-eixo-do-mal-27-5-2022-ests-eqet1hye-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-eixo-do-mal-20-5-2022-ests-dh2ltscl-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-eixo-do-mal-13-5-2022-ests-sfcoh5k4-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-eixo-do-mal-6-5-2022-ests-kasjpayj-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-eixo-do-mal-29-4-2022-ests-mbkr8pj8-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-eixo-do-mal-22-4-2022-ests-3ahznuqr-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-eixo-do-mal-15-4-2022-ests-jl3dl5uq-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-pcnelid-31-7-2026-b424-6fe168ebf2c5-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-24-7-2026-9ef4-82843512737a-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-17-7-2026-9963-ac9b48013741-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-10-7-2026-92f3-c8ce9aaad1c0-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-3-7-2026-aba1-50548804e7f1-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-26-6-2026-bb56-f1533d3a7d85-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-19-6-2026-80e9-3de1f8968a6f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-12-6-2026-96c4-cf056a4a06d0-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-5-6-2026-8f81-0e8ce56a73a8-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-29-5-2026-9011-271adb94b086-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-22-5-2026-b0d1-e9b48f275c33-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-15-5-2026-b2f5-5ea616c739fd-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-8-5-2026-a9ea-d55d3e28e2ae-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-1-5-2026-a382-4b6ee58753fa-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-24-4-2026-8d44-c8f9ed1e0ff7-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-17-4-2026-b74c-e49e4bf5ccea-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-10-4-2026-993b-9eea4f552627-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-3-4-2026-bba4-9fff21cb6e17-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-27-3-2026-a168-d817b580b35a-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-19-3-2026-ad68-7db7b073acbc-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-13-3-2026-ab25-db704585607d-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-6-3-2026-bbd2-5d42a6ea1bee-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-27-2-2026-8ce9-bcb7bb2b18f4-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-20-2-2026-9add-51b5c0bcfc83-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-13-2-2026-85b9-5898c621af65-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-6-2-2026-9e4a-818f8a458e36-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-30-1-2026-a332-a931f0e2fdab-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-23-1-2026-859b-8342d7a7a48f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-16-1-2026-a07c-19ca594f546c-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-10-1-2026-a91f-752bba76e364-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-8-1-2026-b331-1f5afb8fecd1-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-2-1-2026-b0e2-cb4de0848cf0-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-19-12-2025-866b-aeb73703a8eb-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-12-12-2025-a4f6-212d2c9fa96e-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-5-12-2025-b93a-2fc92ec6febf-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-28-11-2025-823a-cba2f2b370d2-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-21-11-2025-b7a4-5bc24cb44671-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-14-11-2025-9362-65d3a5924764-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-7-11-2025-be62-5e7f17b2f4d0-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-31-10-2025-a361-dbdb1e334780-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-24-10-2025-a39c-f4068a9c9225-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-17-10-2025-aff4-e21513d2560f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-10-10-2025-a565-39652628ed8f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-3-10-2025-8653-1ba55dbde376-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-26-9-2025-aa56-030d7ddf6d7f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-19-9-2025-8891-fb85245498a5-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-12-9-2025-95c8-1e6294307a04-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-5-9-2025-876c-e83688a45ff9-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-1-8-2025-966e-ad97f90c6cdc-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-25-7-2025-a4bc-d8442732950d-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-18-7-2025-a494-c91d96159ba5-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-11-7-2025-81e1-8540dc0cc91f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-4-7-2025-8abd-239f116a9ba0-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-27-6-2025-825c-8d554f06d696-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-20-6-2025-ac58-71a866f6185b-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-13-6-2025-a220-50efde65a616-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-6-6-2025-a043-1653841dbd8d-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-30-5-2025-9660-6b2852a63c04-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-23-5-2025-9f0e-1ef00475db67-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-16-5-2025-aef1-6fc958422e75-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-9-5-2025-ba1d-e6afc545ef9a-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-2-5-2025-8821-c507263df776-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-25-4-2025-9ce3-e611b3782bce-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-18-4-2025-97a1-28c55f176a8b-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-11-4-2025-bb97-05c5e778bbd5-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-4-4-2025-8ac0-31ac03c795e5-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-29-3-2025-acd8-4d46991cba91-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-22-3-2025-88c3-388b1bacd213-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-14-3-2025-808b-0994b78b4a14-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-8-3-2025-9ba9-2381cc0e9a4c-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-1-3-2025-a176-ece499e24b41-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-22-2-2025-8d90-4e875a4cf43c-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-14-2-2025-8442-4365c45a9a6c-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-7-2-2025-bffd-6b6fd5efdf25-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-25-1-2025-a729-ca01412705a6-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-18-1-2025-ac1a-5c9cddd9b34d-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-11-1-2025-a987-128fb4cacc17-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-4-1-2025-94a7-c23fcb4c6ea6-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-28-12-2024-b0b3-a370fbcc46be-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-20-12-2024-bddc-8c0733fb1ad4-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-14-12-2024-9b00-1be2a95930d2-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-6-12-2024-bc99-25a315f12e05-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-29-11-2024-ad3d-e9e5777fcb8b-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-22-11-2024-bc20-01399d7e26e8-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-16-11-2024-a0f9-f55be7917011-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-8-11-2024-b50c-6dfa31f72b4c-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-2-11-2024-af25-a6e65ca42e4f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-25-10-2024-96a0-e185f9b78dfb-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-19-10-2024-b188-d0dde9d61618-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-11-10-2024-abc7-f873c8851c7f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-4-10-2024-8c3d-567a521791da-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-28-9-2024-b19e-9efe08972e42-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-21-9-2024-9689-bd68949e9089-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-13-9-2024-8a86-36def6bed10b-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-6-9-2024-889d-ad6e965b0b8e-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-26-7-2024-a5b3-a936cdbeff3b-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-19-7-2024-9a09-ffdc57ba67ba-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-11-7-2024-84b0-32210f6c068c-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-6-7-2024-92c7-a749819116d6-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-28-6-2024-8a5b-ae99fbeb18ac-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-21-6-2024-9d25-9265e38f0a87-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-14-6-2024-af5e-a6ba4c3b97e5-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-7-6-2024-8226-a8a994c4c3a6-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-31-5-2024-b7d3-0c3b2f3f7edc-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-24-5-2024-9806-4ec98cea75c4-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-18-5-2024-99b7-524af6fd9a60-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-11-5-2024-9c25-672587540fd8-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-4-5-2024-9a20-104a599cf8c5-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-26-4-2024-a4cc-17fe279ae443-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-19-4-2024-82b5-796a5c869d83-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-13-4-2024-b8c3-7ef3769bc413-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-5-4-2024-9f3a-4276e6018940-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-29-3-2024-8294-6cdae412a817-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-7-3-2024-9f7d-1c1f889f0c4b-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-1-3-2024-abf0-4f4de69965b5-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-23-2-2024-a6c6-5b3525fa0b15-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-16-2-2024-bea1-7f9191bc4e18-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-9-2-2024-9dca-a63be0d1f824-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-2-2-2024-9942-1bc2317244cb-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-27-1-2024-91bf-19a53e9277b7-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-19-1-2024-baa2-7fd078aef56b-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-13-1-2024-9167-480247b696d3-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-5-1-2024-b247-d0826b6e1a1d-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-29-12-2023-91c8-3427f914b14e-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-22-12-2023-834c-e2633f75700d-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-16-12-2023-96b6-eef8be9cbd4e-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-8-12-2023-a1f6-86069854e5a2-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-2-12-2023-96d1-ef72a17613cc-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-25-11-2023-8dee-07e15e49fb99-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-18-11-2023-ad72-ab82fed02246-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-11-11-2023-984e-f3adca1bfe7a-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-4-11-2023-92b1-df5dd4b68598-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-27-10-2023-950a-46b06c520f83-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-21-10-2023-b97a-18ebe8d1e313-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-14-10-2023-8330-fffd9b49f05a-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-7-10-2023-930b-0895c5850708-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-30-9-2023-b69a-e494a6a8c6e3-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-23-9-2023-b5cf-da6704eb1243-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-16-9-2023-bffe-03e14407328a-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-8-9-2023-b816-2e4c2935a859-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-2-9-2023-a54b-6d87b64e6bb3-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-28-7-2023-8b3a-60fbe5c5d8de-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-21-7-2023-a41b-b02ec04b019f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-15-7-2023-ba30-6067e7bfd0dc-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-8-7-2023-a137-5ae91744af68-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-1-7-2023-955a-4959f4b500cb-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-23-6-2023-a900-1fbbf7f686e5-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-17-6-2023-b697-ff0acced4882-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-10-6-2023-90e6-0e1bdf8cbfc1-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-3-6-2023-b45b-598600e45efd-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-27-5-2023-96cd-0ff4114b4105-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-19-5-2023-b7e5-fd071837e81e-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-13-5-2023-a79f-9d4270a1f6c0-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-6-5-2023-a687-2289bd016644-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-28-4-2023-806c-0f34129d239c-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-22-4-2023-9e9e-36e9d3b8ced9-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-15-4-2023-80c6-f04eab939490-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-8-4-2023-9187-dd995c3910a6-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-31-3-2023-9f50-9df1e4fdd02f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-25-3-2023-b8c1-c5f65b803093-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-18-3-2023-8baa-82d6bada9073-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-10-3-2023-8d67-6aa2eff969ca-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-4-3-2023-b8af-10c3d98c3e48-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-25-2-2023-b35b-5bda6533c2b8-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-18-2-2023-a919-0dc671d22e8f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-11-2-2023-a744-6553b684aab2-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-4-2-2023-90e5-21329b84a2e0-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-28-1-2023-9d80-580e4feebc10-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-21-1-2023-b582-b186c8c4a15b-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-14-1-2023-81d8-a2d30050a1a7-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-7-1-2023-b527-8fc109b9d452-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-30-12-2022-ba97-0e524177e195-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-17-12-2022-b717-a5ff6f57e3c7-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-10-12-2022-9654-2b2aa3341d48-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-3-12-2022-9394-fdbf751ee3b1-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-26-11-2022-8221-ea4a0ba5449f-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-19-11-2022-bd79-ae0dfc4c5291-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-12-11-2022-87d9-db9f910abc88-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-5-11-2022-b9c3-519d21724d25-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-29-10-2022-994b-047f62d3f3a9-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-22-10-2022-a698-69876c7ff7e8-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-15-10-2022-b2b4-506ecdb8adce-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-7-10-2022-9288-41d437a653f9-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-1-10-2022-9da7-4b9016ce04f6-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-24-9-2022-8947-ba44bf545e60-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-17-9-2022-a848-0ba7b33f18cf-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-10-9-2022-bf43-905109838efe-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-3-9-2022-8a86-6e19765a0e57-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-30-7-2022-aee3-b31e257d4c68-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-23-7-2022-aeb9-e3cf4bc245e9-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-16-7-2022-88ff-7b0eaec26eae-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-9-7-2022-bb3e-8fce310ba7ae-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-2-7-2022-8eda-533853f936f6-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-25-6-2022-9d16-66a7ef2868ce-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-18-6-2022-b3f3-05d1796a9d39-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-11-6-2022-b734-8a7aa2a73937-",
-      "source_feed_id": "m3upt",
-      "decision": "approved",
-      "reasons": []
-    },
-    {
-      "id": "m3upt-pcnelid-4-6-2022-ests-a0hspe8e-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-pcnelid-28-5-2022-ests-z79k1nuz-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-pcnelid-21-5-2022-ests-n6kxfmnt-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-pcnelid-14-5-2022-ests-bggwcbw7-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-pcnelid-7-5-2022-ests-ivmureoj-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-pcnelid-30-4-2022-ests-zocaifcb-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-pcnelid-23-4-2022-ests-mvuo738f-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-pcnelid-16-4-2022-ests-v8e6ytdz-m3u8",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "stream_probe_http_error",
-        "probe_not_accepted",
-        "review_status_probe_failed"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s13e19-31-5-2026--1-zg3ni5ov-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s13e18-24-5-2026--1-tljoa803-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s13e17-17-5-2026--1-cbeugy13-v-1-ev",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s13e16-10-5-2026--1-xz5gtxg0-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s13e15-3-5-2026--1-wznhe8p9-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s13e14-26-4-2026--1-q3nuggiz-v-1-ev",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s13e13-19-4-2026--1-tb2pmrcn-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s13e12-12-4-2026--1-qvzrncv9-v-1-ev",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s13e11-29-3-2026--1-p5ul8ngb-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s13e10-22-3-2026--1-bed4qvw9-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s13e09-15-3-2026--1-kze2icxe-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s13e08-8-3-2026--1-7cayc0ol-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s13e07-1-3-2026--1-c90nt6co-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s13e06-22-2-2026--1-udv6bsb2-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s13e05-15-2-2026--1-s1yr2k2o-v-1-ev",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s13e04-1-2-2026--1-171ofhmy-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s13e03-25-1-2026--1-3okkvzwr-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s13e02-11-1-2026--1-f6bff0lj-v-31-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s13e01-4-1-2026--1-w5b38of7-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s12e13-14-12-2025--1-m0wbbuop-v-1-ev",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s12e12-07-12-2025--1-id2m2fkc-v-1-ev",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s12e11-30-11-2025--1-u2o68n1f-v-1-ev",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s12e10-23-11-2025--1-22u3mfd7-v-1-ev",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s12e09-16-11-2025--1-my88lrse-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s12e08-09-11-2025--1-kgt4vfln-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s12e07-02-11-2025--1-talrji96-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s12e06-26-10-2025--1-dn0adfwe-v-1-ev",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s12e05-19-10-2025--1-qkspi573-v-1-ev",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s12e04-05-10-2025--1-xp0a1vmx-v-1-ev",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s12e03-21-09-2025--1-n8v68pj6-v-1-ev",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s12e02-14-09-2025--1-hjso5unx-v-1-ev",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s12e01-07-09-2025--1-02je3cd2-v-1-ev",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s11e29-25-05-2025--1-dari4vmm-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s11e28-16-05-2025--1-3k78cks5-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s11e27-15-05-2025--1-z4vwgmve-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s11e26-14-05-2025--1-hep5367y-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s11e25-13-05-2025--1-nx0klilm-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s11e24-12-05-2025--1-bd12ukqb-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s11e23-11-05-2025--1-lihkwfz8-v-1-ev",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s11e22-09-05-2025--1-4m1h4elg-v-1-ev",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s11e21-08-05-2025--1-pkynspra-v-1-ev",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s11e20-07-05-2025--1-1vn5rrl1-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s11e19-06-05-2025--1-xu2676h8-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s11e18-05-05-2025--1-827l94w5-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s11e17-04-05-2025--1-c4ygkcxo-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s11e16-27-04-2025--1-ceea2ubc-v-1-ev",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s11e15-13-04-2025--1-cgav0m5k-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s11e14-06-04-2025--1-wswoyrg7-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-iegcqt-s11e13-30-03-2025--1-vp0l1txp-v-11-e",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-100-ou-mais-s01e01-7-1-20231226161005",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-100-ou-mais-s01e02-7-1-20231227161006",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-100-ou-mais-s01e03-7-1-20231228161006",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-o-planeta-vivo-s01e01-3613-2024070309001",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-o-planeta-vivo-s01e02-3613-1-20240710161",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-o-planeta-vivo-s01e03-3613-1-20240717161",
-      "source_feed_id": "m3upt",
-      "decision": "held",
-      "reasons": [
-        "drm_or_dash_requires_supported_official_fallback",
-        "probe_not_accepted",
-        "review_status_needs_drm_official_fallback"
-      ]
-    },
-    {
-      "id": "m3upt-o-planeta-vivo-s01e04-3613-1-20240717161",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-cloudflare-tv-e-tv-hls-live-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "held",
       "reasons": [
         "duplicate",
-        "drm_or_dash_requires_supported_official_fallback",
+        "duplicate_candidate_or_existing_source",
         "probe_not_accepted",
         "review_status_duplicate"
       ]
     },
     {
-      "id": "m3upt-o-planeta-vivo-s01e05-3613-1-20240717161",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-create-pbs-org-index-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-1--ac-th-dltv01-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-2--ac-th-dltv02-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-3--ac-th-dltv03-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-4--ac-th-dltv04-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-5--ac-th-dltv05-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-6--ac-th-dltv06-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-7--ac-th-dltv07-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-8--ac-th-dltv08-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-9--ac-th-dltv09-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-10--ac-th-dltv10-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-11--ac-th-dltv11-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-12--ac-th-dltv12-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-13--ac-th-dltv13-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-14--ac-th-dltv14-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-dltv-15--ac-th-dltv15-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-ebs-1-pc1m-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "held",
       "reasons": [
         "duplicate",
-        "drm_or_dash_requires_supported_official_fallback",
+        "duplicate_candidate_or_existing_source",
         "probe_not_accepted",
         "review_status_duplicate"
       ]
     },
     {
-      "id": "m3upt-o-planeta-vivo-s01e06-3613-1-20240717161",
-      "source_feed_id": "m3upt",
+      "id": "freecasthub-public-iptv-ebs-2-pc1m-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
       "decision": "held",
       "reasons": [
         "duplicate",
-        "drm_or_dash_requires_supported_official_fallback",
+        "duplicate_candidate_or_existing_source",
         "probe_not_accepted",
         "review_status_duplicate"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-ebs-e-pc1m-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "duplicate",
+        "duplicate_candidate_or_existing_source",
+        "probe_not_accepted",
+        "review_status_duplicate"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-ebs-1-pc1m-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "duplicate",
+        "duplicate_candidate_or_existing_source",
+        "probe_not_accepted",
+        "review_status_duplicate"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-ebs-2-pc1m-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "duplicate",
+        "duplicate_candidate_or_existing_source",
+        "probe_not_accepted",
+        "review_status_duplicate"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-kan-kids-024691-master-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "stream_probe_network_error",
+        "probe_not_accepted",
+        "review_status_probe_failed"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-oun-ive1-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-once-mexico-xico-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "stream_probe_http_error",
+        "probe_not_accepted",
+        "review_status_probe_failed"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-pbs-honolulu-3d8ea9b-index-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-pbs-kids-50e53443c-est-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-pbs-kids-alaska-f1c00b82-akst-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-pbs-kids-hawaii-3f04d150-hast-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-pbs-kids-mountain-9d9eba3e6-mst-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-pbs-kids-pacific-863960e79-pst-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-tele-quebec--6101674910001-pla",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "stream_probe_geo_blocked",
+        "probe_not_accepted",
+        "review_status_probe_failed"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-trt-eba-ilkokul-com-tr-master-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "stream_probe_timeout",
+        "probe_not_accepted",
+        "review_status_probe_failed"
+      ]
+    },
+    {
+      "id": "freecasthub-public-iptv-trt-eba-lise-com-tr-master-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-tve-rs-stve-playlist-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-vyas-nic-ive-vyas-vyas-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-world-channel-pbs-org-index-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "approved",
+      "reasons": []
+    },
+    {
+      "id": "freecasthub-public-iptv-source-rtv-tv1-index-m3u8",
+      "source_feed_id": "freecasthub-public-iptv",
+      "decision": "held",
+      "reasons": [
+        "stream_probe_timeout",
+        "probe_not_accepted",
+        "review_status_probe_failed"
       ]
     }
   ]
