@@ -1,0 +1,79 @@
+name: Live TDTChannels batch 2
+
+on:
+  pull_request:
+    types: [opened, reopened]
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  live-ingest:
+    if: ${{ github.head_ref == 'tdtchannels-resume-batch2' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm install
+      - name: Snapshot terminal probe state
+        run: node scripts/snapshot-source-expansion-probe-state.mjs .
+      - name: Re-import current TDTChannels candidates
+        run: node scripts/import-source-expansion.mjs . --feed=tdtchannels-tv
+      - name: Resume live probe with next 120 candidates
+        run: node scripts/probe-source-expansion.mjs . --live --resume --concurrency=12 --timeout=6000 --limit=120
+      - name: Apply approval gate
+        run: node scripts/approve-source-expansion.mjs .
+      - name: Promote approved live candidates
+        run: node scripts/promote-source-expansion.mjs . --write
+      - name: Verify resulting catalog
+        run: npm run verify
+      - name: Print live batch summary
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const files = {
+            import: 'data/reports/source-expansion-import-report.json',
+            probe: 'data/reports/source-expansion-probe-report.json',
+            approval: 'data/reports/source-expansion-approval-report.json',
+            promotion: 'data/reports/source-expansion-promotion-report.json',
+            state: 'data/iptv/source-expansion-probe-state.json'
+          };
+          for (const [label, file] of Object.entries(files)) {
+            const x = JSON.parse(fs.readFileSync(file, 'utf8'));
+            console.log(`LIVE_BATCH_SUMMARY ${label}`, JSON.stringify({
+              candidate_count: x.candidate_count,
+              checked: x.checked,
+              actively_probed: x.actively_probed,
+              resume_skipped: x.resume_skipped,
+              deferred_needs_probe: x.deferred_needs_probe,
+              passed: x.passed,
+              blocked: x.blocked,
+              considered: x.considered,
+              approved: x.approved,
+              held: x.held,
+              eligible_after_promotion_gate: x.eligible_after_promotion_gate,
+              published: x.published,
+              record_count: x.record_count,
+              persisted_probe_records: x.persisted_probe_records
+            }));
+          }
+          NODE
+      - name: Commit live evidence and promoted catalog
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add SOURCE_MANIFEST.json data/SOURCE_MANIFEST.json data/sources.json data/official-starter-catalog.json data/generated/app-catalog.json assets/starter-catalog.js
+          git add data/candidates/tdtchannels-tv.candidates.json data/iptv/source-expansion-probe-state.json
+          git add data/reports/source-expansion-import-report.json data/reports/source-expansion-probe-report.json data/reports/source-expansion-approval-report.json data/reports/source-expansion-promotion-report.json
+          if git diff --cached --quiet; then
+            echo "No live ingest changes to commit."
+            exit 0
+          fi
+          git commit -m "Live TDTChannels batch 2 output [live-ingest-output]"
+          git push origin HEAD:${{ github.head_ref }}
