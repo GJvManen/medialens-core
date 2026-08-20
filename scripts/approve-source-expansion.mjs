@@ -4,6 +4,7 @@ import path from 'node:path';
 const root = process.argv[2] && !process.argv[2].startsWith('--') ? process.argv[2] : '.';
 const args = process.argv.slice(2);
 const allowFixture = args.includes('--allow-fixture');
+const feedArg = args.find(x => x.startsWith('--feed='))?.split('=')[1] || 'all';
 const candidateDir = path.join(root, 'data/candidates');
 const registryPath = path.join(root, 'data/iptv/source-expansion-registry.json');
 const reportDir = path.join(root, 'data/reports');
@@ -26,8 +27,10 @@ let held = 0;
 for (const file of files()) {
   const doc = JSON.parse(fs.readFileSync(file, 'utf8'));
   if (doc.source_expansion !== true) continue;
+  if (feedArg !== 'all' && doc.feed?.id && doc.feed.id !== feedArg) continue;
   let changed = false;
   for (const candidate of doc.candidates || []) {
+    if (feedArg !== 'all' && candidate.source_feed_id !== feedArg) continue;
     considered++;
     const source = byId.get(candidate.source_feed_id);
     const reasons = [];
@@ -76,8 +79,9 @@ for (const file of files()) {
 }
 
 const report = {
-  version: '38.1-source-expansion-approval',
+  version: '38.4-source-expansion-approval',
   generated_at: new Date().toISOString(),
+  feed_filter: feedArg,
   allow_fixture: allowFixture,
   considered,
   approved,
@@ -86,4 +90,4 @@ const report = {
   decisions
 };
 fs.writeFileSync(path.join(reportDir, 'source-expansion-approval-report.json'), JSON.stringify(report, null, 2) + '\n');
-console.log(`Source-expansion approval complete: ${approved} approved, ${held} held, ${considered} considered.`);
+console.log(`Source-expansion approval complete: ${approved} approved, ${held} held, ${considered} considered (feed ${feedArg}).`);

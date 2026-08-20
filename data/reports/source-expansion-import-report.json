@@ -1,20 +1,20 @@
 {
   "version": "38.0-source-expansion",
-  "generated_at": "2026-08-20T14:31:31.342Z",
+  "generated_at": "2026-08-20T14:54:13.576Z",
   "offline": false,
-  "feed_filter": "tdtchannels-tv",
+  "feed_filter": "m3upt",
   "source_count": 1,
-  "candidate_count": 576,
+  "candidate_count": 898,
   "consumer_visible_count": 0,
   "rule": "Source expansion creates review candidates only; consumer publication requires the standard MediaLens approval gates.",
   "sources": [
     {
-      "id": "tdtchannels-tv",
+      "id": "m3upt",
       "role": "controlled_public_catalogue",
-      "candidate_count": 576,
-      "duplicate_count": 310,
+      "candidate_count": 898,
+      "duplicate_count": 28,
       "rejected_count": 0,
-      "drm_review_count": 0,
+      "drm_review_count": 56,
       "consumer_visible_count": 0
     }
   ]
