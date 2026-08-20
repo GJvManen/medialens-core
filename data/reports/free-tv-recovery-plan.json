@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "source": "free-tv-iptv-recovery",
+  "status": "planned_live_acceptance",
+  "policy": {
+    "source_tier": "B",
+    "integration_role": "controlled_public_catalogue",
+    "feed_scope": "free-tv-iptv-recovery",
+    "legacy_import_path_used": false,
+    "consumer_visibility_at_import": false,
+    "auto_publish": false,
+    "live_probe_required": true,
+    "approval_gate": "live_policy_gate",
+    "promotion_write_explicit": true,
+    "drm_dash_direct_publish": false,
+    "official_web_page_direct_publish": false,
+    "http_requires_proxy": true,
+    "catalog_version_preserved": "1.0.0"
+  },
+  "source_evidence": {
+    "playlist": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
+    "project": "https://github.com/Free-TV/IPTV",
+    "rights_basis": "Project policy allows only free channels and channels officially provided for free; MediaLens still requires its own dedupe, probe, approval and promotion gates."
+  },
+  "acceptance_required": [
+    "zero import-time consumer visibility",
+    "web-only official page fallback enforced",
+    "DRM/DASH direct playback blocked",
+    "HTTP proxy policy preserved",
+    "feed-scoped live probe",
+    "feed-scoped approval",
+    "explicit promotion write",
+    "full release verification",
+    "machine-readable final acceptance evidence",
+    "one-shot workflow removal",
+    "green exact-head Verify"
+  ]
+}
