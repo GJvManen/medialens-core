@@ -28,6 +28,28 @@ The upstream list mixes HLS and DASH/MPD routes and often omits explicit country
 
 A deterministic FreeCastHub regression test verifies duplicate blocking, international-country handling and MPD/DASH safety.
 
+## Accepted live run — 2026-08-20
+
+The feed-scoped production run completed successfully and was accepted for exact-head verification.
+
+- 108 candidates imported;
+- 0 consumer-visible at import;
+- 17 import duplicates;
+- 3 DRM/DASH holds;
+- 88 candidates actively live-probed;
+- 63 live probes passed;
+- 25 live probes failed;
+- 63 candidates approved and 45 held;
+- 63 candidates passed promotion and were published;
+- 0 additional final promotion duplicates;
+- persisted probe-state increased to 1,474 records;
+- release verification passed with catalog version `1.0.0` preserved;
+- resulting catalog: 1,902 sources, including 1,244 direct-player sources.
+
+Inspection confirmed that unknown country metadata remains `Internationaal` rather than being guessed. Real upstream MPD entries such as BBC Persian remained `needs_drm_official_fallback`, direct playback was disabled, the probe was skipped by policy and approval remained held.
+
+Machine-readable evidence is stored in `data/reports/freecasthub-acceptance.json`.
+
 ## Live acceptance flow
 
 1. snapshot existing terminal probe state;
