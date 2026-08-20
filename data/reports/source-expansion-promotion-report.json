@@ -1,0 +1,663 @@
+{
+  "version": "38.2-source-expansion-promotion",
+  "generated_at": "2026-08-20T14:04:45.942Z",
+  "write": true,
+  "allow_fixture": false,
+  "catalog_version_preserved": "1.0.0",
+  "loaded_candidates": 576,
+  "eligible_after_promotion_gate": 58,
+  "blocked": 37,
+  "published": 58,
+  "blocked_items": [
+    {
+      "id": "tdtchannels-tv-la1-tv--td-6-is-lat-dnt-u",
+      "title": "La 1",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-la2-tv-8-network-id-15618",
+      "title": "La 2",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-eltorotv-tv-ing-web-index-m3u8",
+      "title": "El Toro TV",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "id",
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-rne-tv-ra-todos-main-m3u8",
+      "title": "RNE para todos",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-24horas-tv--24h-main-dvr-m3u8",
+      "title": "24h",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-24horas-tv-8-network-id-15621",
+      "title": "24h",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-324-tv-24-hls-master-m3u8",
+      "title": "3CatInfo",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "id",
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-tdp-tv--td-6-is-lat-dnt-u",
+      "title": "Teledeporte",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-etbd-tv-hd-hls-master-m3u8",
+      "title": "ETB Deportes (Kirolak 360)",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "id",
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-etbd-tv-hd-hls-master-m3u8",
+      "title": "ETB Deportes (Kirolak 360)",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "id",
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-rmtv-tv-en-web-master-m3u8",
+      "title": "Real Madrid TV",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-clan-tv-clan-main-dvr-m3u8",
+      "title": "Clan",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-clan-tv-8-network-id-15620",
+      "title": "Clan",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-24--ztnr-6108703-m3u8",
+      "title": "+24",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-24--ztnr-6108704-m3u8",
+      "title": "+24",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-24--ztnr-6108720-m3u8",
+      "title": "+24",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-tdp--ztnr-6712426-m3u8",
+      "title": "+tdp",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-rtve-conciertos-r3-tv--playm11-main-m3u8",
+      "title": "Conciertos Radio 3 (RTVE)",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-rtve-cuentame-tv-t-playm7-main-m3u8",
+      "title": "Cuéntame (RTVE)",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-rtve-promesa-tv-t-playm1-main-m3u8",
+      "title": "La Promesa (RTVE)",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-rtve-epoca-tv-t-playm5-main-m3u8",
+      "title": "La Revuelta (RTVE)",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-rtve-somoscine-tv-t-playm6-main-m3u8",
+      "title": "Somos Cine (RTVE)",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-rtve-cocina-tv--playm20-main-m3u8",
+      "title": "Cocina (RTVE)",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-rtve-popup-tv--playm26-main-m3u8",
+      "title": "Al cielo con ella (RTVE)",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-rtve-en-play-tv--playm27-main-m3u8",
+      "title": "En Play (RTVE)",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-congreso-de-los-diputados-canal2-master-m3u8",
+      "title": "Congreso de los Diputados",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-congreso-de-los-diputados-canal3-master-m3u8",
+      "title": "Congreso de los Diputados",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-congreso-de-los-diputados-canal4-master-m3u8",
+      "title": "Congreso de los Diputados",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-congreso-de-los-diputados-canal5-master-m3u8",
+      "title": "Congreso de los Diputados",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-senado-punto2-master-m3u8",
+      "title": "Senado",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-senado-punto3-master-m3u8",
+      "title": "Senado",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-senado-punto4-master-m3u8",
+      "title": "Senado",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-senado-punto5-master-m3u8",
+      "title": "Senado",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-senado-punto6-master-m3u8",
+      "title": "Senado",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-senado-punto7-master-m3u8",
+      "title": "Senado",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-senado-punto8-master-m3u8",
+      "title": "Senado",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-canalsura-tv-3da68a62b09d1-cc-d",
+      "title": "Canal Sur Andalucía",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    }
+  ],
+  "additions": [
+    {
+      "id": "tdtchannels-tv-la1-tv--la1-main-dvr-m3u8",
+      "title": "La 1",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-la2-tv--la2-main-dvr-m3u8",
+      "title": "La 2",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-eltorotv-tv-ing-web-index-m3u8",
+      "title": "El Toro TV",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-13-tv--021-playlist-m3u8",
+      "title": "TRECE",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-rne-tv--ztnr-6688753-m3u8",
+      "title": "RNE para todos",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-24horas-tv--ztnr-1694255-m3u8",
+      "title": "24h",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-euronews-tv-b67b746e47670f558b",
+      "title": "Euronews",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-324-tv-24-hls-master-m3u8",
+      "title": "3CatInfo",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-rne-tv--ztnr-6982891-m3u8",
+      "title": "Radio Nacional",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-rne-radio5-tv--ztnr-6982917-m3u8",
+      "title": "Radio 5",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-elpais-tv-73da68a62b09d1-cc-",
+      "title": "El País",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-elconfidencial-tv-bmo0niz694whx-m3u8",
+      "title": "El Confidencial",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-ondacero-tv-ve-obs-master-m3u8",
+      "title": "Onda Cero",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-negocios-tv-ost-negociostv-sam",
+      "title": "Negocios TV",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-tdp-tv--tdp-tdp-main-m3u8",
+      "title": "Teledeporte",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-etbd-tv-hd-hls-master-m3u8",
+      "title": "ETB Deportes (Kirolak 360)",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-vinx-tv-treams-vinxtv-m3u8",
+      "title": "Vinx TV",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-rmtv-tv-es-web-master-m3u8",
+      "title": "Real Madrid TV",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-top-barca-tv-u-w1-n2-playlist-a",
+      "title": "Top Barça",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-futsalmafer-tv-mafertv-index-m3u8",
+      "title": "Futsalmafer.tv",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-clan-tv--ztnr-5466990-m3u8",
+      "title": "Clan",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-infantil--fast2-master-m3u8",
+      "title": "Infantil (Canal Extremadura)",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-pequeradio-tv-iotv-playlist-m3u8",
+      "title": "Pequeradio TV",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-24--ztnr-6108696-m3u8",
+      "title": "+24",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-tdp--ztnr-6712453-m3u8",
+      "title": "+tdp",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-hola-play-v1-master-0547f186",
+      "title": "¡HOLA! Play",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-conciertos-r3-tv--ztnr-6924117-m3u8",
+      "title": "Conciertos Radio 3 (RTVE)",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-cuentame-tv--ztnr-6909843-m3u8",
+      "title": "Cuéntame (RTVE)",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-promesa-tv--ztnr-2472039-m3u8",
+      "title": "La Promesa (RTVE)",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-epoca-tv-ztnr-16464388-m3u8",
+      "title": "La Revuelta (RTVE)",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-somoscine-tv--ztnr-6909845-m3u8",
+      "title": "Somos Cine (RTVE)",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-cocina-tv-ztnr-16656232-m3u8",
+      "title": "Cocina (RTVE)",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-popup-tv-ztnr-16862827-m3u8",
+      "title": "Al cielo con ella (RTVE)",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-en-play-tv-ztnr-17017351-m3u8",
+      "title": "En Play (RTVE)",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-canal-parlamento-amento-master-m3u8",
+      "title": "Canal Parlamento",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-congreso-de-los-diputados-canal1-master-m3u8",
+      "title": "Congreso de los Diputados",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-senado-punto1-master-m3u8",
+      "title": "Senado",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-canalsura-tv-74cdbd1b401a7598ab",
+      "title": "Canal Sur Andalucía",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-canalsura-tv-loud-playlist-m3u8",
+      "title": "Canal Sur 2 Accesible",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-canal-sur-mas-noticias-loud-playlist-m3u8",
+      "title": "Canal Sur Más Noticias",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-andalucia-tv--hls-regional-m3u8",
+      "title": "7TV Andalucía",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-almeria-ls-7tvalmeria-m3u8",
+      "title": "7TV Almería",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-cadiz--hls-7tvcadiz-m3u8",
+      "title": "7TV Cádiz",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-granada-ls-7tvgranada-m3u8",
+      "title": "7TV Granada",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-huelva--hls-regional-m3u8",
+      "title": "7TV Huelva",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-jaen-m-hls-7tvjaen-m3u8",
+      "title": "7TV Jaén",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-malaga-hls-7tvmalaga-m3u8",
+      "title": "7TV Málaga",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-sevilla-ls-7tvsevilla-m3u8",
+      "title": "7TV Sevilla",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-aljarafe-s-7tvaljarafe-m3u8",
+      "title": "7TV Aljarafe",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-arcos--hls-7tvarcos-m3u8",
+      "title": "7TV Arcos",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-campo-de-gibraltar--7tvalgeciras-m3u8",
+      "title": "7TV Campo de Gibraltar",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-linares-ls-7tvlinares-m3u8",
+      "title": "7TV Linares",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-jerez--hls-7tvjerez-m3u8",
+      "title": "7TV Jerez",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-san-fernando-tvsanfernando-m3u8",
+      "title": "7TV San Fernando",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-rota-m-hls-7tvrota-m3u8",
+      "title": "7TV Rota",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-101malaga-tv--playlist-m3u8-dvr",
+      "title": "101TV Málaga",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-101malaga-tv-smil-playlist-m3u8",
+      "title": "101TV Málaga Cofrade",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    },
+    {
+      "id": "tdtchannels-tv-almeria-24h-tv-24h-aac-index-m3u8",
+      "title": "Almería 24h TV",
+      "country": "ES",
+      "source_feed_id": "tdtchannels-tv"
+    }
+  ]
+}
