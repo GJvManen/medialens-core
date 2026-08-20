@@ -2,10 +2,10 @@
 
 MediaLens Core contains two related IPTV/FAST ingestion paths:
 
-1. the established feed importer for the existing controlled feed registry;
-2. the source-expansion importer for newly assessed catalogues, enrichment services and discovery directories.
+1. the established importer for the existing controlled feed registry;
+2. the gated source-expansion pipeline for newly assessed catalogues, enrichment services and discovery directories.
 
-The source-expansion path is intentionally stricter: new external sources create review candidates only and are never bulk-published directly to the consumer catalog.
+The source-expansion path is deliberately stricter. New external sources first become review candidates and are not consumer-visible until they have passed dedupe, probe, provenance/rights and approval gates plus an explicit promotion write.
 
 ## Existing feed workflow
 
@@ -14,9 +14,7 @@ npm run import:iptv-feeds
 npm run verify
 ```
 
-This loads `data/iptv/fast-feed-registry.json`, parses M3U entries, applies duplicate and safety checks and then runs the approved IPTV sync stage.
-
-Offline validation remains available:
+Offline validation:
 
 ```bash
 npm run import:iptv-feeds:offline
@@ -24,72 +22,119 @@ npm run sync:iptv:dry
 npm run verify
 ```
 
-## Source-expansion workflow
+## Source-expansion registry
 
 The P1/P2 expansion registry is stored in:
 
 `data/iptv/source-expansion-registry.json`
 
-Run the network-enabled candidate import with:
+Current P1 controlled catalogues:
+
+- TDTChannels TV, with EPG reference;
+- M3UPT, with EPG reference and DRM/DASH fallback handling;
+- FreeCastHub public-iptv;
+- Free-TV/IPTV recovery;
+- Famelack Data.
+
+IPTV Nexus is enrichment-only. IPTVCat and LyngSat Stream are discovery-only and never bulk-publish directly.
+
+## Full operational pipeline
+
+### Production/live review run
 
 ```bash
-npm run import:source-expansion
+npm run pipeline:source-expansion:live
 ```
 
-Run the reproducible offline fixture path with:
+This performs:
+
+1. network import into `data/candidates/*.candidates.json`;
+2. exact-stream dedupe against the MediaLens catalog and within the import batch;
+3. live stream probes;
+4. policy approval evaluation;
+5. promotion dry-run.
+
+The live pipeline intentionally stops at a dry-run. Review `data/reports/source-expansion-promotion-report.json` before publication.
+
+Publication is a separate explicit operation:
 
 ```bash
-npm run import:source-expansion:offline
+npm run promote:source-expansion
+npm run verify
+```
+
+### Deterministic CI/offline run
+
+```bash
+npm run pipeline:source-expansion:offline
 npm run verify:source-expansion
 ```
 
-A single feed can be inspected with:
+The fixture approval mode exists only for deterministic testing. The production promoter rejects fixture approvals unless `--allow-fixture` is explicitly supplied; normal publication requires a `live_policy_gate` approval.
+
+## Individual stages
+
+```bash
+npm run import:source-expansion
+npm run probe:source-expansion
+npm run approve:source-expansion
+npm run promote:source-expansion:dry
+```
+
+A single feed can be imported with:
 
 ```bash
 node scripts/import-source-expansion.mjs . --feed=tdtchannels-tv
 ```
 
-Famelack defaults to a bounded country import to avoid an accidental very large network run. Use `--all-countries` for an explicit full-country pass or `--max-countries=N` for a controlled batch.
+Famelack defaults to a bounded country import. Use `--all-countries` for an explicit full-country pass or `--max-countries=N` for a controlled batch.
 
-## P1 integrations
+## Approval behavior
 
-| Source | Role | Import behavior | Consumer visibility |
-| --- | --- | --- | --- |
-| TDTChannels | controlled public catalogue | M3U candidate import + EPG reference | approval required |
-| M3UPT | controlled public catalogue | M3U candidate import + EPG reference; DRM/DASH routed to review | approval required |
-| FreeCastHub public-iptv | controlled public catalogue | M3U candidate import | approval required |
-| Free-TV/IPTV recovery | controlled public catalogue | re-import through stricter candidate queue | approval required |
-| Famelack Data | controlled public dataset | JSON country dataset candidate import | approval required |
-| IPTV Nexus | enrichment | health/EPG metadata only; not a second channel catalogue | never direct from enrichment |
+Production approval requires all of the following:
 
-## P2 discovery integrations
+- Tier B `controlled_public_catalogue` source;
+- stream URL present;
+- provenance/evidence URL present;
+- documented source-level rights basis;
+- no duplicate marker;
+- no blocking safety/DRM/rights reason;
+- successful live probe;
+- candidate status `probe_passed_needs_approval`.
 
-IPTVCat and LyngSat Stream are registered as discovery sources. The importer does not bulk-scrape or bulk-copy either directory. A channel discovered there must be independently matched to an official broadcaster or another controlled source and then pass the normal MediaLens evidence, probe, dedupe and approval gates.
+Famelack intentionally remains held by the automated approval policy until sufficient rights/provenance evidence is available for promotion. It is valuable for discovery and comparison, but its transformed dataset is not treated as broadcaster authorization by itself.
 
-## Publication gates
+## P1/P2 behavior
 
-Every source-expansion candidate remains `consumer_visible: false` until all required gates pass:
+| Source | Role | Current behavior |
+| --- | --- | --- |
+| TDTChannels | controlled Tier B | candidate import, live probe, approval gate, EPG reference |
+| M3UPT | controlled Tier B | candidate import, live probe, approval gate, DRM/DASH hold, EPG reference |
+| FreeCastHub | controlled Tier B | candidate import, live probe, approval gate |
+| Free-TV/IPTV recovery | controlled Tier B | candidate import through the stricter path |
+| Famelack Data | controlled dataset | candidate import, but automated promotion held without rights basis |
+| IPTV Nexus | Tier C enrichment | health/EPG metadata only; no duplicate catalogue |
+| IPTVCat | Tier C discovery | targeted discovery only; no bulk publish |
+| LyngSat Stream | Tier C discovery | targeted gap analysis only; no bulk copy |
 
-1. exact-stream dedupe;
-2. stream probe;
-3. provenance evidence;
-4. rights or official-source evidence;
-5. approval.
+## Verification
 
-Entries containing obvious adult content are rejected. Possible premium/pay-TV entries go to rights review. DASH/DRM or license-bearing M3UPT entries are not treated as directly playable; they are kept for supported official-fallback review.
+`npm run verify` now syntax-checks all source-expansion stages, validates registry policy and runs an end-to-end pipeline test in a temporary catalog before the normal release verification.
 
-## IPTV Nexus enrichment
+The E2E test proves that:
 
-IPTV Nexus is intentionally used for enrichment rather than bulk import because much of its channel universe is derived from IPTV-org. MediaLens may use its health score, online status and merged EPG to enrich an already-known channel, but should not create a duplicate catalog from the Nexus playlist.
-
-## Historical full-feed reference
-
-A previous full run of the established importer reported 20,670 candidates and 14,432 visible IPTV/FAST imports. Those values are historical operational evidence, not a target for the source-expansion path. New source-expansion candidates are deliberately non-visible until approval.
+- candidates remain non-consumer-visible after ingest;
+- the duplicate gate is exercised;
+- probe evidence is required;
+- controlled Tier-B fixtures can become approval-eligible in test mode;
+- Famelack remains held without rights basis;
+- promotion dry-run does not modify the shipping catalog.
 
 ## Operating guidance
 
-- Run `npm run verify` after registry or policy changes.
-- Run the source-expansion importer before manually reviewing a new provider.
-- Do not change a discovery or enrichment source to auto-publish.
-- Keep generated candidate/report files only when they form useful acceptance evidence.
-- Prefer official watch routes when direct playback is unavailable, geo-restricted, DRM-protected or otherwise unsuitable for the MediaLens player.
+- Never use discovery or enrichment feeds as direct publication authority.
+- Run a live pipeline before reviewing a new provider batch.
+- Inspect approval and promotion reports before `--write` publication.
+- Prefer official watch routes for geo-blocked, DRM-protected or browser-incompatible streams.
+- Keep generated candidate/report files only when they are useful acceptance evidence.
+- Run `npm run verify` after every import/promotion change intended to ship.
