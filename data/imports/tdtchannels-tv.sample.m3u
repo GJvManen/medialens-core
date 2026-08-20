@@ -1,0 +1,3 @@
+#EXTM3U x-tvg-url="https://www.tdtchannels.com/epg/TV.xml.gz"
+#EXTINF:-1 tvg-id="24Horas.TV" tvg-name="24h" tvg-country="ES" tvg-language="spa" group-title="Informativos",24h
+https://d32rw80ytx9uxs.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-vlldndmow4yre/24HES.m3u8
