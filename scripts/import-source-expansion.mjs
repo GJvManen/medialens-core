@@ -36,6 +36,13 @@ const slug = value => String(value || '')
   .replace(/^-|-$/g, '')
   .slice(0, 90) || 'source';
 
+function countryFromTvgId(value = '') {
+  const match = String(value || '').trim().match(/\.([a-z]{2})$/i);
+  if (!match) return '';
+  const code = match[1].toUpperCase();
+  return code === 'UK' ? 'GB' : code;
+}
+
 function readExistingSources() {
   for (const rel of ['SOURCE_MANIFEST.json', 'data/SOURCE_MANIFEST.json', 'data/sources.json']) {
     const file = path.join(root, rel);
@@ -104,6 +111,7 @@ function baseCandidate(source, title, streamUrl, extra = {}) {
     source_feed_url: source.url || source.officialUrl,
     officialUrl: source.officialUrl,
     evidence_url: source.evidence_url || source.officialUrl,
+    epg_url: source.epg_url || '',
     streamUrl: normUrl(streamUrl),
     country_hint: unique(extra.country_hint || source.market_hint || []),
     language: unique(extra.language || []),
@@ -175,7 +183,9 @@ function parseM3U(text, source) {
     const urlLine = chunk.split(/\r?\n/).map(x => x.trim()).find(x => /^https?:\/\//i.test(x));
     if (!urlLine) continue;
     const piped = splitPipeHeaders(urlLine);
-    const country = unique([...(String(attrs['tvg-country'] || '').split(/[;,/|]/)), ...(source.market_hint || [])]);
+    const explicitCountries = String(attrs['tvg-country'] || '').split(/[;,/|]/);
+    const inferredCountry = countryFromTvgId(attrs['tvg-id'] || '');
+    const country = unique([...explicitCountries, inferredCountry, ...(source.market_hint || [])]);
     const language = unique(String(attrs['tvg-language'] || '').split(/[;,/|]/));
     const candidate = baseCandidate(source, title, piped.url, {
       tvg_id: attrs['tvg-id'] || '',
@@ -209,7 +219,7 @@ function parseFamelackCountry(doc, source, countryCode) {
 }
 
 async function fetchText(url) {
-  const response = await fetch(url, { headers: { 'user-agent': 'MediaLens/38.0 source-expansion importer' } });
+  const response = await fetch(url, { headers: { 'user-agent': 'MediaLens/38.4 source-expansion importer' } });
   if (!response.ok) throw new Error(`fetch failed ${response.status} for ${url}`);
   return response.text();
 }
