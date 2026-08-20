@@ -1,7 +1,7 @@
 {
   "version": "38.3-source-expansion-probe-state",
-  "generated_at": "2026-08-20T14:15:13.901Z",
-  "record_count": 240,
+  "generated_at": "2026-08-20T14:22:06.148Z",
+  "record_count": 360,
   "records": [
     {
       "source_feed_id": "tdtchannels-tv",
@@ -16,9 +16,9 @@
         "checked_at": "2026-08-20T14:15:11.938Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:11.938Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -34,9 +34,9 @@
         "checked_at": "2026-08-20T14:15:05.010Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:05.010Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -52,9 +52,9 @@
         "checked_at": "2026-08-20T14:15:11.938Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:11.938Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -72,7 +72,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_http_error",
-      "captured_at": "2026-08-20T14:15:05.010Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -90,7 +90,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_network_error",
-      "captured_at": "2026-08-20T14:15:11.938Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -106,9 +106,9 @@
         "checked_at": "2026-08-20T14:04:34.264Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -124,9 +124,45 @@
         "checked_at": "2026-08-20T14:15:11.938Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.753Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-tvr-tv-live-playlist-m3u8",
+      "stream_url": "https://5924d3ad0efcf.streamlock.net/riojatv/riojatvlive/playlist.m3u8",
+      "title": "TV Rioja",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 788,
+        "checked_at": "2026-08-20T14:21:59.356Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:11.938Z",
+      "captured_at": "2026-08-20T14:21:59.356Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-popular-tv-melilla--all-playlist-m3u8",
+      "stream_url": "https://5940924978228.streamlock.net/8009/ngrp:8009_all/playlist.m3u8",
+      "title": "Popular TV Melilla",
+      "probe": {
+        "probe_status": "http_error",
+        "http_status": 404,
+        "content_type": "",
+        "latency_ms": 594,
+        "checked_at": "2026-08-20T14:22:00.131Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_failed",
+      "blocked_reason": "stream_probe_http_error",
+      "captured_at": "2026-08-20T14:22:00.131Z",
       "attempt_count": 1
     },
     {
@@ -142,9 +178,9 @@
         "checked_at": "2026-08-20T14:14:57.102Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:57.102Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -162,7 +198,43 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_http_error",
-      "captured_at": "2026-08-20T14:15:05.936Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-urola-tb-cto2-playlist-m3u8",
+      "stream_url": "https://5940924978228.streamlock.net/j_Directo2/j_Directo2/playlist.m3u8",
+      "title": "Urola TB",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 92,
+        "checked_at": "2026-08-20T14:22:06.136Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:22:06.136Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-iprotv-rotv-playlist-m3u8",
+      "stream_url": "https://59ec5453559f0.streamlock.net/iprotv/iprotv/playlist.m3u8",
+      "title": "iPROtv",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 1446,
+        "checked_at": "2026-08-20T14:21:44.395Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:44.395Z",
       "attempt_count": 1
     },
     {
@@ -178,9 +250,9 @@
         "checked_at": "2026-08-20T14:15:05.010Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:05.010Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -196,9 +268,63 @@
         "checked_at": "2026-08-20T14:15:05.010Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.753Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-canal-4-tv-catalunya-8014-playlist-m3u8",
+      "stream_url": "https://5caf24a595d94.streamlock.net:1937/8014/8014/playlist.m3u8",
+      "title": "Canal 4 TV Catalunya",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 323,
+        "checked_at": "2026-08-20T14:21:42.944Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:05.010Z",
+      "captured_at": "2026-08-20T14:21:42.944Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-canal-4-tv-mallorca-8110-playlist-m3u8",
+      "stream_url": "https://5caf24a595d94.streamlock.net:1937/8110/8110/playlist.m3u8",
+      "title": "Canal 4 TV Mallorca",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 307,
+        "checked_at": "2026-08-20T14:21:59.356Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:59.356Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-piera-tv-smil-playlist-m3u8",
+      "stream_url": "https://5d776b1861da1.streamlock.net/piera/smil:piera.smil/playlist.m3u8",
+      "title": "Piera TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 586,
+        "checked_at": "2026-08-20T14:21:44.395Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:44.395Z",
       "attempt_count": 1
     },
     {
@@ -214,9 +340,9 @@
         "checked_at": "2026-08-20T14:14:53.845Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:53.845Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -232,9 +358,9 @@
         "checked_at": "2026-08-20T14:14:57.102Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:57.102Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -250,9 +376,9 @@
         "checked_at": "2026-08-20T14:14:53.845Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:53.845Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -268,9 +394,9 @@
         "checked_at": "2026-08-20T14:14:52.909Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:52.909Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -288,7 +414,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:14:58.085Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -304,9 +430,9 @@
         "checked_at": "2026-08-20T14:04:28.258Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.751Z",
       "attempt_count": 1
     },
     {
@@ -324,7 +450,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.751Z",
       "attempt_count": 1
     },
     {
@@ -340,9 +466,45 @@
         "checked_at": "2026-08-20T14:04:27.007Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.751Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-canal-3-biar-es-hls-canal3-m3u8",
+      "stream_url": "https://avantstreaming.es/hls/canal3.m3u8",
+      "title": "Canal 3 Biar",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 329,
+        "checked_at": "2026-08-20T14:21:57.505Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:57.505Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-canal-3-biar--hls-canal3hd-m3u8",
+      "stream_url": "https://avantstreaming.es/hls/canal3hd.m3u8",
+      "title": "Canal 3 Biar",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 310,
+        "checked_at": "2026-08-20T14:21:57.505Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:57.505Z",
       "attempt_count": 1
     },
     {
@@ -360,7 +522,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_timeout",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -378,7 +540,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_timeout",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -396,7 +558,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_timeout",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -414,7 +576,61 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_timeout",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-eusko-legebiltzarra-el-1-playlist-m3u8",
+      "stream_url": "https://bideoak.legebiltzarra.eus/zuzenean/stream-3_channel-1/playlist.m3u8",
+      "title": "Eusko Legebiltzarra",
+      "probe": {
+        "probe_status": "timeout",
+        "http_status": null,
+        "content_type": "",
+        "latency_ms": 6000,
+        "checked_at": "2026-08-20T14:22:06.136Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_failed",
+      "blocked_reason": "stream_probe_timeout",
+      "captured_at": "2026-08-20T14:22:06.136Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-eusko-legebiltzarra-el-2-playlist-m3u8",
+      "stream_url": "https://bideoak.legebiltzarra.eus/zuzenean/stream-3_channel-2/playlist.m3u8",
+      "title": "Eusko Legebiltzarra",
+      "probe": {
+        "probe_status": "timeout",
+        "http_status": null,
+        "content_type": "",
+        "latency_ms": 6000,
+        "checked_at": "2026-08-20T14:22:06.136Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_failed",
+      "blocked_reason": "stream_probe_timeout",
+      "captured_at": "2026-08-20T14:22:06.136Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-punt3-tv-streams-punt3-m3u8",
+      "stream_url": "https://bit.controlstreams.com:5443/LiveApp/streams/punt3.m3u8",
+      "title": "Punt 3 Vall Uixó",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/x-mpegURL",
+        "latency_ms": 1272,
+        "checked_at": "2026-08-20T14:21:51.501Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:51.501Z",
       "attempt_count": 1
     },
     {
@@ -430,9 +646,9 @@
         "checked_at": "2026-08-20T14:04:45.828Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.871Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -448,9 +664,63 @@
         "checked_at": "2026-08-20T14:14:57.102Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.752Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-parlamento-de-navarra--playlist-m3u8-dvr",
+      "stream_url": "https://broadcasting.parlamentodenavarra.es/live/canal1/playlist.m3u8?DVR",
+      "title": "Parlamento de Navarra",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 587,
+        "checked_at": "2026-08-20T14:21:45.497Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:57.102Z",
+      "captured_at": "2026-08-20T14:21:45.497Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-parlamento-de-navarra--playlist-m3u8-dvr",
+      "stream_url": "https://broadcasting.parlamentodenavarra.es/live/canal2/playlist.m3u8?DVR",
+      "title": "Parlamento de Navarra",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 695,
+        "checked_at": "2026-08-20T14:21:45.497Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:45.497Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-parlamento-de-navarra--playlist-m3u8-dvr",
+      "stream_url": "https://broadcasting.parlamentodenavarra.es/live/canal3/playlist.m3u8?DVR",
+      "title": "Parlamento de Navarra",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 588,
+        "checked_at": "2026-08-20T14:21:45.497Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:45.497Z",
       "attempt_count": 1
     },
     {
@@ -468,7 +738,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_network_error",
-      "captured_at": "2026-08-20T14:14:58.085Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -484,9 +754,27 @@
         "checked_at": "2026-08-20T14:14:53.845Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.752Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-toros--fast1-master-m3u8",
+      "stream_url": "https://cdn-canalextremadura.watchity.net/fast1/master.m3u8",
+      "title": "Toros (Canal Extremadura)",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 540,
+        "checked_at": "2026-08-20T14:21:57.505Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:53.845Z",
+      "captured_at": "2026-08-20T14:21:57.505Z",
       "attempt_count": 1
     },
     {
@@ -502,9 +790,171 @@
         "checked_at": "2026-08-20T14:04:34.264Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-semos-asina--fast3-master-m3u8",
+      "stream_url": "https://cdn-canalextremadura.watchity.net/fast3/master.m3u8",
+      "title": "Semos asina (Canal Extremadura)",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 949,
+        "checked_at": "2026-08-20T14:21:57.505Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:57.505Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-etb1-tv-us-etb1-index-m3u8",
+      "stream_url": "https://cdn1.etbon.eus/etb1/index.m3u8",
+      "title": "ETB 1",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/x-mpegURL",
+        "latency_ms": 154,
+        "checked_at": "2026-08-20T14:22:00.131Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:22:00.131Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-etb1on-tv--etb1on-index-m3u8",
+      "stream_url": "https://cdn1.etbon.eus/etb1on/index.m3u8",
+      "title": "ETB1 ON",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/x-mpegURL",
+        "latency_ms": 623,
+        "checked_at": "2026-08-20T14:22:00.131Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:22:00.131Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-etb2-tv-us-etb2-index-m3u8",
+      "stream_url": "https://cdn1.etbon.eus/etb2/index.m3u8",
+      "title": "ETB 2",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/x-mpegURL",
+        "latency_ms": 158,
+        "checked_at": "2026-08-20T14:22:00.131Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:22:00.131Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-etb2on-tv--etb2on-index-m3u8",
+      "stream_url": "https://cdn1.etbon.eus/etb2on/index.m3u8",
+      "title": "ETB2 ON",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/x-mpegURL",
+        "latency_ms": 772,
+        "checked_at": "2026-08-20T14:22:00.131Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:22:00.131Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-euskadi-meteo-s-meteo-index-m3u8",
+      "stream_url": "https://cdn1.etbon.eus/meteo/index.m3u8",
+      "title": "Euskadi Meteo (ETB On)",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/x-mpegURL",
+        "latency_ms": 771,
+        "checked_at": "2026-08-20T14:22:00.131Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:22:00.131Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-etbon-oca1-tv-eus-oc1-index-m3u8",
+      "stream_url": "https://cdn1.etbon.eus/oc1/index.m3u8",
+      "title": "ETB Eventos 1",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/x-mpegURL",
+        "latency_ms": 735,
+        "checked_at": "2026-08-20T14:22:00.131Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:22:00.131Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-etbon-oca2-tv-eus-oc2-index-m3u8",
+      "stream_url": "https://cdn1.etbon.eus/oc2/index.m3u8",
+      "title": "ETB Eventos 2",
+      "probe": {
+        "probe_status": "geo_blocked",
+        "http_status": 451,
+        "content_type": "application/json",
+        "latency_ms": 334,
+        "checked_at": "2026-08-20T14:22:00.131Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_failed",
+      "blocked_reason": "stream_probe_geo_blocked",
+      "captured_at": "2026-08-20T14:22:00.131Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-hamaika-tv-live-playlist-m3u8",
+      "stream_url": "https://cdn3.wowza.com/1/RERMR282dnU5eE5Z/OHY0dVFs/hls/live/playlist.m3u8",
+      "title": "Hamaika TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/x-mpegURL",
+        "latency_ms": 609,
+        "checked_at": "2026-08-20T14:22:00.131Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:22:00.131Z",
       "attempt_count": 1
     },
     {
@@ -520,9 +970,9 @@
         "checked_at": "2026-08-20T14:15:05.936Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:05.936Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -538,9 +988,27 @@
         "checked_at": "2026-08-20T14:15:05.936Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.753Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-btv-tv-1-vfibi2fe-protoco",
+      "stream_url": "https://cdnapisec.kaltura.com/p/2346171/sp/234617100/playManifest/entryId/1_vfibi2fe/protocol/https/format/applehttp/a.m3u8?referrer=aHR0cHM6Ly9iZXRldmUuY2F0",
+      "title": "betevé",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/x-mpegurl",
+        "latency_ms": 153,
+        "checked_at": "2026-08-20T14:21:40.355Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:05.936Z",
+      "captured_at": "2026-08-20T14:21:40.355Z",
       "attempt_count": 1
     },
     {
@@ -556,9 +1024,9 @@
         "checked_at": "2026-08-20T14:14:57.102Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:57.102Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -574,9 +1042,9 @@
         "checked_at": "2026-08-20T14:14:57.102Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:57.102Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -592,9 +1060,63 @@
         "checked_at": "2026-08-20T14:14:52.909Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.752Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-anove-tv-s-anove-anove-m3u8",
+      "stream_url": "https://cloud.streamingconnect.tv/hls/anove/anove.m3u8",
+      "title": "Anove TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/x-mpegURL",
+        "latency_ms": 418,
+        "checked_at": "2026-08-20T14:21:59.356Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:52.909Z",
+      "captured_at": "2026-08-20T14:21:59.356Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-lira-tv-ratv-playlist-m3u8",
+      "stream_url": "https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8",
+      "title": "LIRA TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 198,
+        "checked_at": "2026-08-20T14:21:45.497Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:45.497Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-univers-tv-ller-playlist-m3u8",
+      "stream_url": "https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u8",
+      "title": "Univers TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 35,
+        "checked_at": "2026-08-20T14:21:51.501Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:51.501Z",
       "attempt_count": 1
     },
     {
@@ -610,9 +1132,9 @@
         "checked_at": "2026-08-20T14:14:52.909Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:52.909Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -628,9 +1150,27 @@
         "checked_at": "2026-08-20T14:14:53.845Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.752Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-ciudades-del-ocio-tv-81-8024-index-m3u8",
+      "stream_url": "https://cloudvideo.servers10.com:8081/8024/index.m3u8",
+      "title": "Ciudades Del Ocio TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 451,
+        "checked_at": "2026-08-20T14:21:57.505Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:53.845Z",
+      "captured_at": "2026-08-20T14:21:57.505Z",
       "attempt_count": 1
     },
     {
@@ -646,9 +1186,9 @@
         "checked_at": "2026-08-20T14:15:05.010Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:05.010Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -664,9 +1204,27 @@
         "checked_at": "2026-08-20T14:15:04.090Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.753Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-onda-15-tv-81-8034-index-m3u8",
+      "stream_url": "https://cloudvideo.servers10.com:8081/8034/index.m3u8",
+      "title": "Onda 15 TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 475,
+        "checked_at": "2026-08-20T14:21:57.505Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:04.090Z",
+      "captured_at": "2026-08-20T14:21:57.505Z",
       "attempt_count": 1
     },
     {
@@ -682,9 +1240,27 @@
         "checked_at": "2026-08-20T14:15:05.936Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.753Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-onda-valencia-81-8116-index-m3u8",
+      "stream_url": "https://cloudvideo.servers10.com:8081/8116/index.m3u8",
+      "title": "Onda Valencia",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 538,
+        "checked_at": "2026-08-20T14:21:57.505Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:05.936Z",
+      "captured_at": "2026-08-20T14:21:57.505Z",
       "attempt_count": 1
     },
     {
@@ -700,9 +1276,27 @@
         "checked_at": "2026-08-20T14:15:05.936Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.753Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-ribera-tv-ra-livestream-m3u8",
+      "stream_url": "https://common01.todostreaming.es/live/ribera-livestream.m3u8",
+      "title": "Ribera TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 920,
+        "checked_at": "2026-08-20T14:21:45.497Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:05.936Z",
+      "captured_at": "2026-08-20T14:21:45.497Z",
       "attempt_count": 1
     },
     {
@@ -718,9 +1312,9 @@
         "checked_at": "2026-08-20T14:04:42.055Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -736,9 +1330,9 @@
         "checked_at": "2026-08-20T14:04:42.712Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -756,7 +1350,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -774,7 +1368,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -792,7 +1386,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -810,7 +1404,223 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-tvgal-tv-loud-playlist-m3u8",
+      "stream_url": "https://crtvg-europa.flumotion.cloud/playlist.m3u8",
+      "title": "TVG",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 726,
+        "checked_at": "2026-08-20T14:21:57.505Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:57.505Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-tvg-eventos-loud-playlist-m3u8",
+      "stream_url": "https://crtvg-events1.flumotion.cloud/playlist.m3u8",
+      "title": "TVG Eventos",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 394,
+        "checked_at": "2026-08-20T14:21:58.359Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:58.359Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-tvg-eventos-loud-playlist-m3u8",
+      "stream_url": "https://crtvg-events2.flumotion.cloud/playlist.m3u8",
+      "title": "TVG Eventos",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 488,
+        "checked_at": "2026-08-20T14:21:58.359Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:58.359Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-tvg-eventos-loud-playlist-m3u8",
+      "stream_url": "https://crtvg-events3.flumotion.cloud/playlist.m3u8",
+      "title": "TVG Eventos",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 524,
+        "checked_at": "2026-08-20T14:21:58.359Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:58.359Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-tvg-eventos-loud-playlist-m3u8",
+      "stream_url": "https://crtvg-events4.flumotion.cloud/playlist.m3u8",
+      "title": "TVG Eventos",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 581,
+        "checked_at": "2026-08-20T14:21:58.359Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:58.359Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-tvg-xabarin-smil-playlist-m3u8",
+      "stream_url": "https://crtvg-infantil-schlive.flumotion.cloud/crtvglive/smil:channel5PRG.smil/playlist.m3u8",
+      "title": "TVG Xabarin",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 216,
+        "checked_at": "2026-08-20T14:21:58.359Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:58.359Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-tvg-mira-radio-galega-smil-playlist-m3u8",
+      "stream_url": "https://crtvg-mirarg-schlive.flumotion.cloud/crtvglive/smil:channel1PRG.smil/playlist.m3u8",
+      "title": "TVG Mira Radio Galega",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 535,
+        "checked_at": "2026-08-20T14:21:58.359Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:58.359Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-tvg2-tv-loud-playlist-m3u8",
+      "stream_url": "https://crtvg-tvg2.flumotion.cloud/playlist.m3u8",
+      "title": "TVG 2",
+      "probe": {
+        "probe_status": "geo_blocked",
+        "http_status": 403,
+        "content_type": "text/html",
+        "latency_ms": 77,
+        "checked_at": "2026-08-20T14:21:58.359Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_failed",
+      "blocked_reason": "stream_probe_geo_blocked",
+      "captured_at": "2026-08-20T14:21:58.359Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-tvg-universo-castelao-loud-playlist-m3u8",
+      "stream_url": "https://crtvg-universo-castelao-schlive.flumotion.cloud/playlist.m3u8",
+      "title": "TVG Universo Castelao",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 527,
+        "checked_at": "2026-08-20T14:21:58.359Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:58.359Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-tvg-pequerrech-s--smil-playlist-m3u",
+      "stream_url": "https://crtvg-xabarinr1-schlive.flumotion.cloud/crtvglive/smil:channel6PRG.smil/playlist.m3u8",
+      "title": "TVG Pequerrech@s",
+      "probe": {
+        "probe_status": "geo_blocked",
+        "http_status": 403,
+        "content_type": "text/html",
+        "latency_ms": 150,
+        "checked_at": "2026-08-20T14:21:58.359Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_failed",
+      "blocked_reason": "stream_probe_geo_blocked",
+      "captured_at": "2026-08-20T14:21:58.359Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-tvg-cativ-s--smil-playlist-m3u",
+      "stream_url": "https://crtvg-xabarinr2-schlive.flumotion.cloud/crtvglive/smil:channel7PRG.smil/playlist.m3u8",
+      "title": "TVG Cativ@s",
+      "probe": {
+        "probe_status": "geo_blocked",
+        "http_status": 403,
+        "content_type": "text/html",
+        "latency_ms": 167,
+        "checked_at": "2026-08-20T14:21:58.359Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_failed",
+      "blocked_reason": "stream_probe_geo_blocked",
+      "captured_at": "2026-08-20T14:21:58.359Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-tvg-mocin-s--smil-playlist-m3u",
+      "stream_url": "https://crtvg-xabarinr3-schlive.flumotion.cloud/crtvglive/smil:channel8PRG.smil/playlist.m3u8",
+      "title": "TVG Mociñ@s",
+      "probe": {
+        "probe_status": "geo_blocked",
+        "http_status": 403,
+        "content_type": "text/html",
+        "latency_ms": 235,
+        "checked_at": "2026-08-20T14:21:58.359Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_failed",
+      "blocked_reason": "stream_probe_geo_blocked",
+      "captured_at": "2026-08-20T14:21:58.359Z",
       "attempt_count": 1
     },
     {
@@ -826,9 +1636,9 @@
         "checked_at": "2026-08-20T14:15:04.089Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:04.090Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -844,9 +1654,9 @@
         "checked_at": "2026-08-20T14:15:04.090Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:04.090Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -862,9 +1672,27 @@
         "checked_at": "2026-08-20T14:04:27.007Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.751Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-extremadura-tv-e9ba-continuous-9b",
+      "stream_url": "https://d2ymuyhevki1a1.cloudfront.net/wct-ddd2992e-86fc-4611-a491-7f392259e9ba/continuous/9be76611-d2cd-474d-bf19-ef702ba31b02/index.m3u8",
+      "title": "Canal Extremadura",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 539,
+        "checked_at": "2026-08-20T14:21:57.505Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:57.505Z",
       "attempt_count": 1
     },
     {
@@ -882,7 +1710,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -900,7 +1728,25 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:15:13.889Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-bondiatv-cat-tv-ia-hls-master-m3u8",
+      "stream_url": "https://directes-tv-cat.3catdirectes.cat/live-content/bondia-hls/master.m3u8",
+      "title": "Bon Dia TV",
+      "probe": {
+        "probe_status": "geo_blocked",
+        "http_status": 403,
+        "content_type": "text/plain",
+        "latency_ms": 464,
+        "checked_at": "2026-08-20T14:21:40.355Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_failed",
+      "blocked_reason": "stream_probe_geo_blocked",
+      "captured_at": "2026-08-20T14:21:40.355Z",
       "attempt_count": 1
     },
     {
@@ -918,7 +1764,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:15:12.702Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -936,7 +1782,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.751Z",
       "attempt_count": 1
     },
     {
@@ -954,7 +1800,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:15:12.702Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -972,7 +1818,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:15:12.702Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -990,7 +1836,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:15:12.702Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1008,7 +1854,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:15:12.702Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1026,7 +1872,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -1044,7 +1890,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:15:13.889Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1062,7 +1908,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:15:13.888Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1080,7 +1926,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:15:12.702Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1098,7 +1944,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.751Z",
       "attempt_count": 1
     },
     {
@@ -1116,7 +1962,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.751Z",
       "attempt_count": 1
     },
     {
@@ -1134,7 +1980,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:15:12.702Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1152,7 +1998,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:15:12.702Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1170,7 +2016,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:15:12.702Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1188,7 +2034,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:15:13.888Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1206,7 +2052,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -1224,7 +2070,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:15:13.889Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1242,7 +2088,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:15:12.702Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1260,7 +2106,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.751Z",
       "attempt_count": 1
     },
     {
@@ -1278,7 +2124,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -1296,7 +2142,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:15:13.889Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1314,7 +2160,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:15:13.888Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1332,7 +2178,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:15:12.702Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1350,7 +2196,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.751Z",
       "attempt_count": 1
     },
     {
@@ -1368,7 +2214,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.751Z",
       "attempt_count": 1
     },
     {
@@ -1386,7 +2232,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -1402,9 +2248,27 @@
         "checked_at": "2026-08-20T14:15:13.889Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.753Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-bondiatv-cat-tv-ia-hls-master-m3u8",
+      "stream_url": "https://directes-tv-int.3catdirectes.cat/live-content/bondia-hls/master.m3u8",
+      "title": "Bon Dia TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 369,
+        "checked_at": "2026-08-20T14:21:40.355Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:13.889Z",
+      "captured_at": "2026-08-20T14:21:40.355Z",
       "attempt_count": 1
     },
     {
@@ -1420,9 +2284,9 @@
         "checked_at": "2026-08-20T14:04:27.007Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.751Z",
       "attempt_count": 1
     },
     {
@@ -1440,7 +2304,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.751Z",
       "attempt_count": 1
     },
     {
@@ -1458,7 +2322,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:15:12.702Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1474,9 +2338,9 @@
         "checked_at": "2026-08-20T14:15:11.938Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:11.938Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1492,9 +2356,9 @@
         "checked_at": "2026-08-20T14:15:11.938Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:11.938Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1510,9 +2374,9 @@
         "checked_at": "2026-08-20T14:15:11.938Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:11.938Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1528,9 +2392,45 @@
         "checked_at": "2026-08-20T14:15:11.938Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:11.938Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-canal-1-mar-menor-torre-pacheco-btv-es-canal1-m3u8",
+      "stream_url": "https://directo.tuwebtv.es/canal1.m3u8",
+      "title": "Canal 1 Mar Menor Torre Pacheco",
+      "probe": {
+        "probe_status": "network_error",
+        "http_status": null,
+        "content_type": "",
+        "latency_ms": 1133,
+        "checked_at": "2026-08-20T14:22:06.136Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_failed",
+      "blocked_reason": "stream_probe_network_error",
+      "captured_at": "2026-08-20T14:22:06.136Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-tv-ferrol-vferrol-es-tv-m3u8",
+      "stream_url": "https://directo.tvferrol.es/tv.m3u8",
+      "title": "TV Ferrol",
+      "probe": {
+        "probe_status": "network_error",
+        "http_status": null,
+        "content_type": "",
+        "latency_ms": 848,
+        "checked_at": "2026-08-20T14:21:58.359Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_failed",
+      "blocked_reason": "stream_probe_network_error",
+      "captured_at": "2026-08-20T14:21:58.359Z",
       "attempt_count": 1
     },
     {
@@ -1548,7 +2448,25 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.748Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-elche7-tv-om-hls-canal2-m3u8",
+      "stream_url": "https://elche7tv.gestec-video.com/hls/canal2.m3u8",
+      "title": "Elche 7 TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 596,
+        "checked_at": "2026-08-20T14:21:51.501Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:51.501Z",
       "attempt_count": 1
     },
     {
@@ -1564,9 +2482,9 @@
         "checked_at": "2026-08-20T14:04:45.828Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -1582,9 +2500,9 @@
         "checked_at": "2026-08-20T14:04:44.159Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -1600,9 +2518,9 @@
         "checked_at": "2026-08-20T14:15:05.936Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:05.936Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1620,7 +2538,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_http_error",
-      "captured_at": "2026-08-20T14:15:05.936Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1636,9 +2554,9 @@
         "checked_at": "2026-08-20T14:04:27.007Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.751Z",
       "attempt_count": 1
     },
     {
@@ -1654,9 +2572,9 @@
         "checked_at": "2026-08-20T14:15:13.889Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:13.889Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1672,9 +2590,9 @@
         "checked_at": "2026-08-20T14:15:13.888Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:13.888Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1690,9 +2608,9 @@
         "checked_at": "2026-08-20T14:15:13.889Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:13.889Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1708,9 +2626,9 @@
         "checked_at": "2026-08-20T14:15:13.889Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:13.889Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1726,9 +2644,9 @@
         "checked_at": "2026-08-20T14:14:58.085Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:58.085Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -1744,9 +2662,189 @@
         "checked_at": "2026-08-20T14:04:41.410Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-fibwi-diario-io-index-fmp4-m3u8",
+      "stream_url": "https://hostcdn3.fibwi.com/fibwi_diario/index.fmp4.m3u8",
+      "title": "Fibwi Diario",
+      "probe": {
+        "probe_status": "http_error",
+        "http_status": 404,
+        "content_type": "",
+        "latency_ms": 827,
+        "checked_at": "2026-08-20T14:21:59.356Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_failed",
+      "blocked_reason": "stream_probe_http_error",
+      "captured_at": "2026-08-20T14:21:59.356Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-xarxa-canal-taronja-anoia-tv-noia-playlist-m3u8",
+      "stream_url": "https://ingest1-video.streaming-pro.com/canaltaronja/anoia/playlist.m3u8",
+      "title": "Canal Taronja Anoia",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 1101,
+        "checked_at": "2026-08-20T14:21:42.944Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:42.944Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-xarxa-canal-taronja-central-tv-tral-playlist-m3u8",
+      "stream_url": "https://ingest1-video.streaming-pro.com/canaltaronja/central/playlist.m3u8",
+      "title": "Canal Taronja Central",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 918,
+        "checked_at": "2026-08-20T14:21:42.944Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:42.944Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-canal-taronja-osona-i-moianes-sona-playlist-m3u8",
+      "stream_url": "https://ingest1-video.streaming-pro.com/canaltaronja/osona/playlist.m3u8",
+      "title": "Canal Taronja Osona i Moianés",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 90,
+        "checked_at": "2026-08-20T14:21:44.395Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:44.395Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-xarxa-tv-sabadell-valles-tv-dell-playlist-m3u8",
+      "stream_url": "https://ingest1-video.streaming-pro.com/canaltaronja/sabadell/playlist.m3u8",
+      "title": "TV Sabadell - Vallès",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 92,
+        "checked_at": "2026-08-20T14:21:44.395Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:44.395Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-xarxa-tac12-tv-ream-playlist-m3u8",
+      "stream_url": "https://ingest1-video.streaming-pro.com/tac12_ABR/stream/playlist.m3u8",
+      "title": "TAC 12",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 903,
+        "checked_at": "2026-08-20T14:21:42.944Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:42.944Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-xarxa-canal-terrassa-tv-ream-playlist-m3u8",
+      "stream_url": "https://ingest2-video.streaming-pro.com/canalterrassa/stream/playlist.m3u8",
+      "title": "Canal Terrassa",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 910,
+        "checked_at": "2026-08-20T14:21:40.358Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:40.358Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-xarxa-canal-reus-tv-tv-ream-playlist-m3u8",
+      "stream_url": "https://ingest2-video.streaming-pro.com/creus/stream/playlist.m3u8",
+      "title": "Canal Reus",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 909,
+        "checked_at": "2026-08-20T14:21:40.355Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:40.358Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-tele-7-ream-playlist-m3u8",
+      "stream_url": "https://ingest2-video.streaming-pro.com/tele7_ABR/stream/playlist.m3u8",
+      "title": "Tele 7",
+      "probe": {
+        "probe_status": "http_error",
+        "http_status": 404,
+        "content_type": "text/html",
+        "latency_ms": 540,
+        "checked_at": "2026-08-20T14:22:00.131Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_failed",
+      "blocked_reason": "stream_probe_http_error",
+      "captured_at": "2026-08-20T14:22:00.131Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-xarxa-votv-tv--web-playlist-m3u8",
+      "stream_url": "https://ingest2-video.streaming-pro.com/votv/streaming_web/playlist.m3u8",
+      "title": "VOTV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 92,
+        "checked_at": "2026-08-20T14:21:42.944Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:42.944Z",
       "attempt_count": 1
     },
     {
@@ -1762,9 +2860,9 @@
         "checked_at": "2026-08-20T14:14:57.102Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:57.102Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -1780,9 +2878,27 @@
         "checked_at": "2026-08-20T14:15:05.010Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.753Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-telemino-smil-playlist-m3u8",
+      "stream_url": "https://laregionlive.flumotion.cloud/laregionlive/smil:channel1.smil/playlist.m3u8",
+      "title": "Telemiño",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 235,
+        "checked_at": "2026-08-20T14:21:59.356Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:05.010Z",
+      "captured_at": "2026-08-20T14:21:59.356Z",
       "attempt_count": 1
     },
     {
@@ -1798,9 +2914,9 @@
         "checked_at": "2026-08-20T14:15:05.936Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:05.936Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -1816,9 +2932,9 @@
         "checked_at": "2026-08-20T14:14:53.845Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:53.845Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -1836,7 +2952,43 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_http_error",
-      "captured_at": "2026-08-20T14:14:53.845Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-33tv-na-livestream-m3u8",
+      "stream_url": "https://limited43.todostreaming.es/live/simbana-livestream.m3u8",
+      "title": "33TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 735,
+        "checked_at": "2026-08-20T14:21:57.505Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:57.505Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-dejate-tv-eh-livestream-m3u8",
+      "stream_url": "https://limited44.todostreaming.es/live/dejatedeh-livestream.m3u8",
+      "title": "Déjate de Historias TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 577,
+        "checked_at": "2026-08-20T14:21:44.395Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:44.395Z",
       "attempt_count": 1
     },
     {
@@ -1852,9 +3004,9 @@
         "checked_at": "2026-08-20T14:04:44.159Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -1870,9 +3022,63 @@
         "checked_at": "2026-08-20T14:15:05.010Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.753Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-distrito-tv-dzaxap-master-m3u8",
+      "stream_url": "https://live.emitstream.com/hls/3mn7wpcv7hbmxmdzaxap/master.m3u8",
+      "title": "Distrito TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 384,
+        "checked_at": "2026-08-20T14:21:44.395Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:05.010Z",
+      "captured_at": "2026-08-20T14:21:44.395Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-durangaldeko-tv-xsdpzu-master-m3u8",
+      "stream_url": "https://live.emitstream.com/hls/5f9asjsehd7gmyxsdpzu/master.m3u8",
+      "title": "Durangaldeko TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 276,
+        "checked_at": "2026-08-20T14:22:06.136Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:22:06.136Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-teleganes-78vg2m-master-m3u8",
+      "stream_url": "https://live.emitstream.com/hls/5z6oj7ziwxzfnj78vg2m/master.m3u8",
+      "title": "Teleganés",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 389,
+        "checked_at": "2026-08-20T14:21:44.395Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:44.395Z",
       "attempt_count": 1
     },
     {
@@ -1888,9 +3094,27 @@
         "checked_at": "2026-08-20T14:04:28.258Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.751Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-xarxa-lleidatv-tv-l-playlist-m3u8-dv",
+      "stream_url": "https://liveingesta118.cdnmedia.tv/lleidatvlive/smil:lleidatvocasional.smil/playlist.m3u8?DVR",
+      "title": "Lleida TV",
+      "probe": {
+        "probe_status": "http_error",
+        "http_status": 404,
+        "content_type": "text/html",
+        "latency_ms": 306,
+        "checked_at": "2026-08-20T14:21:42.944Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_failed",
+      "blocked_reason": "stream_probe_http_error",
+      "captured_at": "2026-08-20T14:21:42.944Z",
       "attempt_count": 1
     },
     {
@@ -1906,9 +3130,9 @@
         "checked_at": "2026-08-20T14:04:45.828Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.871Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -1924,9 +3148,9 @@
         "checked_at": "2026-08-20T14:14:52.909Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:52.909Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -1944,7 +3168,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_http_error",
-      "captured_at": "2026-08-20T14:14:53.845Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -1960,9 +3184,9 @@
         "checked_at": "2026-08-20T14:14:53.845Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:53.845Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -1978,9 +3202,9 @@
         "checked_at": "2026-08-20T14:14:57.102Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:57.102Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -1996,9 +3220,9 @@
         "checked_at": "2026-08-20T14:14:57.101Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:57.102Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2014,9 +3238,9 @@
         "checked_at": "2026-08-20T14:04:45.828Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.871Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2032,9 +3256,9 @@
         "checked_at": "2026-08-20T14:14:53.845Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:53.845Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2050,9 +3274,207 @@
         "checked_at": "2026-08-20T14:14:53.845Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.752Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-xarxa-televisio-bdn-tv--playlist-m3u8-dvr",
+      "stream_url": "https://liveingesta318.cdnmedia.tv/badalonatvlive/smil:live.smil/playlist.m3u8?DVR",
+      "title": "BDN Badalona TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 196,
+        "checked_at": "2026-08-20T14:21:44.395Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:53.845Z",
+      "captured_at": "2026-08-20T14:21:44.395Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-xarxa-tv-costa-brava-tv-smil-playlist-m3u8",
+      "stream_url": "https://liveingesta318.cdnmedia.tv/costabravatvlive/smil:live.smil/playlist.m3u8",
+      "title": "TV Costa Brava",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 203,
+        "checked_at": "2026-08-20T14:21:42.944Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:42.944Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-xarxa-lleidatv-tv--playlist-m3u8-dvr",
+      "stream_url": "https://liveingesta318.cdnmedia.tv/lleidatvlive/smil:live.smil/playlist.m3u8?DVR",
+      "title": "Lleida TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 194,
+        "checked_at": "2026-08-20T14:21:42.944Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:42.944Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-xarxa-penedes-tv-tv--playlist-m3u8-dvr",
+      "stream_url": "https://liveingesta318.cdnmedia.tv/rtvvilafrancalive/smil:live.smil/playlist.m3u8?DVR",
+      "title": "Penedès TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 181,
+        "checked_at": "2026-08-20T14:21:42.944Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:42.944Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-rtv-cardedeu--playlist-m3u8-dvr",
+      "stream_url": "https://liveingesta318.cdnmedia.tv/tvcardedeulive/smil:rtmp01.smil/playlist.m3u8?DVR",
+      "title": "RTV Cardedeu",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 255,
+        "checked_at": "2026-08-20T14:21:44.395Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:44.395Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-xarxa-etv-tv--playlist-m3u8-dvr",
+      "stream_url": "https://liveingesta318.cdnmedia.tv/tvetvlive/smil:rtmp01.smil/playlist.m3u8?DVR",
+      "title": "etv",
+      "probe": {
+        "probe_status": "http_error",
+        "http_status": 404,
+        "content_type": "text/html",
+        "latency_ms": 230,
+        "checked_at": "2026-08-20T14:21:44.395Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_failed",
+      "blocked_reason": "stream_probe_http_error",
+      "captured_at": "2026-08-20T14:21:44.395Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-xarxa-televisio-hospitalet-tv--playlist-m3u8-dvr",
+      "stream_url": "https://liveingesta318.cdnmedia.tv/tvhospitaletlive/smil:tvhospitalet.smil/playlist.m3u8?DVR",
+      "title": "L'Hospitalet TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 270,
+        "checked_at": "2026-08-20T14:21:42.944Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:42.944Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-rtv-el-vendrell-smil-playlist-m3u8",
+      "stream_url": "https://liveingesta318.cdnmedia.tv/tvvendrelllive/smil:directe.smil/playlist.m3u8",
+      "title": "RTV El Vendrell",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 561,
+        "checked_at": "2026-08-20T14:21:42.944Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:42.944Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-parlamento-de-la-rioja-lado-playlist-m3u8",
+      "stream_url": "https://media.parlamento-larioja.org/live/parlarioja_subtitulado/playlist.m3u8",
+      "title": "Parlamento de La Rioja",
+      "probe": {
+        "probe_status": "network_error",
+        "http_status": null,
+        "content_type": "",
+        "latency_ms": 992,
+        "checked_at": "2026-08-20T14:21:59.356Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_failed",
+      "blocked_reason": "stream_probe_network_error",
+      "captured_at": "2026-08-20T14:21:59.356Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-parlamento-de-la-rioja-ioja-playlist-m3u8",
+      "stream_url": "https://media.parlamento-larioja.org/live/parlarioja/playlist.m3u8",
+      "title": "Parlamento de La Rioja",
+      "probe": {
+        "probe_status": "network_error",
+        "http_status": null,
+        "content_type": "",
+        "latency_ms": 992,
+        "checked_at": "2026-08-20T14:21:59.356Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_failed",
+      "blocked_reason": "stream_probe_network_error",
+      "captured_at": "2026-08-20T14:21:59.356Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-c33m-tv-936-8140-8140-m3u8",
+      "stream_url": "https://media2.streambrothers.com:1936/8140/8140/.m3u8",
+      "title": "Canal 33 Madrid",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 1068,
+        "checked_at": "2026-08-20T14:21:44.395Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:44.395Z",
       "attempt_count": 1
     },
     {
@@ -2068,9 +3490,9 @@
         "checked_at": "2026-08-20T14:04:28.258Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.751Z",
       "attempt_count": 1
     },
     {
@@ -2088,7 +3510,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.751Z",
       "attempt_count": 1
     },
     {
@@ -2106,7 +3528,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.751Z",
       "attempt_count": 1
     },
     {
@@ -2122,9 +3544,27 @@
         "checked_at": "2026-08-20T14:04:28.258Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.751Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-8m-tv-ls-8tveventos-m3u8",
+      "stream_url": "https://newscript.gestec-video.com/hls/8TVEVENTOS.m3u8",
+      "title": "La 8 Mediterráneo",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 1097,
+        "checked_at": "2026-08-20T14:21:45.497Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:45.497Z",
       "attempt_count": 1
     },
     {
@@ -2140,9 +3580,9 @@
         "checked_at": "2026-08-20T14:14:52.909Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:52.909Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2158,9 +3598,9 @@
         "checked_at": "2026-08-20T14:14:58.085Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:58.085Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2176,9 +3616,9 @@
         "checked_at": "2026-08-20T14:14:53.845Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:53.845Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2194,9 +3634,9 @@
         "checked_at": "2026-08-20T14:15:05.936Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:05.936Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -2212,9 +3652,9 @@
         "checked_at": "2026-08-20T14:14:52.909Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:52.909Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2230,9 +3670,27 @@
         "checked_at": "2026-08-20T14:14:52.909Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.752Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-parlamento-de-galicia-leno-playlist-m3u8",
+      "stream_url": "https://pgalicia-live.akamaized.net/hls/live/2040697/pleno/playlist.m3u8",
+      "title": "Parlamento de Galicia",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/x-mpegURL",
+        "latency_ms": 701,
+        "checked_at": "2026-08-20T14:21:59.356Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:52.909Z",
+      "captured_at": "2026-08-20T14:21:59.356Z",
       "attempt_count": 1
     },
     {
@@ -2248,9 +3706,9 @@
         "checked_at": "2026-08-20T14:04:34.264Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.751Z",
       "attempt_count": 1
     },
     {
@@ -2266,9 +3724,63 @@
         "checked_at": "2026-08-20T14:04:25.855Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.748Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-7televalencia-tv--028-playlist-m3u8",
+      "stream_url": "https://play.cdn.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/028/playlist.m3u8",
+      "title": "7 TeleValencia",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl; charset=utf-8",
+        "latency_ms": 927,
+        "checked_at": "2026-08-20T14:21:45.497Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:45.497Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-tv-almassora-massora-index-m3u8",
+      "stream_url": "https://play.turesportmedia.com/hls/abr_tvalmassora/index.m3u8",
+      "title": "TV Almassora",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 1040,
+        "checked_at": "2026-08-20T14:21:51.501Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:51.501Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-telebilbao-b-public-live-m3u8",
+      "stream_url": "https://player.telebilbao.es/hls/web-public/live.m3u8",
+      "title": "TeleBilbao",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 583,
+        "checked_at": "2026-08-20T14:22:06.136Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:22:06.136Z",
       "attempt_count": 1
     },
     {
@@ -2284,9 +3796,9 @@
         "checked_at": "2026-08-20T14:04:28.258Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.751Z",
       "attempt_count": 1
     },
     {
@@ -2304,7 +3816,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.751Z",
       "attempt_count": 1
     },
     {
@@ -2320,9 +3832,9 @@
         "checked_at": "2026-08-20T14:04:44.159Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2338,9 +3850,9 @@
         "checked_at": "2026-08-20T14:04:44.159Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2356,9 +3868,9 @@
         "checked_at": "2026-08-20T14:15:04.090Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:04.090Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -2376,7 +3888,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2394,7 +3906,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2412,7 +3924,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2430,7 +3942,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2448,7 +3960,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2466,7 +3978,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2484,7 +3996,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2502,7 +4014,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2520,7 +4032,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.751Z",
       "attempt_count": 1
     },
     {
@@ -2536,9 +4048,9 @@
         "checked_at": "2026-08-20T14:15:05.010Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:05.010Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -2554,9 +4066,9 @@
         "checked_at": "2026-08-20T14:15:04.090Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:04.090Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -2572,9 +4084,63 @@
         "checked_at": "2026-08-20T14:15:04.090Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.753Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-24h-cat-tv--cat-main-dvr-m3u8",
+      "stream_url": "https://rtvelivestream.rtve.es/rtvesec/cat/24h_cat_main_dvr.m3u8",
+      "title": "24h Catalunya",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 368,
+        "checked_at": "2026-08-20T14:21:40.355Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:04.090Z",
+      "captured_at": "2026-08-20T14:21:40.355Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-la1-cat-tv--cat-main-dvr-m3u8",
+      "stream_url": "https://rtvelivestream.rtve.es/rtvesec/cat/la1_cat_main_dvr.m3u8",
+      "title": "La 1 Catalunya",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 405,
+        "checked_at": "2026-08-20T14:21:40.355Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:40.355Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-la2-cat-tv--cat-main-dvr-m3u8",
+      "stream_url": "https://rtvelivestream.rtve.es/rtvesec/cat/la2_cat_main_dvr.m3u8",
+      "title": "La 2 Cat",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 390,
+        "checked_at": "2026-08-20T14:21:40.355Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:40.355Z",
       "attempt_count": 1
     },
     {
@@ -2592,7 +4158,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2608,9 +4174,9 @@
         "checked_at": "2026-08-20T14:04:25.855Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.869Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.748Z",
       "attempt_count": 1
     },
     {
@@ -2626,9 +4192,9 @@
         "checked_at": "2026-08-20T14:04:25.855Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.748Z",
       "attempt_count": 1
     },
     {
@@ -2646,7 +4212,25 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.748Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-rne-radio4-tv--cam-main-dvr-m3u8",
+      "stream_url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r4_cam_main_dvr.m3u8",
+      "title": "Ràdio 4",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 389,
+        "checked_at": "2026-08-20T14:21:40.355Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:40.355Z",
       "attempt_count": 1
     },
     {
@@ -2662,9 +4246,9 @@
         "checked_at": "2026-08-20T14:04:28.258Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.751Z",
       "attempt_count": 1
     },
     {
@@ -2680,9 +4264,9 @@
         "checked_at": "2026-08-20T14:14:52.909Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:52.909Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2698,9 +4282,9 @@
         "checked_at": "2026-08-20T14:14:52.909Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:52.909Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2716,9 +4300,9 @@
         "checked_at": "2026-08-20T14:14:52.909Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:52.909Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2736,7 +4320,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_http_error",
-      "captured_at": "2026-08-20T14:15:11.938Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -2754,7 +4338,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_http_error",
-      "captured_at": "2026-08-20T14:14:57.102Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2770,9 +4354,9 @@
         "checked_at": "2026-08-20T14:04:42.712Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2790,7 +4374,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2808,7 +4392,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2826,7 +4410,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2844,7 +4428,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2862,7 +4446,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2880,7 +4464,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2898,7 +4482,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -2914,9 +4498,9 @@
         "checked_at": "2026-08-20T14:04:27.007Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.751Z",
       "attempt_count": 1
     },
     {
@@ -2932,9 +4516,63 @@
         "checked_at": "2026-08-20T14:14:52.909Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.752Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-televigo-tv-live-1-avod-0-hls-",
+      "stream_url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16113&live=1&avod=0&hls_marker=1&position=preroll&pod_duration=120&app_bundle=com.streamingconnect.viva&app_domain=mirametv.live&app_category=linear_tv&ssai_enabled=1&content_cat=IAB1&content_channel=televigo&content_genre=tv_broadcaster&content_network=streamingconnect&content_rating=TV-G&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&ifa_type=[IFA_TYPE]&min_ad_duration=6&max_ad_duration=120&content_id=[CONTENT_ID]",
+      "title": "TeleVigo",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 290,
+        "checked_at": "2026-08-20T14:21:59.356Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:52.909Z",
+      "captured_at": "2026-08-20T14:21:59.356Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-cocina-familiar-live-1-avod-0-hls-",
+      "stream_url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16114&live=1&avod=0&hls_marker=1&pod_duration=120&position=preroll&app_bundle=com.streamingconnect.viva&app_category=linear_tv&content_cat=IAB8&content_channel=cocinafamiliar&content_genre=tv_broadcaster&content_network=streamingconnect&content_rating=TV-G&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&ifa_type=[IFA_TYPE]&ssai_enabled=1&content_id=mirametv_live&min_ad_duration=6&max_ad_duration=120&app_domain=mirametv.live",
+      "title": "Cocina Familiar",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 822,
+        "checked_at": "2026-08-20T14:21:59.356Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:59.356Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-12tv-alicante-live-1-avod-0-hls-",
+      "stream_url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16126&live=1&avod=0&hls_marker=1&position=preroll&pod_duration=120&app_bundle=com.streamingconnect.viva&ssai_enabled=1&content_channel=12tv&app_domain=mirametv.live&app_category=linear_tv&content_cat=IAB1&content_genre=tv_broadcaster&content_network=streamingconnect&content_rating=TV-G&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&ifa_type=[IFA_TYPE]&min_ad_duration=6&max_ad_duration=120&content_id=mirametv_live",
+      "title": "12TV Alicante",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 230,
+        "checked_at": "2026-08-20T14:21:51.501Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:51.501Z",
       "attempt_count": 1
     },
     {
@@ -2950,9 +4588,9 @@
         "checked_at": "2026-08-20T14:15:11.938Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:11.938Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -2968,9 +4606,9 @@
         "checked_at": "2026-08-20T14:15:11.938Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:11.938Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -2986,9 +4624,27 @@
         "checked_at": "2026-08-20T14:15:05.936Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.753Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-popularmu-tv-rk-id-12690-live-1",
+      "stream_url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12690&live=1",
+      "title": "Popular TV Murcia",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 130,
+        "checked_at": "2026-08-20T14:22:06.136Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:05.936Z",
+      "captured_at": "2026-08-20T14:22:06.136Z",
       "attempt_count": 1
     },
     {
@@ -3004,9 +4660,9 @@
         "checked_at": "2026-08-20T14:14:57.102Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:57.102Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3022,9 +4678,27 @@
         "checked_at": "2026-08-20T14:15:05.010Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.753Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-estutele-tv-e-1-avod-1-cb-site",
+      "stream_url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=16818&live=1&avod=1&cb=[CACHEBUSTER]&site_page=https%3A%2F%2Ftdtchannels.com&site_name=tdtchannels&hls_marker=1&content_cat=IAB1&content_genre=Entertainment&content_id=Estutele&content_language=es&content_rating=TV-G&content_title=Estutele&coppa=0&ssai_enabled=1",
+      "title": "EsTuTele",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 854,
+        "checked_at": "2026-08-20T14:21:44.395Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:05.010Z",
+      "captured_at": "2026-08-20T14:21:44.395Z",
       "attempt_count": 1
     },
     {
@@ -3042,7 +4716,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.751Z",
       "attempt_count": 1
     },
     {
@@ -3060,7 +4734,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.748Z",
       "attempt_count": 1
     },
     {
@@ -3078,7 +4752,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.748Z",
       "attempt_count": 1
     },
     {
@@ -3096,7 +4770,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3114,7 +4788,25 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.751Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-burriana-teve-anateve-index-m3u8",
+      "stream_url": "https://stream.burrianateve.com:8443/hls/abr_burrianateve/index.m3u8",
+      "title": "Burriana TeVe",
+      "probe": {
+        "probe_status": "timeout",
+        "http_status": null,
+        "content_type": "",
+        "latency_ms": 6001,
+        "checked_at": "2026-08-20T14:21:51.501Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_failed",
+      "blocked_reason": "stream_probe_timeout",
+      "captured_at": "2026-08-20T14:21:51.501Z",
       "attempt_count": 1
     },
     {
@@ -3132,7 +4824,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_http_error",
-      "captured_at": "2026-08-20T14:15:05.010Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -3148,9 +4840,27 @@
         "checked_at": "2026-08-20T14:14:58.085Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:58.085Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-maestrat-tv-tv-hls-stream-m3u8",
+      "stream_url": "https://stream.maestrat.tv/hls/stream.m3u8",
+      "title": "Maestrat TV",
+      "probe": {
+        "probe_status": "geo_blocked",
+        "http_status": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "latency_ms": 33,
+        "checked_at": "2026-08-20T14:21:51.501Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_failed",
+      "blocked_reason": "stream_probe_geo_blocked",
+      "captured_at": "2026-08-20T14:21:51.501Z",
       "attempt_count": 1
     },
     {
@@ -3166,9 +4876,9 @@
         "checked_at": "2026-08-20T14:15:04.090Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:04.090Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -3186,7 +4896,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_timeout",
-      "captured_at": "2026-08-20T14:15:04.090Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -3202,9 +4912,9 @@
         "checked_at": "2026-08-20T14:15:04.090Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:04.090Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -3220,9 +4930,9 @@
         "checked_at": "2026-08-20T14:15:04.090Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:04.090Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -3240,7 +4950,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:14:58.085Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3258,7 +4968,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:14:57.102Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3276,7 +4986,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:14:58.085Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3294,7 +5004,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:14:57.102Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3312,7 +5022,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_geo_blocked",
-      "captured_at": "2026-08-20T14:14:52.909Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3328,9 +5038,27 @@
         "checked_at": "2026-08-20T14:04:25.855Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.748Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-28-kanala-ala-eus-hls-z-m3u8",
+      "stream_url": "https://streaming.28kanala.eus/hls/z.m3u8",
+      "title": "28 Kanala",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 360,
+        "checked_at": "2026-08-20T14:22:06.136Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:22:06.136Z",
       "attempt_count": 1
     },
     {
@@ -3346,9 +5074,9 @@
         "checked_at": "2026-08-20T14:14:58.085Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:58.085Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3364,9 +5092,27 @@
         "checked_at": "2026-08-20T14:14:58.085Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.752Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-goierri-irrati-tv-itb-eus-hls-z-m3u8",
+      "stream_url": "https://streaming.gitb.eus/hls/z.m3u8",
+      "title": "Goierri Irrati TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 366,
+        "checked_at": "2026-08-20T14:22:06.136Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:58.085Z",
+      "captured_at": "2026-08-20T14:22:06.136Z",
       "attempt_count": 1
     },
     {
@@ -3384,7 +5130,25 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_http_error",
-      "captured_at": "2026-08-20T14:14:53.845Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-guka-tb--eus-hls-test-m3u8",
+      "stream_url": "https://streaming.ukt.eus/hls/test.m3u8",
+      "title": "GUKA TB",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 463,
+        "checked_at": "2026-08-20T14:22:00.131Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:22:00.131Z",
       "attempt_count": 1
     },
     {
@@ -3400,9 +5164,9 @@
         "checked_at": "2026-08-20T14:04:45.828Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3418,9 +5182,9 @@
         "checked_at": "2026-08-20T14:04:45.828Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3436,9 +5200,9 @@
         "checked_at": "2026-08-20T14:04:44.159Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3454,9 +5218,9 @@
         "checked_at": "2026-08-20T14:04:45.828Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3472,9 +5236,9 @@
         "checked_at": "2026-08-20T14:04:44.159Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3492,7 +5256,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_http_error",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3508,9 +5272,9 @@
         "checked_at": "2026-08-20T14:04:44.159Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3526,9 +5290,9 @@
         "checked_at": "2026-08-20T14:04:44.159Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3544,9 +5308,9 @@
         "checked_at": "2026-08-20T14:04:45.828Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.871Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3562,9 +5326,9 @@
         "checked_at": "2026-08-20T14:04:45.828Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.871Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3580,9 +5344,9 @@
         "checked_at": "2026-08-20T14:04:45.828Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3598,9 +5362,9 @@
         "checked_at": "2026-08-20T14:04:45.828Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.871Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3616,9 +5380,9 @@
         "checked_at": "2026-08-20T14:04:45.828Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.871Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3634,9 +5398,9 @@
         "checked_at": "2026-08-20T14:14:58.085Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:58.085Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3652,9 +5416,9 @@
         "checked_at": "2026-08-20T14:14:58.085Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:58.085Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3670,9 +5434,135 @@
         "checked_at": "2026-08-20T14:04:44.159Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-8-la-marina-tv-m-hls-canal24-m3u8",
+      "stream_url": "https://streaming005.gestec-video.com/hls/canal24.m3u8",
+      "title": "8 La Marina TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 658,
+        "checked_at": "2026-08-20T14:21:45.497Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:45.497Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-tva-artequatretva-m3u8",
+      "stream_url": "https://streaming007.gestec-video.com/hls/artequatreTVA.m3u8",
+      "title": "tvA",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 754,
+        "checked_at": "2026-08-20T14:21:51.501Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:51.501Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-alacanti-tv-uatrealacanti-m3u8",
+      "stream_url": "https://streaming01.gestec-video.com/hls/artequatreAlacanti.m3u8",
+      "title": "Alacantí TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 667,
+        "checked_at": "2026-08-20T14:21:51.501Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:51.501Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-intercomarcal-tv-com-hls-tvixa-m3u8",
+      "stream_url": "https://streamingtvi.gestec-video.com/hls/tvixa.m3u8",
+      "title": "Intercomarcal TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 681,
+        "checked_at": "2026-08-20T14:21:45.497Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:45.497Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-intercomarcal-tv-om-hls-tvixa1-m3u8",
+      "stream_url": "https://streamingtvi.gestec-video.com/hls/tvixa1.m3u8",
+      "title": "Intercomarcal TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 782,
+        "checked_at": "2026-08-20T14:21:45.497Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:45.497Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-intercomarcal-tv-om-hls-tvixa3-m3u8",
+      "stream_url": "https://streamingtvi.gestec-video.com/hls/tvixa3.m3u8",
+      "title": "Intercomarcal TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 779,
+        "checked_at": "2026-08-20T14:21:45.497Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:45.497Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-une-vinalopo-com-hls-unesd-m3u8",
+      "stream_url": "https://streamingtvi.gestec-video.com/hls/unesd.m3u8",
+      "title": "Une Vinalopó",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 532,
+        "checked_at": "2026-08-20T14:21:57.505Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:57.505Z",
       "attempt_count": 1
     },
     {
@@ -3688,9 +5578,9 @@
         "checked_at": "2026-08-20T14:15:05.936Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:05.936Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -3706,9 +5596,27 @@
         "checked_at": "2026-08-20T14:15:05.936Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:05.936Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-corts-valencianes--enc-3-master-m3u8",
+      "stream_url": "https://streamserver3.seneca.tv/cval_live/cdn_enc_3/master.m3u8",
+      "title": "Corts Valencianes",
+      "probe": {
+        "probe_status": "timeout",
+        "http_status": null,
+        "content_type": "",
+        "latency_ms": 6000,
+        "checked_at": "2026-08-20T14:21:57.505Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_failed",
+      "blocked_reason": "stream_probe_timeout",
+      "captured_at": "2026-08-20T14:21:57.505Z",
       "attempt_count": 1
     },
     {
@@ -3724,9 +5632,45 @@
         "checked_at": "2026-08-20T14:14:58.085Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.752Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-arabi-tv-abitv2025live-m3u8",
+      "stream_url": "https://streamtv2.elitecomunicacion.cloud:3628/live/arabitv2025live.m3u8",
+      "title": "Arabí TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 1239,
+        "checked_at": "2026-08-20T14:22:06.136Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:58.085Z",
+      "captured_at": "2026-08-20T14:22:06.136Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-tef--live-teflive-m3u8",
+      "stream_url": "https://tef.servertv.online:3268/live/teflive.m3u8",
+      "title": "TEF",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 484,
+        "checked_at": "2026-08-20T14:21:59.356Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:59.356Z",
       "attempt_count": 1
     },
     {
@@ -3742,9 +5686,9 @@
         "checked_at": "2026-08-20T14:15:04.090Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:04.090Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -3762,7 +5706,79 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_timeout",
-      "captured_at": "2026-08-20T14:15:11.938Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-teleelx-tv-tream-teleelx-m3u8",
+      "stream_url": "https://tvdirecto.teleelx.es/stream/teleelx.m3u8",
+      "title": "TeleElx",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 823,
+        "checked_at": "2026-08-20T14:21:45.497Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:45.497Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-tv-4-la-vall-om-hls-lavall-m3u8",
+      "stream_url": "https://valldeuxo.gestec-video.com/hls/lavall.m3u8",
+      "title": "TV 4 La Vall",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 968,
+        "checked_at": "2026-08-20T14:21:51.501Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:51.501Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-xarxa-canal-10-emporda-tv-scala-directe-m3u8",
+      "stream_url": "https://ventdelnord.tv:8080/escala/directe.m3u8",
+      "title": "Canal 10 Empordà",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 2580,
+        "checked_at": "2026-08-20T14:21:42.944Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:42.944Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-tele-safor-com-hls-video-m3u8",
+      "stream_url": "https://video.telesafor.com/hls/video.m3u8",
+      "title": "Tele Safor",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 975,
+        "checked_at": "2026-08-20T14:21:51.501Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:51.501Z",
       "attempt_count": 1
     },
     {
@@ -3778,9 +5794,45 @@
         "checked_at": "2026-08-20T14:15:04.089Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.752Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-xarxa-empordatv-tv-pordatv2-live-m3u8",
+      "stream_url": "https://video3.lhdserver.es/empordatv2/live.m3u8",
+      "title": "Empordà TV",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 512,
+        "checked_at": "2026-08-20T14:21:40.358Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:04.089Z",
+      "captured_at": "2026-08-20T14:21:40.358Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-canal-56--stream-index-m3u8",
+      "stream_url": "https://videos.canal56.com/directe/stream/index.m3u8",
+      "title": "Canal 56",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 1085,
+        "checked_at": "2026-08-20T14:21:51.501Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:51.501Z",
       "attempt_count": 1
     },
     {
@@ -3796,9 +5848,45 @@
         "checked_at": "2026-08-20T14:15:05.010Z",
         "mode": "live"
       },
+      "last_review_status": "approved_iptv",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:21:38.753Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-junta-general-del-principado-de-asturias-eam2-playlist-m3u8",
+      "stream_url": "https://wmserver.jgpa.es/live/_definst_/livestream2/playlist.m3u8",
+      "title": "Junta General del Principado de Asturias",
+      "probe": {
+        "probe_status": "http_error",
+        "http_status": 404,
+        "content_type": "",
+        "latency_ms": 1158,
+        "checked_at": "2026-08-20T14:22:06.136Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_failed",
+      "blocked_reason": "stream_probe_http_error",
+      "captured_at": "2026-08-20T14:22:06.136Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-xunta-de-galicia-mxunta-master-m3u8",
+      "stream_url": "https://xuntalive.akamaized.net/hls/live/2032287/streamxunta/master.m3u8",
+      "title": "Xunta de Galicia",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/x-mpegURL",
+        "latency_ms": 607,
+        "checked_at": "2026-08-20T14:21:59.356Z",
+        "mode": "live"
+      },
       "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:05.010Z",
+      "captured_at": "2026-08-20T14:21:59.356Z",
       "attempt_count": 1
     },
     {
@@ -3814,9 +5902,9 @@
         "checked_at": "2026-08-20T14:04:42.055Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3832,9 +5920,9 @@
         "checked_at": "2026-08-20T14:04:42.055Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3850,9 +5938,9 @@
         "checked_at": "2026-08-20T14:04:42.055Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3868,9 +5956,9 @@
         "checked_at": "2026-08-20T14:04:25.855Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.748Z",
       "attempt_count": 1
     },
     {
@@ -3886,9 +5974,9 @@
         "checked_at": "2026-08-20T14:04:42.055Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3904,9 +5992,27 @@
         "checked_at": "2026-08-20T14:04:41.410Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-24h-cat-tv--ztnr-4952053-m3u8",
+      "stream_url": "https://ztnr.rtve.es/ztnr/4952053.m3u8",
+      "title": "24h Catalunya",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 710,
+        "checked_at": "2026-08-20T14:21:40.355Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:40.355Z",
       "attempt_count": 1
     },
     {
@@ -3922,9 +6028,9 @@
         "checked_at": "2026-08-20T14:04:34.264Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3940,9 +6046,9 @@
         "checked_at": "2026-08-20T14:15:05.010Z",
         "mode": "live"
       },
-      "last_review_status": "probe_passed_needs_approval",
+      "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:15:05.010Z",
+      "captured_at": "2026-08-20T14:21:38.753Z",
       "attempt_count": 1
     },
     {
@@ -3958,9 +6064,9 @@
         "checked_at": "2026-08-20T14:04:40.265Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3978,7 +6084,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -3996,7 +6102,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -4014,7 +6120,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_http_error",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -4032,7 +6138,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -4050,7 +6156,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_http_error",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -4066,9 +6172,9 @@
         "checked_at": "2026-08-20T14:04:25.855Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.748Z",
       "attempt_count": 1
     },
     {
@@ -4086,7 +6192,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_http_error",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -4104,7 +6210,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_http_error",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -4122,7 +6228,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_http_error",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -4140,7 +6246,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_http_error",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -4158,7 +6264,7 @@
       },
       "last_review_status": "approved_iptv",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -4176,7 +6282,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_http_error",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -4194,7 +6300,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_http_error",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -4210,9 +6316,9 @@
         "checked_at": "2026-08-20T14:04:40.265Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -4230,7 +6336,7 @@
       },
       "last_review_status": "probe_failed",
       "blocked_reason": "stream_probe_http_error",
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -4246,9 +6352,9 @@
         "checked_at": "2026-08-20T14:04:41.410Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -4264,9 +6370,9 @@
         "checked_at": "2026-08-20T14:04:42.055Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -4282,9 +6388,9 @@
         "checked_at": "2026-08-20T14:04:41.410Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.752Z",
       "attempt_count": 1
     },
     {
@@ -4300,9 +6406,9 @@
         "checked_at": "2026-08-20T14:04:27.007Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
-      "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.751Z",
       "attempt_count": 1
     },
     {
@@ -4318,9 +6424,63 @@
         "checked_at": "2026-08-20T14:04:27.007Z",
         "mode": "live"
       },
-      "last_review_status": "approved_iptv",
+      "last_review_status": "duplicate",
+      "blocked_reason": "duplicate_candidate_or_existing_source",
+      "captured_at": "2026-08-20T14:21:38.751Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-rne-radio4-tv--ztnr-6982935-m3u8",
+      "stream_url": "https://ztnr.rtve.es/ztnr/6982935.m3u8",
+      "title": "Ràdio 4",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 200,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 402,
+        "checked_at": "2026-08-20T14:21:40.355Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
       "blocked_reason": null,
-      "captured_at": "2026-08-20T14:14:50.870Z",
+      "captured_at": "2026-08-20T14:21:40.355Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-goiena-eus-ena-telebista-m3u8",
+      "stream_url": "https://zuzenean.goienamedia.eus/goiena-telebista.m3u8",
+      "title": "Goiena Eus",
+      "probe": {
+        "probe_status": "ok",
+        "http_status": 206,
+        "content_type": "application/vnd.apple.mpegurl",
+        "latency_ms": 579,
+        "checked_at": "2026-08-20T14:22:00.131Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_passed_needs_approval",
+      "blocked_reason": null,
+      "captured_at": "2026-08-20T14:22:00.131Z",
+      "attempt_count": 1
+    },
+    {
+      "source_feed_id": "tdtchannels-tv",
+      "candidate_id": "tdtchannels-tv-oizmendi-tb-ndi-eus-hls-z-m3u8",
+      "stream_url": "https://zuzenean.oizmendi.eus/hls/z.m3u8",
+      "title": "Oizmendi TB",
+      "probe": {
+        "probe_status": "http_error",
+        "http_status": 404,
+        "content_type": "text/html",
+        "latency_ms": 492,
+        "checked_at": "2026-08-20T14:22:06.136Z",
+        "mode": "live"
+      },
+      "last_review_status": "probe_failed",
+      "blocked_reason": "stream_probe_http_error",
+      "captured_at": "2026-08-20T14:22:06.136Z",
       "attempt_count": 1
     }
   ]
