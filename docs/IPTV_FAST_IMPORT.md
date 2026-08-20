@@ -1,11 +1,59 @@
-# IPTV/FAST import
+# IPTV/FAST import and source expansion
 
-MediaLens Core contains two related IPTV/FAST ingestion paths:
+MediaLens Core uses two related ingestion paths:
 
 1. the established importer for the existing controlled feed registry;
-2. the gated source-expansion pipeline for newly assessed catalogues, enrichment services and discovery directories.
+2. the stricter source-expansion pipeline for newly assessed catalogues, enrichment services and discovery directories.
 
-The source-expansion path is deliberately stricter. New external sources first become review candidates and are not consumer-visible until they have passed dedupe, probe, provenance/rights and approval gates plus an explicit promotion write.
+The source-expansion path never bulk-publishes on import. New external records begin as non-consumer-visible candidates and can reach the shipping catalog only after the applicable dedupe, safety/DRM, provenance/rights, live-probe, approval and explicit-promotion gates have passed.
+
+## Current shipping source state
+
+The verified `main` release currently contains:
+
+| Metric | Current value |
+| --- | ---: |
+| Total catalog sources | **2,900** |
+| Direct-player sources | **2,242** |
+| Imported IPTV inputs | **49** |
+| Watch-graph channels | **287** |
+| Watch-graph routes | **289** |
+| Watch-graph countries | **23** |
+| Catalog contract version | **1.0.0** |
+
+The source-count composition is:
+
+| Source group | Published sources |
+| --- | ---: |
+| Existing/base MediaLens catalog before source-expansion promotion | **764** |
+| TDTChannels | **373** |
+| M3UPT | **702** |
+| FreeCastHub public-iptv | **63** |
+| Free-TV/IPTV recovery | **998** |
+| **Current total** | **2,900** |
+
+The accepted source-expansion work therefore added **2,136 sources** to the original 764-source catalog. Those accepted additions are direct-player routes; together with the original 106 direct-player sources they produce the current **2,242 direct-player sources**.
+
+See [`SOURCE_STATUS.md`](SOURCE_STATUS.md) for the compact current-state record.
+
+## Source-expansion registry
+
+The source registry is stored at:
+
+`data/iptv/source-expansion-registry.json`
+
+Current roles:
+
+| Source | Tier | Role | Direct publication |
+| --- | --- | --- | --- |
+| TDTChannels | B | controlled catalogue | yes, after live gates |
+| M3UPT | B | controlled catalogue | yes, after live gates; DRM/DASH held |
+| FreeCastHub | B | controlled catalogue | yes, after live gates |
+| Free-TV/IPTV | B | controlled recovery catalogue | yes, through strict recovery gates |
+| Famelack Data | B | evidence-gated inventory/research | only exact independently evidenced records may advance |
+| IPTV Nexus | C | health/quality/EPG enrichment | never creates sources |
+| IPTVCat | C | targeted discovery | never directly |
+| LyngSat Stream | C | targeted discovery | never directly |
 
 ## Existing feed workflow
 
@@ -22,197 +70,215 @@ npm run sync:iptv:dry
 npm run verify
 ```
 
-## Source-expansion registry
+The legacy importer remains separate from the stricter source-expansion path. Free-TV/IPTV recovery was deliberately performed only through source expansion rather than reactivating the historical loose path.
 
-The P1/P2 expansion registry is stored in:
+## Source-expansion workflow
 
-`data/iptv/source-expansion-registry.json`
+### Snapshot persistent live-probe state
 
-Current P1 controlled catalogues:
+```bash
+npm run snapshot:source-expansion
+```
 
-- TDTChannels TV, with EPG reference;
-- M3UPT, with EPG reference and DRM/DASH fallback handling;
-- FreeCastHub public-iptv;
-- Free-TV/IPTV recovery;
-- Famelack Data.
-
-IPTV Nexus is enrichment-only. IPTVCat and LyngSat Stream are discovery-only and never bulk-publish directly.
-
-## Persistent probe state and resumable batches
-
-Large catalogues are processed in bounded batches. The importer rebuilds its candidate file from the current upstream feed, so MediaLens persists actual probe attempts separately in:
+Terminal live probe results are stored in:
 
 `data/iptv/source-expansion-probe-state.json`
 
-Before a new network import, snapshot the current candidate evidence:
+Candidates are matched across re-imports by `source_feed_id + normalized stream URL` so large feeds can be resumed without losing prior live evidence.
 
-```bash
-npm run snapshot:source-expansion
-```
-
-A resume probe then hydrates matching candidates by `source_feed_id + normalized stream URL` and does not spend batch capacity on an already attempted stream:
-
-```bash
-node scripts/probe-source-expansion.mjs . --live --resume --limit=120 --concurrency=12
-```
-
-Resume behavior:
-
-- successful earlier live probes are not repeated;
-- failed earlier live probes (`geo_blocked`, `http_error`, `timeout`, `network_error`) are also not repeated by default;
-- `not_probed_batch_limit` is deliberately not a terminal state and remains eligible for the next batch;
-- current safety, rights, DRM and duplicate gates always take precedence over restored probe history;
-- `--retry-failed` can be used for an explicit retry pass after the normal backlog is exhausted.
-
-The compact state file stores only actual probe attempts, not the entire candidate catalogue. This prevents feed reordering or candidate-file regeneration from resetting batch progress.
-
-## Full operational pipeline
-
-### Production/live review run
-
-```bash
-npm run pipeline:source-expansion:live
-```
-
-This performs:
-
-1. snapshot of existing terminal probe evidence;
-2. network import into `data/candidates/*.candidates.json`;
-3. exact-stream dedupe against the MediaLens catalog and within the import batch;
-4. resumable live stream probes;
-5. policy approval evaluation;
-6. promotion dry-run.
-
-The normal live pipeline intentionally stops at a dry-run. Review `data/reports/source-expansion-promotion-report.json` before publication.
-
-Publication is a separate explicit operation:
-
-```bash
-npm run promote:source-expansion
-npm run verify
-```
-
-### Deterministic CI/offline run
-
-```bash
-npm run pipeline:source-expansion:offline
-npm run verify:source-expansion
-```
-
-The fixture approval mode exists only for deterministic testing. The production promoter rejects fixture approvals unless `--allow-fixture` is explicitly supplied; normal publication requires a `live_policy_gate` approval.
-
-## Individual stages
-
-```bash
-npm run snapshot:source-expansion
-npm run import:source-expansion
-npm run probe:source-expansion
-npm run approve:source-expansion
-npm run promote:source-expansion:dry
-```
-
-A single feed can be imported with:
+### Import one controlled feed
 
 ```bash
 node scripts/import-source-expansion.mjs . --feed=tdtchannels-tv
 ```
 
-Famelack defaults to a bounded country import. Use `--all-countries` for an explicit full-country pass or `--max-countries=N` for a controlled batch.
+Other feed IDs include:
 
-## Approval behavior
+```text
+m3upt
+freecasthub-public-iptv
+free-tv-iptv-recovery
+famelack-data
+iptv-nexus
+iptvcat
+lyngsat-stream
+```
 
-Production approval requires all of the following:
+### Live probe one feed
 
-- Tier B `controlled_public_catalogue` source;
-- stream URL present;
-- provenance/evidence URL present;
-- documented source-level rights basis;
-- no duplicate marker;
-- no blocking safety/DRM/rights reason;
-- successful live probe;
-- candidate status `probe_passed_needs_approval`.
+```bash
+node scripts/probe-source-expansion.mjs . --feed=tdtchannels-tv --live --resume --concurrency=12 --timeout=6000
+```
 
-Famelack intentionally remains held by the automated approval policy until sufficient rights/provenance evidence is available for promotion. It is valuable for discovery and comparison, but its transformed dataset is not treated as broadcaster authorization by itself.
+Normal resume behavior does not retry previously failed terminal live attempts. Use `--retry-failed` only for a deliberate later retry cycle.
 
-## TDTChannels live batches
+### Approval and explicit promotion
 
-### Batch 1 — accepted 2026-08-20
+```bash
+node scripts/approve-source-expansion.mjs . --feed=tdtchannels-tv
+node scripts/promote-source-expansion.mjs . --feed=tdtchannels-tv
+```
 
-- 576 candidates imported with zero import-time consumer visibility;
-- 120 candidates actively live-probed;
-- 95 live probes passed and 25 failed;
-- 95 candidates passed approval;
-- 37 were stopped by the final duplicate gate;
-- 58 new routes were published;
-- release verification passed with 822 catalog sources and 164 direct-player sources.
+Promotion is dry-run by default. Shipping publication requires an explicit write:
 
-### Batch 2 — accepted 2026-08-20
+```bash
+node scripts/promote-source-expansion.mjs . --feed=tdtchannels-tv --write
+npm run verify
+```
 
-Batch 2 is the first production run using the persistent resume state.
+Feed scoping is mandatory for production operations so previously completed source candidates cannot be reconsidered as part of another feed's approval or promotion run.
 
-- the snapshot recovered exactly 120 terminal probes from batch 1;
-- all 120 earlier probes were restored and skipped;
-- the entire 120-probe budget was therefore spent on previously unprocessed candidates;
-- 82 of those new probes passed and 38 failed;
-- persistent probe state grew from 120 to 240 records;
-- 119 candidates were approval-eligible when restored prior successes and new successes were evaluated together;
-- 46 approval-passed routes were stopped by the final duplicate gate;
-- 73 new routes were published;
-- 332 candidates remained `needs_probe`;
-- release verification passed with 895 catalog sources and 237 direct-player sources;
-- shipping catalog version remained `1.0.0`.
+## Publication gates
 
-### Batch 3 — accepted 2026-08-20
+A normal controlled Tier-B candidate must satisfy all applicable requirements:
 
-- the snapshot started with 240 persisted terminal probe records;
-- all 240 previously processed routes were restored and skipped;
-- 120 previously unprocessed candidates were live-probed;
-- 98 new probes passed and 22 failed;
-- persistent probe state grew from 240 to 360 records;
-- 144 candidates passed approval when restored successes and new successes were evaluated together;
-- 56 approval-passed routes were stopped by the final duplicate gate;
-- 88 new routes were published;
-- 212 candidates remain `needs_probe` for subsequent normal batches;
-- release verification passed with 983 catalog sources and 325 direct-player sources;
-- shipping catalog version remained `1.0.0`.
+1. source is registered and feed-scoped;
+2. candidate remains `consumer_visible: false` at import;
+3. exact stream duplicates are held;
+4. adult/premium/unsafe policy matches are held or rejected;
+5. DRM/DASH routes are held as official-fallback candidates and are not direct-playable;
+6. ordinary YouTube/Twitch/Dailymotion/Vimeo web pages are held as official-web fallbacks rather than treated as stream manifests;
+7. provenance and sufficient rights/official-source evidence are present;
+8. a live stream probe succeeds;
+9. approval passes the production `live_policy_gate`;
+10. the final promotion duplicate gate passes;
+11. publication is performed with an explicit `--write` operation;
+12. the full release verifier remains green and preserves catalog version `1.0.0`.
 
-The cumulative TDTChannels production state after batch 3 is 360 actually probed stream routes, 219 newly published MediaLens routes across the three batches, and 212 still-unprocessed candidates in the current upstream catalogue. Failed routes remain persisted and are not retried during normal continuation.
+HTTP direct routes that require compatibility support retain the proxy-required playback policy.
 
-## P1/P2 behavior
+## Completed controlled-source acceptance
 
-| Source | Role | Current behavior |
-| --- | --- | --- |
-| TDTChannels | controlled Tier B | resumable candidate batches, live probe, approval gate, EPG reference |
-| M3UPT | controlled Tier B | candidate import, live probe, approval gate, DRM/DASH hold, EPG reference |
-| FreeCastHub | controlled Tier B | candidate import, live probe, approval gate |
-| Free-TV/IPTV recovery | controlled Tier B | candidate import through the stricter path |
-| Famelack Data | controlled dataset | candidate import, but automated promotion held without rights basis |
-| IPTV Nexus | Tier C enrichment | health/EPG metadata only; no duplicate catalogue |
-| IPTVCat | Tier C discovery | targeted discovery only; no bulk publish |
-| LyngSat Stream | Tier C discovery | targeted gap analysis only; no bulk copy |
+### TDTChannels
+
+The normal TDT backlog was completed across five resumable batches on 2026-08-20.
+
+Final cumulative state:
+
+- **572** unique routes received terminal live probes;
+- **471** live probes succeeded;
+- **101** live probes failed;
+- normal deferred probe backlog: **0**;
+- **373 new MediaLens sources published**;
+- catalog state after TDT completion: **1,137 sources / 479 direct-player sources**.
+
+Failed terminal routes remain persisted and are not silently retried during normal continuation.
+
+### M3UPT
+
+Final controlled live run:
+
+- **898** candidates;
+- **28** import duplicates;
+- **56** DRM/DASH holds;
+- **814** actual live probes;
+- **707** live successes;
+- **107** live failures;
+- **702 new sources published** after final publication dedupe;
+- catalog state after M3UPT: **1,839 sources / 1,181 direct-player sources**.
+
+M3UPT country handling uses explicit `tvg-country`, then country inference from `tvg-id`, then source fallback. Its EPG metadata is propagated to promoted sources.
+
+### FreeCastHub public-iptv
+
+Final controlled live run:
+
+- **108** candidates;
+- **17** import duplicates;
+- **3** DRM/DASH holds;
+- **88** actual live probes;
+- **63** live successes;
+- **25** live failures;
+- **63 new sources published**;
+- catalog state after FreeCastHub: **1,902 sources / 1,244 direct-player sources**.
+
+Unknown country metadata remains international rather than being guessed from the channel name.
+
+### Free-TV/IPTV recovery
+
+The source was reintroduced only through the strict recovery path.
+
+Final controlled live run:
+
+- **2,041** candidates;
+- **106** import duplicates;
+- **22** DRM/DASH holds;
+- **139** official-web fallback routes;
+- **400** candidates policy-blocked before network probing;
+- **1,641** actual live probes;
+- **1,064** live successes;
+- **577** live failures;
+- **66** additional final publication duplicates;
+- **998 new sources published**;
+- resulting catalog state: **2,900 sources / 2,242 direct-player sources**.
+
+The recovery also added the generic guard that prevents an HTTP-200 response from an ordinary video-platform web page from being mistaken for a direct stream.
+
+## Famelack evidence-gated inventory
+
+Famelack's dataset license is not treated as downstream broadcaster-stream authorization.
+
+The full current TV inventory run processed:
+
+- **168 country files**;
+- **7,256 candidates**;
+- **585 duplicates**;
+- **6,667 candidates held for independent official-source evidence**;
+- **4** candidates already blocked by another safety/policy rule;
+- **0 independently verified production allowlist records**;
+- **0 live probes**;
+- **0 approvals**;
+- **0 promotions/publications**.
+
+The production evidence allowlist is `data/iptv/famelack-official-evidence.json`. A record may advance only after exact candidate-level independent official evidence has been entered.
+
+## IPTV Nexus enrichment
+
+IPTV Nexus is enrichment-only and cannot create or promote a source.
+
+The live enrichment run loaded:
+
+- **39,659 Nexus channels**;
+- **14,026 Nexus streams**;
+- **944 exact stream-URL matches** against existing MediaLens sources;
+- **914** matches reported online;
+- **30** matches offline or not conclusively online;
+- **0 new sources published**.
+
+Supplemental health, quality, uptime and EPG hints are stored under `external_enrichment.iptv_nexus`. The catalog count remains **2,900**.
+
+## IPTVCat and LyngSat discovery
+
+IPTVCat and LyngSat remain discovery-only directories. They do not produce bulk candidates and cannot publish directly.
+
+The current discovery plan records **50 low-coverage catalog targets**. A route found through discovery must independently establish official source/provenance evidence before it can enter the controlled publication pipeline.
 
 ## Verification
 
-`npm run verify` syntax-checks all source-expansion stages, validates registry policy and runs an end-to-end pipeline test in a temporary catalog before normal release verification.
+Run:
 
-The E2E test proves that:
+```bash
+npm install
+npm run verify
+```
 
-- candidates remain non-consumer-visible after ingest;
-- the duplicate gate is exercised;
-- a bounded first batch persists probe state;
-- a subsequent re-import may regenerate candidates without losing processed-state progress;
-- `--resume` skips an already processed candidate and spends its next slot on a new candidate;
-- probe evidence is required for approval;
-- Famelack remains held without rights basis;
-- promotion dry-run does not modify the shipping catalog;
-- explicit write preserves the shipping catalog version contract.
+The full verifier checks the source-expansion registry, feed isolation, resumable probe state, FreeCastHub and Free-TV safety, Famelack evidence gating, IPTV Nexus enrichment isolation, discovery isolation and final release consistency.
 
-## Operating guidance
+The current authoritative release-verifier result is:
 
-- Never use discovery or enrichment feeds as direct publication authority.
-- Snapshot probe state before re-importing a source that is being processed in batches.
-- Use `--resume` for normal continuation; reserve `--retry-failed` for an explicit retry cycle.
-- Inspect approval and promotion reports before `--write` publication.
-- Prefer official watch routes for geo-blocked, DRM-protected or browser-incompatible streams.
-- Keep generated candidate/report/state files when they form useful acceptance evidence.
-- Run `npm run verify` after every import/promotion change intended to ship.
+```text
+version: 1.0.0
+catalog_sources: 2900
+direct_player_sources: 2242
+imported_iptv_inputs: 49
+watch_graph_channels: 287
+watch_graph_routes: 289
+watch_graph_countries: 23
+```
+
+## Evidence and further documentation
+
+- [`SOURCE_STATUS.md`](SOURCE_STATUS.md) — current shipping counts and source composition.
+- [`SOURCE_EXPANSION_COMPLETION.md`](SOURCE_EXPANSION_COMPLETION.md) — completion of Famelack/Nexus/discovery roles.
+- [`SOURCE_POLICY.md`](SOURCE_POLICY.md) — trust tiers and publication rules.
+- `data/reports/` — machine-readable acceptance and operational evidence.
