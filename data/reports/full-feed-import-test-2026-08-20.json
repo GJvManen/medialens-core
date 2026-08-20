@@ -1,0 +1,123 @@
+{
+  "version": "1.0-full-feed-import-test",
+  "tested_at": "2026-08-20T16:09:12.598Z",
+  "branch_head": "ecb981e2ac4957da570b6ab546faf7847bed834c",
+  "mode": "isolated_live_import_plus_sync_dry_run",
+  "shipping_catalog_modified": false,
+  "baseline_shipping_sources": 2900,
+  "feed_count": 13,
+  "candidate_count": 21341,
+  "visible_imported_source_count": 13922,
+  "import_duplicate_count": 6369,
+  "sync_approved_inputs": 28030,
+  "projected_after_sync_sources": 16959,
+  "projected_added_sources": 14059,
+  "projected_updated_existing": 13971,
+  "projected_skipped_sources": 0,
+  "feeds": [
+    {
+      "id": "iptv-org-index",
+      "provider": "IPTV-org",
+      "candidate_count": 12738,
+      "visible_count": 9992,
+      "duplicate_count": 2701,
+      "import_status": "channels_visible_in_interface"
+    },
+    {
+      "id": "samsung-tv-plus-us",
+      "provider": "Samsung TV Plus",
+      "candidate_count": 539,
+      "visible_count": 536,
+      "duplicate_count": 1,
+      "import_status": "channels_visible_in_interface"
+    },
+    {
+      "id": "roku-channel-all",
+      "provider": "The Roku Channel",
+      "candidate_count": 294,
+      "visible_count": 294,
+      "duplicate_count": 0,
+      "import_status": "channels_visible_in_interface"
+    },
+    {
+      "id": "plutotv-us",
+      "provider": "Pluto TV",
+      "candidate_count": 421,
+      "visible_count": 132,
+      "duplicate_count": 289,
+      "import_status": "channels_visible_in_interface"
+    },
+    {
+      "id": "lg-channels-us",
+      "provider": "LG Channels",
+      "candidate_count": 450,
+      "visible_count": 91,
+      "duplicate_count": 54,
+      "import_status": "channels_visible_in_interface"
+    },
+    {
+      "id": "tubi-all",
+      "provider": "Tubi",
+      "candidate_count": 181,
+      "visible_count": 155,
+      "duplicate_count": 23,
+      "import_status": "channels_visible_in_interface"
+    },
+    {
+      "id": "plex-all",
+      "provider": "Plex Watch Free",
+      "candidate_count": 2818,
+      "visible_count": 939,
+      "duplicate_count": 1874,
+      "import_status": "channels_visible_in_interface"
+    },
+    {
+      "id": "vizio-watchfree",
+      "provider": "Vizio WatchFree+",
+      "candidate_count": 433,
+      "visible_count": 380,
+      "duplicate_count": 4,
+      "import_status": "channels_visible_in_interface"
+    },
+    {
+      "id": "distrotv",
+      "provider": "DistroTV",
+      "candidate_count": 336,
+      "visible_count": 325,
+      "duplicate_count": 7,
+      "import_status": "channels_visible_in_interface"
+    },
+    {
+      "id": "xiaomi-tv-plus",
+      "provider": "Xiaomi TV+",
+      "candidate_count": 254,
+      "visible_count": 219,
+      "duplicate_count": 35,
+      "import_status": "channels_visible_in_interface"
+    },
+    {
+      "id": "xumo-play",
+      "provider": "Xumo Play",
+      "candidate_count": 389,
+      "visible_count": 17,
+      "duplicate_count": 3,
+      "import_status": "channels_visible_in_interface"
+    },
+    {
+      "id": "local-now",
+      "provider": "Local Now",
+      "candidate_count": 447,
+      "visible_count": 434,
+      "duplicate_count": 12,
+      "import_status": "channels_visible_in_interface"
+    },
+    {
+      "id": "free-tv-iptv",
+      "provider": "Free-TV/IPTV",
+      "candidate_count": 2041,
+      "visible_count": 545,
+      "duplicate_count": 1366,
+      "import_status": "channels_visible_in_interface"
+    }
+  ]
+}
