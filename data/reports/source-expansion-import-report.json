@@ -1,20 +1,21 @@
 {
   "version": "38.0-source-expansion",
-  "generated_at": "2026-08-20T15:04:28.760Z",
+  "generated_at": "2026-08-20T15:15:56.830Z",
   "offline": false,
-  "feed_filter": "freecasthub-public-iptv",
+  "feed_filter": "free-tv-iptv-recovery",
   "source_count": 1,
-  "candidate_count": 108,
+  "candidate_count": 2041,
   "consumer_visible_count": 0,
   "rule": "Source expansion creates review candidates only; consumer publication requires the standard MediaLens approval gates.",
   "sources": [
     {
-      "id": "freecasthub-public-iptv",
+      "id": "free-tv-iptv-recovery",
       "role": "controlled_public_catalogue",
-      "candidate_count": 108,
-      "duplicate_count": 17,
+      "candidate_count": 2041,
+      "duplicate_count": 106,
       "rejected_count": 0,
-      "drm_review_count": 3,
+      "drm_review_count": 22,
+      "web_fallback_count": 139,
       "consumer_visible_count": 0
     }
   ]
