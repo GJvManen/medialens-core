@@ -38,7 +38,7 @@ for (const file of [
 ]) copy(file);
 
 const minimalCatalog = {
-  version: 'test',
+  version: 'test-contract-version',
   sources: [
     {
       id: 'existing-dw-english',
@@ -49,6 +49,7 @@ const minimalCatalog = {
   ]
 };
 fs.writeFileSync(path.join(tmp, 'SOURCE_MANIFEST.json'), JSON.stringify(minimalCatalog, null, 2) + '\n');
+fs.mkdirSync(path.join(tmp, 'assets'), { recursive: true });
 
 try {
   run('import-source-expansion.mjs', '--offline');
@@ -72,11 +73,16 @@ try {
   assert(promotionReport.eligible_after_promotion_gate > 0, 'approved fixture candidates must reach promotion dry-run');
   assert(promotionReport.published === 0, 'dry-run must never publish');
 
-  const catalogAfter = read('SOURCE_MANIFEST.json');
-  assert(catalogAfter.sources.length === minimalCatalog.sources.length, 'dry-run must not modify the catalog');
-  assert(JSON.stringify(catalogAfter) === JSON.stringify(minimalCatalog), 'dry-run catalog must remain byte-equivalent as JSON data');
+  const catalogAfterDryRun = read('SOURCE_MANIFEST.json');
+  assert(catalogAfterDryRun.sources.length === minimalCatalog.sources.length, 'dry-run must not modify the catalog');
+  assert(JSON.stringify(catalogAfterDryRun) === JSON.stringify(minimalCatalog), 'dry-run catalog must remain byte-equivalent as JSON data');
 
-  console.log(`Source-expansion E2E test OK: ${importReport.candidate_count} candidates, ${probeReport.passed} probe passes, ${approvalReport.approved} approvals, ${promotionReport.eligible_after_promotion_gate} promotion-eligible.`);
+  run('promote-source-expansion.mjs', '--allow-fixture', '--write');
+  const catalogAfterWrite = read('SOURCE_MANIFEST.json');
+  assert(catalogAfterWrite.version === minimalCatalog.version, 'promotion write must preserve the shipping catalog version contract');
+  assert(catalogAfterWrite.sources.length > minimalCatalog.sources.length, 'explicit promotion write must add approved fixture sources in test mode');
+
+  console.log(`Source-expansion E2E test OK: ${importReport.candidate_count} candidates, ${probeReport.passed} probe passes, ${approvalReport.approved} approvals, ${promotionReport.eligible_after_promotion_gate} promotion-eligible; catalog version preserved.`);
 } finally {
   fs.rmSync(tmp, { recursive: true, force: true });
 }
