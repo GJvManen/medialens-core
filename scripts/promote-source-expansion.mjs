@@ -6,6 +6,7 @@ const root = process.argv[2] && !process.argv[2].startsWith('--') ? process.argv
 const args = process.argv.slice(2);
 const write = args.includes('--write');
 const allowFixture = args.includes('--allow-fixture');
+const feedArg = args.find(x => x.startsWith('--feed='))?.split('=')[1] || 'all';
 const candidateDir = path.join(root, 'data/candidates');
 const reportDir = path.join(root, 'data/reports');
 fs.mkdirSync(reportDir, { recursive: true });
@@ -52,7 +53,9 @@ if (fs.existsSync(candidateDir)) {
   for (const filename of fs.readdirSync(candidateDir).filter(name => name.endsWith('.candidates.json'))) {
     const doc = JSON.parse(fs.readFileSync(path.join(candidateDir, filename), 'utf8'));
     if (doc.source_expansion !== true) continue;
+    if (feedArg !== 'all' && doc.feed?.id && doc.feed.id !== feedArg) continue;
     for (const candidate of doc.candidates || []) {
+      if (feedArg !== 'all' && candidate.source_feed_id !== feedArg) continue;
       loaded++;
       if (candidate.review_status !== 'approved_iptv' || candidate.approval?.status !== 'approved') continue;
       const approvalMode = candidate.approval?.mode;
@@ -149,8 +152,9 @@ if (fs.existsSync(candidateDir)) {
 }
 
 const report = {
-  version: '38.2-source-expansion-promotion',
+  version: '38.4-source-expansion-promotion',
   generated_at: new Date().toISOString(),
+  feed_filter: feedArg,
   write,
   allow_fixture: allowFixture,
   catalog_version_preserved: data.version || null,
@@ -164,9 +168,6 @@ const report = {
 writeJson(path.join(reportDir, 'source-expansion-promotion-report.json'), report);
 
 if (write && additions.length) {
-  // The source-expansion pipeline may update catalog contents, but it must never
-  // change the shipping product/schema version. Release verification treats
-  // `data.version` as a stable compatibility contract.
   const out = { ...data, version: data.version, sources: [...sources, ...additions] };
   out.count = out.sources.length;
   for (const rel of ['SOURCE_MANIFEST.json', 'data/SOURCE_MANIFEST.json', 'data/sources.json', 'data/official-starter-catalog.json', 'data/generated/app-catalog.json']) {
@@ -175,4 +176,4 @@ if (write && additions.length) {
   fs.writeFileSync(path.join(root, 'assets/starter-catalog.js'), `window.MEDIALENS_CATALOG = ${JSON.stringify(out)};\n`);
 }
 
-console.log(`Source-expansion promotion ${write ? 'write' : 'dry-run'}: ${loaded} loaded, ${eligible} eligible, ${blockedItems.length} blocked, ${write ? additions.length : 0} published; catalog version ${data.version}.`);
+console.log(`Source-expansion promotion ${write ? 'write' : 'dry-run'}: ${loaded} loaded, ${eligible} eligible, ${blockedItems.length} blocked, ${write ? additions.length : 0} published; catalog version ${data.version}; feed ${feedArg}.`);
