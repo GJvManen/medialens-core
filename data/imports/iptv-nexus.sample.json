@@ -1,0 +1,42 @@
+[
+  {
+    "id": "A1TV.nl",
+    "name": "A1 TV",
+    "country": "NL",
+    "score": 93,
+    "online": true,
+    "best_quality": "1080p",
+    "streams": [
+      {
+        "url": "https://stream.a1mediagroep.nl/hls/a1tv.m3u8",
+        "rank": 91.4,
+        "quality": "1080p",
+        "sources": ["iptv-org"],
+        "health": {
+          "status": "online",
+          "score": 93,
+          "uptime": 98.2,
+          "checked_at": "2026-08-20T12:00:00.000Z",
+          "last_online": "2026-08-20T12:00:00.000Z",
+          "latency_ms": 214,
+          "media": {
+            "width": 1920,
+            "height": 1080,
+            "resolution": "1080p",
+            "video_codec": "h264",
+            "audio_codec": "aac"
+          }
+        }
+      }
+    ],
+    "guides": [
+      {
+        "site": "example-epg.test",
+        "site_id": "a1tv",
+        "lang": "nl",
+        "confidence": 1,
+        "method": "exact"
+      }
+    ]
+  }
+]
