@@ -1,0 +1,4406 @@
+{
+  "version": "38.2-source-expansion-probe",
+  "generated_at": "2026-08-20T14:04:45.832Z",
+  "live": true,
+  "timeout_ms": 6000,
+  "concurrency": 12,
+  "limit": 120,
+  "checked": 576,
+  "actively_probed": 120,
+  "passed": 95,
+  "blocked": 481,
+  "results": [
+    {
+      "id": "tdtchannels-tv-ondacadiz-tv-ulti-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-ondacadiz-tv--24h-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-8tv-sierra-de-cadiz-decadiz-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-8tv-chiclana-hiclana-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-8tv-la-janda-lajanda-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tuyalajanda-tv-p-tv-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-ondaalgeciras-tv-tv-livestream-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-ptv-malaga-tv--malaga-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-andalucia-cocina-ocina-acocina-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-andalucia-turismo-rk-id-12685-live-1",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-teleonuba-tv-ecto-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-101tv-sevilla-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-101tv-sevilla-cofrade-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-101tv-granada-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canalcosta-tv-ecto-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-condavision-tv-ecto-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-marbellatv-tv--streamingweb-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-m95-marbella-95-livestream-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-estepona-tv-81-8022-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canal-45-tv-9oze65-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-costano-tv-tv-livestream-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canalmalaga-tv--com-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-101tv-almeria-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-101antequera-tv-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-101tv-cadiz-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-101tv-costa-del-sol-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-television-alhaurin-rk-id-13354-live-1",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canal-donana--division-alm-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-interalmeria-tv--directo-live-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canal-luz-television-ecto-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-almeria-tv-org-atv-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canal-san-roque-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-ptv-linares-tv-linarez-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-ptv-sevilla-tv-sevilla-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-telemotril-tv-8431-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-torrevision-tv-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tg7-g7-index-fmp4-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-sal-tv-v-tv-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-manilva-tv-0b7b17b7952a5-trac",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-fuengirolatv-tv-o-com-hls-ftv-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-9laloma-tv-aloma-tv-live-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-mijas340tv-tv-com-hls-mijas-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-ptv-granada-tv-granada-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-ptv-cordoba-cordoba-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canalcoin-tv-s-hls-directo-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-dieztv-andujar-tv-tvandujarlive-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-dieztv-lasvillas-tv-es-mmj2-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-dieztv-ubeda-tv--es-mmj-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-cartaya-tv-artayatv-live-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tvm-cordoba-e6e9-continuous-8f",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-telegranada-es-hls-stream-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-music-tv-granada-81-8032-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-parlamento-de-andalucia-ion1-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-parlamento-de-andalucia-ion2-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-parlamento-de-andalucia-ion3-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-parlamento-de-andalucia-ion4-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canarias-tv--index-events-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canarias-tv-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-la1-can-tv--can-main-dvr-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-la2-can-tv--can-main-dvr-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-24h-can-tv--ztnr-5473142-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-24h-can-tv--can-main-dvr-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canal4-tenerife-tv-eu-hkbpjryheu-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-mirametv-tv-rk-id-13696-live-1",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tenerife-plus-tv-ifeplus-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-atlanticotv-tv--hls-hi-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-lancelot-tv-vision-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-nortevision-ns-org-8870-0-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtv-mogan-81-8028-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-este-canal-tv--stream-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-noroeste-tv-d012c3488eabc-inde",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-fuerteventura-tv-t-ftv-directo-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-factoria-de-carnaval-81-8116-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-radio-calima-tv-mafm-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-afortunadas-tv-81-8108-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-saja-nansa-tv-live-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-populartv-s-tv-ia-livestream-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-de-laredu-lin-tv-81-8034-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tevecan-9-live-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-cmm-tv-1-gnz6ity9-protoco",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-castilla-la-mancha-radio-1-fmx3e3sd-protoco",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tv-hellin-llin-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-guada-tv-media-rk-id-12689-live-1",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-alcarria-tv-tv-livestream-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-alcarria-tv-tv-livestream-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-imas-tv-tv-livestream-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canal-4-mancha-live-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canal-2000-ams-canal2000-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-teletoledo-rk-id-12688-live-1",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-mibit-almansa-tv--es-hls-mibit-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tv-aranda-rk-id-12686-live-1",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-cortes-de-castilla-y-leon-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-cortes-de-castilla-y-leon--playlist-m3u8-dvr",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-cortes-de-castilla-y-leon-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-cortes-de-castilla-y-leon-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-junta-castilla-y-leon-on-com-chunks-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tv3-tv-v3-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-c33-tv-r3-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-c33-tv-r3-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-c33-tv-r3-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-c33-tv-r3-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-exclusiu-1-a1-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-exclusiu-1-a1-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-exclusiu-2-a2-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-exclusiu-2-a2-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-exclusiu-3-a3-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-exclusiu-3-a3-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-exclusiu-4-a4-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-exclusiu-4-a4-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-anime-m2-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-anime-m2-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-doraemon--doraemon-hls-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-cameres-del-temps-es-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-cameres-del-temps-es-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-cameres-del-temps-es-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-joc-de-cartes-de-cartes-hls-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-plats-bruts--channel2-hls-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-vinagreta-vinagreta-hls-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-verdi-classics-m1-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-3cat-verdi-classics-m1-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-la1-cat-tv--cat-main-dvr-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-la2-cat-tv--cat-main-dvr-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-24h-cat-tv--ztnr-4952053-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-24h-cat-tv--cat-main-dvr-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rne-radio4-tv--ztnr-6982935-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rne-radio4-tv--cam-main-dvr-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-bondiatv-cat-tv-ia-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-bondiatv-cat-tv-ia-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-btv-tv-1-vfibi2fe-protoco",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-xarxa-canal-reus-tv-tv-ream-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-xarxa-empordatv-tv-pordatv2-live-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-xarxa-canal-terrassa-tv-ream-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-xarxa-tac12-tv-ream-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-xarxa-lleidatv-tv--playlist-m3u8-dvr",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-xarxa-lleidatv-tv-l-playlist-m3u8-dv",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-xarxa-tv-costa-brava-tv-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-xarxa-televisio-hospitalet-tv--playlist-m3u8-dvr",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-xarxa-penedes-tv-tv--playlist-m3u8-dvr",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canal-4-tv-catalunya-8014-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-xarxa-canal-taronja-central-tv-tral-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtv-el-vendrell-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-xarxa-canal-taronja-anoia-tv-noia-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-xarxa-votv-tv--web-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-xarxa-canal-10-emporda-tv-scala-directe-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canal-taronja-osona-i-moianes-sona-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-xarxa-televisio-bdn-tv--playlist-m3u8-dvr",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtv-cardedeu--playlist-m3u8-dvr",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-xarxa-tv-sabadell-valles-tv-dell-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-piera-tv-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-xarxa-etv-tv--playlist-m3u8-dvr",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-teleganes-78vg2m-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-distrito-tv-dzaxap-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-dejate-tv-eh-livestream-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-estutele-tv-e-1-avod-1-cb-site",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-c33m-tv-936-8140-8140-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-iprotv-rotv-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-lira-tv-ratv-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-parlamento-de-navarra--playlist-m3u8-dvr",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-parlamento-de-navarra--playlist-m3u8-dvr",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-parlamento-de-navarra--playlist-m3u8-dvr",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-8-la-marina-tv-m-hls-canal24-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-intercomarcal-tv-com-hls-tvixa-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-intercomarcal-tv-om-hls-tvixa1-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-intercomarcal-tv-om-hls-tvixa3-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-7televalencia-tv--028-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-8m-tv-ls-8tveventos-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-teleelx-tv-tream-teleelx-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-ribera-tv-ra-livestream-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-maestrat-tv-tv-hls-stream-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-alacanti-tv-uatrealacanti-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-elche7-tv-om-hls-canal2-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tva-artequatretva-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-12tv-alicante-live-1-avod-0-hls-",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-burriana-teve-anateve-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tv-4-la-vall-om-hls-lavall-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canal-56--stream-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tele-safor-com-hls-video-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-univers-tv-ller-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tv-almassora-massora-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-punt3-tv-streams-punt3-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-onda-15-tv-81-8034-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canal-3-biar--hls-canal3hd-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canal-3-biar-es-hls-canal3-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-ciudades-del-ocio-tv-81-8024-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-onda-valencia-81-8116-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-une-vinalopo-com-hls-unesd-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-33tv-na-livestream-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-corts-valencianes--enc-3-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-extremadura-tv-e9ba-continuous-9b",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-toros--fast1-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-semos-asina--fast3-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tvgal-tv-loud-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tvg2-tv-loud-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tvg-xabarin-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tvg-pequerrech-s--smil-playlist-m3u",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tvg-cativ-s--smil-playlist-m3u",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tvg-mocin-s--smil-playlist-m3u",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tvg-eventos-loud-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tvg-eventos-loud-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tvg-eventos-loud-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tvg-eventos-loud-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tvg-mira-radio-galega-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tvg-universo-castelao-loud-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tv-ferrol-vferrol-es-tv-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-televigo-tv-live-1-avod-0-hls-",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-telemino-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-anove-tv-s-anove-anove-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-parlamento-de-galicia-leno-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-xunta-de-galicia-mxunta-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tef--live-teflive-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canal-4-tv-mallorca-8110-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-fibwi-diario-io-index-fmp4-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tvr-tv-live-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-parlamento-de-la-rioja-ioja-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-parlamento-de-la-rioja-lado-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-cocina-familiar-live-1-avod-0-hls-",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-popular-tv-melilla--all-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-etb1-tv-us-etb1-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-etb2-tv-us-etb2-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-etb1on-tv--etb1on-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-etb2on-tv--etb2on-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-etbon-oca1-tv-eus-oc1-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-etbon-oca2-tv-eus-oc2-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-euskadi-meteo-s-meteo-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tele-7-ream-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-hamaika-tv-live-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-guka-tb--eus-hls-test-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-goiena-eus-ena-telebista-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-durangaldeko-tv-xsdpzu-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-goierri-irrati-tv-itb-eus-hls-z-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-28-kanala-ala-eus-hls-z-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-oizmendi-tb-ndi-eus-hls-z-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-telebilbao-b-public-live-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-urola-tb-cto2-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-eusko-legebiltzarra-el-1-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-eusko-legebiltzarra-el-2-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-junta-general-del-principado-de-asturias-eam2-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-popularmu-tv-rk-id-12690-live-1",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canal-1-mar-menor-torre-pacheco-btv-es-canal1-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-arabi-tv-abitv2025live-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-arabi-tv-e-arabitvlive-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-consejo-de-gobierno-de-la-region-de-murcia-ogob-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tve-inter-tv-main-dvr-1080-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tve-inter-tv-i-eu-main-dvr-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tve-star-tv-main-dvr-1080-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tve-star-tv-star-main-dvr-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tvc-tv-vc-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tvc-tv-vc-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tvc-tv-vi-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tvga-tv--playlist-dvr-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tv-canaria-net--index-events-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-islas-canarias-tv-rk-id-17089-live-1",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-atvhd-tv-24e2-manifest-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-cnnint-tv-3da68a62b09d1-cc-7",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-bloom-tv-st-streams-eu-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-bfm-tv-francia-tv-com-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "skipped_policy_block",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tv5monde-tv-annel-variant-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-sport-italia-abr2-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-sport-italia--abr-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-sport-italia--abr-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-la7-italia-73da68a62b09d1-cc-",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-dw-tv-ream104-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-dw-tv-ream102-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tagesschau24-alemania-chau-1-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-ard-das-erste-alemania-ls-int-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "skipped_policy_block",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-wdr-westdeutschen-alemania-s247ww-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-ndr-niedersachsen-alemania-dr-int-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-br-bayerischer-alemania-ls-int-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-hr-hessenschau-alemania-hls-de-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-sr-saarland-alemania-srfsgeo-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-sky-news-reino-unido-mo-channelid-89006",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-gb-news-reino-unido-amg01076-lightning",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-digi24-rumania-vzehsq-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-trt-world-turquia-com-tr-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-trt-world-turquia-com-tr-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtcg-sat-montenegro--004-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-ruv-islandia-ruverl-ruverl-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-san-marino-rtv-1-smil-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-san-marino-rtv-2-smil-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-n1-croacia-el-n1hrv-u-n1info-",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-vizionplus-albania-xerdfcvrtryuy-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-channel-24-ucrania-ream-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-current-time-tv-mc05-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-fox-live-now-usa-i-tv-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-cbs-news-usa-2deeca-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-cheddar-usa-ddar-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-bloomberg-usa-st-streams-us-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-bloomberg-usa-eams-us-event-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-courttv-usa-676e9699a10ef-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-weathernation-usa-73da68a62b09d1-cc-",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-america-s-voice-usa-73da68a62b09d1-ame",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-buzzr-tv-usa-i-tv-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-newsmax-tv-usa--live-1-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-newsmax-tv-usa--live-1-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-america-teve-usa-ateve2-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tv-florida-usa-live-1-avod-0-hls-",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canal-6-multimedios-mexico-fc8f16bb63ce1-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-adn40-tv-47317de7b57ac-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canal-once-mexico-ital-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-quiero-tv-mexico-yvuw-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-mexico-travel-tv-avel-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-estrella-tv-mexico-v-estrellamedia-pl",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-estrella-tv-mexico-ews-estrellamedia-",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-estrella-tv-mexico-ames-estrellamedia",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tele-10-nayarit-mexico-hls-nayarittv-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-noticias-rcn-e-t2-origin-out-v1",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-teleantioquia-colombia--playlist-dvr-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-senal-colombia-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-telepacifico-colombia-1-live-telepacific",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-telepacifico-colombia-2-live-origen-inde",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canal-telecaribe-colombia--playlist-m3u8-dvr",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canal-telecaribe-colombia--playlist-m3u8-dvr",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canal-tro-colombia-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-exitosa-noticias-peru-a451262-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tv-peru-4f6ee57dbcaf7-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tv-peru-noticias-60efa00660e47-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canal-ipe-peru-f18d83199e677-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-latina-peru-31dfea-latina-lati",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-latina-peru-31dfea-latinanotic",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-latina-peru-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-cosmos-tv-peru-smos-tvcosmos-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-telesur-tv-main-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-globovision-venezuela-lobo-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-ecuador-tv-ecuador-029a8fdf-live-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-oromar-tv-ecuador-artv-hi-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-pat-bolivia-play-12-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-pat-bolivia-lay-110-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-cubavision-tv-ream-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-wtv-nicaragua-81-8130-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-telediario-costa-rica-a282c34d65445-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-wipr-puerto-rico--stream-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tv-cultura-brasil-ive-tvcultura-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tve-int-asia-y-pacifico-main-dvr-1080-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tve-int-asia-y-pacifico-asia-main-dvr-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-cgtn-tv-aufh8vznble1znea22",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-cgtn-news-china-m-live-encgtn-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-cgtn-documentary-china--live-doccgtn-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-aljq-tv-com-aje-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-aljq-tv-net-aja-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "skipped_policy_block",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-nhk-world-japon-w-live-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-nippon-news-tv-japon-jp-ch01-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-arirang-tv-corea-del-sur-ch-smil-playlist-m",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-al-arabiya-emiratos-arabes-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-india-today-ylive-playlist-m3u",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-india-today-ak-api-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-new-delhi-tv-24x7-india-dtv24x7master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-republic-world-tv-india-0ca1413453772ac7-v",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-hispan-tv-iran-v-5-482-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-channel-newsasia-f66ebbe-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tvk-camboya-ream-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tvk-camboya-ream-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-teledifusao-de-macau-live-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-teledifusao-de-macau-live-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-teledifusao-de-macau-live-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-oman-tv-m-smil-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-medi1-tv--playlist-dvr-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-medi1-tv--playlist-dvr-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-medi1-tv--playlist-dvr-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tvge-1-guinea-ecuatorial-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rasd-tv-rk-id-12830-live-1",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-abc-news-australia-e7ca2bc792-index-m",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-bloomberg-originals-st-streams-qt-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tastemade-international24i-o",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tastemade-rnationalenglish24",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-fashion-tv--hls-manifest-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-miami-tv-fashion-live-1-avod-0-hls-",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-miami-tv-gold-om-v1-master-c3d3f",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-miami-tv-latino-live-1-avod-0-hls-",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-miami-tv-jenny-live-om-v1-master-c3d3f",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-agrotendencia-hls-marker-1-posit",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-classic-arts-showcase-57-cas-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "skipped_policy_block",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-akc-tv-dogs-ktop-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-akc-tv-dogs-ktop-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-servustv-wetterpanorama-norama-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-red-bull-tv-orb-at-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-stadium-usa-om-v1-master-44f73",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-garage-tv-argentina--hls-garagetv-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-morethansports-tv--web-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-int-table-soccer-federation-u8-network-id-7333",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rne-radio3-tv--ztnr-6982918-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-solmusica-tv-73da68a62b09d1-cc-",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-activa-tv-espana-ctivatv-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-molahits-tv-espana--mola-directe-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-verbena-tv-espana-verbenatvlive-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-cadena-elite-espana-81-8004-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-spektra-tv-espana-ks-v1a1-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-energeek-radio-chile-oken-tdtch4nnelses",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-energeek-radio-chile-oken-tdtch4nnelses",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-conexion-berazategui-argentina-bera-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-radio-italia-tv-aliatv-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtl-102-5-italia-rpbl-playlist-vide",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtl-radio-freccia-italia-fkf-playlist-video",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtl-zeta-italia-nic-playlist-video",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtl-102-5-best-italia-ta0m-playlist-vide",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtl-102-5-disco-italia-2b5z-playlist-vide",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtl-102-5-caliente-italia-9ue-playlist-video",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtl-102-5-bro-sis-italia-dq3b-playlist-vide",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtl-102-5-napule-italia-lhnz-playlist-vide",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtl-102-5-traffic-italia-ggrr-playlist-vide",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rds-social-tv-italia-v-radio-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-m2o-italia-1aoo-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-radio-capital-italia-yank-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-70-80-s-italia-9050-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-on-tv-portugal-stream-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-kronehit-austria--hls-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-qmusic-paises-bajos-usic-videohls-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-ocko-chequia-t-cze-live-hq-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-star-chequia-t-cze-live-hq-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-expres-chequia-t-cze-live-hq-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-retro-music-tv-chequia-vhq1-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-4fun-tv-polonia-4f-high-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-number1-fm-turquia-5c9e17cd59e8b-smil",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-power-tv-turquia-mil-playlists-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-nrg91-grecia-live-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-cmc-croacia-9998-cmc-live-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-sky-folk-macedonia-yfolk-mk-live-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-1muz-bielorrusia-leport-cc-hls-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-1muz-bielorrusia-leport-cc-hls-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tropical-moon-tv-live-1-avod-0-hls-",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tropical-moon-tv-live-1-avod-0-hls-",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-vm-latino-costa-rica-tino-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-venus-media-paraguay--alt-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-la-mega-mundial-usa-7-stream-play-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-retro-plus-tv-chile-live-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-portal-foxmix-chile-8040-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-30a-music-usa-ch-30atvmusic-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-spirit-tv-usa-43240-2-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-radiou-tv-usa-6200335-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-dance-tv-estonia-televisionone-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-dance-tv-estonia-televisiontwo-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-dance-tv-estonia-levisionthree-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-dance-tv-estonia-elevisionfour-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-dance-tv-estonia-elevisionfive-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-dance-tv-estonia-nsix-multibit-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-dance-tv-estonia-even-multibit-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-dance-tv-estonia-ight-multibit-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-dance-tv-estonia-nine-multibit-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-v2beat-tv-live-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-ecclesia-cope-espana--com-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-solidaria-tv-dariatv-webhd-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-solidaria-tv-argentina-web-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-solidaria-tv-olivia-stream-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtv-vida-espana-a-emisiontvhd-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtv-diocesana-toledo-espana-yu22ij-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tbn-espana-reams-tbnlive-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-cetelmon-tv-espana-aca6-992-high-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-cetelmon-tv-espana-3aca6-992-low-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-maria-vision-espana-y-mexico-atre-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-maria-vision-espana-y-mexico-vision-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-ewtn-tv-live-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-ewtn-tv-1313014-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-ewtn-tv-live-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-enlace-tv-costa-rica-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.267Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-redevida-brasil-f17ce12-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.268Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-3abn-usa-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.268Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-3abn-usa-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "not_probed_batch_limit",
+      "checked_at": "2026-08-20T14:04:24.268Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-la1-tv--la1-main-dvr-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 582,
+      "checked_at": "2026-08-20T14:04:25.855Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-la1-tv--td-6-is-lat-dnt-u",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 307,
+      "checked_at": "2026-08-20T14:04:25.855Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-la2-tv--la2-main-dvr-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 544,
+      "checked_at": "2026-08-20T14:04:25.855Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-la2-tv-8-network-id-15618",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 319,
+      "checked_at": "2026-08-20T14:04:25.855Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-eltorotv-tv-ing-web-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 1549,
+      "checked_at": "2026-08-20T14:04:25.855Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-eltorotv-tv-ing-web-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 788,
+      "checked_at": "2026-08-20T14:04:25.855Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-13-tv--021-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl; charset=utf-8",
+      "latency_ms": 813,
+      "checked_at": "2026-08-20T14:04:25.855Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rne-tv--ztnr-6688753-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 729,
+      "checked_at": "2026-08-20T14:04:25.855Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rne-tv-ra-todos-main-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 683,
+      "checked_at": "2026-08-20T14:04:25.855Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-24horas-tv--ztnr-1694255-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 693,
+      "checked_at": "2026-08-20T14:04:25.855Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-24horas-tv--24h-main-dvr-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 682,
+      "checked_at": "2026-08-20T14:04:25.855Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-24horas-tv-8-network-id-15621",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 478,
+      "checked_at": "2026-08-20T14:04:25.855Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-euronews-tv-b67b746e47670f558b",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 459,
+      "checked_at": "2026-08-20T14:04:27.007Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-324-tv-24-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "geo_blocked",
+      "http_status": 403,
+      "content_type": "text/plain",
+      "latency_ms": 444,
+      "checked_at": "2026-08-20T14:04:27.007Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-324-tv-24-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "geo_blocked",
+      "http_status": 403,
+      "content_type": "text/plain",
+      "latency_ms": 551,
+      "checked_at": "2026-08-20T14:04:27.007Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-324-tv-24-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "geo_blocked",
+      "http_status": 403,
+      "content_type": "text/plain",
+      "latency_ms": 493,
+      "checked_at": "2026-08-20T14:04:27.007Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-324-tv-24-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "geo_blocked",
+      "http_status": 403,
+      "content_type": "text/plain",
+      "latency_ms": 459,
+      "checked_at": "2026-08-20T14:04:27.007Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-324-tv-24-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 652,
+      "checked_at": "2026-08-20T14:04:27.007Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-324-tv-24-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 651,
+      "checked_at": "2026-08-20T14:04:27.007Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rne-tv--ztnr-6982891-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 795,
+      "checked_at": "2026-08-20T14:04:27.007Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rne-radio5-tv--ztnr-6982917-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 1100,
+      "checked_at": "2026-08-20T14:04:27.007Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-elpais-tv-73da68a62b09d1-cc-",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 892,
+      "checked_at": "2026-08-20T14:04:27.007Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-elconfidencial-tv-bmo0niz694whx-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 1147,
+      "checked_at": "2026-08-20T14:04:27.007Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-ondacero-tv-ve-obs-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl; charset=utf-8",
+      "latency_ms": 732,
+      "checked_at": "2026-08-20T14:04:27.007Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-negocios-tv-ost-negociostv-sam",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 213,
+      "checked_at": "2026-08-20T14:04:28.258Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tdp-tv--tdp-tdp-main-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 486,
+      "checked_at": "2026-08-20T14:04:28.258Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tdp-tv--td-6-is-lat-dnt-u",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 230,
+      "checked_at": "2026-08-20T14:04:28.258Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-e3-tv-t3-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "geo_blocked",
+      "http_status": 403,
+      "content_type": "text/plain",
+      "latency_ms": 69,
+      "checked_at": "2026-08-20T14:04:28.258Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-e3-tv-t3-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "geo_blocked",
+      "http_status": 403,
+      "content_type": "text/plain",
+      "latency_ms": 209,
+      "checked_at": "2026-08-20T14:04:28.258Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-etbd-tv-hd-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 1243,
+      "checked_at": "2026-08-20T14:04:28.258Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-etbd-tv-hd-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 1247,
+      "checked_at": "2026-08-20T14:04:28.258Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-etbd-tv-hd-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 441,
+      "checked_at": "2026-08-20T14:04:28.258Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-vinx-tv-treams-vinxtv-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 528,
+      "checked_at": "2026-08-20T14:04:28.258Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rmtv-tv-es-web-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/x-mpegURL",
+      "latency_ms": 750,
+      "checked_at": "2026-08-20T14:04:28.258Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rmtv-tv-en-web-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/x-mpegURL",
+      "latency_ms": 746,
+      "checked_at": "2026-08-20T14:04:28.258Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-top-barca-tv-u-w1-n2-playlist-a",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 488,
+      "checked_at": "2026-08-20T14:04:28.258Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-top-barca-tv--n2-playlist-amg17",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "geo_blocked",
+      "http_status": 403,
+      "content_type": "text/html",
+      "latency_ms": 106,
+      "checked_at": "2026-08-20T14:04:34.264Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-futsalmafer-tv-mafertv-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 655,
+      "checked_at": "2026-08-20T14:04:34.264Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-clan-tv--ztnr-5466990-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 501,
+      "checked_at": "2026-08-20T14:04:34.264Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-clan-tv-clan-main-dvr-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 490,
+      "checked_at": "2026-08-20T14:04:34.264Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-clan-tv-8-network-id-15620",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 154,
+      "checked_at": "2026-08-20T14:04:34.264Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-sx3-tv-r3-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "geo_blocked",
+      "http_status": 403,
+      "content_type": "text/plain",
+      "latency_ms": 639,
+      "checked_at": "2026-08-20T14:04:34.264Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-sx3-tv-r3-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "geo_blocked",
+      "http_status": 403,
+      "content_type": "text/plain",
+      "latency_ms": 96,
+      "checked_at": "2026-08-20T14:04:34.264Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-sx3-tv-r3-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "geo_blocked",
+      "http_status": 403,
+      "content_type": "text/plain",
+      "latency_ms": 262,
+      "checked_at": "2026-08-20T14:04:34.264Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-sx3-tv-r3-hls-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "geo_blocked",
+      "http_status": 403,
+      "content_type": "text/plain",
+      "latency_ms": 100,
+      "checked_at": "2026-08-20T14:04:34.264Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-infantil--fast2-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 445,
+      "checked_at": "2026-08-20T14:04:34.264Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-pequeradio-tv-iotv-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 292,
+      "checked_at": "2026-08-20T14:04:34.264Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-energeekretro-tv-oken-tdtch4nnelses",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "timeout",
+      "http_status": null,
+      "content_type": "",
+      "latency_ms": 6001,
+      "checked_at": "2026-08-20T14:04:34.264Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-energeekretro-tv-oken-tdtch4nnelses",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "timeout",
+      "http_status": null,
+      "content_type": "",
+      "latency_ms": 6000,
+      "checked_at": "2026-08-20T14:04:40.265Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-energeekfan-tv-oken-tdtch4nnelses",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "timeout",
+      "http_status": null,
+      "content_type": "",
+      "latency_ms": 6000,
+      "checked_at": "2026-08-20T14:04:40.265Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-energeekfan-tv-oken-tdtch4nnelses",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "timeout",
+      "http_status": null,
+      "content_type": "",
+      "latency_ms": 6000,
+      "checked_at": "2026-08-20T14:04:40.265Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-24--ztnr-6108696-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 1177,
+      "checked_at": "2026-08-20T14:04:40.265Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-24--ztnr-6108703-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 1060,
+      "checked_at": "2026-08-20T14:04:40.265Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-24--ztnr-6108704-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 894,
+      "checked_at": "2026-08-20T14:04:40.265Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-24--ztnr-6108706-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "http_error",
+      "http_status": 404,
+      "content_type": "text/html",
+      "latency_ms": 1189,
+      "checked_at": "2026-08-20T14:04:40.265Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-24--ztnr-6108720-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 687,
+      "checked_at": "2026-08-20T14:04:40.265Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-24--ztnr-6108721-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "http_error",
+      "http_status": 404,
+      "content_type": "text/html",
+      "latency_ms": 1058,
+      "checked_at": "2026-08-20T14:04:40.265Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tdp--ztnr-6712432-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "http_error",
+      "http_status": 404,
+      "content_type": "text/html",
+      "latency_ms": 1175,
+      "checked_at": "2026-08-20T14:04:40.265Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tdp--ztnr-6712453-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 1334,
+      "checked_at": "2026-08-20T14:04:40.265Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tdp--ztnr-6712402-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "http_error",
+      "http_status": 404,
+      "content_type": "text/html",
+      "latency_ms": 1308,
+      "checked_at": "2026-08-20T14:04:40.265Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tdp--ztnr-6712407-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "http_error",
+      "http_status": 404,
+      "content_type": "text/html",
+      "latency_ms": 713,
+      "checked_at": "2026-08-20T14:04:41.410Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tdp--ztnr-6712431-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "http_error",
+      "http_status": 404,
+      "content_type": "text/html",
+      "latency_ms": 899,
+      "checked_at": "2026-08-20T14:04:41.410Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tdp--ztnr-6712410-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "http_error",
+      "http_status": 404,
+      "content_type": "text/html",
+      "latency_ms": 1017,
+      "checked_at": "2026-08-20T14:04:41.410Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tdp--ztnr-6712426-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 827,
+      "checked_at": "2026-08-20T14:04:41.410Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tdp--ztnr-6712411-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "http_error",
+      "http_status": 404,
+      "content_type": "text/html",
+      "latency_ms": 928,
+      "checked_at": "2026-08-20T14:04:41.410Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-tdp--ztnr-6712456-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "http_error",
+      "http_status": 404,
+      "content_type": "text/html",
+      "latency_ms": 1141,
+      "checked_at": "2026-08-20T14:04:41.410Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-hola-play-v1-master-0547f186",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 467,
+      "checked_at": "2026-08-20T14:04:41.410Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-conciertos-r3-tv--ztnr-6924117-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 710,
+      "checked_at": "2026-08-20T14:04:41.410Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-conciertos-r3-tv--playm11-main-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 514,
+      "checked_at": "2026-08-20T14:04:41.410Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-cuentame-tv--ztnr-6909843-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 703,
+      "checked_at": "2026-08-20T14:04:41.410Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-cuentame-tv-t-playm7-main-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 511,
+      "checked_at": "2026-08-20T14:04:41.410Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-promesa-tv--ztnr-2472039-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 741,
+      "checked_at": "2026-08-20T14:04:41.410Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-promesa-tv-t-playm1-main-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 6,
+      "checked_at": "2026-08-20T14:04:42.055Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-epoca-tv-ztnr-16464388-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 499,
+      "checked_at": "2026-08-20T14:04:42.055Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-epoca-tv-t-playm5-main-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 499,
+      "checked_at": "2026-08-20T14:04:42.055Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-somoscine-tv--ztnr-6909845-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 626,
+      "checked_at": "2026-08-20T14:04:42.055Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-somoscine-tv-t-playm6-main-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 489,
+      "checked_at": "2026-08-20T14:04:42.055Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-cocina-tv-ztnr-16656232-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 501,
+      "checked_at": "2026-08-20T14:04:42.055Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-cocina-tv--playm20-main-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 168,
+      "checked_at": "2026-08-20T14:04:42.055Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-popup-tv-ztnr-16862827-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 615,
+      "checked_at": "2026-08-20T14:04:42.055Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-popup-tv--playm26-main-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 499,
+      "checked_at": "2026-08-20T14:04:42.055Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-en-play-tv-ztnr-17017351-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 502,
+      "checked_at": "2026-08-20T14:04:42.055Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-rtve-en-play-tv--playm27-main-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 490,
+      "checked_at": "2026-08-20T14:04:42.055Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canal-parlamento-amento-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/x-mpegURL",
+      "latency_ms": 644,
+      "checked_at": "2026-08-20T14:04:42.055Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-congreso-de-los-diputados-canal1-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/x-mpegURL",
+      "latency_ms": 516,
+      "checked_at": "2026-08-20T14:04:42.712Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-congreso-de-los-diputados-canal2-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/x-mpegURL",
+      "latency_ms": 507,
+      "checked_at": "2026-08-20T14:04:42.712Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-congreso-de-los-diputados-canal3-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/x-mpegURL",
+      "latency_ms": 491,
+      "checked_at": "2026-08-20T14:04:42.712Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-congreso-de-los-diputados-canal4-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/x-mpegURL",
+      "latency_ms": 487,
+      "checked_at": "2026-08-20T14:04:42.712Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-congreso-de-los-diputados-canal5-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/x-mpegURL",
+      "latency_ms": 557,
+      "checked_at": "2026-08-20T14:04:42.712Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-senado-punto1-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/x-mpegURL",
+      "latency_ms": 521,
+      "checked_at": "2026-08-20T14:04:42.712Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-senado-punto2-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/x-mpegURL",
+      "latency_ms": 647,
+      "checked_at": "2026-08-20T14:04:42.712Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-senado-punto3-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/x-mpegURL",
+      "latency_ms": 580,
+      "checked_at": "2026-08-20T14:04:42.712Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-senado-punto4-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/x-mpegURL",
+      "latency_ms": 649,
+      "checked_at": "2026-08-20T14:04:42.712Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-senado-punto5-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/x-mpegURL",
+      "latency_ms": 651,
+      "checked_at": "2026-08-20T14:04:42.712Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-senado-punto6-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/x-mpegURL",
+      "latency_ms": 553,
+      "checked_at": "2026-08-20T14:04:42.712Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-senado-punto7-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/x-mpegURL",
+      "latency_ms": 592,
+      "checked_at": "2026-08-20T14:04:42.712Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-senado-punto8-master-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/x-mpegURL",
+      "latency_ms": 526,
+      "checked_at": "2026-08-20T14:04:44.159Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canalsura-tv-74cdbd1b401a7598ab",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/x-mpegURL",
+      "latency_ms": 217,
+      "checked_at": "2026-08-20T14:04:44.159Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canalsura-tv-3da68a62b09d1-cc-d",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 528,
+      "checked_at": "2026-08-20T14:04:44.159Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canalsura-tv-loud-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 253,
+      "checked_at": "2026-08-20T14:04:44.159Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-canal-sur-mas-noticias-loud-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 277,
+      "checked_at": "2026-08-20T14:04:44.159Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-andalucia-tv--hls-regional-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 1016,
+      "checked_at": "2026-08-20T14:04:44.159Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-almeria-ls-7tvalmeria-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 888,
+      "checked_at": "2026-08-20T14:04:44.159Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-cadiz--hls-7tvcadiz-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 1087,
+      "checked_at": "2026-08-20T14:04:44.159Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-cordoba-ls-7tvcordoba-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "http_error",
+      "http_status": 404,
+      "content_type": "text/html",
+      "latency_ms": 1089,
+      "checked_at": "2026-08-20T14:04:44.159Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-granada-ls-7tvgranada-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 1248,
+      "checked_at": "2026-08-20T14:04:44.159Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-huelva--hls-regional-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 1247,
+      "checked_at": "2026-08-20T14:04:44.159Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-jaen-m-hls-7tvjaen-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 1443,
+      "checked_at": "2026-08-20T14:04:44.159Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-malaga-hls-7tvmalaga-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 145,
+      "checked_at": "2026-08-20T14:04:45.828Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-sevilla-ls-7tvsevilla-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 145,
+      "checked_at": "2026-08-20T14:04:45.828Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-aljarafe-s-7tvaljarafe-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 142,
+      "checked_at": "2026-08-20T14:04:45.828Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-arcos--hls-7tvarcos-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 141,
+      "checked_at": "2026-08-20T14:04:45.828Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-campo-de-gibraltar--7tvalgeciras-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 140,
+      "checked_at": "2026-08-20T14:04:45.828Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-linares-ls-7tvlinares-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 140,
+      "checked_at": "2026-08-20T14:04:45.828Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-jerez--hls-7tvjerez-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 603,
+      "checked_at": "2026-08-20T14:04:45.828Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-san-fernando-tvsanfernando-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 601,
+      "checked_at": "2026-08-20T14:04:45.828Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-7tv-rota-m-hls-7tvrota-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 206,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 790,
+      "checked_at": "2026-08-20T14:04:45.828Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-101malaga-tv--playlist-m3u8-dvr",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 472,
+      "checked_at": "2026-08-20T14:04:45.828Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-101malaga-tv-smil-playlist-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 1664,
+      "checked_at": "2026-08-20T14:04:45.828Z",
+      "mode": "live"
+    },
+    {
+      "id": "tdtchannels-tv-almeria-24h-tv-24h-aac-index-m3u8",
+      "source_feed_id": "tdtchannels-tv",
+      "probe_status": "ok",
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "latency_ms": 1665,
+      "checked_at": "2026-08-20T14:04:45.828Z",
+      "mode": "live"
+    }
+  ]
+}
