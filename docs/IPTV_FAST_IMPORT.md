@@ -158,11 +158,25 @@ Batch 2 is the first production run using the persistent resume state.
 - 119 candidates were approval-eligible when restored prior successes and new successes were evaluated together;
 - 46 approval-passed routes were stopped by the final duplicate gate;
 - 73 new routes were published;
-- 332 candidates remain `needs_probe` for subsequent normal batches;
+- 332 candidates remained `needs_probe`;
 - release verification passed with 895 catalog sources and 237 direct-player sources;
 - shipping catalog version remained `1.0.0`.
 
-The cumulative TDTChannels production state after batch 2 is therefore 240 actually probed stream routes, 131 newly published MediaLens routes across the two batches, and 332 still-unprocessed candidates in the current upstream catalogue. Failed routes remain persisted and are not retried during normal continuation.
+### Batch 3 — accepted 2026-08-20
+
+- the snapshot started with 240 persisted terminal probe records;
+- all 240 previously processed routes were restored and skipped;
+- 120 previously unprocessed candidates were live-probed;
+- 98 new probes passed and 22 failed;
+- persistent probe state grew from 240 to 360 records;
+- 144 candidates passed approval when restored successes and new successes were evaluated together;
+- 56 approval-passed routes were stopped by the final duplicate gate;
+- 88 new routes were published;
+- 212 candidates remain `needs_probe` for subsequent normal batches;
+- release verification passed with 983 catalog sources and 325 direct-player sources;
+- shipping catalog version remained `1.0.0`.
+
+The cumulative TDTChannels production state after batch 3 is 360 actually probed stream routes, 219 newly published MediaLens routes across the three batches, and 212 still-unprocessed candidates in the current upstream catalogue. Failed routes remain persisted and are not retried during normal continuation.
 
 ## P1/P2 behavior
 
