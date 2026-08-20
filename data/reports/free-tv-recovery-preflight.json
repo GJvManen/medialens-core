@@ -1,0 +1,14 @@
+{
+  "source": "free-tv-iptv-recovery",
+  "preflight": {
+    "main_base": "9ee2fa8659167c6962886ba3351dc104dbeeac80",
+    "upstream_playlist_size_bytes": 547809,
+    "upstream_policy_checked": true,
+    "web_only_route_risk_identified": true,
+    "web_only_route_guard_added": true,
+    "drm_dash_guard_present": true,
+    "http_proxy_policy_present": true,
+    "regression_test_added": true,
+    "legacy_import_reactivation": false
+  }
+}
