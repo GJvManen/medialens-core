@@ -64,8 +64,8 @@ try {
   assert(probeReport.checked === 3 && probeReport.actively_probed === 2, 'only two non-DRM M3UPT fixture candidates may be probed');
   assert(state.records.length === 2 && state.records.every(x => x.source_feed_id === 'm3upt'), 'probe state additions must belong to M3UPT only');
   assert(!tdtAfterProbe.candidates[0].probe, 'TDT candidate must remain untouched by M3UPT probe');
-  assert(m3AfterProbe.filter(c => c.probe?.probe_status === 'fixture_ok').length === 2, 'two M3UPT fixtures must be probed successfully');
-  assert(m3AfterProbe.find(c => c.title === 'DRM Fixture')?.probe?.probe_status === 'skipped_policy_block', 'DRM fixture must be skipped by probe policy');
+  assert(m3AfterProbe.candidates.filter(c => c.probe?.probe_status === 'fixture_ok').length === 2, 'two M3UPT fixtures must be probed successfully');
+  assert(m3AfterProbe.candidates.find(c => c.title === 'DRM Fixture')?.probe?.probe_status === 'skipped_policy_block', 'DRM fixture must be skipped by probe policy');
 
   run('approve-source-expansion.mjs', '--feed=m3upt', '--allow-fixture');
   const approvalReport = read('data/reports/source-expansion-approval-report.json');
@@ -74,8 +74,8 @@ try {
   assert(approvalReport.feed_filter === 'm3upt', 'approval report must record m3upt filter');
   assert(approvalReport.considered === 3 && approvalReport.approved === 2 && approvalReport.held === 1, 'M3UPT fixture approval must hold the DRM candidate');
   assert(!tdtAfterApproval.candidates[0].approval, 'TDT candidate must remain untouched by M3UPT approval');
-  assert(m3AfterApproval.filter(c => c.approval?.status === 'approved').length === 2, 'two M3UPT fixtures must be approved');
-  assert(m3AfterApproval.find(c => c.title === 'DRM Fixture')?.approval?.status === 'held', 'DRM fixture must remain held');
+  assert(m3AfterApproval.candidates.filter(c => c.approval?.status === 'approved').length === 2, 'two M3UPT fixtures must be approved');
+  assert(m3AfterApproval.candidates.find(c => c.title === 'DRM Fixture')?.approval?.status === 'held', 'DRM fixture must remain held');
 
   run('promote-source-expansion.mjs', '--feed=m3upt', '--allow-fixture');
   const promotionReport = read('data/reports/source-expansion-promotion-report.json');
