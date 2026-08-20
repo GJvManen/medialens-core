@@ -149,10 +149,11 @@ if (fs.existsSync(candidateDir)) {
 }
 
 const report = {
-  version: '38.1-source-expansion-promotion',
+  version: '38.2-source-expansion-promotion',
   generated_at: new Date().toISOString(),
   write,
   allow_fixture: allowFixture,
+  catalog_version_preserved: data.version || null,
   loaded_candidates: loaded,
   eligible_after_promotion_gate: eligible,
   blocked: blockedItems.length,
@@ -163,7 +164,10 @@ const report = {
 writeJson(path.join(reportDir, 'source-expansion-promotion-report.json'), report);
 
 if (write && additions.length) {
-  const out = { ...data, version: '38.1-source-expansion-live', sources: [...sources, ...additions] };
+  // The source-expansion pipeline may update catalog contents, but it must never
+  // change the shipping product/schema version. Release verification treats
+  // `data.version` as a stable compatibility contract.
+  const out = { ...data, version: data.version, sources: [...sources, ...additions] };
   out.count = out.sources.length;
   for (const rel of ['SOURCE_MANIFEST.json', 'data/SOURCE_MANIFEST.json', 'data/sources.json', 'data/official-starter-catalog.json', 'data/generated/app-catalog.json']) {
     writeJson(path.join(root, rel), out);
@@ -171,4 +175,4 @@ if (write && additions.length) {
   fs.writeFileSync(path.join(root, 'assets/starter-catalog.js'), `window.MEDIALENS_CATALOG = ${JSON.stringify(out)};\n`);
 }
 
-console.log(`Source-expansion promotion ${write ? 'write' : 'dry-run'}: ${loaded} loaded, ${eligible} eligible, ${blockedItems.length} blocked, ${write ? additions.length : 0} published.`);
+console.log(`Source-expansion promotion ${write ? 'write' : 'dry-run'}: ${loaded} loaded, ${eligible} eligible, ${blockedItems.length} blocked, ${write ? additions.length : 0} published; catalog version ${data.version}.`);
