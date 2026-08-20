@@ -1,0 +1,70 @@
+name: Live TDTChannels ingest
+
+on:
+  push:
+    branches:
+      - live-ingest-tdtchannels
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    if: ${{ !contains(github.event.head_commit.message, '[live-ingest-output]') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: live-ingest-tdtchannels
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install
+      - name: Import TDTChannels candidates
+        run: node scripts/import-source-expansion.mjs . --feed=tdtchannels-tv
+      - name: Live-probe candidates
+        run: node scripts/probe-source-expansion.mjs . --live --concurrency=12 --timeout=6000
+      - name: Apply approval gate
+        run: node scripts/approve-source-expansion.mjs .
+      - name: Promote approved candidates
+        run: node scripts/promote-source-expansion.mjs . --write
+      - name: Verify resulting catalog
+        run: npm run verify
+      - name: Print ingest summary
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          for (const file of [
+            'data/reports/source-expansion-import-report.json',
+            'data/reports/source-expansion-probe-report.json',
+            'data/reports/source-expansion-approval-report.json',
+            'data/reports/source-expansion-promotion-report.json'
+          ]) {
+            const x = JSON.parse(fs.readFileSync(file, 'utf8'));
+            console.log(file, JSON.stringify({
+              candidate_count: x.candidate_count,
+              checked: x.checked,
+              passed: x.passed,
+              blocked: x.blocked,
+              considered: x.considered,
+              approved: x.approved,
+              held: x.held,
+              eligible_after_promotion_gate: x.eligible_after_promotion_gate,
+              published: x.published
+            }));
+          }
+          NODE
+      - name: Commit live ingest evidence and catalog changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add SOURCE_MANIFEST.json data/SOURCE_MANIFEST.json data/sources.json data/official-starter-catalog.json data/generated/app-catalog.json assets/starter-catalog.js
+          git add data/candidates/tdtchannels-tv.candidates.json
+          git add data/reports/source-expansion-import-report.json data/reports/source-expansion-probe-report.json data/reports/source-expansion-approval-report.json data/reports/source-expansion-promotion-report.json
+          if git diff --cached --quiet; then
+            echo "No publishable catalog changes produced by the live ingest."
+            exit 0
+          fi
+          git commit -m "Live TDTChannels ingest output [live-ingest-output]"
+          git push origin HEAD:live-ingest-tdtchannels
