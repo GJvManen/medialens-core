@@ -1,13 +1,13 @@
 {
   "version": "38.2-source-expansion-promotion",
-  "generated_at": "2026-08-20T14:22:10.638Z",
+  "generated_at": "2026-08-20T14:27:08.062Z",
   "write": true,
   "allow_fixture": false,
   "catalog_version_preserved": "1.0.0",
   "loaded_candidates": 576,
-  "eligible_after_promotion_gate": 88,
-  "blocked": 56,
-  "published": 88,
+  "eligible_after_promotion_gate": 87,
+  "blocked": 79,
+  "published": 87,
   "blocked_items": [
     {
       "id": "tdtchannels-tv-la1-tv--td-6-is-lat-dnt-u",
@@ -468,534 +468,720 @@
         "id",
         "title_country"
       ]
+    },
+    {
+      "id": "tdtchannels-tv-arabi-tv-e-arabitvlive-m3u8",
+      "title": "Arabí TV",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-tve-inter-tv-i-eu-main-dvr-m3u8",
+      "title": "TVE Int. Europa",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-tve-star-tv-star-main-dvr-m3u8",
+      "title": "Star TVE Europa",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-sport-italia--abr-playlist-m3u8",
+      "title": "Sport Italia",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-sport-italia--abr-playlist-m3u8",
+      "title": "Sport Italia",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-dw-tv-ream102-index-m3u8",
+      "title": "DW Alemania",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-trt-world-turquia-com-tr-master-m3u8",
+      "title": "TRT World Turquía",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "id",
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-san-marino-rtv-2-smil-master-m3u8",
+      "title": "San Marino RTV",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-bloomberg-usa-eams-us-event-m3u8",
+      "title": "Bloomberg USA",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-newsmax-tv-usa--live-1-index-m3u8",
+      "title": "Newsmax TV USA",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "id",
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-estrella-tv-mexico-ews-estrellamedia-",
+      "title": "Estrella TV México",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-estrella-tv-mexico-ames-estrellamedia",
+      "title": "Estrella TV México",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-telepacifico-colombia-2-live-origen-inde",
+      "title": "Telepacifico Colombia",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-canal-telecaribe-colombia--playlist-m3u8-dvr",
+      "title": "Canal Telecaribe Colombia",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "id",
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-latina-peru-31dfea-latinanotic",
+      "title": "Latina Perú",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-latina-peru-smil-playlist-m3u8",
+      "title": "Latina Perú",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-tve-int-asia-y-pacifico-asia-main-dvr-m3u8",
+      "title": "TVE Int. Asia y Pacífico",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-india-today-ak-api-master-m3u8",
+      "title": "India Today",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-tvk-camboya-ream-playlist-m3u8",
+      "title": "TVK Camboya",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "id",
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-teledifusao-de-macau-live-playlist-m3u8",
+      "title": "Teledifusão de Macau",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "id",
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-teledifusao-de-macau-live-playlist-m3u8",
+      "title": "Teledifusão de Macau",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "id",
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-medi1-tv--playlist-dvr-m3u8",
+      "title": "Medi1 TV Marruecos",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "id",
+        "title_country"
+      ]
+    },
+    {
+      "id": "tdtchannels-tv-medi1-tv--playlist-dvr-m3u8",
+      "title": "Medi1 TV Marruecos",
+      "reason": "duplicate_at_promotion",
+      "duplicate_types": [
+        "id",
+        "title_country"
+      ]
     }
   ],
   "additions": [
     {
-      "id": "tdtchannels-tv-la1-cat-tv--cat-main-dvr-m3u8",
-      "title": "La 1 Catalunya",
+      "id": "tdtchannels-tv-tve-inter-tv-main-dvr-1080-m3u8",
+      "title": "TVE Int. Europa",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-la2-cat-tv--cat-main-dvr-m3u8",
-      "title": "La 2 Cat",
+      "id": "tdtchannels-tv-tve-star-tv-main-dvr-1080-m3u8",
+      "title": "Star TVE Europa",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-24h-cat-tv--ztnr-4952053-m3u8",
-      "title": "24h Catalunya",
+      "id": "tdtchannels-tv-tvc-tv-vi-hls-master-m3u8",
+      "title": "TV3 CAT",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-rne-radio4-tv--ztnr-6982935-m3u8",
-      "title": "Ràdio 4",
+      "id": "tdtchannels-tv-tvga-tv--playlist-dvr-m3u8",
+      "title": "TVG Europa",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-bondiatv-cat-tv-ia-hls-master-m3u8",
-      "title": "Bon Dia TV",
+      "id": "tdtchannels-tv-tv-canaria-net--index-events-m3u8",
+      "title": "TV Canaria Net",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-btv-tv-1-vfibi2fe-protoco",
-      "title": "betevé",
+      "id": "tdtchannels-tv-islas-canarias-tv-rk-id-17089-live-1",
+      "title": "Islas Canarias TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-xarxa-canal-reus-tv-tv-ream-playlist-m3u8",
-      "title": "Canal Reus",
+      "id": "tdtchannels-tv-atvhd-tv-24e2-manifest-m3u8",
+      "title": "ATV Andorra",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-xarxa-empordatv-tv-pordatv2-live-m3u8",
-      "title": "Empordà TV",
+      "id": "tdtchannels-tv-cnnint-tv-3da68a62b09d1-cc-7",
+      "title": "CNN Internacional",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-xarxa-canal-terrassa-tv-ream-playlist-m3u8",
-      "title": "Canal Terrassa",
+      "id": "tdtchannels-tv-bloom-tv-st-streams-eu-m3u8",
+      "title": "Bloomberg Europe",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-xarxa-tac12-tv-ream-playlist-m3u8",
-      "title": "TAC 12",
+      "id": "tdtchannels-tv-sport-italia-abr2-playlist-m3u8",
+      "title": "Sport Italia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-xarxa-lleidatv-tv--playlist-m3u8-dvr",
-      "title": "Lleida TV",
+      "id": "tdtchannels-tv-la7-italia-73da68a62b09d1-cc-",
+      "title": "La7 Italia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-xarxa-tv-costa-brava-tv-smil-playlist-m3u8",
-      "title": "TV Costa Brava",
+      "id": "tdtchannels-tv-dw-tv-ream104-index-m3u8",
+      "title": "DW Alemania",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-xarxa-televisio-hospitalet-tv--playlist-m3u8-dvr",
-      "title": "L'Hospitalet TV",
+      "id": "tdtchannels-tv-tagesschau24-alemania-chau-1-master-m3u8",
+      "title": "Tagesschau24 Alemania",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-xarxa-penedes-tv-tv--playlist-m3u8-dvr",
-      "title": "Penedès TV",
+      "id": "tdtchannels-tv-wdr-westdeutschen-alemania-s247ww-master-m3u8",
+      "title": "WDR Westdeutschen Alemania",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-canal-4-tv-catalunya-8014-playlist-m3u8",
-      "title": "Canal 4 TV Catalunya",
+      "id": "tdtchannels-tv-ndr-niedersachsen-alemania-dr-int-master-m3u8",
+      "title": "NDR Niedersachsen Alemania",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-xarxa-canal-taronja-central-tv-tral-playlist-m3u8",
-      "title": "Canal Taronja Central",
+      "id": "tdtchannels-tv-br-bayerischer-alemania-ls-int-master-m3u8",
+      "title": "BR Bayerischer Alemania",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-rtv-el-vendrell-smil-playlist-m3u8",
-      "title": "RTV El Vendrell",
+      "id": "tdtchannels-tv-hr-hessenschau-alemania-hls-de-master-m3u8",
+      "title": "HR Hessenschau Alemania",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-xarxa-canal-taronja-anoia-tv-noia-playlist-m3u8",
-      "title": "Canal Taronja Anoia",
+      "id": "tdtchannels-tv-sr-saarland-alemania-srfsgeo-index-m3u8",
+      "title": "SR Saarland Alemania",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-xarxa-votv-tv--web-playlist-m3u8",
-      "title": "VOTV",
+      "id": "tdtchannels-tv-sky-news-reino-unido-mo-channelid-89006",
+      "title": "Sky News Reino Unido",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-xarxa-canal-10-emporda-tv-scala-directe-m3u8",
-      "title": "Canal 10 Empordà",
+      "id": "tdtchannels-tv-gb-news-reino-unido-amg01076-lightning",
+      "title": "GB News Reino Unido",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-canal-taronja-osona-i-moianes-sona-playlist-m3u8",
-      "title": "Canal Taronja Osona i Moianés",
+      "id": "tdtchannels-tv-digi24-rumania-vzehsq-master-m3u8",
+      "title": "Digi24 Rumanía",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-xarxa-televisio-bdn-tv--playlist-m3u8-dvr",
-      "title": "BDN Badalona TV",
+      "id": "tdtchannels-tv-trt-world-turquia-com-tr-master-m3u8",
+      "title": "TRT World Turquía",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-rtv-cardedeu--playlist-m3u8-dvr",
-      "title": "RTV Cardedeu",
+      "id": "tdtchannels-tv-rtcg-sat-montenegro--004-playlist-m3u8",
+      "title": "RTCG SAT Montenegro",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-xarxa-tv-sabadell-valles-tv-dell-playlist-m3u8",
-      "title": "TV Sabadell - Vallès",
+      "id": "tdtchannels-tv-ruv-islandia-ruverl-ruverl-m3u8",
+      "title": "RÚV Islandia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-piera-tv-smil-playlist-m3u8",
-      "title": "Piera TV",
+      "id": "tdtchannels-tv-san-marino-rtv-1-smil-master-m3u8",
+      "title": "San Marino RTV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-teleganes-78vg2m-master-m3u8",
-      "title": "Teleganés",
+      "id": "tdtchannels-tv-n1-croacia-el-n1hrv-u-n1info-",
+      "title": "N1 Croacia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-distrito-tv-dzaxap-master-m3u8",
-      "title": "Distrito TV",
+      "id": "tdtchannels-tv-vizionplus-albania-xerdfcvrtryuy-m3u8",
+      "title": "VizionPlus Albania",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-dejate-tv-eh-livestream-m3u8",
-      "title": "Déjate de Historias TV",
+      "id": "tdtchannels-tv-channel-24-ucrania-ream-playlist-m3u8",
+      "title": "Channel 24 Ucrania",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-estutele-tv-e-1-avod-1-cb-site",
-      "title": "EsTuTele",
+      "id": "tdtchannels-tv-current-time-tv-mc05-playlist-m3u8",
+      "title": "Current Time TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-c33m-tv-936-8140-8140-m3u8",
-      "title": "Canal 33 Madrid",
+      "id": "tdtchannels-tv-fox-live-now-usa-i-tv-playlist-m3u8",
+      "title": "FOX Live Now USA",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-iprotv-rotv-playlist-m3u8",
-      "title": "iPROtv",
+      "id": "tdtchannels-tv-cbs-news-usa-2deeca-master-m3u8",
+      "title": "CBS News USA",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-lira-tv-ratv-playlist-m3u8",
-      "title": "LIRA TV",
+      "id": "tdtchannels-tv-cheddar-usa-ddar-playlist-m3u8",
+      "title": "Cheddar USA",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-parlamento-de-navarra--playlist-m3u8-dvr",
-      "title": "Parlamento de Navarra",
+      "id": "tdtchannels-tv-bloomberg-usa-st-streams-us-m3u8",
+      "title": "Bloomberg USA",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-8-la-marina-tv-m-hls-canal24-m3u8",
-      "title": "8 La Marina TV",
+      "id": "tdtchannels-tv-courttv-usa-676e9699a10ef-m3u8",
+      "title": "CourtTV USA",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-intercomarcal-tv-com-hls-tvixa-m3u8",
-      "title": "Intercomarcal TV",
+      "id": "tdtchannels-tv-weathernation-usa-73da68a62b09d1-cc-",
+      "title": "WeatherNation USA",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-7televalencia-tv--028-playlist-m3u8",
-      "title": "7 TeleValencia",
+      "id": "tdtchannels-tv-america-s-voice-usa-73da68a62b09d1-ame",
+      "title": "America's Voice USA",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-8m-tv-ls-8tveventos-m3u8",
-      "title": "La 8 Mediterráneo",
+      "id": "tdtchannels-tv-buzzr-tv-usa-i-tv-playlist-m3u8",
+      "title": "BUZZR TV USA",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-teleelx-tv-tream-teleelx-m3u8",
-      "title": "TeleElx",
+      "id": "tdtchannels-tv-newsmax-tv-usa--live-1-index-m3u8",
+      "title": "Newsmax TV USA",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-ribera-tv-ra-livestream-m3u8",
-      "title": "Ribera TV",
+      "id": "tdtchannels-tv-america-teve-usa-ateve2-master-m3u8",
+      "title": "America TeVe USA",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-alacanti-tv-uatrealacanti-m3u8",
-      "title": "Alacantí TV",
+      "id": "tdtchannels-tv-tv-florida-usa-live-1-avod-0-hls-",
+      "title": "TV Florida USA",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-elche7-tv-om-hls-canal2-m3u8",
-      "title": "Elche 7 TV",
+      "id": "tdtchannels-tv-adn40-tv-47317de7b57ac-m3u8",
+      "title": "ADN Noticias México",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tva-artequatretva-m3u8",
-      "title": "tvA",
+      "id": "tdtchannels-tv-canal-once-mexico-ital-playlist-m3u8",
+      "title": "Canal Once México",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-12tv-alicante-live-1-avod-0-hls-",
-      "title": "12TV Alicante",
+      "id": "tdtchannels-tv-quiero-tv-mexico-yvuw-playlist-m3u8",
+      "title": "Quiero TV México",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tv-4-la-vall-om-hls-lavall-m3u8",
-      "title": "TV 4 La Vall",
+      "id": "tdtchannels-tv-mexico-travel-tv-avel-playlist-m3u8",
+      "title": "México Travel TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-canal-56--stream-index-m3u8",
-      "title": "Canal 56",
+      "id": "tdtchannels-tv-estrella-tv-mexico-v-estrellamedia-pl",
+      "title": "Estrella TV México",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tele-safor-com-hls-video-m3u8",
-      "title": "Tele Safor",
+      "id": "tdtchannels-tv-tele-10-nayarit-mexico-hls-nayarittv-m3u8",
+      "title": "TELE 10 Nayarit México",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-univers-tv-ller-playlist-m3u8",
-      "title": "Univers TV",
+      "id": "tdtchannels-tv-noticias-rcn-e-t2-origin-out-v1",
+      "title": "Noticias RCN",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tv-almassora-massora-index-m3u8",
-      "title": "TV Almassora",
+      "id": "tdtchannels-tv-teleantioquia-colombia--playlist-dvr-m3u8",
+      "title": "Teleantioquia Colombia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-punt3-tv-streams-punt3-m3u8",
-      "title": "Punt 3 Vall Uixó",
+      "id": "tdtchannels-tv-senal-colombia-smil-playlist-m3u8",
+      "title": "Señal Colombia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-onda-15-tv-81-8034-index-m3u8",
-      "title": "Onda 15 TV",
+      "id": "tdtchannels-tv-telepacifico-colombia-1-live-telepacific",
+      "title": "Telepacifico Colombia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-canal-3-biar--hls-canal3hd-m3u8",
-      "title": "Canal 3 Biar",
+      "id": "tdtchannels-tv-canal-telecaribe-colombia--playlist-m3u8-dvr",
+      "title": "Canal Telecaribe Colombia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-ciudades-del-ocio-tv-81-8024-index-m3u8",
-      "title": "Ciudades Del Ocio TV",
+      "id": "tdtchannels-tv-canal-tro-colombia-smil-playlist-m3u8",
+      "title": "Canal TRO Colombia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-onda-valencia-81-8116-index-m3u8",
-      "title": "Onda Valencia",
+      "id": "tdtchannels-tv-exitosa-noticias-peru-a451262-index-m3u8",
+      "title": "Exitosa Noticias Perú",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-une-vinalopo-com-hls-unesd-m3u8",
-      "title": "Une Vinalopó",
+      "id": "tdtchannels-tv-tv-peru-4f6ee57dbcaf7-m3u8",
+      "title": "TV Perú",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-33tv-na-livestream-m3u8",
-      "title": "33TV",
+      "id": "tdtchannels-tv-tv-peru-noticias-60efa00660e47-m3u8",
+      "title": "TV Perú Noticias",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-extremadura-tv-e9ba-continuous-9b",
-      "title": "Canal Extremadura",
+      "id": "tdtchannels-tv-canal-ipe-peru-f18d83199e677-m3u8",
+      "title": "Canal IPe Perú",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-toros--fast1-master-m3u8",
-      "title": "Toros (Canal Extremadura)",
+      "id": "tdtchannels-tv-latina-peru-31dfea-latina-lati",
+      "title": "Latina Perú",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-semos-asina--fast3-master-m3u8",
-      "title": "Semos asina (Canal Extremadura)",
+      "id": "tdtchannels-tv-cosmos-tv-peru-smos-tvcosmos-m3u8",
+      "title": "Cosmos TV Perú",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tvgal-tv-loud-playlist-m3u8",
-      "title": "TVG",
+      "id": "tdtchannels-tv-telesur-tv-main-playlist-m3u8",
+      "title": "TeleSUR Venezuela",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tvg-xabarin-smil-playlist-m3u8",
-      "title": "TVG Xabarin",
+      "id": "tdtchannels-tv-globovision-venezuela-lobo-playlist-m3u8",
+      "title": "Globovision Venezuela",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tvg-eventos-loud-playlist-m3u8",
-      "title": "TVG Eventos",
+      "id": "tdtchannels-tv-ecuador-tv-ecuador-029a8fdf-live-m3u8",
+      "title": "Ecuador TV Ecuador",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tvg-mira-radio-galega-smil-playlist-m3u8",
-      "title": "TVG Mira Radio Galega",
+      "id": "tdtchannels-tv-oromar-tv-ecuador-artv-hi-index-m3u8",
+      "title": "Oromar TV Ecuador",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tvg-universo-castelao-loud-playlist-m3u8",
-      "title": "TVG Universo Castelao",
+      "id": "tdtchannels-tv-pat-bolivia-play-12-index-m3u8",
+      "title": "Pat Bolivia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-televigo-tv-live-1-avod-0-hls-",
-      "title": "TeleVigo",
+      "id": "tdtchannels-tv-cubavision-tv-ream-playlist-m3u8",
+      "title": "Cubavisión TV Cuba",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-telemino-smil-playlist-m3u8",
-      "title": "Telemiño",
+      "id": "tdtchannels-tv-wtv-nicaragua-81-8130-index-m3u8",
+      "title": "WTV Nicaragua",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-anove-tv-s-anove-anove-m3u8",
-      "title": "Anove TV",
+      "id": "tdtchannels-tv-telediario-costa-rica-a282c34d65445-m3u8",
+      "title": "TeleDiario Costa Rica",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-parlamento-de-galicia-leno-playlist-m3u8",
-      "title": "Parlamento de Galicia",
+      "id": "tdtchannels-tv-tv-cultura-brasil-ive-tvcultura-m3u8",
+      "title": "TV Cultura Brasil",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-xunta-de-galicia-mxunta-master-m3u8",
-      "title": "Xunta de Galicia",
+      "id": "tdtchannels-tv-tve-int-asia-y-pacifico-main-dvr-1080-m3u8",
+      "title": "TVE Int. Asia y Pacífico",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tef--live-teflive-m3u8",
-      "title": "TEF",
+      "id": "tdtchannels-tv-cgtn-news-china-m-live-encgtn-m3u8",
+      "title": "CGTN News China",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-canal-4-tv-mallorca-8110-playlist-m3u8",
-      "title": "Canal 4 TV Mallorca",
+      "id": "tdtchannels-tv-cgtn-documentary-china--live-doccgtn-m3u8",
+      "title": "CGTN Documentary China",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-tvr-tv-live-playlist-m3u8",
-      "title": "TV Rioja",
+      "id": "tdtchannels-tv-aljq-tv-com-aje-index-m3u8",
+      "title": "Al Jazeera Catar",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-cocina-familiar-live-1-avod-0-hls-",
-      "title": "Cocina Familiar",
+      "id": "tdtchannels-tv-nhk-world-japon-w-live-master-m3u8",
+      "title": "NHK World Japón",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-etb1-tv-us-etb1-index-m3u8",
-      "title": "ETB 1",
+      "id": "tdtchannels-tv-arirang-tv-corea-del-sur-ch-smil-playlist-m",
+      "title": "Arirang TV Corea del Sur",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-etb2-tv-us-etb2-index-m3u8",
-      "title": "ETB 2",
+      "id": "tdtchannels-tv-al-arabiya-emiratos-arabes-smil-playlist-m3u8",
+      "title": "Al Arabiya Emiratos Árabes",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-etb1on-tv--etb1on-index-m3u8",
-      "title": "ETB1 ON",
+      "id": "tdtchannels-tv-india-today-ylive-playlist-m3u",
+      "title": "India Today",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-etb2on-tv--etb2on-index-m3u8",
-      "title": "ETB2 ON",
+      "id": "tdtchannels-tv-new-delhi-tv-24x7-india-dtv24x7master-m3u8",
+      "title": "New Delhi TV 24x7 India",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-etbon-oca1-tv-eus-oc1-index-m3u8",
-      "title": "ETB Eventos 1",
+      "id": "tdtchannels-tv-republic-world-tv-india-0ca1413453772ac7-v",
+      "title": "Republic World TV India",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-euskadi-meteo-s-meteo-index-m3u8",
-      "title": "Euskadi Meteo (ETB On)",
+      "id": "tdtchannels-tv-channel-newsasia-f66ebbe-index-m3u8",
+      "title": "Channel NewsAsia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-hamaika-tv-live-playlist-m3u8",
-      "title": "Hamaika TV",
+      "id": "tdtchannels-tv-tvk-camboya-ream-playlist-m3u8",
+      "title": "TVK Camboya",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-guka-tb--eus-hls-test-m3u8",
-      "title": "GUKA TB",
+      "id": "tdtchannels-tv-teledifusao-de-macau-live-playlist-m3u8",
+      "title": "Teledifusão de Macau",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-goiena-eus-ena-telebista-m3u8",
-      "title": "Goiena Eus",
+      "id": "tdtchannels-tv-oman-tv-m-smil-master-m3u8",
+      "title": "Oman TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-durangaldeko-tv-xsdpzu-master-m3u8",
-      "title": "Durangaldeko TV",
+      "id": "tdtchannels-tv-medi1-tv--playlist-dvr-m3u8",
+      "title": "Medi1 TV Marruecos",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-goierri-irrati-tv-itb-eus-hls-z-m3u8",
-      "title": "Goierri Irrati TV",
+      "id": "tdtchannels-tv-tvge-1-guinea-ecuatorial-smil-playlist-m3u8",
+      "title": "TVGE 1 Guinea Ecuatorial",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-28-kanala-ala-eus-hls-z-m3u8",
-      "title": "28 Kanala",
+      "id": "tdtchannels-tv-rasd-tv-rk-id-12830-live-1",
+      "title": "RASD TV",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-telebilbao-b-public-live-m3u8",
-      "title": "TeleBilbao",
+      "id": "tdtchannels-tv-abc-news-australia-e7ca2bc792-index-m",
+      "title": "ABC News Australia",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-urola-tb-cto2-playlist-m3u8",
-      "title": "Urola TB",
+      "id": "tdtchannels-tv-bloomberg-originals-st-streams-qt-m3u8",
+      "title": "Bloomberg Originals",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     },
     {
-      "id": "tdtchannels-tv-popularmu-tv-rk-id-12690-live-1",
-      "title": "Popular TV Murcia",
-      "country": "ES",
-      "source_feed_id": "tdtchannels-tv"
-    },
-    {
-      "id": "tdtchannels-tv-arabi-tv-abitv2025live-m3u8",
-      "title": "Arabí TV",
+      "id": "tdtchannels-tv-tastemade-international24i-o",
+      "title": "Tastemade",
       "country": "ES",
       "source_feed_id": "tdtchannels-tv"
     }

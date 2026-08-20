@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0",
+  "source": "tdtchannels-tv",
+  "batch": 4,
+  "accepted_at": "2026-08-20T14:28:00Z",
+  "live_output_commit": "999e2d5",
+  "policy": {
+    "source_tier": "B",
+    "consumer_visibility_before_approval": false,
+    "resume_state_required": true,
+    "state_key": "source_feed_id + normalized_stream_url",
+    "live_probe_required": true,
+    "approval_gate": "live_policy_gate",
+    "promotion_write_explicit": true,
+    "catalog_version_preserved": "1.0.0"
+  },
+  "resume": {
+    "snapshot_records_before_import": 360,
+    "previously_processed_skipped": 360,
+    "persisted_probe_records_after_batch": 480,
+    "retry_failed": false
+  },
+  "import": {
+    "candidates": 576,
+    "consumer_visible_at_import": 0
+  },
+  "probe": {
+    "checked": 576,
+    "actively_probed": 120,
+    "newly_passed": 110,
+    "newly_failed": 10,
+    "resume_skipped": 360,
+    "deferred_needs_probe": 92,
+    "concurrency": 12,
+    "timeout_ms": 6000
+  },
+  "approval": {
+    "considered": 576,
+    "approved": 166,
+    "held": 410
+  },
+  "promotion": {
+    "approval_passed": 166,
+    "blocked_by_final_duplicate_gate": 79,
+    "published": 87
+  },
+  "release_verification": {
+    "ok": true,
+    "catalog_sources": 1070,
+    "direct_player_sources": 412,
+    "imported_iptv_inputs": 49,
+    "watch_graph_channels": 287,
+    "watch_graph_routes": 289,
+    "watch_graph_countries": 23
+  },
+  "decision": "accepted_for_exact_head_verification",
+  "notes": "Batch 4 continued the resumable TDTChannels backlog without re-probing any of the 360 prior terminal routes. The full 120-probe budget was spent on new candidates, 110 passed live probing, 87 new non-duplicate routes were published after approval and final dedupe, and 92 candidates remain in the normal probe backlog."
+}
